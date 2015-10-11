@@ -94,12 +94,16 @@ while (my $line = <$data>) {
 				$multis .= "\t\t\t<ci>".$reactants[$j]."__c</ci>\n";
 				$denomis .= "
 				<apply>
-					<times />
-					<ci>".$reactants[$j]."__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM".++$denomiNr."</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>".$reactants[$j]."__c</ci>
+						<apply>
+							<power />
+							<ci>KM".++$denomiNr."</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>";
       }
@@ -133,8 +137,7 @@ while (my $line = <$data>) {
 			<apply>
 			<power />
 			<apply>
-				<plus />
-				<cn type='integer'>1</cn>$denomis
+				<times />$denomis
 			</apply>
 			<cn type='integer'>-1</cn>
 			</apply>

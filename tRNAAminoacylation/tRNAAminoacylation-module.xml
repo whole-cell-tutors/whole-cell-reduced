@@ -540,33 +540,44 @@
 			<apply>
 			<power />
 			<apply>
-				<plus />
-				<cn type='integer'>1</cn>
+				<times />
 				<apply>
-					<times />
-					<ci>MG471__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM1</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>MG471__c</ci>
+						<apply>
+							<power />
+							<ci>KM1</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>ALA__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM2</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>ALA__c</ci>
+						<apply>
+							<power />
+							<ci>KM2</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>ATP__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM3</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>ATP__c</ci>
+						<apply>
+							<power />
+							<ci>KM3</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 			</apply>
@@ -609,33 +620,44 @@
 			<apply>
 			<power />
 			<apply>
-				<plus />
-				<cn type='integer'>1</cn>
+				<times />
 				<apply>
-					<times />
-					<ci>MG472__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM1</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>MG472__c</ci>
+						<apply>
+							<power />
+							<ci>KM1</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>ATP__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM2</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>ATP__c</ci>
+						<apply>
+							<power />
+							<ci>KM2</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>ILE__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM3</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>ILE__c</ci>
+						<apply>
+							<power />
+							<ci>KM3</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 			</apply>
@@ -678,33 +700,44 @@
 			<apply>
 			<power />
 			<apply>
-				<plus />
-				<cn type='integer'>1</cn>
+				<times />
 				<apply>
-					<times />
-					<ci>MG475__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM1</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>MG475__c</ci>
+						<apply>
+							<power />
+							<ci>KM1</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>ATP__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM2</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>ATP__c</ci>
+						<apply>
+							<power />
+							<ci>KM2</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>SER__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM3</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>SER__c</ci>
+						<apply>
+							<power />
+							<ci>KM3</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 			</apply>
@@ -747,33 +780,44 @@
 			<apply>
 			<power />
 			<apply>
-				<plus />
-				<cn type='integer'>1</cn>
+				<times />
 				<apply>
-					<times />
-					<ci>MG479__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM1</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>MG479__c</ci>
+						<apply>
+							<power />
+							<ci>KM1</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>ATP__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM2</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>ATP__c</ci>
+						<apply>
+							<power />
+							<ci>KM2</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>THR__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM3</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>THR__c</ci>
+						<apply>
+							<power />
+							<ci>KM3</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 			</apply>
@@ -816,33 +860,44 @@
 			<apply>
 			<power />
 			<apply>
-				<plus />
-				<cn type='integer'>1</cn>
+				<times />
 				<apply>
-					<times />
-					<ci>MG483__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM1</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>MG483__c</ci>
+						<apply>
+							<power />
+							<ci>KM1</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>ATP__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM2</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>ATP__c</ci>
+						<apply>
+							<power />
+							<ci>KM2</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>CYS__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM3</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>CYS__c</ci>
+						<apply>
+							<power />
+							<ci>KM3</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 			</apply>
@@ -885,33 +940,44 @@
 			<apply>
 			<power />
 			<apply>
-				<plus />
-				<cn type='integer'>1</cn>
+				<times />
 				<apply>
-					<times />
-					<ci>MG484__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM1</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>MG484__c</ci>
+						<apply>
+							<power />
+							<ci>KM1</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>ATP__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM2</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>ATP__c</ci>
+						<apply>
+							<power />
+							<ci>KM2</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>PRO__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM3</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>PRO__c</ci>
+						<apply>
+							<power />
+							<ci>KM3</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 			</apply>
@@ -954,33 +1020,44 @@
 			<apply>
 			<power />
 			<apply>
-				<plus />
-				<cn type='integer'>1</cn>
+				<times />
 				<apply>
-					<times />
-					<ci>MG485__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM1</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>MG485__c</ci>
+						<apply>
+							<power />
+							<ci>KM1</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>ATP__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM2</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>ATP__c</ci>
+						<apply>
+							<power />
+							<ci>KM2</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>MET__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM3</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>MET__c</ci>
+						<apply>
+							<power />
+							<ci>KM3</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 			</apply>
@@ -1023,33 +1100,44 @@
 			<apply>
 			<power />
 			<apply>
-				<plus />
-				<cn type='integer'>1</cn>
+				<times />
 				<apply>
-					<times />
-					<ci>MG486__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM1</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>MG486__c</ci>
+						<apply>
+							<power />
+							<ci>KM1</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>ATP__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM2</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>ATP__c</ci>
+						<apply>
+							<power />
+							<ci>KM2</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>ILE__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM3</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>ILE__c</ci>
+						<apply>
+							<power />
+							<ci>KM3</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 			</apply>
@@ -1092,33 +1180,44 @@
 			<apply>
 			<power />
 			<apply>
-				<plus />
-				<cn type='integer'>1</cn>
+				<times />
 				<apply>
-					<times />
-					<ci>MG487__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM1</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>MG487__c</ci>
+						<apply>
+							<power />
+							<ci>KM1</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>ATP__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM2</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>ATP__c</ci>
+						<apply>
+							<power />
+							<ci>KM2</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>SER__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM3</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>SER__c</ci>
+						<apply>
+							<power />
+							<ci>KM3</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 			</apply>
@@ -1166,42 +1265,57 @@
 			<apply>
 			<power />
 			<apply>
-				<plus />
-				<cn type='integer'>1</cn>
+				<times />
 				<apply>
-					<times />
-					<ci>MG488__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM1</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>MG488__c</ci>
+						<apply>
+							<power />
+							<ci>KM1</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>ATP__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM2</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>ATP__c</ci>
+						<apply>
+							<power />
+							<ci>KM2</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>FTHF10__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM3</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>FTHF10__c</ci>
+						<apply>
+							<power />
+							<ci>KM3</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>MET__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM4</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>MET__c</ci>
+						<apply>
+							<power />
+							<ci>KM4</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 			</apply>
@@ -1245,33 +1359,44 @@
 			<apply>
 			<power />
 			<apply>
-				<plus />
-				<cn type='integer'>1</cn>
+				<times />
 				<apply>
-					<times />
-					<ci>MG489__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM1</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>MG489__c</ci>
+						<apply>
+							<power />
+							<ci>KM1</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>ASP__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM2</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>ASP__c</ci>
+						<apply>
+							<power />
+							<ci>KM2</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>ATP__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM3</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>ATP__c</ci>
+						<apply>
+							<power />
+							<ci>KM3</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 			</apply>
@@ -1314,33 +1439,44 @@
 			<apply>
 			<power />
 			<apply>
-				<plus />
-				<cn type='integer'>1</cn>
+				<times />
 				<apply>
-					<times />
-					<ci>MG490__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM1</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>MG490__c</ci>
+						<apply>
+							<power />
+							<ci>KM1</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>ATP__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM2</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>ATP__c</ci>
+						<apply>
+							<power />
+							<ci>KM2</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>PHE__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM3</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>PHE__c</ci>
+						<apply>
+							<power />
+							<ci>KM3</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 			</apply>
@@ -1383,33 +1519,44 @@
 			<apply>
 			<power />
 			<apply>
-				<plus />
-				<cn type='integer'>1</cn>
+				<times />
 				<apply>
-					<times />
-					<ci>MG492__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM1</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>MG492__c</ci>
+						<apply>
+							<power />
+							<ci>KM1</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>ARG__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM2</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>ARG__c</ci>
+						<apply>
+							<power />
+							<ci>KM2</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>ATP__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM3</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>ATP__c</ci>
+						<apply>
+							<power />
+							<ci>KM3</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 			</apply>
@@ -1452,33 +1599,44 @@
 			<apply>
 			<power />
 			<apply>
-				<plus />
-				<cn type='integer'>1</cn>
+				<times />
 				<apply>
-					<times />
-					<ci>MG493__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM1</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>MG493__c</ci>
+						<apply>
+							<power />
+							<ci>KM1</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>ATP__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM2</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>ATP__c</ci>
+						<apply>
+							<power />
+							<ci>KM2</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>GLY__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM3</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>GLY__c</ci>
+						<apply>
+							<power />
+							<ci>KM3</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 			</apply>
@@ -1521,33 +1679,44 @@
 			<apply>
 			<power />
 			<apply>
-				<plus />
-				<cn type='integer'>1</cn>
+				<times />
 				<apply>
-					<times />
-					<ci>MG495__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM1</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>MG495__c</ci>
+						<apply>
+							<power />
+							<ci>KM1</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>ARG__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM2</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>ARG__c</ci>
+						<apply>
+							<power />
+							<ci>KM2</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>ATP__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM3</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>ATP__c</ci>
+						<apply>
+							<power />
+							<ci>KM3</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 			</apply>
@@ -1590,33 +1759,44 @@
 			<apply>
 			<power />
 			<apply>
-				<plus />
-				<cn type='integer'>1</cn>
+				<times />
 				<apply>
-					<times />
-					<ci>MG496__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM1</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>MG496__c</ci>
+						<apply>
+							<power />
+							<ci>KM1</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>ATP__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM2</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>ATP__c</ci>
+						<apply>
+							<power />
+							<ci>KM2</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>TRP__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM3</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>TRP__c</ci>
+						<apply>
+							<power />
+							<ci>KM3</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 			</apply>
@@ -1659,33 +1839,44 @@
 			<apply>
 			<power />
 			<apply>
-				<plus />
-				<cn type='integer'>1</cn>
+				<times />
 				<apply>
-					<times />
-					<ci>MG497__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM1</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>MG497__c</ci>
+						<apply>
+							<power />
+							<ci>KM1</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>ARG__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM2</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>ARG__c</ci>
+						<apply>
+							<power />
+							<ci>KM2</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>ATP__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM3</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>ATP__c</ci>
+						<apply>
+							<power />
+							<ci>KM3</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 			</apply>
@@ -1728,33 +1919,44 @@
 			<apply>
 			<power />
 			<apply>
-				<plus />
-				<cn type='integer'>1</cn>
+				<times />
 				<apply>
-					<times />
-					<ci>MG499__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM1</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>MG499__c</ci>
+						<apply>
+							<power />
+							<ci>KM1</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>ATP__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM2</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>ATP__c</ci>
+						<apply>
+							<power />
+							<ci>KM2</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>GLY__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM3</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>GLY__c</ci>
+						<apply>
+							<power />
+							<ci>KM3</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 			</apply>
@@ -1797,33 +1999,44 @@
 			<apply>
 			<power />
 			<apply>
-				<plus />
-				<cn type='integer'>1</cn>
+				<times />
 				<apply>
-					<times />
-					<ci>MG500__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM1</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>MG500__c</ci>
+						<apply>
+							<power />
+							<ci>KM1</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>ATP__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM2</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>ATP__c</ci>
+						<apply>
+							<power />
+							<ci>KM2</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>LEU__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM3</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>LEU__c</ci>
+						<apply>
+							<power />
+							<ci>KM3</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 			</apply>
@@ -1866,33 +2079,44 @@
 			<apply>
 			<power />
 			<apply>
-				<plus />
-				<cn type='integer'>1</cn>
+				<times />
 				<apply>
-					<times />
-					<ci>MG501__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM1</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>MG501__c</ci>
+						<apply>
+							<power />
+							<ci>KM1</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>ATP__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM2</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>ATP__c</ci>
+						<apply>
+							<power />
+							<ci>KM2</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>LYS__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM3</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>LYS__c</ci>
+						<apply>
+							<power />
+							<ci>KM3</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 			</apply>
@@ -1942,42 +2166,57 @@
 			<apply>
 			<power />
 			<apply>
-				<plus />
-				<cn type='integer'>1</cn>
+				<times />
 				<apply>
-					<times />
-					<ci>MG502__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM1</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>MG502__c</ci>
+						<apply>
+							<power />
+							<ci>KM1</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>ATP__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM2</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>ATP__c</ci>
+						<apply>
+							<power />
+							<ci>KM2</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>H2O__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM3</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>H2O__c</ci>
+						<apply>
+							<power />
+							<ci>KM3</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>GLN__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM4</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>GLN__c</ci>
+						<apply>
+							<power />
+							<ci>KM4</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 			</apply>
@@ -2021,33 +2260,44 @@
 			<apply>
 			<power />
 			<apply>
-				<plus />
-				<cn type='integer'>1</cn>
+				<times />
 				<apply>
-					<times />
-					<ci>MG503__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM1</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>MG503__c</ci>
+						<apply>
+							<power />
+							<ci>KM1</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>ATP__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM2</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>ATP__c</ci>
+						<apply>
+							<power />
+							<ci>KM2</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>TYR__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM3</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>TYR__c</ci>
+						<apply>
+							<power />
+							<ci>KM3</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 			</apply>
@@ -2090,33 +2340,44 @@
 			<apply>
 			<power />
 			<apply>
-				<plus />
-				<cn type='integer'>1</cn>
+				<times />
 				<apply>
-					<times />
-					<ci>MG504__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM1</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>MG504__c</ci>
+						<apply>
+							<power />
+							<ci>KM1</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>ATP__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM2</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>ATP__c</ci>
+						<apply>
+							<power />
+							<ci>KM2</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>TRP__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM3</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>TRP__c</ci>
+						<apply>
+							<power />
+							<ci>KM3</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 			</apply>
@@ -2159,33 +2420,44 @@
 			<apply>
 			<power />
 			<apply>
-				<plus />
-				<cn type='integer'>1</cn>
+				<times />
 				<apply>
-					<times />
-					<ci>MG506__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM1</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>MG506__c</ci>
+						<apply>
+							<power />
+							<ci>KM1</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>ATP__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM2</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>ATP__c</ci>
+						<apply>
+							<power />
+							<ci>KM2</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>SER__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM3</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>SER__c</ci>
+						<apply>
+							<power />
+							<ci>KM3</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 			</apply>
@@ -2228,33 +2500,44 @@
 			<apply>
 			<power />
 			<apply>
-				<plus />
-				<cn type='integer'>1</cn>
+				<times />
 				<apply>
-					<times />
-					<ci>MG507__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM1</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>MG507__c</ci>
+						<apply>
+							<power />
+							<ci>KM1</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>ATP__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM2</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>ATP__c</ci>
+						<apply>
+							<power />
+							<ci>KM2</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>SER__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM3</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>SER__c</ci>
+						<apply>
+							<power />
+							<ci>KM3</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 			</apply>
@@ -2297,33 +2580,44 @@
 			<apply>
 			<power />
 			<apply>
-				<plus />
-				<cn type='integer'>1</cn>
+				<times />
 				<apply>
-					<times />
-					<ci>MG508__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM1</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>MG508__c</ci>
+						<apply>
+							<power />
+							<ci>KM1</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>ATP__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM2</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>ATP__c</ci>
+						<apply>
+							<power />
+							<ci>KM2</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>LEU__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM3</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>LEU__c</ci>
+						<apply>
+							<power />
+							<ci>KM3</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 			</apply>
@@ -2366,33 +2660,44 @@
 			<apply>
 			<power />
 			<apply>
-				<plus />
-				<cn type='integer'>1</cn>
+				<times />
 				<apply>
-					<times />
-					<ci>MG509__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM1</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>MG509__c</ci>
+						<apply>
+							<power />
+							<ci>KM1</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>ATP__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM2</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>ATP__c</ci>
+						<apply>
+							<power />
+							<ci>KM2</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>LYS__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM3</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>LYS__c</ci>
+						<apply>
+							<power />
+							<ci>KM3</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 			</apply>
@@ -2435,33 +2740,44 @@
 			<apply>
 			<power />
 			<apply>
-				<plus />
-				<cn type='integer'>1</cn>
+				<times />
 				<apply>
-					<times />
-					<ci>MG510__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM1</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>MG510__c</ci>
+						<apply>
+							<power />
+							<ci>KM1</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>ATP__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM2</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>ATP__c</ci>
+						<apply>
+							<power />
+							<ci>KM2</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>THR__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM3</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>THR__c</ci>
+						<apply>
+							<power />
+							<ci>KM3</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 			</apply>
@@ -2504,33 +2820,44 @@
 			<apply>
 			<power />
 			<apply>
-				<plus />
-				<cn type='integer'>1</cn>
+				<times />
 				<apply>
-					<times />
-					<ci>MG511__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM1</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>MG511__c</ci>
+						<apply>
+							<power />
+							<ci>KM1</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>ATP__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM2</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>ATP__c</ci>
+						<apply>
+							<power />
+							<ci>KM2</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>VAL__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM3</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>VAL__c</ci>
+						<apply>
+							<power />
+							<ci>KM3</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 			</apply>
@@ -2573,33 +2900,44 @@
 			<apply>
 			<power />
 			<apply>
-				<plus />
-				<cn type='integer'>1</cn>
+				<times />
 				<apply>
-					<times />
-					<ci>MG512__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM1</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>MG512__c</ci>
+						<apply>
+							<power />
+							<ci>KM1</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>ATP__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM2</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>ATP__c</ci>
+						<apply>
+							<power />
+							<ci>KM2</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>THR__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM3</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>THR__c</ci>
+						<apply>
+							<power />
+							<ci>KM3</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 			</apply>
@@ -2642,33 +2980,44 @@
 			<apply>
 			<power />
 			<apply>
-				<plus />
-				<cn type='integer'>1</cn>
+				<times />
 				<apply>
-					<times />
-					<ci>MG513__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM1</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>MG513__c</ci>
+						<apply>
+							<power />
+							<ci>KM1</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>ATP__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM2</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>ATP__c</ci>
+						<apply>
+							<power />
+							<ci>KM2</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>GLU__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM3</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>GLU__c</ci>
+						<apply>
+							<power />
+							<ci>KM3</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 			</apply>
@@ -2711,33 +3060,44 @@
 			<apply>
 			<power />
 			<apply>
-				<plus />
-				<cn type='integer'>1</cn>
+				<times />
 				<apply>
-					<times />
-					<ci>MG514__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM1</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>MG514__c</ci>
+						<apply>
+							<power />
+							<ci>KM1</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>ASN__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM2</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>ASN__c</ci>
+						<apply>
+							<power />
+							<ci>KM2</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>ATP__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM3</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>ATP__c</ci>
+						<apply>
+							<power />
+							<ci>KM3</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 			</apply>
@@ -2780,33 +3140,44 @@
 			<apply>
 			<power />
 			<apply>
-				<plus />
-				<cn type='integer'>1</cn>
+				<times />
 				<apply>
-					<times />
-					<ci>MG518__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM1</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>MG518__c</ci>
+						<apply>
+							<power />
+							<ci>KM1</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>ATP__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM2</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>ATP__c</ci>
+						<apply>
+							<power />
+							<ci>KM2</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>HIS__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM3</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>HIS__c</ci>
+						<apply>
+							<power />
+							<ci>KM3</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 			</apply>
@@ -2849,33 +3220,44 @@
 			<apply>
 			<power />
 			<apply>
-				<plus />
-				<cn type='integer'>1</cn>
+				<times />
 				<apply>
-					<times />
-					<ci>MG519__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM1</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>MG519__c</ci>
+						<apply>
+							<power />
+							<ci>KM1</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>ATP__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM2</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>ATP__c</ci>
+						<apply>
+							<power />
+							<ci>KM2</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>LEU__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM3</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>LEU__c</ci>
+						<apply>
+							<power />
+							<ci>KM3</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 			</apply>
@@ -2918,33 +3300,44 @@
 			<apply>
 			<power />
 			<apply>
-				<plus />
-				<cn type='integer'>1</cn>
+				<times />
 				<apply>
-					<times />
-					<ci>MG520__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM1</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>MG520__c</ci>
+						<apply>
+							<power />
+							<ci>KM1</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>ATP__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM2</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>ATP__c</ci>
+						<apply>
+							<power />
+							<ci>KM2</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>LEU__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM3</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>LEU__c</ci>
+						<apply>
+							<power />
+							<ci>KM3</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 			</apply>
@@ -2987,33 +3380,44 @@
 			<apply>
 			<power />
 			<apply>
-				<plus />
-				<cn type='integer'>1</cn>
+				<times />
 				<apply>
-					<times />
-					<ci>MG523__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM1</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>MG523__c</ci>
+						<apply>
+							<power />
+							<ci>KM1</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>ARG__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM2</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>ARG__c</ci>
+						<apply>
+							<power />
+							<ci>KM2</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 				<apply>
-					<times />
-					<ci>ATP__c</ci>
+					<plus />
+					<cn type='integer'>1</cn>
 					<apply>
-						<power />
-						<ci>KM3</ci>
-						<cn type='integer'>-1</cn>
+						<times />
+						<ci>ATP__c</ci>
+						<apply>
+							<power />
+							<ci>KM3</ci>
+							<cn type='integer'>-1</cn>
+						</apply>
 					</apply>
 				</apply>
 			</apply>
