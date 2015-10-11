@@ -6,25 +6,41 @@ use Data::Dumper;
 use XML::TreeBuilder;
 
 
-
 my @files = (
 "../tRNAAminoacylation/tRNAAminoacylation-module.xml",
 "../MacromolecularComplexation/MacromolecularComplexation-module.xml",
-"../ProteinTranslocation/ProteinTranslocation.xml"
-# "../ProteinDecay/protein-decay.xml" # -> that's l3...
+"../ProteinTranslocation/ProteinTranslocation.xml",
+"../Transcription/transcription_sbml.xml",
+"../Translation/translation.xml",
+"../RNADecay/rnadecay_sbml.xml",
+"../ProteinDecay/protein-decay.xml"
 );
 
 my %species = ();
 my $reactions = "";
-my $parameters = "";
-my $functionDefinitions = "";
+my %parameters = ();
+my %functionDefinitions = ();
 
 
 # read XML file
 for my $file (@files)
 {
+	print "converting $file\n";
+	my $tmp = $file;
+	$tmp =~ s/^.*\///g;
+	$tmp = $tmp."-converted";
+	if ($file ne "../ProteinTranslocation/ProteinTranslocation.xml")
+	{
+		unlink $tmp;
+		system ("python", "sbml-converter.py", $file, $tmp);
+	}
+	else
+	{
+		$tmp = $file;
+	}
+	
 	my $root = XML::TreeBuilder->new ();
-	$root->parse_file ($file);
+	$root->parse_file ($tmp);
 
 	my @itemNodes = $root->find_by_tag_name ('reaction');
 	my $nodeCount;
@@ -43,14 +59,14 @@ for my $file (@files)
 	@itemNodes = $root->find_by_tag_name ('functionDefinition');
 	for my $nodeIndex (0 .. @itemNodes - 1)
 	{
-		$functionDefinitions .= $itemNodes[$nodeIndex]->as_XML ();
+		$functionDefinitions{$itemNodes[$nodeIndex]->id()} = $itemNodes[$nodeIndex]->as_XML ();
 	}
 	
 	@itemNodes = $root->find_by_tag_name ('parameter');
 	for my $nodeIndex (0 .. @itemNodes - 1)
 	{
 		next if $itemNodes[$nodeIndex]->parent()->parent()->tag eq "kineticLaw";
-		$parameters .= $itemNodes[$nodeIndex]->as_XML ();
+		$parameters{$itemNodes[$nodeIndex]->id()} = $itemNodes[$nodeIndex]->as_XML ();
 	}
 	
 }
@@ -62,13 +78,25 @@ my $template = <FILE>;
 close FILE;
 
 my $uniqSpecies = "";
+my $uniqParameters = "";
+my $uniqFunctions = "";
+
 while (my ($key, $value) = each(%species)){
      $uniqSpecies .= $value;
 }
+while (my ($key, $value) = each(%parameters)){
+     $uniqParameters .= $value;
+}
+while (my ($key, $value) = each(%functionDefinitions)){
+     $uniqFunctions .= $value;
+}
+
+
+
 $template =~ s/SPECIES/$uniqSpecies/g;
 $template =~ s/REACTIONS/$reactions/g;
-$template =~ s/PARAMETERS/$parameters/g;
-$template =~ s/FUNCTIONDEF/$functionDefinitions/g;
+$template =~ s/PARAMETERS/$uniqParameters/g;
+$template =~ s/FUNCTIONDEF/$uniqFunctions/g;
 
 
 open FILE, ">combined-model.sbml" or die "Could not write to output $!\n";
