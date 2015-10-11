@@ -1,0 +1,477 @@
+ID,Name,Compartment,"Copy number, typical",Type,Role
+MG_001_MONOMER,"DNA polymerase III, beta subunit",c,60,protein-monomer,reactant
+MG_003_MONOMER,"DNA gyrase, B subunit",c,20,protein-monomer,reactant
+MG_004_MONOMER,"DNA gyrase, A subunit",c,1,protein-monomer,reactant
+MG_005_MONOMER,seryl-tRNA synthetase,c,1,protein-monomer,reactant
+MG_006_MONOMER,thymidylate kinase,c,1,protein-monomer,reactant
+MG_007_MONOMER,"DNA polymerase III delta prime subunit, putative",c,235,protein-monomer,reactant
+MG_008_MONOMER,tRNA modification GTPase TrmE,c,215,protein-monomer,reactant
+MG_013_MONOMER,methylenetetrahydrofolate dehydrogenase/methylenetetrahydrofolate cyclohydrolase,c,0,protein-monomer,reactant
+MG_014_MONOMER,"multidrug ABC transporter, ATP-binding/permease protein",m,1,protein-monomer,reactant
+MG_015_MONOMER,"multidrug ABC transporter, ATP-binding/permease protein",m,0,protein-monomer,reactant
+MG_019_MONOMER,chaperone protein DnaJ,c,1,protein-monomer,reactant
+MG_021_MONOMER,methionyl-tRNA synthetase,c,0,protein-monomer,reactant
+MG_022_MONOMER,"DNA-directed RNA polymerase, delta subunit",c,176,protein-monomer,reactant
+MG_023_MONOMER,"fructose-1,6-bisphosphate aldolase, class II",c,1,protein-monomer,reactant
+MG_029_MONOMER,DJ-1/PfpI family protein,c,0,protein-monomer,reactant
+MG_030_MONOMER,uracil phosphoribosyltransferase,c,0,protein-monomer,reactant
+MG_031_MONOMER,"DNA polymerase III, alpha subunit, Gram-positive type",c,9,protein-monomer,reactant
+MG_033_MONOMER,glycerol uptake facilitator,m,0,protein-monomer,reactant
+MG_034_MONOMER,thymidine kinase,c,1,protein-monomer,reactant
+MG_035_MONOMER,histidyl-tRNA synthetase,c,0,protein-monomer,reactant
+MG_036_MONOMER,aspartyl-tRNA synthetase,c,0,protein-monomer,reactant
+MG_038_MONOMER,glycerol kinase,c,3,protein-monomer,reactant
+MG_039_MONOMER,"FAD-dependent glycerol-3-phosphate dehydrogenase, putative",c,0,protein-monomer,reactant
+MG_040_MONOMER,"Monosaccharide (riboside/galactoside) ABC transporter, substrate binding protein",e,0,protein-monomer,reactant
+MG_041_MONOMER,"PTS system, HPr",c,51,protein-monomer,reactant
+MG_042_MONOMER,"spermidine/putrescine (polyamine) ABC transporter, ATP-binding protein, putative",c,1,protein-monomer,reactant
+MG_043_MONOMER,"spermidine/putrescine (polyamine) ABC transporter, permease protein, putative",m,23,protein-monomer,reactant
+MG_044_MONOMER,"spermidine/putrescine (polyamine) ABC transporter, permease protein, putative",m,31,protein-monomer,reactant
+MG_045_MONOMER,"spermidine/putrescine (polyamine) ABC transporter, spermidine/putrescine binding protein, putative",e,3,protein-monomer,reactant
+MG_046_MONOMER,metalloendopeptidase,c,0,protein-monomer,reactant
+MG_047_MONOMER,S-adenosylmethionine synthetase,c,1,protein-monomer,reactant
+MG_048_MONOMER,signal recognition particle protein,c,6,protein-monomer,reactant
+MG_049_MONOMER,purine nucleoside phosphorylase,c,4,protein-monomer,reactant
+MG_051_MONOMER,pyrimidine-nucleoside phosphorylase,c,1,protein-monomer,reactant
+MG_052_MONOMER,cytidine deaminase,c,1,protein-monomer,reactant
+MG_053_MONOMER,"phosphoglucomutase/phosphomannomutase, putative",c,0,protein-monomer,reactant
+MG_055_MONOMER,"preprotein translocase, SecE subunit",m,255,protein-monomer,reactant
+MG_473_MONOMER,ribosomal protein L33 type 2,c,133,protein-monomer,reactant
+MG_058_MONOMER,ribose-phosphate pyrophosphokinase,c,5,protein-monomer,reactant
+MG_062_MONOMER,"PTS system, fructose-specific IIABC component",m,34,protein-monomer,reactant
+MG_063_MONOMER,"1-phosphofructokinase, putative",c,1,protein-monomer,reactant
+MG_064_MONOMER,"ABC transporter, permease protein, putative",m,26,protein-monomer,reactant
+MG_065_MONOMER,"ABC transporter, ATP-binding protein",c,1,protein-monomer,reactant
+MG_066_MONOMER,transketolase,c,0,protein-monomer,reactant
+MG_069_MONOMER,"PTS system, glucose-specific IIABC component",m,31,protein-monomer,reactant
+MG_070_MONOMER,ribosomal protein S2,c,127,protein-monomer,reactant
+MG_072_MONOMER,"preprotein translocase, SecA subunit",c,0,protein-monomer,reactant
+MG_073_MONOMER,"excinuclease ABC, B subunit",c,0,protein-monomer,reactant
+MG_077_MONOMER,"oligopeptide ABC transporter, permease protein",m,29,protein-monomer,reactant
+MG_078_MONOMER,"oligopeptide ABC transporter, permease protein",m,30,protein-monomer,reactant
+MG_079_MONOMER,"oligopeptide ABC transporter, ATP-binding protein",c,19,protein-monomer,reactant
+MG_080_MONOMER,"oligopeptide ABC transporter, ATP-binding protein",c,22,protein-monomer,reactant
+MG_081_MONOMER,ribosomal protein L11,c,128,protein-monomer,reactant
+MG_082_MONOMER,ribosomal protein L1,c,128,protein-monomer,reactant
+MG_084_MONOMER,tRNA(Ile)-lysidine synthetase,c,3,protein-monomer,reactant
+MG_085_MONOMER,HPr(Ser) kinase/phosphatase,c,2,protein-monomer,reactant
+MG_087_MONOMER,ribosomal protein S12,c,209,protein-monomer,reactant
+MG_088_MONOMER,ribosomal protein S7,c,164,protein-monomer,reactant
+MG_089_MONOMER,translation elongation factor G,c,1,protein-monomer,reactant
+MG_090_MONOMER,ribosomal protein S6,c,120,protein-monomer,reactant
+MG_091_MONOMER,single-strand binding protein family,c,0,protein-monomer,reactant
+MG_092_MONOMER,ribosomal protein S18,c,119,protein-monomer,reactant
+MG_093_MONOMER,ribosomal protein L9,c,163,protein-monomer,reactant
+MG_094_MONOMER,replicative DNA helicase,c,3,protein-monomer,reactant
+MG_098_MONOMER,"glutamyl-tRNA(Gln) and/or aspartyl-tRNA(Asn) amidotransferase, C subunit",c,13,protein-monomer,reactant
+MG_099_MONOMER,"glutamyl-tRNA(Gln) and/or aspartyl-tRNA(Asn) amidotransferase, A subunit",c,17,protein-monomer,reactant
+MG_100_MONOMER,"glutamyl-tRNA(Gln) and/or aspartyl-tRNA(Asn) amidotransferase, B subunit",c,0,protein-monomer,reactant
+MG_102_MONOMER,thioredoxin-disulfide reductase,c,0,protein-monomer,reactant
+MG_476_MONOMER,"preprotein translocase, SecG subunit",m,0,protein-monomer,reactant
+MG_105_MONOMER,putative DNA integrity scanning protein,c,4,protein-monomer,reactant
+MG_106_MONOMER,peptide deformylase,c,0,protein-monomer,reactant
+MG_107_MONOMER,guanylate kinase,c,1,protein-monomer,reactant
+MG_109_MONOMER,"serine/threonine protein kinase, putative",m,0,protein-monomer,reactant
+MG_111_MONOMER,glucose-6-phosphate isomerase,c,0,protein-monomer,reactant
+MG_112_MONOMER,ribulose-phosphate 3-epimerase,c,0,protein-monomer,reactant
+MG_113_MONOMER,asparaginyl-tRNA synthetase,c,0,protein-monomer,reactant
+MG_114_MONOMER,CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase,m,1,protein-monomer,reactant
+MG_118_MONOMER,UDP-glucose 4-epimerase,c,1,protein-monomer,reactant
+MG_119_MONOMER,"Monosaccharide (riboside/galactoside) ABC transporter, ATP-binding protein",c,37,protein-monomer,reactant
+MG_120_MONOMER,"Monosaccharide (riboside/galactoside) ABC transporter, permease protein",m,139,protein-monomer,reactant
+MG_121_MONOMER,"Monosaccharide (riboside/galactoside) ABC transporter, permease protein",m,155,protein-monomer,reactant
+MG_123_MONOMER,arginine deaminasse,m,1,protein-monomer,reactant
+MG_124_MONOMER,thioredoxin,c,28,protein-monomer,reactant
+MG_126_MONOMER,tryptophanyl-tRNA synthetase,c,1,protein-monomer,reactant
+MG_127_MONOMER,Spx subfamily protein,c,73,protein-monomer,reactant
+MG_128_MONOMER,"inorganic polyphosphate/ATP-NAD kinase, probable",c,3,protein-monomer,reactant
+MG_132_MONOMER,purine nucleoside phosphoramidase,c,0,protein-monomer,reactant
+MG_136_MONOMER,lysyl-tRNA synthetase,c,0,protein-monomer,reactant
+MG_137_MONOMER,UDP-galactopyranose mutase,c,0,protein-monomer,reactant
+MG_139_MONOMER,ribonuclease J,c,0,protein-monomer,reactant
+MG_150_MONOMER,ribosomal protein S10,c,131,protein-monomer,reactant
+MG_151_MONOMER,ribosomal protein L3,c,146,protein-monomer,reactant
+MG_152_MONOMER,ribosomal protein L4/L1 family,c,147,protein-monomer,reactant
+MG_153_MONOMER,ribosomal protein L23,c,142,protein-monomer,reactant
+MG_154_MONOMER,ribosomal protein L2,c,159,protein-monomer,reactant
+MG_155_MONOMER,ribosomal protein S19,c,130,protein-monomer,reactant
+MG_156_MONOMER,ribosomal protein L22,c,145,protein-monomer,reactant
+MG_157_MONOMER,ribosomal protein S3,c,128,protein-monomer,reactant
+MG_158_MONOMER,ribosomal protein L16,c,146,protein-monomer,reactant
+MG_159_MONOMER,ribosomal protein L29,c,159,protein-monomer,reactant
+MG_160_MONOMER,ribosomal protein S17,c,130,protein-monomer,reactant
+MG_161_MONOMER,ribosomal protein L14,c,168,protein-monomer,reactant
+MG_162_MONOMER,ribosomal protein L24,c,128,protein-monomer,reactant
+MG_163_MONOMER,ribosomal protein L5,c,161,protein-monomer,reactant
+MG_164_MONOMER,ribosomal protein S14,c,97,protein-monomer,reactant
+MG_165_MONOMER,ribosomal protein S8,c,89,protein-monomer,reactant
+MG_166_MONOMER,ribosomal protein L6,c,122,protein-monomer,reactant
+MG_167_MONOMER,ribosomal protein L18,c,94,protein-monomer,reactant
+MG_168_MONOMER,ribosomal protein S5,c,105,protein-monomer,reactant
+MG_169_MONOMER,ribosomal protein L15,c,121,protein-monomer,reactant
+MG_170_MONOMER,"preprotein translocase, SecY subunit",m,3,protein-monomer,reactant
+MG_174_MONOMER,ribosomal protein L36,c,168,protein-monomer,reactant
+MG_175_MONOMER,ribosomal protein S13,c,120,protein-monomer,reactant
+MG_176_MONOMER,,c,113,protein-monomer,reactant
+MG_177_MONOMER,"DNA-directed RNA polymerase, alpha subunit",c,126,protein-monomer,reactant
+MG_178_MONOMER,ribosomal protein L17,c,149,protein-monomer,reactant
+MG_179_MONOMER,"metal ion (cobalt) ABC transporter, ATP-binding protein, putative",c,8,protein-monomer,reactant
+MG_180_MONOMER,"metal ion (cobalt) ABC transporter, ATP-binding protein, putative",c,25,protein-monomer,reactant
+MG_181_MONOMER,"metal ion (cobalt) ABC transporter, permease protein",m,1,protein-monomer,reactant
+MG_182_MONOMER,tRNA pseudouridine synthase A,c,1,protein-monomer,reactant
+MG_184_MONOMER,adenine-specific DNA modification methylase,c,1,protein-monomer,reactant
+MG_186_MONOMER,"Oligosaccharide or polyol ABC transporter, substrate binding protein",e,6,protein-monomer,reactant
+MG_187_MONOMER,"Oligosaccharide or polyol ABC transporter, ATP-binding protein",c,0,protein-monomer,reactant
+MG_188_MONOMER,"Oligosaccharide or polyol ABC transporter, permease protein",m,15,protein-monomer,reactant
+MG_189_MONOMER,"Oligosaccharide or polyol ABC transporter, permease protein",m,17,protein-monomer,reactant
+MG_194_MONOMER,"phenylalanyl-tRNA synthetase, alpha subunit",c,0,protein-monomer,reactant
+MG_195_MONOMER,"phenylalanyl-tRNA synthetase, beta subunit",c,8,protein-monomer,reactant
+MG_196_MONOMER,translation initiation factor IF-3,c,206,protein-monomer,reactant
+MG_197_MONOMER,ribosomal protein L35,c,146,protein-monomer,reactant
+MG_198_MONOMER,ribosomal protein L20,c,142,protein-monomer,reactant
+MG_201_MONOMER,co-chaperone GrpE,c,0,protein-monomer,reactant
+MG_203_MONOMER,"DNA topoisomerase IV, B subunit",c,1,protein-monomer,reactant
+MG_204_MONOMER,"DNA topoisomerase IV, A subunit",c,2,protein-monomer,reactant
+MG_205_MONOMER,"heat-inducible transcription repressor HrcA, putative",c,1,protein-monomer,reactant
+MG_206_MONOMER,"excinuclease ABC, C subunit",c,7,protein-monomer,reactant
+MG_208_MONOMER,glycoprotease,c,0,protein-monomer,reactant
+MG_481_MONOMER,30S ribosomal protein S21,c,119,protein-monomer,reactant
+MG_482_MONOMER,holo-(acyl-carrier-protein) synthase,c,0,protein-monomer,reactant
+MG_213_MONOMER,segregation and condensation protein A,c,0,protein-monomer,reactant
+MG_214_MONOMER,segregation and condensation protein B,c,4,protein-monomer,reactant
+MG_215_MONOMER,6-phosphofructokinase,c,2,protein-monomer,reactant
+MG_216_MONOMER,pyruvate kinase,c,2,protein-monomer,reactant
+MG_221_MONOMER,mraZ protein,c,6,protein-monomer,reactant
+MG_224_MONOMER,cell division protein FtsZ,c,0,protein-monomer,reactant
+MG_225_MONOMER,amino acid-polyamine-organocation (APC) permease,m,1,protein-monomer,reactant
+MG_226_MONOMER,amino acid-polyamine-organocation (APC) permease,m,1,protein-monomer,reactant
+MG_227_MONOMER,thymidylate synthase,c,0,protein-monomer,reactant
+MG_228_MONOMER,dihydrofolate reductase,c,3,protein-monomer,reactant
+MG_229_MONOMER,"ribonucleoside-diphosphate reductase, beta chain",c,2,protein-monomer,reactant
+MG_231_MONOMER,"ribonucleoside-diphosphate reductase, alpha chain",c,0,protein-monomer,reactant
+MG_232_MONOMER,ribosomal protein L21,c,136,protein-monomer,reactant
+MG_234_MONOMER,ribosomal protein L27,c,127,protein-monomer,reactant
+MG_239_MONOMER,ATP-dependent protease La,c,5,protein-monomer,reactant
+MG_240_MONOMER,nicotinamide-nucleotide adenylyltransferase/conserved hypothetical protein,c,3,protein-monomer,reactant
+MG_244_MONOMER,3-5' helicase,c,1,protein-monomer,reactant
+MG_249_MONOMER,RNA polymerase sigma factor RpoD,c,13,protein-monomer,reactant
+MG_250_MONOMER,DNA primase,c,33,protein-monomer,reactant
+MG_251_MONOMER,glycyl-tRNA synthetase,c,1,protein-monomer,reactant
+MG_252_MONOMER,23S rRNA methyltransferase; G2251,c,0,protein-monomer,reactant
+MG_257_MONOMER,ribosomal protein L31,c,114,protein-monomer,reactant
+MG_259_MONOMER,modification methylase,c,2,protein-monomer,reactant
+MG_261_MONOMER,"DNA polymerase III, alpha subunit",c,0,protein-monomer,reactant
+MG_265_MONOMER,sugar phosphatase,c,1,protein-monomer,reactant
+MG_271_MONOMER,dihydrolipoamide dehydrogenase,c,628,protein-monomer,reactant
+MG_272_MONOMER,dihydrolipoamide acetyltransferase,c,91,protein-monomer,reactant
+MG_273_MONOMER,"pyruvate dehydrogenase component E1, beta subunit",c,34,protein-monomer,reactant
+MG_274_MONOMER,"pyruvate dehydrogenase component E1, alpha subunit",c,38,protein-monomer,reactant
+MG_275_MONOMER,NADH oxidase,m,3,protein-monomer,reactant
+MG_276_MONOMER,adenine phosphoribosyltransferase,c,0,protein-monomer,reactant
+MG_277_MONOMER,Protein-export membrane protein secDF,m,43,protein-monomer,reactant
+MG_278_MONOMER,GTP diphosphokinase,c,1,protein-monomer,reactant
+MG_283_MONOMER,prolyl-tRNA synthetase,c,1,protein-monomer,reactant
+MG_287_MONOMER,acyl carrier protein,c,48,protein-monomer,reactant
+MG_289_MONOMER,"phosphonate ABC transporter, substrate binding protein (P37), putative",e,38,protein-monomer,reactant
+MG_290_MONOMER,"phosphonate ABC transporter, ATP-binding protein, putative",c,1,protein-monomer,reactant
+MG_291_MONOMER,"phosphonate ABC transporter, permease protein (P69), putative",m,25,protein-monomer,reactant
+MG_292_MONOMER,alanyl-tRNA synthetase,c,2,protein-monomer,reactant
+MG_293_MONOMER,glycerophosphoryl diester phosphodiesterase,c,1,protein-monomer,reactant
+MG_295_MONOMER,tRNA U34 sulfurtransferase,c,39,protein-monomer,reactant
+MG_298_MONOMER,chromosome segregation protein SMC,c,7,protein-monomer,reactant
+MG_299_MONOMER,phosphate acetyltransferase,c,0,protein-monomer,reactant
+MG_301_MONOMER,"glyceraldehyde-3-phosphate dehydrogenase, type I",c,2,protein-monomer,reactant
+MG_302_MONOMER,"metal ion (cobalt) ABC transporter, permease protein, putative",m,1,protein-monomer,reactant
+MG_303_MONOMER,"metal ion (cobalt) ABC transporter, ATP-binding protein, putative",c,38,protein-monomer,reactant
+MG_304_MONOMER,"metal ion (cobalt) ABC transporter, ATP-binding protein, putative",c,5,protein-monomer,reactant
+MG_311_MONOMER,ribosomal protein S4,c,97,protein-monomer,reactant
+MG_315_MONOMER,"DNA polymerase III, delta subunit, putative",c,4,protein-monomer,reactant
+MG_316_MONOMER,DNA internalization-related competence protein ComEC/Rec2,m,0,protein-monomer,reactant
+MG_321_MONOMER,"oligopeptide ABC transporter, substrate binding protein",e,0,protein-monomer,reactant
+MG_322_MONOMER,potassium uptake protein,m,2,protein-monomer,reactant
+MG_323_MONOMER,potassium uptake protein,c,0,protein-monomer,reactant
+MG_325_MONOMER,ribosomal protein L33,c,132,protein-monomer,reactant
+MG_333_MONOMER,"FMN-dependent NADH-azoreductase, putative",c,1,protein-monomer,reactant
+MG_336_MONOMER,cysteine desulfurase,c,0,protein-monomer,reactant
+MG_340_MONOMER,"DNA-directed RNA polymerase, beta subunit",c,11,protein-monomer,reactant
+MG_341_MONOMER,"DNA-directed RNA polymerase, beta subunit",c,0,protein-monomer,reactant
+MG_346_MONOMER,23S rRNA methyltransferase; U2552,c,1,protein-monomer,reactant
+MG_347_MONOMER,tRNA (guanine-N(7)-)-methyltransferase,c,1,protein-monomer,reactant
+MG_349_MONOMER,Replication initiation/membrane attachment protein,c,1,protein-monomer,reactant
+MG_351_MONOMER,inorganic pyrophosphatase,c,4,protein-monomer,reactant
+MG_352_MONOMER,Holliday junction endonuclease,c,0,protein-monomer,reactant
+MG_353_MONOMER,"DNA-binding protein HU, putative",c,1,protein-monomer,reactant
+MG_355_MONOMER,"ATP-dependent Clp protease, ATPase subunit",c,2,protein-monomer,reactant
+MG_357_MONOMER,acetate kinase,c,1,protein-monomer,reactant
+MG_358_MONOMER,Holliday junction DNA helicase,c,35,protein-monomer,reactant
+MG_359_MONOMER,Holliday junction DNA helicase RuvB,c,4,protein-monomer,reactant
+MG_361_MONOMER,ribosomal protein L10,c,107,protein-monomer,reactant
+MG_362_MONOMER,ribosomal protein L7/L12,c,118,protein-monomer,reactant
+MG_363_MONOMER,ribosomal protein L32,c,118,protein-monomer,reactant
+MG_522_MONOMER,ribosomal protein S20,c,99,protein-monomer,reactant
+MG_367_MONOMER,ribonuclease III,c,0,protein-monomer,reactant
+MG_368_MONOMER,fatty acid/phospholipid synthesis protein PlsX,c,1,protein-monomer,reactant
+MG_369_MONOMER,DAK2 phosphatase domain protein,c,0,protein-monomer,reactant
+MG_372_MONOMER,thiamine biosynthesis/tRNA modification protein ThiI,c,1,protein-monomer,reactant
+MG_375_MONOMER,threonyl-tRNA synthetase,c,1,protein-monomer,reactant
+MG_376_MONOMER,,c,3,protein-monomer,reactant
+MG_379_MONOMER,tRNA uridine 5-carboxymethylaminomethyl modification enzyme GidA,c,0,protein-monomer,reactant
+MG_382_MONOMER,uridine kinase,c,2,protein-monomer,reactant
+MG_383_MONOMER,"NH(3)-dependent NAD+ synthetase, putative",c,0,protein-monomer,reactant
+MG_385_MONOMER,glycerophosphoryl diester phosphodiesterase family protein,c,0,protein-monomer,reactant
+MG_390_MONOMER,"toxin ABC transporter, ATP-binding/permease protein",m,1,protein-monomer,reactant
+MG_391_MONOMER,cytosol aminopeptidase,c,4,protein-monomer,reactant
+MG_392_MONOMER,chaperonin,c,3,protein-monomer,reactant
+MG_393_MONOMER,"chaperonin, 10 kDa",c,97,protein-monomer,reactant
+MG_394_MONOMER,serine hydroxymethyltransferase,c,3,protein-monomer,reactant
+MG_396_MONOMER,ribose 5-phosphate isomerase B,c,0,protein-monomer,reactant
+MG_398_MONOMER,"ATP synthase F1, epsilon subunit",c,2,protein-monomer,reactant
+MG_399_MONOMER,"ATP synthase F1, beta subunit",c,0,protein-monomer,reactant
+MG_400_MONOMER,"ATP synthase F1, gamma subunit",c,31,protein-monomer,reactant
+MG_401_MONOMER,"ATP synthase F1, alpha subunit",c,16,protein-monomer,reactant
+MG_402_MONOMER,"ATP synthase F1, delta subunit",c,77,protein-monomer,reactant
+MG_403_MONOMER,"ATP synthase F0, B subunit",m,124,protein-monomer,reactant
+MG_404_MONOMER,"ATP synthase F0, C subunit",m,26,protein-monomer,reactant
+MG_405_MONOMER,"ATP synthase F0, A subunit",m,124,protein-monomer,reactant
+MG_407_MONOMER,enolase,c,0,protein-monomer,reactant
+MG_409_MONOMER,"phosphate transport system regulatory protein PhoU, putative",c,0,protein-monomer,reactant
+MG_410_MONOMER,"phosphate ABC transporter, ATP-binding protein",c,0,protein-monomer,reactant
+MG_411_MONOMER,"phosphate ABC transporter, permease protein PstA",m,15,protein-monomer,reactant
+MG_412_MONOMER,"phosphate ABC transporter, substrate-binding protein",e,28,protein-monomer,reactant
+MG_417_MONOMER,ribosomal protein S9,c,123,protein-monomer,reactant
+MG_418_MONOMER,ribosomal protein L13,c,114,protein-monomer,reactant
+MG_419_MONOMER,"DNA polymerase III, subunit gamma and tau",c,2,protein-monomer,reactant
+MG_421_MONOMER,"excinuclease ABC, A subunit",c,20,protein-monomer,reactant
+MG_424_MONOMER,ribosomal protein S15,c,119,protein-monomer,reactant
+MG_425_MONOMER,ATP-dependent RNA helicase,c,0,protein-monomer,reactant
+MG_426_MONOMER,ribosomal protein L28,c,152,protein-monomer,reactant
+MG_427_MONOMER,osmotically inducible peroxidase,c,0,protein-monomer,reactant
+MG_428_MONOMER,"LuxR bacterial regulatory protein, putative",c,1,protein-monomer,reactant
+MG_429_MONOMER,"PTS system, E1",c,0,protein-monomer,reactant
+MG_431_MONOMER,triosephosphate isomerase,c,1,protein-monomer,reactant
+MG_433_MONOMER,translation elongation factor Ts,c,0,protein-monomer,reactant
+MG_434_MONOMER,uridylate kinase,c,3,protein-monomer,reactant
+MG_437_MONOMER,phosphatidate cytidylyltransferase,m,1,protein-monomer,reactant
+MG_444_MONOMER,ribosomal protein L19,c,140,protein-monomer,reactant
+MG_445_MONOMER,tRNA (guanine-N1)-methyltransferase,c,1,protein-monomer,reactant
+MG_446_MONOMER,ribosomal protein S16,c,109,protein-monomer,reactant
+MG_451_MONOMER,translation elongation factor Tu,c,0,protein-monomer,reactant
+MG_453_MONOMER,UTP-glucose-1-phosphate uridylyltransferase,c,1,protein-monomer,reactant
+MG_454_MONOMER,thiol-dependent peroxidase,c,0,protein-monomer,reactant
+MG_455_MONOMER,tyrosyl-tRNA synthetase,c,1,protein-monomer,reactant
+MG_457_MONOMER,ATP-dependent metalloprotease FtsH,m,4,protein-monomer,reactant
+MG_458_MONOMER,hypoxanthine phosphoribosyltransferase,c,2,protein-monomer,reactant
+MG_460_MONOMER,L-lactate dehydrogenase/malate dehydrogenase,c,0,protein-monomer,reactant
+MG_464_MONOMER,inner-membrane protein insertion factor,m,0,protein-monomer,reactant
+MG_465_MONOMER,ribonuclease P protein component,c,11,protein-monomer,reactant
+MG_466_MONOMER,ribosomal protein L34,c,134,protein-monomer,reactant
+MG_467_MONOMER,"salivaricin A ABC transporter, ATP-binding protein",c,13,protein-monomer,reactant
+MG_468_MONOMER,"salivaricin A ABC transporter, permease protein",m,1,protein-monomer,reactant
+MG_526_MONOMER,"salivaricin A ABC transporter, ATP-binding protein",c,6,protein-monomer,reactant
+MG_469_MONOMER,chromosomal replication initiator protein DnaA,c,0,protein-monomer,reactant
+MGrrnA16S,16S ribosomal rRNA,c,0,rna,reactant
+MGrrnA23S,23S ribosomal rRNA,c,0,rna,reactant
+MGrrnA5S,5S ribosomal rRNA,c,29,rna,reactant
+MG_0001,"scRNA, signal recognition particle 4.5S RNA, MCS1",c,0,rna,reactant
+MG_0003,"Rnase P RNA, MCS5, M1 RNA",c,0,rna,reactant
+DNA_GYRASE,DNA gyrase,c,50,protein-complex,product
+DNA_POLYMERASE_2CORE_BETA_CLAMP_GAMMA_COMPLEX_PRIMASE,"DNA polymerase (2) core, XX-clamp, XX-complex, and primase",c,0,protein-complex,product
+DNA_POLYMERASE_CORE,DNA-directed DNA polymerase,c,26,protein-complex,product
+DNA_POLYMERASE_CORE_BETA_CLAMP_GAMMA_COMPLEX,"DNA polymerase core, beta-clamp, and gamma-complex",c,0,protein-complex,product
+DNA_POLYMERASE_CORE_BETA_CLAMP_PRIMASE,"DNA polymerase core, beta-clamp, and primase",c,0,protein-complex,product
+DNA_POLYMERASE_GAMMA_COMPLEX,DNA-directed DNA polymerase gamma complex,c,14,protein-complex,product
+DNA_POLYMERASE_HOLOENZYME,DNA-directed DNA polymerase holoenzyme,c,0,protein-complex,product
+MG_0001_048,signal recognition particle,c,29,protein-complex,product
+MG_0003_465,ribonuclease P,c,25,protein-complex,product
+MG_001_DIMER,"DNA polymerase III, beta clamp",c,0,protein-complex,product
+MG_005_DIMER,seryl-tRNA synthetase,c,118,protein-complex,product
+MG_006_DIMER,thymidylate kinase,c,134,protein-complex,product
+MG_008_379_TETRAMER,tRNA uridine 5-carboxymethylaminomethyl modification enzyme,c,18,protein-complex,product
+MG_013_DIMER,methylenetetrahydrofolate dehydrogenase/methylenetetrahydrofolate cyclohydrolase,c,9,protein-complex,product
+MG_014_015_DIMER,multidrug ABC transporter,m,21,protein-complex,product
+MG_019_DIMER,chaperone protein DnaJ,c,25,protein-complex,product
+MG_021_DIMER,methionyl-tRNA synthetase,c,20,protein-complex,product
+MG_023_DIMER,"fructose-1,6-bisphosphate aldolase, class II",c,127,protein-complex,product
+MG_029_DIMER,DJ-1/PfpI family protein,c,21,protein-complex,product
+MG_030_TRIMER,uracil phosphoribosyltransferase,c,15,protein-complex,product
+MG_033_TETRAMER,glycerol uptake facilitator,m,16,protein-complex,product
+MG_034_DIMER,thymidine kinase,c,23,protein-complex,product
+MG_035_DIMER,histidyl-tRNA synthetase,c,19,protein-complex,product
+MG_036_DIMER,aspartyl-tRNA synthetase,c,21,protein-complex,product
+MG_038_TETRAMER,glycerol kinase,c,15,protein-complex,product
+MG_039_DIMER,"FAD-dependent glycerol-3-phosphate dehydrogenase, putative",c,12,protein-complex,product
+MG_040_119_120_121_PENTAMER,Monosaccharide (riboside/galactoside) ABC transporter,m,44,protein-complex,product
+MG_041_062_429_PENTAMER,"PTS system, fructose-specific",m,17,protein-complex,product
+MG_041_069_429_PENTAMER,"PTS system, glucose-specific",m,8,protein-complex,product
+MG_042_043_044_045_PENTAMER,spermidine/putrescine (polyamine) ABC transporter,m,18,protein-complex,product
+MG_046_DIMER,metalloendopeptidase,c,21,protein-complex,product
+MG_047_TETRAMER,S-adenosylmethionine synthetase,c,13,protein-complex,product
+MG_049_HEXAMER,purine nucleoside phosphorylase,c,21,protein-complex,product
+MG_051_DIMER,pyrimidine-nucleoside phosphorylase,c,59,protein-complex,product
+MG_052_DIMER,cytidine deaminase,c,32,protein-complex,product
+MG_053_TRIMER,"phosphoglucomutase/phosphomannomutase, putative",c,23,protein-complex,product
+MG_055_170_277_464_476_20MER,preprotein translocase,m,13,protein-complex,product
+MG_058_HEXAMER,ribose-phosphate pyrophosphokinase,c,8,protein-complex,product
+MG_063_DIMER,"1-phosphofructokinase, putative",c,20,protein-complex,product
+MG_064_065_TETRAMER,ABC transporter,m,16,protein-complex,product
+MG_066_DIMER,transketolase,c,24,protein-complex,product
+MG_072_DIMER,"preprotein translocase, SecA subunit",c,13,protein-complex,product
+MG_073_206_421_TETRAMER,DNA incision complex,c,16,protein-complex,product
+MG_077_078_079_080_321_PENTAMER,oligopeptide ABC transporter,m,7,protein-complex,product
+MG_084_TETRAMER,tRNA(Ile)-lysidine synthetase,c,18,protein-complex,product
+MG_085_HEXAMER,HPr(Ser) kinase/phosphatase,c,14,protein-complex,product
+MG_089_DIMER,translation elongation factor G,c,133,protein-complex,product
+MG_091_OCTAMER,"single-strand binding protein family, octamer",c,0,protein-complex,product
+MG_091_TETRAMER,"single-strand binding protein family, tetramer",c,65,protein-complex,product
+MG_094_HEXAMER,replicative DNA helicase,c,36,protein-complex,product
+MG_098_099_100_TRIMER,glutamyl-tRNA(Gln) and/or aspartyl-tRNA(Asn) amidotransferase,c,139,protein-complex,product
+MG_102_DIMER,thioredoxin-disulfide reductase,c,22,protein-complex,product
+MG_102_DIMER_ox,oxidized thioredoxin-disulfide reductase,c,0,protein-complex,product
+MG_105_OCTAMER,putative DNA integrity scanning protein,c,11,protein-complex,product
+MG_106_DIMER,peptide deformylase,c,22,protein-complex,product
+MG_107_DIMER,guanylate kinase,c,25,protein-complex,product
+MG_109_DIMER,"serine/threonine protein kinase, putative",m,34,protein-complex,product
+MG_111_DIMER,glucose-6-phosphate isomerase,c,18,protein-complex,product
+MG_112_DIMER,ribulose-phosphate 3-epimerase,c,19,protein-complex,product
+MG_113_DIMER,asparaginyl-tRNA synthetase,c,18,protein-complex,product
+MG_114_DIMER,CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase,m,19,protein-complex,product
+MG_118_DIMER,UDP-glucose 4-epimerase,c,12,protein-complex,product
+MG_123_DIMER,arginine deaminase,m,11,protein-complex,product
+MG_124_MONOMER_ox,oxidized thioredoxin,c,0,protein-complex,product
+MG_126_DIMER,tryptophanyl-tRNA synthetase,c,13,protein-complex,product
+MG_127_MONOMER_ox,oxidized Spx subfamily protein,c,0,protein-complex,product
+MG_128_HEXAMER,"inorganic polyphosphate/ATP-NAD kinase, probable",c,9,protein-complex,product
+MG_132_DIMER,purine nucleoside phosphoramidase,c,14,protein-complex,product
+MG_136_DIMER,lysyl-tRNA synthetase,c,23,protein-complex,product
+MG_137_DIMER,UDP-galactopyranose mutase,c,25,protein-complex,product
+MG_139_DIMER,ribonuclease J,c,10,protein-complex,product
+MG_179_180_181_TETRAMER,metal ion (cobalt) ABC transporter,m,14,protein-complex,product
+MG_182_DIMER,Pseudouridylate synthase,c,13,protein-complex,product
+MG_184_DIMER,adenine-specific DNA modification methylase,c,29,protein-complex,product
+MG_186_187_188_189_PENTAMER,Oligosaccharide or polyol ABC transporter,m,18,protein-complex,product
+MG_194_195_TETRAMER,phenylalanyl-tRNA synthetase,c,27,protein-complex,product
+MG_201_DIMER,co-chaperone GrpE,c,11,protein-complex,product
+MG_203_204_TETRAMER,topoisomerase IV,c,12,protein-complex,product
+MG_205_DIMER,"heat-inducible transcription repressor HrcA, putative",c,23,protein-complex,product
+MG_208_DIMER,glycoprotease family protein,c,24,protein-complex,product
+MG_213_214_298_6MER,chromosome segregation protein SMC,c,5,protein-complex,product
+MG_213_214_298_6MER_ADP,Chromosome Segregation Protein SMC with SCP Proteins-ADP,c,81,protein-complex,product
+MG_215_TETRAMER,6-phosphofructokinase,c,18,protein-complex,product
+MG_216_TETRAMER,pyruvate kinase,c,19,protein-complex,product
+MG_221_OCTAMER,mraZ protein,c,12,protein-complex,product
+MG_224_2MER_GTP,cell division protein ftsZ activated 2mer,c,1,protein-complex,product
+MG_224_3MER_GTP,cell division protein ftsZ activated 3mer,c,1,protein-complex,product
+MG_224_4MER_GTP,cell division protein ftsZ activated 4mer,c,2,protein-complex,product
+MG_224_5MER_GTP,cell division protein ftsZ activated 5mer,c,3,protein-complex,product
+MG_224_6MER_GTP,cell division protein ftsZ activated 6mer,c,5,protein-complex,product
+MG_224_7MER_GTP,cell division protein ftsZ activated 7mer,c,8,protein-complex,product
+MG_224_8MER_GTP,cell division protein ftsZ activated 8mer,c,12,protein-complex,product
+MG_224_9MER_GDP,cell division protein ftsZ deactivated 9mer,c,0,protein-complex,product
+MG_224_9MER_GTP,cell division protein ftsZ activated 9mer,c,20,protein-complex,product
+MG_224_MONOMER_GDP,cell division protein ftsZ hydrolysed,c,3,protein-complex,product
+MG_224_MONOMER_GTP,cell division protein ftsZ activated,c,6,protein-complex,product
+MG_225_DIMER,amino acid transporter,m,15,protein-complex,product
+MG_226_DIMER,amino acid transporter,m,14,protein-complex,product
+MG_227_DIMER,thymidylate synthase,c,22,protein-complex,product
+MG_228_TETRAMER,dihydrofolate reductase,c,15,protein-complex,product
+MG_229_231_TETRAMER,ribonucleoside-diphosphate reductase,c,30,protein-complex,product
+MG_229_231_TETRAMER_ox,oxidized ribonucleoside-diphosphate reductase,c,0,protein-complex,product
+MG_239_HEXAMER,ATP-dependent protease La,c,14,protein-complex,product
+MG_240_HEXAMER,nicotinamide-nucleotide adenylyltransferase/conserved hypothetical protein,c,13,protein-complex,product
+MG_244_DIMER,3-5' helicase,c,8,protein-complex,product
+MG_251_DIMER,glycyl-tRNA synthetase,c,14,protein-complex,product
+MG_252_DIMER,23S rRNA methyltransferase,c,9,protein-complex,product
+MG_259_TETRAMER,modification methylase,c,48,protein-complex,product
+MG_265_DIMER,sugar phosphatase,c,40,protein-complex,product
+MG_271_272_273_274_192MER,pyruvate dehydrogenase,c,11,protein-complex,product
+MG_271_272_273_274_192MER_ox,oxidized dihydrolipoamide dehydrogenase,c,0,protein-complex,product
+MG_275_TETRAMER,NADH oxidase,m,242,protein-complex,product
+MG_276_DIMER,adenine phosphoribosyltransferase,c,24,protein-complex,product
+MG_278_DIMER,GTP pyrophosphokinase,c,16,protein-complex,product
+MG_283_DIMER,prolyl-tRNA synthetase,c,14,protein-complex,product
+MG_287_MONOMER_ACP,holo acyl carrier protein,c,0,protein-complex,product
+MG_287_MONOMER_ddcaACP,Dodecanoyl-ACP (n-C12:0ACP),c,0,protein-complex,product
+MG_287_MONOMER_hdeACP,cis-hexadec-9-enoyl-[acyl-carrier protein] (n-C16:1),c,0,protein-complex,product
+MG_287_MONOMER_myrsACP,Myristoyl-ACP (n-C14:0ACP),c,0,protein-complex,product
+MG_287_MONOMER_ocdcaACP,Octadecanoyl-ACP (n-C18:0ACP),c,0,protein-complex,product
+MG_287_MONOMER_octeACP,cis-octadec-11-enoyl-[acyl-carrier protein] (n-C18:1),c,0,protein-complex,product
+MG_287_MONOMER_palmACP,Palmitoyl-ACP (n-C16:0ACP),c,0,protein-complex,product
+MG_287_MONOMER_tdeACP,cis-tetradec-7-enoyl-[acyl-carrier protein] (n-C14:1),c,0,protein-complex,product
+MG_289_290_291_PENTAMER,phosphonate ABC transporter,m,15,protein-complex,product
+MG_292_TETRAMER,alanyl-tRNA synthetase,c,18,protein-complex,product
+MG_293_DIMER,glycerophosphoryl diester phosphodiesterase family protein,c,33,protein-complex,product
+MG_295_MONOMER_ox,oxidized tRNA U34 sulfurtransferase,c,0,protein-complex,product
+MG_299_DIMER,phosphate acetyltransferase,c,22,protein-complex,product
+MG_301_TETRAMER,"glyceraldehyde-3-phosphate dehydrogenase, type I",c,15,protein-complex,product
+MG_302_303_304_TETRAMER,metal ion (cobalt) ABC transporter,m,16,protein-complex,product
+MG_316_DIMER,DNA internalization-related competence protein ComEC/Rec2,m,21,protein-complex,product
+MG_322_323_TETRAMER,"potassium uptake protein, TrkH family, putative",m,10,protein-complex,product
+MG_333_DIMER,"FMN-dependent NADH-azoreductase, putative",c,15,protein-complex,product
+MG_336_DIMER,cysteine desulfurase,c,15,protein-complex,product
+MG_346_DIMER,23S rRNA methyltransferase,c,13,protein-complex,product
+MG_347_DIMER,tRNA (guanine-N(7)-)-methyltransferase,c,11,protein-complex,product
+MG_349_HEXAMER,Replication initiation/membrane attachment protein,c,13,protein-complex,product
+MG_351_HEXAMER,inorganic pyrophosphatase,c,11,protein-complex,product
+MG_352_DIMER,Holliday junction endonuclease,c,18,protein-complex,product
+MG_353_DIMER,"DNA-binding protein HU, putative",c,16,protein-complex,product
+MG_355_HEXAMER,"ATP-dependent Clp protease, ATPase subunit",c,13,protein-complex,product
+MG_357_DIMER,acetate kinase,c,54,protein-complex,product
+MG_358_359_10MER,Holliday junction DNA helicase,c,13,protein-complex,product
+MG_367_DIMER,ribonuclease III,c,13,protein-complex,product
+MG_368_DIMER,fatty acid/phospholipid synthesis protein PlsX,c,14,protein-complex,product
+MG_369_DIMER,DAK2 phosphatase domain protein,c,14,protein-complex,product
+MG_372_DIMER,thiamine biosynthesis/tRNA modification protein ThiI,c,108,protein-complex,product
+MG_375_DIMER,threonyl-tRNA synthetase,c,124,protein-complex,product
+MG_376_HEXAMER,,c,16,protein-complex,product
+MG_382_TETRAMER,uridine kinase,c,10,protein-complex,product
+MG_383_DIMER,"NH(3)-dependent NAD+ synthetase, putative",c,16,protein-complex,product
+MG_385_DIMER,glycerophosphoryl diester phosphodiesterase family protein,c,10,protein-complex,product
+MG_390_DIMER,"toxin ABC transporter, ATP-binding/permease protein",m,16,protein-complex,product
+MG_391_HEXAMER,cytosol aminopeptidase,c,35,protein-complex,product
+MG_392_393_21MER,GroEL-GroES chaperonin complex,c,13,protein-complex,product
+MG_394_TETRAMER,serine hydroxymethyltransferase,c,14,protein-complex,product
+MG_396_DIMER,ribose 5-phosphate isomerase B,c,27,protein-complex,product
+MG_398_399_400_401_402_403_404_405_22MER,H(+)-transporting two-sector ATPase,m,11,protein-complex,product
+MG_407_DIMER,enolase,c,34,protein-complex,product
+MG_409_DIMER,"phosphate transport system regulatory protein PhoU, putative",c,16,protein-complex,product
+MG_410_411_412_PENTAMER,phosphate ABC transporter,m,17,protein-complex,product
+MG_425_DIMER,ATP-dependent RNA helicase,c,9,protein-complex,product
+MG_427_DIMER,osmotically inducible peroxidase,c,17,protein-complex,product
+MG_427_DIMER_ox,oxidized osmotically inducible peroxidase,c,0,protein-complex,product
+MG_428_DIMER,"LuxR bacterial regulatory protein, putative",c,10,protein-complex,product
+MG_431_DIMER,triosephosphate isomerase,c,25,protein-complex,product
+MG_433_DIMER,translation elongation factor Ts,c,122,protein-complex,product
+MG_434_HEXAMER,uridylate kinase,c,14,protein-complex,product
+MG_437_DIMER,phosphatidate cytidylyltransferase,m,13,protein-complex,product
+MG_445_DIMER,tRNA (guanine-N1)-methyltransferase,c,107,protein-complex,product
+MG_451_DIMER,translation elongation factor Tu,c,139,protein-complex,product
+MG_453_TETRAMER,UTP-glucose-1-phosphate uridylyltransferase,c,9,protein-complex,product
+MG_454_DIMER,thiol-dependent peroxidase,c,29,protein-complex,product
+MG_454_DIMER_ox,oxidized thiol-dependent peroxidase,c,0,protein-complex,product
+MG_455_DIMER,tyrosyl-tRNA synthetase,c,95,protein-complex,product
+MG_457_HEXAMER,ATP-dependent metalloprotease FtsH,m,70,protein-complex,product
+MG_458_TETRAMER,hypoxanthine phosphoribosyltransferase,c,17,protein-complex,product
+MG_460_TETRAMER,L-lactate dehydrogenase/malate dehydrogenase,c,13,protein-complex,product
+MG_467_468_526_TETRAMER,salivaricin A ABC transporter,m,26,protein-complex,product
+MG_469_1MER_ADP,DnaA-ADP,c,0,protein-complex,product
+MG_469_1MER_ATP,DnaA-ATP,c,25,protein-complex,product
+MG_469_2MER_1ATP_ADP,DnaA 2mer-(1)ATP-(1)ADP,c,0,protein-complex,product
+MG_469_2MER_ATP,DnaA-ATP 2mer,c,0,protein-complex,product
+MG_469_3MER_2ATP_ADP,DnaA 3mer-(2)ATP-(1)ADP,c,0,protein-complex,product
+MG_469_3MER_ATP,DnaA-ATP 3mer,c,0,protein-complex,product
+MG_469_4MER_3ATP_ADP,DnaA 4mer-(3)ATP-(1)ADP,c,0,protein-complex,product
+MG_469_4MER_ATP,DnaA-ATP 4mer,c,0,protein-complex,product
+MG_469_5MER_4ATP_ADP,DnaA 5mer-(4)ATP-(1)ADP,c,0,protein-complex,product
+MG_469_5MER_ATP,DnaA-ATP 5mer,c,0,protein-complex,product
+MG_469_6MER_5ATP_ADP,DnaA 6mer-(5)ATP-(1)ADP,c,0,protein-complex,product
+MG_469_6MER_ATP,DnaA-ATP 6mer,c,0,protein-complex,product
+MG_469_7MER_6ATP_ADP,DnaA 7mer-(6)ATP-(1)ADP,c,0,protein-complex,product
+MG_469_7MER_ATP,DnaA-ATP 7mer,c,4,protein-complex,product
+MG_482_DIMER,holo-(acyl-carrier-protein) synthase,c,13,protein-complex,product
+REPLISOME,Replisome,c,0,protein-complex,product
+RIBOSOME_30S,30S ribosomal subunit,c,25,protein-complex,product
+RIBOSOME_30S_IF3,30S ribosomal subunit - translation initiation factor IF-3 complex,c,0,protein-complex,product
+RIBOSOME_50S,50S ribosomal subunit,c,12,protein-complex,product
+RIBOSOME_70S,70S ribosome,c,56,protein-complex,product
+RNA_POLYMERASE,DNA-directed RNA polymerase,c,40,protein-complex,product
+RNA_POLYMERASE_HOLOENZYME,DNA-directed RNA polymerase holoenzyme,c,0,protein-complex,product
