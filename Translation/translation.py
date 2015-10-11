@@ -249,7 +249,7 @@ All_tRNAs_list=All_reactants_list[:-2]
 ##     k_1=str(k_1)
 ##     k_2=str(k_2)
 ##     m=str(m)
-##     Law_string=kcat+"*"+min_enzymes_string+"*"+min_tRNA_sring+"*GTP^"+m+"/((1+"+min_tRNA_sring+"/"+k_1+")*(1+GTP^"+m+"/"+k_2+"))"
+##     Law_string="("+kcat+"*"+min_enzymes_string+"*"+min_tRNA_sring+"*GTP^"+m+")/((1+"+min_tRNA_sring+"/"+k_1+")*(1+GTP^"+m+"/"+k_2+"))"
 ##     return Law_string
 
 
@@ -263,7 +263,7 @@ def Make_kinetic_law_string_Translation(speciesID,All_tRNAs_list=All_tRNAs_list,
     k_1=str(k_1)
     k_2=str(k_2)
     m=str(m)
-    Law_string=kcat+"*RIBOSOME_70S*GTP^"+m+"/(1+GTP^"+m+"/"+k_2+")"
+    Law_string="("+kcat+"*RIBOSOME_70S*GTP^"+m+")/(1+GTP^"+m+"/"+k_2+")"
     return Law_string
     
         
@@ -404,3 +404,4 @@ def create_model(Translation_Species_List,Translation_ReactionID_List):
 if __name__ == '__main__':
     print(create_model(Translation_Species_List,Translation_Reactions_List))
 ###
+

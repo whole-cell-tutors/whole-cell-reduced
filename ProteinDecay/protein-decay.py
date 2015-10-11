@@ -9,7 +9,7 @@ from libsbml import *
 
 
 ## Set variables
-
+k_1=1
 
 
 
@@ -264,11 +264,14 @@ def Relabel_Compartments(species):
 
 
 # dummy kinetic_law_string_Translation
-def Make_kinetic_law_string_Translation(speciesID):
+def Make_kinetic_law_string_Translation(speciesID,k_1=k_1):
     ## speciesID -- ProteinDecay_reaction_ID
     current_rate_parameter_value = Get_Field(ProteinDecay_Reactions_Dict, speciesID, 'rate_parameter_value')
     kcat=str(current_rate_parameter_value)
-    Law_string=kcat
+    current_enzymes = Get_Field(ProteinDecay_Reactions_Dict, speciesID, 'enzymes')
+    enzymes_string='*'.join(current_enzymes)
+    k_1=str(k_1)
+    Law_string="("+kcat+"*"+enzymes_string+"*"+speciesID+")/(1+"+speciesID+"/"+k_1+")"
     return Law_string
 ##TODO
 
@@ -413,3 +416,4 @@ def create_model(ProteinDecay_Species_List,ProteinDecay_ReactionID_List):
 if __name__ == '__main__':
     print(create_model(ProteinDecay_Species_List,ProteinDecay_Reactions_List))
 ###
+
