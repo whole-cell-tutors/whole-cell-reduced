@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Created by libAntimony version v2.6.1 on 2015-10-11 13:27 with libSBML version 5.11.1. -->
+<!-- Created by libAntimony version v2.6.1 on 2015-10-11 17:08 with libSBML version 5.11.1. -->
 <sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" level="3" version="1">
-  <model id="rnadecay" name="rnadecay">
+  <model id="rnadecay" name="rnadecay" substanceUnits="substance">
     <listOfFunctionDefinitions>
       <functionDefinition id="min">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -29,422 +29,429 @@
         </math>
       </functionDefinition>
     </listOfFunctionDefinitions>
+    <listOfUnitDefinitions>
+      <unitDefinition id="substance">
+        <listOfUnits>
+          <unit kind="item" exponent="1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+    </listOfUnitDefinitions>
     <listOfCompartments>
       <compartment id="c" spatialDimensions="3" constant="true"/>
     </listOfCompartments>
     <listOfSpecies>
-      <species id="H2O" name="water" compartment="c" initialConcentration="309737899" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="H" name="hydrogen ion" compartment="c" initialConcentration="13042" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="AMP" compartment="c" initialConcentration="1449" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="CMP" compartment="c" initialConcentration="1449" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="GMP" compartment="c" initialConcentration="1449" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="UMP" compartment="c" initialConcentration="1449" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="ALA" name="L-alanine" compartment="c" initialConcentration="8303" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="ARG" name="L-Arginine" compartment="c" initialConcentration="5991" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="ASN" name="L-Asparagine" compartment="c" initialConcentration="11161" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="ASP" name="L-Aspartate" compartment="c" initialConcentration="9407" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="CYS" name="L-Cysteine" compartment="c" initialConcentration="2181" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="GLN" name="L-glutamine" compartment="c" initialConcentration="7920" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="GLU" name="L-Glutamate" compartment="c" initialConcentration="9518" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="GLY" name="glycine" compartment="c" initialConcentration="7679" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="HIS" name="L-Histidine" compartment="c" initialConcentration="2933" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="ILE" name="L-Isoleucine" compartment="c" initialConcentration="14247" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LEU" name="L-Leucine" compartment="c" initialConcentration="17971" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="LYS" name="L-Lysine" compartment="c" initialConcentration="15094" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MET" name="L-Methionine" compartment="c" initialConcentration="2792" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="PHE" name="L-phenylalanine" compartment="c" initialConcentration="7681" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="PRO" name="L-Proline" compartment="c" initialConcentration="4140" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="SER" name="L-Serine" compartment="c" initialConcentration="8749" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="THR" name="L-Threonine" compartment="c" initialConcentration="4460" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TRP" name="L-tryptophan" compartment="c" initialConcentration="1084" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TYR" name="L-tyrosine" compartment="c" initialConcentration="5375" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="VAL" name="L-Valine" compartment="c" initialConcentration="9500" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="FMET" name="N-Formyl-L-methionine" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_001" name="MG_001 - MG_002" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_002" name="MG_003 - MG_004" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_003" name="MG_005 - MG_009" compartment="c" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_004" name="MG_010" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_005" name="MG_011 - MG_012" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_006" name="MG_013" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG471" compartment="c" initialConcentration="35" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG472" compartment="c" initialConcentration="36" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_008" name="MG_014 - MG_015" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_009" name="MG_018" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_010" name="MG_019 - MG_021" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_011" name="MG_022 - MG_024" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_012" name="MG_025" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_013" name="MG_026 - MG_028" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_014" name="MG_029 - MG_031" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_015" name="MG_032" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_016" name="MG_033" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_017" name="MG_034" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_018" name="MG_035" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_019" name="MG_036" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_020" name="MG_037" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_021" name="MG_038" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_022" name="MG_039" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_023" name="MG_040" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_024" name="MG_041" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_025" name="MG_042 - MG_044" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_026" name="MG_045" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_027" name="MG_046 - MG_047" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_028" name="MG_048" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_029" name="MG_049 - MG_051" compartment="c" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_030" name="MG_052 - MG_053" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_031" name="MG_054, MG_055, MG_473" compartment="c" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_032" name="MG_056, MG_057, MG_474" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_033" name="MG_058" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_034" name="MG_059" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_035" name="MG_060" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_036" name="MG_061" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG475" compartment="c" initialConcentration="6" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_038" name="MG_062" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_039" name="MG_063" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_040" name="MG_064 - MG_065" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_041" name="MG_066" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_042" name="MG_067 - MG_068" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_043" name="MG_069" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_044" name="MG_070" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_045" name="MG_071" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_046" name="MG_072" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_047" name="MG_073" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_048" name="MG_074" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_049" name="MG_075" compartment="c" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_050" name="MG_076" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_051" name="MG_077 - MG_080" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_052" name="MG_081 - MG_082" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_053" name="MG_083" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_054" name="MG_084 - MG_085" compartment="c" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_055" name="MG_086 - MG_089" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_056" name="MG_090" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_057" name="MG_091" compartment="c" initialConcentration="2" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_058" name="MG_092" compartment="c" initialConcentration="2" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_059" name="MG_093 - MG_095" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_060" name="MG_096" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_061" name="MG_097" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_062" name="MG_098 - MG_100" compartment="c" initialConcentration="2" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_063" name="MG_101 - MG_103" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_064" name="MG_476" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_065" name="MG_104" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_066" name="MG_105" compartment="c" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_067" name="MG_106" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_068" name="MG_107 - MG_110" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_069" name="MG_111 - MG_112" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_070" name="MG_113" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_071" name="MG_114" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_072" name="MG_115" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_073" name="MG_116 - MG_118" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_074" name="MG_119 - MG_122" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_075" name="MG_123" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_076" name="MG_124 - MG_125" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_077" name="MG_126" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_078" name="MG_127 - MG_128" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_079" name="MG_129" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_080" name="MG_130" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_081" name="MG_131" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_082" name="MG_132" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_083" name="MG_133" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_084" name="MG_134" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_085" name="MG_135" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_086" name="MG_136 - MG_138" compartment="c" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_087" name="MG_139" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MGrrnA16S" name="16S ribosomal rRNA" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MGrrnA23S" name="23S ribosomal rRNA" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MGrrnA5S" name="5S ribosomal rRNA" compartment="c" initialConcentration="29" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_089" name="MG_140" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_090" name="MG_141" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_091" name="MG_477" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_092" name="MG_142 - MG_144" compartment="c" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_093" name="MG_145" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_094" name="MG_146" compartment="c" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_095" name="MG_147" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_096" name="MG_148" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_097" name="MG_149" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_098" name="MG_478" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_099" name="MG_150" compartment="c" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_100" name="MG_151" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_101" name="MG_152 - MG_153" compartment="c" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_102" name="MG_154 - MG_163" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_103" name="MG_164" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_104" name="MG_165 - MG_169" compartment="c" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_105" name="MG_170 - MG_173" compartment="c" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_106" name="MG_174" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_107" name="MG_175 - MG_177" compartment="c" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_108" name="MG_178" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_109" name="MG_179" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_110" name="MG_180" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_111" name="MG_181" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_112" name="MG_182" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_113" name="MG_183 - MG_184" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_114" name="MG_185" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_115" name="MG_186" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_116" name="MG_187 - MG_189" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_117" name="MG_190" compartment="c" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_118" name="MG_191 - MG_192" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_119" name="MG_194 - MG_195" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_120" name="MG_196 - MG_198" compartment="c" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_121" name="MG_199" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_122" name="MG_200 - MG_202" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG479" compartment="c" initialConcentration="12" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_124" name="MG_203 - MG_204" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_125" name="MG_205" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_126" name="MG_206" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_127" name="MG_207" compartment="c" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_128" name="MG_208 - MG_210" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_129" name="MG_480" compartment="c" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_130" name="MG_481" compartment="c" initialConcentration="2" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_131" name="MG_211, MG_212, MG_482" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_132" name="MG_213 - MG_214" compartment="c" initialConcentration="2" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_133" name="MG_215 - MG_216" compartment="c" initialConcentration="2" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG483" compartment="c" initialConcentration="5" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG484" compartment="c" initialConcentration="30" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG485" compartment="c" initialConcentration="6" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG486" compartment="c" initialConcentration="22" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG487" compartment="c" initialConcentration="10" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG488" compartment="c" initialConcentration="5" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG489" compartment="c" initialConcentration="42" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG490" compartment="c" initialConcentration="27" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_142" name="MG_217" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_143" name="MG_218, MG_491" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_144" name="MG_219" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_145" name="MG_220" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG492" compartment="c" initialConcentration="6" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_147" name="MG_221 - MG_223" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_148" name="MG_224" compartment="c" initialConcentration="2" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_149" name="MG_225 - MG_226" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_150" name="MG_227" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_151" name="MG_228 - MG_231" compartment="c" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_152" name="MG_232 - MG_236" compartment="c" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_153" name="MG_237" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_154" name="MG_238" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_155" name="MG_239" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_156" name="MG_240" compartment="c" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_157" name="MG_241" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_158" name="MG_242" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_159" name="MG_243 - MG_244" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_160" name="MG_245" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_161" name="MG_246" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_162" name="MG_247" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_163" name="MG_248 - MG_249" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_164" name="MG_250 - MG_251" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_165" name="MG_252 - MG_254" compartment="c" initialConcentration="2" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG493" compartment="c" initialConcentration="25" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_167" name="MG_255, MG_494" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG495" compartment="c" initialConcentration="3" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG496" compartment="c" initialConcentration="4" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_169" name="MG_256" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_170" name="MG_257 - MG_259" compartment="c" initialConcentration="2" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_171" name="MG_260" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG497" compartment="c" initialConcentration="4" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_173" name="MG_261, MG_262, MG_498" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_174" name="MG_263" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_175" name="MG_264" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_176" name="MG_265 - MG_267" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_177" name="MG_268" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG_0001" name="scRNA, signal recognition particle 4.5S RNA, MCS1" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_179" name="MG_269" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_180" name="MG_270 - MG_272" compartment="c" initialConcentration="3" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG_0002" name="MG170 RNA" compartment="c" initialConcentration="21" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_182" name="MG_273 - MG_275" compartment="c" initialConcentration="6" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_183" name="MG_276" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_184" name="MG_277" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_185" name="MG_278" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_186" name="MG_279 - MG_281" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG499" compartment="c" initialConcentration="21" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG500" compartment="c" initialConcentration="30" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG501" compartment="c" initialConcentration="18" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG502" compartment="c" initialConcentration="37" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG503" compartment="c" initialConcentration="22" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_190" name="MG_282" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_191" name="MG_283" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_192" name="MG_284 - MG_286" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_193" name="MG_287" compartment="c" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG504" compartment="c" initialConcentration="4" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_195" name="MG_288" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_196" name="MG_289 - MG_291" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_197" name="MG_505" compartment="c" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_198" name="MG_292 - MG_294" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_199" name="MG_295" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_200" name="MG_296" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_201" name="MG_297" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_202" name="MG_298" compartment="c" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_203" name="MG_299" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_204" name="MG_300 - MG_301" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_205" name="MG_302" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_206" name="MG_303" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_207" name="MG_304" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_208" name="MG_305" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_209" name="MG_306" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_210" name="MG_307" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_211" name="MG_308 - MG_309" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_212" name="MG_310" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_213" name="MG_311" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_214" name="MG_312" compartment="c" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_215" name="MG_313 - MG_315" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_216" name="MG_316" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_217" name="MG_317 - MG_318" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_218" name="MG_319" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_219" name="MG_320" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG506" compartment="c" initialConcentration="7" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG507" compartment="c" initialConcentration="11" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_222" name="MG_321" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG508" compartment="c" initialConcentration="30" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG509" compartment="c" initialConcentration="28" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG510" compartment="c" initialConcentration="25" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG511" compartment="c" initialConcentration="27" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG512" compartment="c" initialConcentration="30" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG513" compartment="c" initialConcentration="27" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG514" compartment="c" initialConcentration="27" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_224" name="MG_322" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_225" name="MG_323" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG_0003" name="Rnase P RNA, MCS5, M1 RNA" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG_0004" name="transfer-messenger RNA, tmRNA, MCS6, 10Sa RNA" compartment="c" initialConcentration="2" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_228" name="MG_324, MG_325, MG_515" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_229" name="MG_326" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_230" name="MG_327" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_231" name="MG_328" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_232" name="MG_329" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_233" name="MG_330 - MG_333" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_234" name="MG_334" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_235" name="MG_335" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_236" name="MG_516" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_237" name="MG_517" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_238" name="MG_336" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_239" name="MG_337" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_240" name="MG_338" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_241" name="MG_339" compartment="c" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_242" name="MG_340 - MG_341" compartment="c" initialConcentration="2" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_243" name="MG_342" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_244" name="MG_343" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_245" name="MG_344" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_246" name="MG_345" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_247" name="MG_346 - MG_347" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG518" compartment="c" initialConcentration="9" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_249" name="MG_348" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG519" compartment="c" initialConcentration="13" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_251" name="MG_349 - MG_350" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG520" compartment="c" initialConcentration="16" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_253" name="MG_521" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_254" name="MG_351" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_255" name="MG_352" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_256" name="MG_353" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_257" name="MG_354" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_258" name="MG_355" compartment="c" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_259" name="MG_356" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_260" name="MG_357" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_261" name="MG_358 - MG_359" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_262" name="MG_360" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_263" name="MG_361 - MG_363" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_264" name="MG_522" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_265" name="MG_364" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_266" name="MG_365" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_267" name="MG_366" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_268" name="MG_367 - MG_369" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_269" name="MG_370" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_270" name="MG_371" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_271" name="MG_372 - MG_375" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_272" name="MG_376" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_273" name="MG_377" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_274" name="MG_378" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_275" name="MG_379 - MG_381" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG523" compartment="c" initialConcentration="6" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_277" name="MG_382" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_278" name="MG_383" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_279" name="MG_384" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_280" name="MG_385, MG_524" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_281" name="MG_386" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_282" name="MG_387 - MG_388" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_283" name="MG_389" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_284" name="MG_390" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_285" name="MG_391 - MG_393" compartment="c" initialConcentration="2" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_286" name="MG_394" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_287" name="MG_395" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_288" name="MG_396 - MG_397" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_289" name="MG_398" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_290" name="MG_399" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_291" name="MG_400 - MG_401" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_292" name="MG_402 - MG_405" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_293" name="MG_406" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_294" name="MG_407" compartment="c" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_295" name="MG_408" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_296" name="MG_409 - MG_412" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_297" name="MG_414" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_298" name="MG_525" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_299" name="MG_417" compartment="c" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_300" name="MG_418" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_301" name="MG_419, MG_421, MG_422, MG_423" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_302" name="MG_424" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_303" name="MG_425" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_304" name="MG_426" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_305" name="MG_427" compartment="c" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_306" name="MG_428" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_307" name="MG_429 - MG_431" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_308" name="MG_432" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_309" name="MG_433" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_310" name="MG_434" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_311" name="MG_435" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_312" name="MG_437" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_313" name="MG_438" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_314" name="MG_439" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_315" name="MG_440 - MG_441" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_316" name="MG_442 - MG_443" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_317" name="MG_444 - MG_446" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_318" name="MG_447" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_319" name="MG_448" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_320" name="MG_449" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_321" name="MG_450 - MG_451" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_322" name="MG_452 - MG_453" compartment="c" initialConcentration="2" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_323" name="MG_454" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_324" name="MG_455" compartment="c" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_325" name="MG_456" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_326" name="MG_457" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_327" name="MG_458" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_328" name="MG_459" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_329" name="MG_460" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_330" name="MG_461 - MG_462" compartment="c" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_331" name="MG_463 - MG_465" compartment="c" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_332" name="MG_466" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_333" name="MG_467 - MG_468" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_334" name="MG_526" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="TU_335" name="MG_469 - MG_470" compartment="c" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG471_aa" name="MG471-AA" compartment="c" initialConcentration="72" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG472_aa" name="MG472-AA" compartment="c" initialConcentration="72" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG475_aa" name="MG475-AA" compartment="c" initialConcentration="14" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG479_aa" name="MG479-AA" compartment="c" initialConcentration="25" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG483_aa" name="MG483-AA" compartment="c" initialConcentration="10" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG484_aa" name="MG484-AA" compartment="c" initialConcentration="61" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG485_aa" name="MG485-AA" compartment="c" initialConcentration="14" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG486_aa" name="MG486-AA" compartment="c" initialConcentration="46" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG487_aa" name="MG487-AA" compartment="c" initialConcentration="20" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG488_aa" name="MG488-AA" compartment="c" initialConcentration="11" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG489_aa" name="MG489-AA" compartment="c" initialConcentration="84" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG490_aa" name="MG490-AA" compartment="c" initialConcentration="55" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG492_aa" name="MG492-AA" compartment="c" initialConcentration="13" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG493_aa" name="MG493-AA" compartment="c" initialConcentration="51" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG495_aa" name="MG495-AA" compartment="c" initialConcentration="8" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG496_aa" name="MG496-AA" compartment="c" initialConcentration="9" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG497_aa" name="MG497-AA" compartment="c" initialConcentration="9" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG499_aa" name="MG499-AA" compartment="c" initialConcentration="42" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG500_aa" name="MG500-AA" compartment="c" initialConcentration="60" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG501_aa" name="MG501-AA" compartment="c" initialConcentration="36" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG502_aa" name="MG502-AA" compartment="c" initialConcentration="75" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG503_aa" name="MG503-AA" compartment="c" initialConcentration="46" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG504_aa" name="MG504-AA" compartment="c" initialConcentration="10" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG506_aa" name="MG506-AA" compartment="c" initialConcentration="16" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG507_aa" name="MG507-AA" compartment="c" initialConcentration="23" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG508_aa" name="MG508-AA" compartment="c" initialConcentration="61" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG509_aa" name="MG509-AA" compartment="c" initialConcentration="56" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG510_aa" name="MG510-AA" compartment="c" initialConcentration="50" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG511_aa" name="MG511-AA" compartment="c" initialConcentration="55" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG512_aa" name="MG512-AA" compartment="c" initialConcentration="62" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG513_aa" name="MG513-AA" compartment="c" initialConcentration="54" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG514_aa" name="MG514-AA" compartment="c" initialConcentration="56" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG518_aa" name="MG518-AA" compartment="c" initialConcentration="19" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG519_aa" name="MG519-AA" compartment="c" initialConcentration="26" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG520_aa" name="MG520-AA" compartment="c" initialConcentration="33" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG523_aa" name="MG523-AA" compartment="c" initialConcentration="14" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG_104_MONOMER" name="ribonuclease R" compartment="c" initialConcentration="15" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="MG_083_MONOMER" name="peptidyl-tRNA hydrolase" compartment="c" initialConcentration="15" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="H2O" name="water" compartment="c" initialAmount="309737899" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="H" name="hydrogen ion" compartment="c" initialAmount="13042" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="AMP" compartment="c" initialAmount="1449" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="CMP" compartment="c" initialAmount="1449" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="GMP" compartment="c" initialAmount="1449" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="UMP" compartment="c" initialAmount="1449" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="ALA" name="L-alanine" compartment="c" initialAmount="8303" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="ARG" name="L-Arginine" compartment="c" initialAmount="5991" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="ASN" name="L-Asparagine" compartment="c" initialAmount="11161" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="ASP" name="L-Aspartate" compartment="c" initialAmount="9407" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="CYS" name="L-Cysteine" compartment="c" initialAmount="2181" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="GLN" name="L-glutamine" compartment="c" initialAmount="7920" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="GLU" name="L-Glutamate" compartment="c" initialAmount="9518" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="GLY" name="glycine" compartment="c" initialAmount="7679" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="HIS" name="L-Histidine" compartment="c" initialAmount="2933" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="ILE" name="L-Isoleucine" compartment="c" initialAmount="14247" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LEU" name="L-Leucine" compartment="c" initialAmount="17971" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="LYS" name="L-Lysine" compartment="c" initialAmount="15094" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MET" name="L-Methionine" compartment="c" initialAmount="2792" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="PHE" name="L-phenylalanine" compartment="c" initialAmount="7681" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="PRO" name="L-Proline" compartment="c" initialAmount="4140" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="SER" name="L-Serine" compartment="c" initialAmount="8749" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="THR" name="L-Threonine" compartment="c" initialAmount="4460" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TRP" name="L-tryptophan" compartment="c" initialAmount="1084" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TYR" name="L-tyrosine" compartment="c" initialAmount="5375" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="VAL" name="L-Valine" compartment="c" initialAmount="9500" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="FMET" name="N-Formyl-L-methionine" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_001" name="MG_001 - MG_002" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_002" name="MG_003 - MG_004" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_003" name="MG_005 - MG_009" compartment="c" initialAmount="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_004" name="MG_010" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_005" name="MG_011 - MG_012" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_006" name="MG_013" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG471" compartment="c" initialAmount="35" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG472" compartment="c" initialAmount="36" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_008" name="MG_014 - MG_015" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_009" name="MG_018" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_010" name="MG_019 - MG_021" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_011" name="MG_022 - MG_024" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_012" name="MG_025" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_013" name="MG_026 - MG_028" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_014" name="MG_029 - MG_031" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_015" name="MG_032" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_016" name="MG_033" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_017" name="MG_034" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_018" name="MG_035" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_019" name="MG_036" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_020" name="MG_037" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_021" name="MG_038" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_022" name="MG_039" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_023" name="MG_040" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_024" name="MG_041" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_025" name="MG_042 - MG_044" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_026" name="MG_045" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_027" name="MG_046 - MG_047" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_028" name="MG_048" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_029" name="MG_049 - MG_051" compartment="c" initialAmount="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_030" name="MG_052 - MG_053" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_031" name="MG_054, MG_055, MG_473" compartment="c" initialAmount="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_032" name="MG_056, MG_057, MG_474" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_033" name="MG_058" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_034" name="MG_059" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_035" name="MG_060" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_036" name="MG_061" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG475" compartment="c" initialAmount="6" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_038" name="MG_062" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_039" name="MG_063" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_040" name="MG_064 - MG_065" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_041" name="MG_066" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_042" name="MG_067 - MG_068" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_043" name="MG_069" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_044" name="MG_070" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_045" name="MG_071" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_046" name="MG_072" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_047" name="MG_073" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_048" name="MG_074" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_049" name="MG_075" compartment="c" initialAmount="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_050" name="MG_076" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_051" name="MG_077 - MG_080" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_052" name="MG_081 - MG_082" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_053" name="MG_083" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_054" name="MG_084 - MG_085" compartment="c" initialAmount="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_055" name="MG_086 - MG_089" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_056" name="MG_090" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_057" name="MG_091" compartment="c" initialAmount="2" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_058" name="MG_092" compartment="c" initialAmount="2" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_059" name="MG_093 - MG_095" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_060" name="MG_096" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_061" name="MG_097" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_062" name="MG_098 - MG_100" compartment="c" initialAmount="2" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_063" name="MG_101 - MG_103" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_064" name="MG_476" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_065" name="MG_104" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_066" name="MG_105" compartment="c" initialAmount="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_067" name="MG_106" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_068" name="MG_107 - MG_110" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_069" name="MG_111 - MG_112" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_070" name="MG_113" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_071" name="MG_114" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_072" name="MG_115" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_073" name="MG_116 - MG_118" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_074" name="MG_119 - MG_122" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_075" name="MG_123" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_076" name="MG_124 - MG_125" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_077" name="MG_126" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_078" name="MG_127 - MG_128" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_079" name="MG_129" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_080" name="MG_130" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_081" name="MG_131" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_082" name="MG_132" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_083" name="MG_133" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_084" name="MG_134" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_085" name="MG_135" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_086" name="MG_136 - MG_138" compartment="c" initialAmount="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_087" name="MG_139" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MGrrnA16S" name="16S ribosomal rRNA" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MGrrnA23S" name="23S ribosomal rRNA" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MGrrnA5S" name="5S ribosomal rRNA" compartment="c" initialAmount="29" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_089" name="MG_140" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_090" name="MG_141" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_091" name="MG_477" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_092" name="MG_142 - MG_144" compartment="c" initialAmount="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_093" name="MG_145" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_094" name="MG_146" compartment="c" initialAmount="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_095" name="MG_147" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_096" name="MG_148" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_097" name="MG_149" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_098" name="MG_478" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_099" name="MG_150" compartment="c" initialAmount="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_100" name="MG_151" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_101" name="MG_152 - MG_153" compartment="c" initialAmount="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_102" name="MG_154 - MG_163" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_103" name="MG_164" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_104" name="MG_165 - MG_169" compartment="c" initialAmount="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_105" name="MG_170 - MG_173" compartment="c" initialAmount="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_106" name="MG_174" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_107" name="MG_175 - MG_177" compartment="c" initialAmount="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_108" name="MG_178" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_109" name="MG_179" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_110" name="MG_180" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_111" name="MG_181" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_112" name="MG_182" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_113" name="MG_183 - MG_184" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_114" name="MG_185" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_115" name="MG_186" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_116" name="MG_187 - MG_189" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_117" name="MG_190" compartment="c" initialAmount="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_118" name="MG_191 - MG_192" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_119" name="MG_194 - MG_195" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_120" name="MG_196 - MG_198" compartment="c" initialAmount="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_121" name="MG_199" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_122" name="MG_200 - MG_202" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG479" compartment="c" initialAmount="12" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_124" name="MG_203 - MG_204" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_125" name="MG_205" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_126" name="MG_206" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_127" name="MG_207" compartment="c" initialAmount="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_128" name="MG_208 - MG_210" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_129" name="MG_480" compartment="c" initialAmount="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_130" name="MG_481" compartment="c" initialAmount="2" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_131" name="MG_211, MG_212, MG_482" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_132" name="MG_213 - MG_214" compartment="c" initialAmount="2" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_133" name="MG_215 - MG_216" compartment="c" initialAmount="2" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG483" compartment="c" initialAmount="5" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG484" compartment="c" initialAmount="30" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG485" compartment="c" initialAmount="6" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG486" compartment="c" initialAmount="22" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG487" compartment="c" initialAmount="10" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG488" compartment="c" initialAmount="5" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG489" compartment="c" initialAmount="42" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG490" compartment="c" initialAmount="27" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_142" name="MG_217" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_143" name="MG_218, MG_491" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_144" name="MG_219" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_145" name="MG_220" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG492" compartment="c" initialAmount="6" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_147" name="MG_221 - MG_223" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_148" name="MG_224" compartment="c" initialAmount="2" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_149" name="MG_225 - MG_226" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_150" name="MG_227" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_151" name="MG_228 - MG_231" compartment="c" initialAmount="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_152" name="MG_232 - MG_236" compartment="c" initialAmount="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_153" name="MG_237" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_154" name="MG_238" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_155" name="MG_239" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_156" name="MG_240" compartment="c" initialAmount="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_157" name="MG_241" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_158" name="MG_242" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_159" name="MG_243 - MG_244" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_160" name="MG_245" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_161" name="MG_246" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_162" name="MG_247" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_163" name="MG_248 - MG_249" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_164" name="MG_250 - MG_251" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_165" name="MG_252 - MG_254" compartment="c" initialAmount="2" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG493" compartment="c" initialAmount="25" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_167" name="MG_255, MG_494" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG495" compartment="c" initialAmount="3" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG496" compartment="c" initialAmount="4" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_169" name="MG_256" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_170" name="MG_257 - MG_259" compartment="c" initialAmount="2" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_171" name="MG_260" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG497" compartment="c" initialAmount="4" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_173" name="MG_261, MG_262, MG_498" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_174" name="MG_263" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_175" name="MG_264" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_176" name="MG_265 - MG_267" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_177" name="MG_268" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG_0001" name="scRNA, signal recognition particle 4.5S RNA, MCS1" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_179" name="MG_269" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_180" name="MG_270 - MG_272" compartment="c" initialAmount="3" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG_0002" name="MG170 RNA" compartment="c" initialAmount="21" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_182" name="MG_273 - MG_275" compartment="c" initialAmount="6" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_183" name="MG_276" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_184" name="MG_277" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_185" name="MG_278" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_186" name="MG_279 - MG_281" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG499" compartment="c" initialAmount="21" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG500" compartment="c" initialAmount="30" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG501" compartment="c" initialAmount="18" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG502" compartment="c" initialAmount="37" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG503" compartment="c" initialAmount="22" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_190" name="MG_282" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_191" name="MG_283" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_192" name="MG_284 - MG_286" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_193" name="MG_287" compartment="c" initialAmount="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG504" compartment="c" initialAmount="4" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_195" name="MG_288" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_196" name="MG_289 - MG_291" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_197" name="MG_505" compartment="c" initialAmount="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_198" name="MG_292 - MG_294" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_199" name="MG_295" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_200" name="MG_296" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_201" name="MG_297" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_202" name="MG_298" compartment="c" initialAmount="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_203" name="MG_299" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_204" name="MG_300 - MG_301" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_205" name="MG_302" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_206" name="MG_303" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_207" name="MG_304" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_208" name="MG_305" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_209" name="MG_306" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_210" name="MG_307" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_211" name="MG_308 - MG_309" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_212" name="MG_310" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_213" name="MG_311" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_214" name="MG_312" compartment="c" initialAmount="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_215" name="MG_313 - MG_315" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_216" name="MG_316" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_217" name="MG_317 - MG_318" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_218" name="MG_319" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_219" name="MG_320" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG506" compartment="c" initialAmount="7" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG507" compartment="c" initialAmount="11" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_222" name="MG_321" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG508" compartment="c" initialAmount="30" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG509" compartment="c" initialAmount="28" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG510" compartment="c" initialAmount="25" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG511" compartment="c" initialAmount="27" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG512" compartment="c" initialAmount="30" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG513" compartment="c" initialAmount="27" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG514" compartment="c" initialAmount="27" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_224" name="MG_322" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_225" name="MG_323" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG_0003" name="Rnase P RNA, MCS5, M1 RNA" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG_0004" name="transfer-messenger RNA, tmRNA, MCS6, 10Sa RNA" compartment="c" initialAmount="2" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_228" name="MG_324, MG_325, MG_515" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_229" name="MG_326" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_230" name="MG_327" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_231" name="MG_328" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_232" name="MG_329" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_233" name="MG_330 - MG_333" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_234" name="MG_334" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_235" name="MG_335" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_236" name="MG_516" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_237" name="MG_517" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_238" name="MG_336" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_239" name="MG_337" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_240" name="MG_338" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_241" name="MG_339" compartment="c" initialAmount="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_242" name="MG_340 - MG_341" compartment="c" initialAmount="2" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_243" name="MG_342" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_244" name="MG_343" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_245" name="MG_344" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_246" name="MG_345" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_247" name="MG_346 - MG_347" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG518" compartment="c" initialAmount="9" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_249" name="MG_348" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG519" compartment="c" initialAmount="13" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_251" name="MG_349 - MG_350" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG520" compartment="c" initialAmount="16" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_253" name="MG_521" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_254" name="MG_351" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_255" name="MG_352" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_256" name="MG_353" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_257" name="MG_354" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_258" name="MG_355" compartment="c" initialAmount="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_259" name="MG_356" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_260" name="MG_357" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_261" name="MG_358 - MG_359" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_262" name="MG_360" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_263" name="MG_361 - MG_363" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_264" name="MG_522" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_265" name="MG_364" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_266" name="MG_365" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_267" name="MG_366" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_268" name="MG_367 - MG_369" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_269" name="MG_370" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_270" name="MG_371" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_271" name="MG_372 - MG_375" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_272" name="MG_376" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_273" name="MG_377" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_274" name="MG_378" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_275" name="MG_379 - MG_381" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG523" compartment="c" initialAmount="6" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_277" name="MG_382" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_278" name="MG_383" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_279" name="MG_384" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_280" name="MG_385, MG_524" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_281" name="MG_386" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_282" name="MG_387 - MG_388" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_283" name="MG_389" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_284" name="MG_390" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_285" name="MG_391 - MG_393" compartment="c" initialAmount="2" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_286" name="MG_394" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_287" name="MG_395" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_288" name="MG_396 - MG_397" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_289" name="MG_398" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_290" name="MG_399" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_291" name="MG_400 - MG_401" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_292" name="MG_402 - MG_405" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_293" name="MG_406" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_294" name="MG_407" compartment="c" initialAmount="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_295" name="MG_408" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_296" name="MG_409 - MG_412" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_297" name="MG_414" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_298" name="MG_525" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_299" name="MG_417" compartment="c" initialAmount="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_300" name="MG_418" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_301" name="MG_419, MG_421, MG_422, MG_423" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_302" name="MG_424" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_303" name="MG_425" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_304" name="MG_426" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_305" name="MG_427" compartment="c" initialAmount="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_306" name="MG_428" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_307" name="MG_429 - MG_431" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_308" name="MG_432" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_309" name="MG_433" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_310" name="MG_434" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_311" name="MG_435" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_312" name="MG_437" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_313" name="MG_438" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_314" name="MG_439" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_315" name="MG_440 - MG_441" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_316" name="MG_442 - MG_443" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_317" name="MG_444 - MG_446" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_318" name="MG_447" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_319" name="MG_448" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_320" name="MG_449" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_321" name="MG_450 - MG_451" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_322" name="MG_452 - MG_453" compartment="c" initialAmount="2" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_323" name="MG_454" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_324" name="MG_455" compartment="c" initialAmount="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_325" name="MG_456" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_326" name="MG_457" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_327" name="MG_458" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_328" name="MG_459" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_329" name="MG_460" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_330" name="MG_461 - MG_462" compartment="c" initialAmount="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_331" name="MG_463 - MG_465" compartment="c" initialAmount="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_332" name="MG_466" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_333" name="MG_467 - MG_468" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_334" name="MG_526" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TU_335" name="MG_469 - MG_470" compartment="c" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG471_aa" name="MG471-AA" compartment="c" initialAmount="72" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG472_aa" name="MG472-AA" compartment="c" initialAmount="72" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG475_aa" name="MG475-AA" compartment="c" initialAmount="14" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG479_aa" name="MG479-AA" compartment="c" initialAmount="25" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG483_aa" name="MG483-AA" compartment="c" initialAmount="10" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG484_aa" name="MG484-AA" compartment="c" initialAmount="61" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG485_aa" name="MG485-AA" compartment="c" initialAmount="14" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG486_aa" name="MG486-AA" compartment="c" initialAmount="46" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG487_aa" name="MG487-AA" compartment="c" initialAmount="20" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG488_aa" name="MG488-AA" compartment="c" initialAmount="11" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG489_aa" name="MG489-AA" compartment="c" initialAmount="84" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG490_aa" name="MG490-AA" compartment="c" initialAmount="55" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG492_aa" name="MG492-AA" compartment="c" initialAmount="13" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG493_aa" name="MG493-AA" compartment="c" initialAmount="51" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG495_aa" name="MG495-AA" compartment="c" initialAmount="8" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG496_aa" name="MG496-AA" compartment="c" initialAmount="9" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG497_aa" name="MG497-AA" compartment="c" initialAmount="9" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG499_aa" name="MG499-AA" compartment="c" initialAmount="42" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG500_aa" name="MG500-AA" compartment="c" initialAmount="60" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG501_aa" name="MG501-AA" compartment="c" initialAmount="36" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG502_aa" name="MG502-AA" compartment="c" initialAmount="75" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG503_aa" name="MG503-AA" compartment="c" initialAmount="46" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG504_aa" name="MG504-AA" compartment="c" initialAmount="10" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG506_aa" name="MG506-AA" compartment="c" initialAmount="16" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG507_aa" name="MG507-AA" compartment="c" initialAmount="23" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG508_aa" name="MG508-AA" compartment="c" initialAmount="61" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG509_aa" name="MG509-AA" compartment="c" initialAmount="56" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG510_aa" name="MG510-AA" compartment="c" initialAmount="50" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG511_aa" name="MG511-AA" compartment="c" initialAmount="55" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG512_aa" name="MG512-AA" compartment="c" initialAmount="62" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG513_aa" name="MG513-AA" compartment="c" initialAmount="54" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG514_aa" name="MG514-AA" compartment="c" initialAmount="56" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG518_aa" name="MG518-AA" compartment="c" initialAmount="19" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG519_aa" name="MG519-AA" compartment="c" initialAmount="26" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG520_aa" name="MG520-AA" compartment="c" initialAmount="33" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG523_aa" name="MG523-AA" compartment="c" initialAmount="14" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG_104_MONOMER" name="ribonuclease R" compartment="c" initialAmount="15" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MG_083_MONOMER" name="peptidyl-tRNA hydrolase" compartment="c" initialAmount="15" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
     </listOfSpecies>
     <listOfParameters>
       <parameter id="Km_RNA_decay" value="5" constant="true"/>
