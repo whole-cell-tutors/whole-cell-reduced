@@ -9,7 +9,9 @@ use XML::TreeBuilder;
 
 my @files = (
 "../tRNAAminoacylation/tRNAAminoacylation-module.xml",
-"../MacromolecularComplexation/MacromolecularComplexation-module.xml"
+"../MacromolecularComplexation/MacromolecularComplexation-module.xml",
+"../ProteinTranslocation/ProteinTranslocation.xml"
+# "../ProteinDecay/protein-decay.xml" # -> that's l3...
 );
 
 my %species = ();
