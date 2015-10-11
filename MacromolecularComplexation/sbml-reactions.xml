@@ -1,0 +1,6244 @@
+<reaction id="Complexation_DNA_GYRASE" name="Complexation (DNA gyrase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_003_MONOMER__c" stoichiometry="2" />
+		<speciesReference species="MG_004_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="DNA_GYRASE__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+							<ci>min2</ci>
+							<apply>
+    <times />
+    <ci>MG_003_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							<apply>
+    <times />
+    <ci>MG_004_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_DNA_POLYMERASE_2CORE_BETA_CLAMP_GAMMA_COMPLEX_PRIMASE" name="Complexation (DNA polymerase (2) core, XX-clamp, XXX-complex, and primase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_001_MONOMER__c" stoichiometry="2" />
+		<speciesReference species="MG_007_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_031_MONOMER__c" stoichiometry="2" />
+		<speciesReference species="MG_250_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_261_MONOMER__c" stoichiometry="2" />
+		<speciesReference species="MG_315_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_419_MONOMER__c" stoichiometry="4" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="DNA_POLYMERASE_2CORE_BETA_CLAMP_GAMMA_COMPLEX_PRIMASE__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+							<ci>min2</ci>
+							<apply>
+							<ci>min2</ci>
+							<apply>
+							<ci>min2</ci>
+							<apply>
+    <times />
+    <ci>MG_001_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							<apply>
+								<ci>min4</ci>
+								<apply>
+    <times />
+    <ci>MG_007_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+								<apply>
+    <times />
+    <ci>MG_031_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+								<apply>
+    <times />
+    <ci>MG_250_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+								<apply>
+    <times />
+    <ci>MG_261_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							</apply>
+						</apply>
+							<apply>
+    <times />
+    <ci>MG_315_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+							<apply>
+    <times />
+    <ci>MG_419_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>4</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_DNA_POLYMERASE_CORE" name="Complexation (DNA-directed DNA polymerase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_031_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_261_MONOMER__c" stoichiometry="1" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="DNA_POLYMERASE_CORE__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+							<ci>min2</ci>
+							<apply>
+    <times />
+    <ci>MG_031_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							<apply>
+    <times />
+    <ci>MG_261_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_DNA_POLYMERASE_CORE_BETA_CLAMP_GAMMA_COMPLEX" name="Complexation (DNA polymerase core, beta-clamp, and gamma-complex)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_001_MONOMER__c" stoichiometry="2" />
+		<speciesReference species="MG_007_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_031_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_261_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_315_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_419_MONOMER__c" stoichiometry="4" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="DNA_POLYMERASE_CORE_BETA_CLAMP_GAMMA_COMPLEX__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+							<ci>min2</ci>
+							<apply>
+							<ci>min2</ci>
+							<apply>
+    <times />
+    <ci>MG_001_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							<apply>
+								<ci>min4</ci>
+								<apply>
+    <times />
+    <ci>MG_007_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+								<apply>
+    <times />
+    <ci>MG_031_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+								<apply>
+    <times />
+    <ci>MG_261_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+								<apply>
+    <times />
+    <ci>MG_315_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							</apply>
+						</apply>
+							<apply>
+    <times />
+    <ci>MG_419_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>4</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_DNA_POLYMERASE_CORE_BETA_CLAMP_PRIMASE" name="Complexation (DNA polymerase core, beta-clamp, and primase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_001_MONOMER__c" stoichiometry="2" />
+		<speciesReference species="MG_031_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_250_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_261_MONOMER__c" stoichiometry="1" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="DNA_POLYMERASE_CORE_BETA_CLAMP_PRIMASE__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+							<ci>min2</ci>
+							<apply>
+							<ci>min2</ci>
+							<apply>
+							<ci>min2</ci>
+							<apply>
+    <times />
+    <ci>MG_001_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							<apply>
+    <times />
+    <ci>MG_031_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+							<apply>
+    <times />
+    <ci>MG_250_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+							<apply>
+    <times />
+    <ci>MG_261_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_DNA_POLYMERASE_GAMMA_COMPLEX" name="Complexation (DNA-directed DNA polymerase gamma complex)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_007_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_315_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_419_MONOMER__c" stoichiometry="4" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="DNA_POLYMERASE_GAMMA_COMPLEX__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+							<ci>min2</ci>
+							<apply>
+							<ci>min2</ci>
+							<apply>
+    <times />
+    <ci>MG_007_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							<apply>
+    <times />
+    <ci>MG_315_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+							<apply>
+    <times />
+    <ci>MG_419_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>4</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_DNA_POLYMERASE_HOLOENZYME" name="Complexation (DNA-directed DNA polymerase holoenzyme)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_001_MONOMER__c" stoichiometry="2" />
+		<speciesReference species="MG_007_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_031_MONOMER__c" stoichiometry="2" />
+		<speciesReference species="MG_261_MONOMER__c" stoichiometry="2" />
+		<speciesReference species="MG_315_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_419_MONOMER__c" stoichiometry="4" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="DNA_POLYMERASE_HOLOENZYME__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+							<ci>min2</ci>
+							<apply>
+							<ci>min2</ci>
+							<apply>
+    <times />
+    <ci>MG_001_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							<apply>
+								<ci>min4</ci>
+								<apply>
+    <times />
+    <ci>MG_007_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+								<apply>
+    <times />
+    <ci>MG_031_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+								<apply>
+    <times />
+    <ci>MG_261_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+								<apply>
+    <times />
+    <ci>MG_315_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							</apply>
+						</apply>
+							<apply>
+    <times />
+    <ci>MG_419_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>4</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_0001_048" name="Complexation (signal recognition particle)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_048_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_0001__c" stoichiometry="1" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_0001_048__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+							<ci>min2</ci>
+							<apply>
+    <times />
+    <ci>MG_048_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							<apply>
+    <times />
+    <ci>MG_0001__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_0003_465" name="Complexation (ribonuclease P)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_465_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_0003__c" stoichiometry="1" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_0003_465__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+							<ci>min2</ci>
+							<apply>
+    <times />
+    <ci>MG_465_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							<apply>
+    <times />
+    <ci>MG_0003__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_001_DIMER" name="Complexation (DNA polymerase III, beta clamp)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_001_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_001_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_001_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_005_DIMER" name="Complexation (seryl-tRNA synthetase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_005_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_005_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_005_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_006_DIMER" name="Complexation (thymidylate kinase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_006_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_006_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_006_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_008_379_TETRAMER" name="Complexation (tRNA uridine 5-carboxymethylaminomethyl modification enzyme)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_008_MONOMER__c" stoichiometry="2" />
+		<speciesReference species="MG_379_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_008_379_TETRAMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+							<ci>min2</ci>
+							<apply>
+    <times />
+    <ci>MG_008_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							<apply>
+    <times />
+    <ci>MG_379_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_013_DIMER" name="Complexation (methylenetetrahydrofolate dehydrogenase/methylenetetrahydrofolate cyclohydrolase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_013_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_013_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_013_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_014_015_DIMER" name="Complexation (multidrug ABC transporter)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_014_MONOMER__m" stoichiometry="1" />
+		<speciesReference species="MG_015_MONOMER__m" stoichiometry="1" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_014_015_DIMER__m" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+							<ci>min2</ci>
+							<apply>
+    <times />
+    <ci>MG_014_MONOMER__m</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							<apply>
+    <times />
+    <ci>MG_015_MONOMER__m</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_019_DIMER" name="Complexation (chaperone protein DnaJ)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_019_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_019_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_019_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_021_DIMER" name="Complexation (methionyl-tRNA synthetase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_021_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_021_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_021_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_023_DIMER" name="Complexation (fructose-1,6-bisphosphate aldolase, class II)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_023_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_023_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_023_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_029_DIMER" name="Complexation (DJ-1/PfpI family protein)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_029_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_029_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_029_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_030_TRIMER" name="Complexation (uracil phosphoribosyltransferase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_030_MONOMER__c" stoichiometry="3" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_030_TRIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_030_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>3</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_033_TETRAMER" name="Complexation (glycerol uptake facilitator)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_033_MONOMER__m" stoichiometry="4" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_033_TETRAMER__m" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_033_MONOMER__m</ci>
+    <apply>
+     <power />
+     <cn type='integer'>4</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_034_DIMER" name="Complexation (thymidine kinase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_034_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_034_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_034_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_035_DIMER" name="Complexation (histidyl-tRNA synthetase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_035_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_035_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_035_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_036_DIMER" name="Complexation (aspartyl-tRNA synthetase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_036_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_036_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_036_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_038_TETRAMER" name="Complexation (glycerol kinase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_038_MONOMER__c" stoichiometry="4" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_038_TETRAMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_038_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>4</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_039_DIMER" name="Complexation (FAD-dependent glycerol-3-phosphate dehydrogenase, putative)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_039_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_039_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_039_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_040_119_120_121_PENTAMER" name="Complexation (Monosaccharide (riboside/galactoside) ABC transporter)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_040_MONOMER__e" stoichiometry="1" />
+		<speciesReference species="MG_119_MONOMER__c" stoichiometry="2" />
+		<speciesReference species="MG_120_MONOMER__m" stoichiometry="1" />
+		<speciesReference species="MG_121_MONOMER__m" stoichiometry="1" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_040_119_120_121_PENTAMER__m" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+							<ci>min2</ci>
+							<apply>
+							<ci>min2</ci>
+							<apply>
+							<ci>min2</ci>
+							<apply>
+    <times />
+    <ci>MG_040_MONOMER__e</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							<apply>
+    <times />
+    <ci>MG_119_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+							<apply>
+    <times />
+    <ci>MG_120_MONOMER__m</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+							<apply>
+    <times />
+    <ci>MG_121_MONOMER__m</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_041_062_429_PENTAMER" name="Complexation (PTS system, fructose-specific)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_041_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_062_MONOMER__m" stoichiometry="2" />
+		<speciesReference species="MG_429_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_041_062_429_PENTAMER__m" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+							<ci>min2</ci>
+							<apply>
+							<ci>min2</ci>
+							<apply>
+    <times />
+    <ci>MG_041_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							<apply>
+    <times />
+    <ci>MG_062_MONOMER__m</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+							<apply>
+    <times />
+    <ci>MG_429_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_041_069_429_PENTAMER" name="Complexation (PTS system, glucose-specific)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_041_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_069_MONOMER__m" stoichiometry="2" />
+		<speciesReference species="MG_429_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_041_069_429_PENTAMER__m" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+							<ci>min2</ci>
+							<apply>
+							<ci>min2</ci>
+							<apply>
+    <times />
+    <ci>MG_041_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							<apply>
+    <times />
+    <ci>MG_069_MONOMER__m</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+							<apply>
+    <times />
+    <ci>MG_429_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_042_043_044_045_PENTAMER" name="Complexation (spermidine/putrescine (polyamine) ABC transporter)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_042_MONOMER__c" stoichiometry="2" />
+		<speciesReference species="MG_043_MONOMER__m" stoichiometry="1" />
+		<speciesReference species="MG_044_MONOMER__m" stoichiometry="1" />
+		<speciesReference species="MG_045_MONOMER__e" stoichiometry="1" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_042_043_044_045_PENTAMER__m" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+							<ci>min2</ci>
+							<apply>
+							<ci>min2</ci>
+							<apply>
+							<ci>min2</ci>
+							<apply>
+    <times />
+    <ci>MG_042_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							<apply>
+    <times />
+    <ci>MG_043_MONOMER__m</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+							<apply>
+    <times />
+    <ci>MG_044_MONOMER__m</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+							<apply>
+    <times />
+    <ci>MG_045_MONOMER__e</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_046_DIMER" name="Complexation (metalloendopeptidase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_046_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_046_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_046_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_047_TETRAMER" name="Complexation (S-adenosylmethionine synthetase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_047_MONOMER__c" stoichiometry="4" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_047_TETRAMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_047_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>4</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_049_HEXAMER" name="Complexation (purine nucleoside phosphorylase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_049_MONOMER__c" stoichiometry="6" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_049_HEXAMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_049_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>6</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_051_DIMER" name="Complexation (pyrimidine-nucleoside phosphorylase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_051_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_051_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_051_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_052_DIMER" name="Complexation (cytidine deaminase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_052_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_052_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_052_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_053_TRIMER" name="Complexation (phosphoglucomutase/phosphomannomutase, putative)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_053_MONOMER__c" stoichiometry="3" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_053_TRIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_053_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>3</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_055_170_277_464_476_20MER" name="Complexation (preprotein translocase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_055_MONOMER__m" stoichiometry="4" />
+		<speciesReference species="MG_476_MONOMER__m" stoichiometry="4" />
+		<speciesReference species="MG_170_MONOMER__m" stoichiometry="4" />
+		<speciesReference species="MG_277_MONOMER__m" stoichiometry="4" />
+		<speciesReference species="MG_464_MONOMER__m" stoichiometry="4" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_055_170_277_464_476_20MER__m" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+							<ci>min2</ci>
+							<apply>
+							<ci>min2</ci>
+							<apply>
+							<ci>min2</ci>
+							<apply>
+							<ci>min2</ci>
+							<apply>
+    <times />
+    <ci>MG_055_MONOMER__m</ci>
+    <apply>
+     <power />
+     <cn type='integer'>4</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							<apply>
+    <times />
+    <ci>MG_476_MONOMER__m</ci>
+    <apply>
+     <power />
+     <cn type='integer'>4</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+							<apply>
+    <times />
+    <ci>MG_170_MONOMER__m</ci>
+    <apply>
+     <power />
+     <cn type='integer'>4</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+							<apply>
+    <times />
+    <ci>MG_277_MONOMER__m</ci>
+    <apply>
+     <power />
+     <cn type='integer'>4</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+							<apply>
+    <times />
+    <ci>MG_464_MONOMER__m</ci>
+    <apply>
+     <power />
+     <cn type='integer'>4</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_058_HEXAMER" name="Complexation (ribose-phosphate pyrophosphokinase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_058_MONOMER__c" stoichiometry="6" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_058_HEXAMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_058_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>6</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_063_DIMER" name="Complexation (1-phosphofructokinase, putative)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_063_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_063_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_063_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_064_065_TETRAMER" name="Complexation (ABC transporter)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_064_MONOMER__m" stoichiometry="2" />
+		<speciesReference species="MG_065_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_064_065_TETRAMER__m" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+							<ci>min2</ci>
+							<apply>
+    <times />
+    <ci>MG_064_MONOMER__m</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							<apply>
+    <times />
+    <ci>MG_065_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_066_DIMER" name="Complexation (transketolase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_066_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_066_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_066_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_072_DIMER" name="Complexation (preprotein translocase, SecA subunit)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_072_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_072_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_072_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_073_206_421_TETRAMER" name="Complexation (DNA incision complex)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_073_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_206_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_421_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_073_206_421_TETRAMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+							<ci>min2</ci>
+							<apply>
+							<ci>min2</ci>
+							<apply>
+    <times />
+    <ci>MG_073_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							<apply>
+    <times />
+    <ci>MG_206_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+							<apply>
+    <times />
+    <ci>MG_421_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_077_078_079_080_321_PENTAMER" name="Complexation (oligopeptide ABC transporter)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_077_MONOMER__m" stoichiometry="1" />
+		<speciesReference species="MG_078_MONOMER__m" stoichiometry="1" />
+		<speciesReference species="MG_079_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_080_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_321_MONOMER__e" stoichiometry="1" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_077_078_079_080_321_PENTAMER__m" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+							<ci>min2</ci>
+							<apply>
+							<ci>min2</ci>
+							<apply>
+							<ci>min2</ci>
+							<apply>
+							<ci>min2</ci>
+							<apply>
+    <times />
+    <ci>MG_077_MONOMER__m</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							<apply>
+    <times />
+    <ci>MG_078_MONOMER__m</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+							<apply>
+    <times />
+    <ci>MG_079_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+							<apply>
+    <times />
+    <ci>MG_080_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+							<apply>
+    <times />
+    <ci>MG_321_MONOMER__e</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_084_TETRAMER" name="Complexation (tRNA(Ile)-lysidine synthetase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_084_MONOMER__c" stoichiometry="4" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_084_TETRAMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_084_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>4</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_085_HEXAMER" name="Complexation (HPr(Ser) kinase/phosphatase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_085_MONOMER__c" stoichiometry="6" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_085_HEXAMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_085_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>6</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_089_DIMER" name="Complexation (translation elongation factor G)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_089_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_089_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_089_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_091_OCTAMER" name="Complexation (single-strand binding protein family, octamer)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_091_MONOMER__c" stoichiometry="8" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_091_OCTAMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_091_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>8</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_091_TETRAMER" name="Complexation (single-strand binding protein family, tetramer)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_091_MONOMER__c" stoichiometry="4" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_091_TETRAMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_091_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>4</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_094_HEXAMER" name="Complexation (replicative DNA helicase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_094_MONOMER__c" stoichiometry="6" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_094_HEXAMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_094_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>6</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_098_099_100_TRIMER" name="Complexation (glutamyl-tRNA(Gln) and/or aspartyl-tRNA(Asn) amidotransferase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_098_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_099_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_100_MONOMER__c" stoichiometry="1" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_098_099_100_TRIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+							<ci>min2</ci>
+							<apply>
+							<ci>min2</ci>
+							<apply>
+    <times />
+    <ci>MG_098_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							<apply>
+    <times />
+    <ci>MG_099_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+							<apply>
+    <times />
+    <ci>MG_100_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_102_DIMER" name="Complexation (thioredoxin-disulfide reductase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_102_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_102_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_102_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_102_DIMER_ox" name="Complexation (oxidized thioredoxin-disulfide reductase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_102_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_102_DIMER_ox__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_102_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_105_OCTAMER" name="Complexation (putative DNA integrity scanning protein)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_105_MONOMER__c" stoichiometry="8" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_105_OCTAMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_105_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>8</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_106_DIMER" name="Complexation (peptide deformylase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_106_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_106_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_106_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_107_DIMER" name="Complexation (guanylate kinase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_107_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_107_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_107_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_109_DIMER" name="Complexation (serine/threonine protein kinase, putative)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_109_MONOMER__m" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_109_DIMER__m" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_109_MONOMER__m</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_111_DIMER" name="Complexation (glucose-6-phosphate isomerase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_111_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_111_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_111_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_112_DIMER" name="Complexation (ribulose-phosphate 3-epimerase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_112_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_112_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_112_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_113_DIMER" name="Complexation (asparaginyl-tRNA synthetase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_113_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_113_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_113_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_114_DIMER" name="Complexation (CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_114_MONOMER__m" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_114_DIMER__m" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_114_MONOMER__m</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_118_DIMER" name="Complexation (UDP-glucose 4-epimerase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_118_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_118_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_118_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_123_DIMER" name="Complexation (arginine deaminase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_123_MONOMER__m" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_123_DIMER__m" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_123_MONOMER__m</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_124_MONOMER_ox" name="Complexation (oxidized thioredoxin)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_124_MONOMER__c" stoichiometry="1" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_124_MONOMER_ox__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_124_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_126_DIMER" name="Complexation (tryptophanyl-tRNA synthetase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_126_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_126_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_126_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_127_MONOMER_ox" name="Complexation (oxidized Spx subfamily protein)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_127_MONOMER__c" stoichiometry="1" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_127_MONOMER_ox__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_127_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_128_HEXAMER" name="Complexation (inorganic polyphosphate/ATP-NAD kinase, probable)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_128_MONOMER__c" stoichiometry="6" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_128_HEXAMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_128_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>6</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_132_DIMER" name="Complexation (purine nucleoside phosphoramidase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_132_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_132_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_132_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_136_DIMER" name="Complexation (lysyl-tRNA synthetase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_136_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_136_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_136_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_137_DIMER" name="Complexation (UDP-galactopyranose mutase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_137_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_137_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_137_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_139_DIMER" name="Complexation (ribonuclease J)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_139_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_139_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_139_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_179_180_181_TETRAMER" name="Complexation (metal ion (cobalt) ABC transporter)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_179_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_180_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_181_MONOMER__m" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_179_180_181_TETRAMER__m" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+							<ci>min2</ci>
+							<apply>
+							<ci>min2</ci>
+							<apply>
+    <times />
+    <ci>MG_179_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							<apply>
+    <times />
+    <ci>MG_180_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+							<apply>
+    <times />
+    <ci>MG_181_MONOMER__m</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_182_DIMER" name="Complexation (Pseudouridylate synthase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_182_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_182_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_182_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_184_DIMER" name="Complexation (adenine-specific DNA modification methylase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_184_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_184_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_184_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_186_187_188_189_PENTAMER" name="Complexation (Oligosaccharide or polyol ABC transporter)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_186_MONOMER__e" stoichiometry="2" />
+		<speciesReference species="MG_187_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_188_MONOMER__m" stoichiometry="1" />
+		<speciesReference species="MG_189_MONOMER__m" stoichiometry="1" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_186_187_188_189_PENTAMER__m" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+							<ci>min2</ci>
+							<apply>
+							<ci>min2</ci>
+							<apply>
+							<ci>min2</ci>
+							<apply>
+    <times />
+    <ci>MG_186_MONOMER__e</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							<apply>
+    <times />
+    <ci>MG_187_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+							<apply>
+    <times />
+    <ci>MG_188_MONOMER__m</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+							<apply>
+    <times />
+    <ci>MG_189_MONOMER__m</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_194_195_TETRAMER" name="Complexation (phenylalanyl-tRNA synthetase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_194_MONOMER__c" stoichiometry="2" />
+		<speciesReference species="MG_195_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_194_195_TETRAMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+							<ci>min2</ci>
+							<apply>
+    <times />
+    <ci>MG_194_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							<apply>
+    <times />
+    <ci>MG_195_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_201_DIMER" name="Complexation (co-chaperone GrpE)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_201_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_201_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_201_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_203_204_TETRAMER" name="Complexation (topoisomerase IV)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_203_MONOMER__c" stoichiometry="2" />
+		<speciesReference species="MG_204_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_203_204_TETRAMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+							<ci>min2</ci>
+							<apply>
+    <times />
+    <ci>MG_203_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							<apply>
+    <times />
+    <ci>MG_204_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_205_DIMER" name="Complexation (heat-inducible transcription repressor HrcA, putative)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_205_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_205_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_205_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_208_DIMER" name="Complexation (glycoprotease family protein)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_208_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_208_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_208_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_213_214_298_6MER" name="Complexation (chromosome segregation protein SMC)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_213_MONOMER__c" stoichiometry="2" />
+		<speciesReference species="MG_214_MONOMER__c" stoichiometry="2" />
+		<speciesReference species="MG_298_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_213_214_298_6MER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+							<ci>min2</ci>
+							<apply>
+							<ci>min2</ci>
+							<apply>
+    <times />
+    <ci>MG_213_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							<apply>
+    <times />
+    <ci>MG_214_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+							<apply>
+    <times />
+    <ci>MG_298_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_213_214_298_6MER_ADP" name="Complexation (Chromosome Segregation Protein SMC with SCP Proteins-ADP)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_213_MONOMER__c" stoichiometry="2" />
+		<speciesReference species="MG_214_MONOMER__c" stoichiometry="2" />
+		<speciesReference species="MG_298_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_213_214_298_6MER_ADP__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+							<ci>min2</ci>
+							<apply>
+							<ci>min2</ci>
+							<apply>
+    <times />
+    <ci>MG_213_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							<apply>
+    <times />
+    <ci>MG_214_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+							<apply>
+    <times />
+    <ci>MG_298_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_215_TETRAMER" name="Complexation (6-phosphofructokinase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_215_MONOMER__c" stoichiometry="4" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_215_TETRAMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_215_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>4</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_216_TETRAMER" name="Complexation (pyruvate kinase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_216_MONOMER__c" stoichiometry="4" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_216_TETRAMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_216_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>4</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_221_OCTAMER" name="Complexation (mraZ protein)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_221_MONOMER__c" stoichiometry="8" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_221_OCTAMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_221_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>8</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_224_2MER_GTP" name="Complexation (cell division protein ftsZ activated 2mer)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_224_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_224_2MER_GTP__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_224_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_224_3MER_GTP" name="Complexation (cell division protein ftsZ activated 3mer)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_224_MONOMER__c" stoichiometry="3" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_224_3MER_GTP__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_224_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>3</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_224_4MER_GTP" name="Complexation (cell division protein ftsZ activated 4mer)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_224_MONOMER__c" stoichiometry="4" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_224_4MER_GTP__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_224_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>4</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_224_5MER_GTP" name="Complexation (cell division protein ftsZ activated 5mer)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_224_MONOMER__c" stoichiometry="5" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_224_5MER_GTP__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_224_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>5</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_224_6MER_GTP" name="Complexation (cell division protein ftsZ activated 6mer)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_224_MONOMER__c" stoichiometry="6" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_224_6MER_GTP__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_224_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>6</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_224_7MER_GTP" name="Complexation (cell division protein ftsZ activated 7mer)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_224_MONOMER__c" stoichiometry="7" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_224_7MER_GTP__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_224_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>7</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_224_8MER_GTP" name="Complexation (cell division protein ftsZ activated 8mer)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_224_MONOMER__c" stoichiometry="8" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_224_8MER_GTP__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_224_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>8</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_224_9MER_GDP" name="Complexation (cell division protein ftsZ deactivated 9mer)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_224_MONOMER__c" stoichiometry="9" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_224_9MER_GDP__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_224_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>9</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_224_9MER_GTP" name="Complexation (cell division protein ftsZ activated 9mer)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_224_MONOMER__c" stoichiometry="9" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_224_9MER_GTP__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_224_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>9</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_224_MONOMER_GDP" name="Complexation (cell division protein ftsZ hydrolysed)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_224_MONOMER__c" stoichiometry="1" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_224_MONOMER_GDP__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_224_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_224_MONOMER_GTP" name="Complexation (cell division protein ftsZ activated)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_224_MONOMER__c" stoichiometry="1" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_224_MONOMER_GTP__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_224_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_225_DIMER" name="Complexation (amino acid transporter)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_225_MONOMER__m" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_225_DIMER__m" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_225_MONOMER__m</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_226_DIMER" name="Complexation (amino acid transporter)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_226_MONOMER__m" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_226_DIMER__m" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_226_MONOMER__m</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_227_DIMER" name="Complexation (thymidylate synthase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_227_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_227_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_227_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_228_TETRAMER" name="Complexation (dihydrofolate reductase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_228_MONOMER__c" stoichiometry="4" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_228_TETRAMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_228_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>4</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_229_231_TETRAMER" name="Complexation (ribonucleoside-diphosphate reductase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_229_MONOMER__c" stoichiometry="2" />
+		<speciesReference species="MG_231_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_229_231_TETRAMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+							<ci>min2</ci>
+							<apply>
+    <times />
+    <ci>MG_229_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							<apply>
+    <times />
+    <ci>MG_231_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_229_231_TETRAMER_ox" name="Complexation (oxidized ribonucleoside-diphosphate reductase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_229_MONOMER__c" stoichiometry="2" />
+		<speciesReference species="MG_231_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_229_231_TETRAMER_ox__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+							<ci>min2</ci>
+							<apply>
+    <times />
+    <ci>MG_229_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							<apply>
+    <times />
+    <ci>MG_231_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_239_HEXAMER" name="Complexation (ATP-dependent protease La)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_239_MONOMER__c" stoichiometry="6" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_239_HEXAMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_239_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>6</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_240_HEXAMER" name="Complexation (nicotinamide-nucleotide adenylyltransferase/conserved hypothetical protein)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_240_MONOMER__c" stoichiometry="6" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_240_HEXAMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_240_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>6</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_244_DIMER" name="Complexation (3-5' helicase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_244_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_244_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_244_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_251_DIMER" name="Complexation (glycyl-tRNA synthetase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_251_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_251_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_251_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_252_DIMER" name="Complexation (23S rRNA methyltransferase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_252_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_252_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_252_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_259_TETRAMER" name="Complexation (modification methylase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_259_MONOMER__c" stoichiometry="4" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_259_TETRAMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_259_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>4</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_265_DIMER" name="Complexation (sugar phosphatase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_265_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_265_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_265_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_271_272_273_274_192MER" name="Complexation (pyruvate dehydrogenase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_271_MONOMER__c" stoichiometry="12" />
+		<speciesReference species="MG_272_MONOMER__c" stoichiometry="60" />
+		<speciesReference species="MG_273_MONOMER__c" stoichiometry="60" />
+		<speciesReference species="MG_274_MONOMER__c" stoichiometry="60" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_271_272_273_274_192MER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+							<ci>min2</ci>
+							<apply>
+							<ci>min2</ci>
+							<apply>
+							<ci>min2</ci>
+							<apply>
+    <times />
+    <ci>MG_271_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>12</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							<apply>
+    <times />
+    <ci>MG_272_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>60</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+							<apply>
+    <times />
+    <ci>MG_273_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>60</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+							<apply>
+    <times />
+    <ci>MG_274_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>60</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_271_272_273_274_192MER_ox" name="Complexation (oxidized dihydrolipoamide dehydrogenase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_271_MONOMER__c" stoichiometry="12" />
+		<speciesReference species="MG_272_MONOMER__c" stoichiometry="60" />
+		<speciesReference species="MG_273_MONOMER__c" stoichiometry="60" />
+		<speciesReference species="MG_274_MONOMER__c" stoichiometry="60" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_271_272_273_274_192MER_ox__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+							<ci>min2</ci>
+							<apply>
+							<ci>min2</ci>
+							<apply>
+							<ci>min2</ci>
+							<apply>
+    <times />
+    <ci>MG_271_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>12</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							<apply>
+    <times />
+    <ci>MG_272_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>60</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+							<apply>
+    <times />
+    <ci>MG_273_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>60</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+							<apply>
+    <times />
+    <ci>MG_274_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>60</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_275_TETRAMER" name="Complexation (NADH oxidase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_275_MONOMER__m" stoichiometry="4" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_275_TETRAMER__m" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_275_MONOMER__m</ci>
+    <apply>
+     <power />
+     <cn type='integer'>4</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_276_DIMER" name="Complexation (adenine phosphoribosyltransferase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_276_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_276_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_276_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_278_DIMER" name="Complexation (GTP pyrophosphokinase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_278_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_278_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_278_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_283_DIMER" name="Complexation (prolyl-tRNA synthetase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_283_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_283_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_283_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_287_MONOMER_ACP" name="Complexation (holo acyl carrier protein)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_287_MONOMER__c" stoichiometry="1" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_287_MONOMER_ACP__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_287_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_287_MONOMER_ddcaACP" name="Complexation (Dodecanoyl-ACP (n-C12:0ACP))" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_287_MONOMER__c" stoichiometry="1" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_287_MONOMER_ddcaACP__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_287_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_287_MONOMER_hdeACP" name="Complexation (cis-hexadec-9-enoyl-[acyl-carrier protein] (n-C16:1))" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_287_MONOMER__c" stoichiometry="1" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_287_MONOMER_hdeACP__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_287_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_287_MONOMER_myrsACP" name="Complexation (Myristoyl-ACP (n-C14:0ACP))" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_287_MONOMER__c" stoichiometry="1" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_287_MONOMER_myrsACP__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_287_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_287_MONOMER_ocdcaACP" name="Complexation (Octadecanoyl-ACP (n-C18:0ACP))" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_287_MONOMER__c" stoichiometry="1" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_287_MONOMER_ocdcaACP__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_287_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_287_MONOMER_octeACP" name="Complexation (cis-octadec-11-enoyl-[acyl-carrier protein] (n-C18:1))" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_287_MONOMER__c" stoichiometry="1" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_287_MONOMER_octeACP__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_287_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_287_MONOMER_palmACP" name="Complexation (Palmitoyl-ACP (n-C16:0ACP))" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_287_MONOMER__c" stoichiometry="1" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_287_MONOMER_palmACP__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_287_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_287_MONOMER_tdeACP" name="Complexation (cis-tetradec-7-enoyl-[acyl-carrier protein] (n-C14:1))" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_287_MONOMER__c" stoichiometry="1" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_287_MONOMER_tdeACP__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_287_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_289_290_291_PENTAMER" name="Complexation (phosphonate ABC transporter)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_289_MONOMER__e" stoichiometry="1" />
+		<speciesReference species="MG_290_MONOMER__c" stoichiometry="2" />
+		<speciesReference species="MG_291_MONOMER__m" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_289_290_291_PENTAMER__m" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+							<ci>min2</ci>
+							<apply>
+							<ci>min2</ci>
+							<apply>
+    <times />
+    <ci>MG_289_MONOMER__e</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							<apply>
+    <times />
+    <ci>MG_290_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+							<apply>
+    <times />
+    <ci>MG_291_MONOMER__m</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_292_TETRAMER" name="Complexation (alanyl-tRNA synthetase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_292_MONOMER__c" stoichiometry="4" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_292_TETRAMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_292_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>4</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_293_DIMER" name="Complexation (glycerophosphoryl diester phosphodiesterase family protein)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_293_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_293_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_293_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_295_MONOMER_ox" name="Complexation (oxidized tRNA U34 sulfurtransferase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_295_MONOMER__c" stoichiometry="1" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_295_MONOMER_ox__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_295_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_299_DIMER" name="Complexation (phosphate acetyltransferase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_299_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_299_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_299_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_301_TETRAMER" name="Complexation (glyceraldehyde-3-phosphate dehydrogenase, type I)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_301_MONOMER__c" stoichiometry="4" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_301_TETRAMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_301_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>4</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_302_303_304_TETRAMER" name="Complexation (metal ion (cobalt) ABC transporter)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_302_MONOMER__m" stoichiometry="2" />
+		<speciesReference species="MG_303_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_304_MONOMER__c" stoichiometry="1" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_302_303_304_TETRAMER__m" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+							<ci>min2</ci>
+							<apply>
+							<ci>min2</ci>
+							<apply>
+    <times />
+    <ci>MG_302_MONOMER__m</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							<apply>
+    <times />
+    <ci>MG_303_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+							<apply>
+    <times />
+    <ci>MG_304_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_316_DIMER" name="Complexation (DNA internalization-related competence protein ComEC/Rec2)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_316_MONOMER__m" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_316_DIMER__m" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_316_MONOMER__m</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_322_323_TETRAMER" name="Complexation (potassium uptake protein, TrkH family, putative)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_322_MONOMER__m" stoichiometry="2" />
+		<speciesReference species="MG_323_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_322_323_TETRAMER__m" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+							<ci>min2</ci>
+							<apply>
+    <times />
+    <ci>MG_322_MONOMER__m</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							<apply>
+    <times />
+    <ci>MG_323_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_333_DIMER" name="Complexation (FMN-dependent NADH-azoreductase, putative)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_333_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_333_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_333_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_336_DIMER" name="Complexation (cysteine desulfurase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_336_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_336_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_336_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_346_DIMER" name="Complexation (23S rRNA methyltransferase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_346_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_346_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_346_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_347_DIMER" name="Complexation (tRNA (guanine-N(7)-)-methyltransferase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_347_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_347_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_347_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_349_HEXAMER" name="Complexation (Replication initiation/membrane attachment protein)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_349_MONOMER__c" stoichiometry="6" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_349_HEXAMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_349_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>6</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_351_HEXAMER" name="Complexation (inorganic pyrophosphatase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_351_MONOMER__c" stoichiometry="6" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_351_HEXAMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_351_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>6</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_352_DIMER" name="Complexation (Holliday junction endonuclease)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_352_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_352_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_352_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_353_DIMER" name="Complexation (DNA-binding protein HU, putative)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_353_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_353_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_353_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_355_HEXAMER" name="Complexation (ATP-dependent Clp protease, ATPase subunit)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_355_MONOMER__c" stoichiometry="6" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_355_HEXAMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_355_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>6</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_357_DIMER" name="Complexation (acetate kinase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_357_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_357_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_357_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_358_359_10MER" name="Complexation (Holliday junction DNA helicase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_358_MONOMER__c" stoichiometry="4" />
+		<speciesReference species="MG_359_MONOMER__c" stoichiometry="6" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_358_359_10MER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+							<ci>min2</ci>
+							<apply>
+    <times />
+    <ci>MG_358_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>4</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							<apply>
+    <times />
+    <ci>MG_359_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>6</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_367_DIMER" name="Complexation (ribonuclease III)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_367_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_367_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_367_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_368_DIMER" name="Complexation (fatty acid/phospholipid synthesis protein PlsX)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_368_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_368_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_368_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_369_DIMER" name="Complexation (DAK2 phosphatase domain protein)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_369_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_369_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_369_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_372_DIMER" name="Complexation (thiamine biosynthesis/tRNA modification protein ThiI)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_372_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_372_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_372_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_375_DIMER" name="Complexation (threonyl-tRNA synthetase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_375_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_375_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_375_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_376_HEXAMER" name="Complexation ()" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_376_MONOMER__c" stoichiometry="6" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_376_HEXAMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_376_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>6</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_382_TETRAMER" name="Complexation (uridine kinase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_382_MONOMER__c" stoichiometry="4" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_382_TETRAMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_382_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>4</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_383_DIMER" name="Complexation (NH(3)-dependent NAD+ synthetase, putative)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_383_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_383_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_383_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_385_DIMER" name="Complexation (glycerophosphoryl diester phosphodiesterase family protein)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_385_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_385_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_385_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_390_DIMER" name="Complexation (toxin ABC transporter, ATP-binding/permease protein)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_390_MONOMER__m" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_390_DIMER__m" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_390_MONOMER__m</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_391_HEXAMER" name="Complexation (cytosol aminopeptidase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_391_MONOMER__c" stoichiometry="6" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_391_HEXAMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_391_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>6</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_392_393_21MER" name="Complexation (GroEL-GroES chaperonin complex)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_392_MONOMER__c" stoichiometry="14" />
+		<speciesReference species="MG_393_MONOMER__c" stoichiometry="7" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_392_393_21MER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+							<ci>min2</ci>
+							<apply>
+    <times />
+    <ci>MG_392_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>14</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							<apply>
+    <times />
+    <ci>MG_393_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>7</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_394_TETRAMER" name="Complexation (serine hydroxymethyltransferase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_394_MONOMER__c" stoichiometry="4" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_394_TETRAMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_394_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>4</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_396_DIMER" name="Complexation (ribose 5-phosphate isomerase B)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_396_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_396_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_396_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_398_399_400_401_402_403_404_405_22MER" name="Complexation (H(+)-transporting two-sector ATPase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_398_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_399_MONOMER__c" stoichiometry="3" />
+		<speciesReference species="MG_400_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_401_MONOMER__c" stoichiometry="3" />
+		<speciesReference species="MG_402_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_403_MONOMER__m" stoichiometry="2" />
+		<speciesReference species="MG_404_MONOMER__m" stoichiometry="10" />
+		<speciesReference species="MG_405_MONOMER__m" stoichiometry="1" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_398_399_400_401_402_403_404_405_22MER__m" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+							<ci>min2</ci>
+							<apply>
+							<ci>min2</ci>
+							<apply>
+							<ci>min2</ci>
+							<apply>
+							<ci>min2</ci>
+							<apply>
+    <times />
+    <ci>MG_398_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							<apply>
+								<ci>min4</ci>
+								<apply>
+    <times />
+    <ci>MG_399_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>3</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+								<apply>
+    <times />
+    <ci>MG_400_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+								<apply>
+    <times />
+    <ci>MG_401_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>3</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+								<apply>
+    <times />
+    <ci>MG_402_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							</apply>
+						</apply>
+							<apply>
+    <times />
+    <ci>MG_403_MONOMER__m</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+							<apply>
+    <times />
+    <ci>MG_404_MONOMER__m</ci>
+    <apply>
+     <power />
+     <cn type='integer'>10</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+							<apply>
+    <times />
+    <ci>MG_405_MONOMER__m</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_407_DIMER" name="Complexation (enolase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_407_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_407_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_407_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_409_DIMER" name="Complexation (phosphate transport system regulatory protein PhoU, putative)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_409_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_409_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_409_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_410_411_412_PENTAMER" name="Complexation (phosphate ABC transporter)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_410_MONOMER__c" stoichiometry="2" />
+		<speciesReference species="MG_411_MONOMER__m" stoichiometry="2" />
+		<speciesReference species="MG_412_MONOMER__e" stoichiometry="1" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_410_411_412_PENTAMER__m" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+							<ci>min2</ci>
+							<apply>
+							<ci>min2</ci>
+							<apply>
+    <times />
+    <ci>MG_410_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							<apply>
+    <times />
+    <ci>MG_411_MONOMER__m</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+							<apply>
+    <times />
+    <ci>MG_412_MONOMER__e</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_425_DIMER" name="Complexation (ATP-dependent RNA helicase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_425_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_425_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_425_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_427_DIMER" name="Complexation (osmotically inducible peroxidase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_427_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_427_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_427_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_427_DIMER_ox" name="Complexation (oxidized osmotically inducible peroxidase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_427_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_427_DIMER_ox__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_427_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_428_DIMER" name="Complexation (LuxR bacterial regulatory protein, putative)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_428_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_428_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_428_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_431_DIMER" name="Complexation (triosephosphate isomerase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_431_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_431_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_431_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_433_DIMER" name="Complexation (translation elongation factor Ts)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_433_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_433_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_433_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_434_HEXAMER" name="Complexation (uridylate kinase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_434_MONOMER__c" stoichiometry="6" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_434_HEXAMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_434_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>6</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_437_DIMER" name="Complexation (phosphatidate cytidylyltransferase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_437_MONOMER__m" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_437_DIMER__m" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_437_MONOMER__m</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_445_DIMER" name="Complexation (tRNA (guanine-N1)-methyltransferase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_445_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_445_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_445_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_451_DIMER" name="Complexation (translation elongation factor Tu)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_451_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_451_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_451_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_453_TETRAMER" name="Complexation (UTP-glucose-1-phosphate uridylyltransferase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_453_MONOMER__c" stoichiometry="4" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_453_TETRAMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_453_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>4</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_454_DIMER" name="Complexation (thiol-dependent peroxidase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_454_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_454_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_454_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_454_DIMER_ox" name="Complexation (oxidized thiol-dependent peroxidase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_454_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_454_DIMER_ox__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_454_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_455_DIMER" name="Complexation (tyrosyl-tRNA synthetase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_455_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_455_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_455_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_457_HEXAMER" name="Complexation (ATP-dependent metalloprotease FtsH)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_457_MONOMER__m" stoichiometry="6" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_457_HEXAMER__m" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_457_MONOMER__m</ci>
+    <apply>
+     <power />
+     <cn type='integer'>6</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_458_TETRAMER" name="Complexation (hypoxanthine phosphoribosyltransferase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_458_MONOMER__c" stoichiometry="4" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_458_TETRAMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_458_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>4</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_460_TETRAMER" name="Complexation (L-lactate dehydrogenase/malate dehydrogenase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_460_MONOMER__c" stoichiometry="4" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_460_TETRAMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_460_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>4</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_467_468_526_TETRAMER" name="Complexation (salivaricin A ABC transporter)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_467_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_468_MONOMER__m" stoichiometry="2" />
+		<speciesReference species="MG_526_MONOMER__c" stoichiometry="1" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_467_468_526_TETRAMER__m" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+							<ci>min2</ci>
+							<apply>
+							<ci>min2</ci>
+							<apply>
+    <times />
+    <ci>MG_467_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							<apply>
+    <times />
+    <ci>MG_468_MONOMER__m</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+							<apply>
+    <times />
+    <ci>MG_526_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_469_1MER_ADP" name="Complexation (DnaA-ADP)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_469_MONOMER__c" stoichiometry="1" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_469_1MER_ADP__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_469_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_469_1MER_ATP" name="Complexation (DnaA-ATP)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_469_MONOMER__c" stoichiometry="1" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_469_1MER_ATP__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_469_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_469_2MER_1ATP_ADP" name="Complexation (DnaA 2mer-(1)ATP-(1)ADP)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_469_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_469_2MER_1ATP_ADP__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_469_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_469_2MER_ATP" name="Complexation (DnaA-ATP 2mer)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_469_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_469_2MER_ATP__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_469_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_469_3MER_2ATP_ADP" name="Complexation (DnaA 3mer-(2)ATP-(1)ADP)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_469_MONOMER__c" stoichiometry="3" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_469_3MER_2ATP_ADP__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_469_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>3</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_469_3MER_ATP" name="Complexation (DnaA-ATP 3mer)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_469_MONOMER__c" stoichiometry="3" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_469_3MER_ATP__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_469_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>3</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_469_4MER_3ATP_ADP" name="Complexation (DnaA 4mer-(3)ATP-(1)ADP)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_469_MONOMER__c" stoichiometry="4" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_469_4MER_3ATP_ADP__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_469_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>4</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_469_4MER_ATP" name="Complexation (DnaA-ATP 4mer)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_469_MONOMER__c" stoichiometry="4" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_469_4MER_ATP__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_469_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>4</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_469_5MER_4ATP_ADP" name="Complexation (DnaA 5mer-(4)ATP-(1)ADP)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_469_MONOMER__c" stoichiometry="5" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_469_5MER_4ATP_ADP__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_469_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>5</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_469_5MER_ATP" name="Complexation (DnaA-ATP 5mer)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_469_MONOMER__c" stoichiometry="5" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_469_5MER_ATP__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_469_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>5</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_469_6MER_5ATP_ADP" name="Complexation (DnaA 6mer-(5)ATP-(1)ADP)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_469_MONOMER__c" stoichiometry="6" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_469_6MER_5ATP_ADP__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_469_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>6</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_469_6MER_ATP" name="Complexation (DnaA-ATP 6mer)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_469_MONOMER__c" stoichiometry="6" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_469_6MER_ATP__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_469_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>6</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_469_7MER_6ATP_ADP" name="Complexation (DnaA 7mer-(6)ATP-(1)ADP)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_469_MONOMER__c" stoichiometry="7" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_469_7MER_6ATP_ADP__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_469_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>7</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_469_7MER_ATP" name="Complexation (DnaA-ATP 7mer)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_469_MONOMER__c" stoichiometry="7" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_469_7MER_ATP__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_469_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>7</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_MG_482_DIMER" name="Complexation (holo-(acyl-carrier-protein) synthase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_482_MONOMER__c" stoichiometry="2" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="MG_482_DIMER__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+    <times />
+    <ci>MG_482_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_REPLISOME" name="Complexation (Replisome)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_001_MONOMER__c" stoichiometry="4" />
+		<speciesReference species="MG_007_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_031_MONOMER__c" stoichiometry="2" />
+		<speciesReference species="MG_094_MONOMER__c" stoichiometry="6" />
+		<speciesReference species="MG_250_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_261_MONOMER__c" stoichiometry="2" />
+		<speciesReference species="MG_315_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_419_MONOMER__c" stoichiometry="4" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="REPLISOME__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+							<ci>min2</ci>
+							<apply>
+							<ci>min2</ci>
+							<apply>
+							<ci>min2</ci>
+							<apply>
+							<ci>min2</ci>
+							<apply>
+    <times />
+    <ci>MG_001_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>4</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							<apply>
+								<ci>min4</ci>
+								<apply>
+    <times />
+    <ci>MG_007_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+								<apply>
+    <times />
+    <ci>MG_031_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+								<apply>
+    <times />
+    <ci>MG_094_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>6</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+								<apply>
+    <times />
+    <ci>MG_250_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							</apply>
+						</apply>
+							<apply>
+    <times />
+    <ci>MG_261_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+							<apply>
+    <times />
+    <ci>MG_315_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+							<apply>
+    <times />
+    <ci>MG_419_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>4</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_RIBOSOME_30S" name="Complexation (30S ribosomal subunit)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_070_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_087_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_088_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_090_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_092_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_150_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_155_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_157_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_160_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_164_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_165_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_168_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_175_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_176_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_481_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_311_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_522_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_417_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_424_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_446_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MGrrnA16S__c" stoichiometry="1" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="RIBOSOME_30S__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+							<ci>min2</ci>
+							<apply>
+    <times />
+    <ci>MG_070_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							<apply>
+								<ci>min4</ci>
+								<apply>
+    <times />
+    <ci>MG_087_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+								<apply>
+    <times />
+    <ci>MG_088_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+								<apply>
+    <times />
+    <ci>MG_090_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+								<apply>
+    <times />
+    <ci>MG_092_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							</apply>
+						</apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_RIBOSOME_30S_IF3" name="Complexation (30S ribosomal subunit - translation initiation factor IF-3 complex)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_070_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_087_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_088_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_090_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_092_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_150_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_155_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_157_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_160_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_164_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_165_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_168_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_175_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_176_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_196_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_481_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_311_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_522_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_417_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_424_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_446_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MGrrnA16S__c" stoichiometry="1" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="RIBOSOME_30S_IF3__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+							<ci>min2</ci>
+							<apply>
+    <times />
+    <ci>MG_070_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							<apply>
+								<ci>min4</ci>
+								<apply>
+    <times />
+    <ci>MG_087_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+								<apply>
+    <times />
+    <ci>MG_088_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+								<apply>
+    <times />
+    <ci>MG_090_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+								<apply>
+    <times />
+    <ci>MG_092_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							</apply>
+						</apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_RIBOSOME_50S" name="Complexation (50S ribosomal subunit)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_473_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_081_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_082_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_093_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_151_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_152_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_153_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_154_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_156_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_158_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_159_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_161_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_162_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_163_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_166_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_167_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_169_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_174_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_178_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_197_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_198_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_232_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_234_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_257_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_325_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_361_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_362_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_363_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_418_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_426_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_444_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_466_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MGrrnA23S__c" stoichiometry="1" />
+		<speciesReference species="MGrrnA5S__c" stoichiometry="1" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="RIBOSOME_50S__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+							<ci>min2</ci>
+							<apply>
+    <times />
+    <ci>MG_473_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							<apply>
+								<ci>min4</ci>
+								<apply>
+    <times />
+    <ci>MG_081_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+								<apply>
+    <times />
+    <ci>MG_082_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+								<apply>
+    <times />
+    <ci>MG_093_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+								<apply>
+    <times />
+    <ci>MG_151_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							</apply>
+						</apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_RIBOSOME_70S" name="Complexation (70S ribosome)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_473_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_070_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_081_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_082_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_087_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_088_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_090_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_092_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_093_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_150_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_151_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_152_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_153_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_154_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_155_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_156_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_157_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_158_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_159_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_160_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_161_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_162_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_163_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_164_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_165_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_166_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_167_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_168_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_169_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_174_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_175_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_176_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_178_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_197_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_198_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_481_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_232_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_234_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_257_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_311_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_325_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_361_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_362_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_363_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_522_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_417_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_418_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_424_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_426_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_444_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_446_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_466_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MGrrnA16S__c" stoichiometry="1" />
+		<speciesReference species="MGrrnA23S__c" stoichiometry="1" />
+		<speciesReference species="MGrrnA5S__c" stoichiometry="1" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="RIBOSOME_70S__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+							<ci>min2</ci>
+							<apply>
+							<ci>min2</ci>
+							<apply>
+    <times />
+    <ci>MG_473_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							<apply>
+								<ci>min4</ci>
+								<apply>
+    <times />
+    <ci>MG_070_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+								<apply>
+    <times />
+    <ci>MG_081_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+								<apply>
+    <times />
+    <ci>MG_082_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+								<apply>
+    <times />
+    <ci>MG_087_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							</apply>
+						</apply>
+							<apply>
+								<ci>min4</ci>
+								<apply>
+    <times />
+    <ci>MG_088_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+								<apply>
+    <times />
+    <ci>MG_090_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+								<apply>
+    <times />
+    <ci>MG_092_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+								<apply>
+    <times />
+    <ci>MG_093_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							</apply>
+						</apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_RNA_POLYMERASE" name="Complexation (DNA-directed RNA polymerase)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_022_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_177_MONOMER__c" stoichiometry="2" />
+		<speciesReference species="MG_340_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_341_MONOMER__c" stoichiometry="1" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="RNA_POLYMERASE__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+							<ci>min2</ci>
+							<apply>
+							<ci>min2</ci>
+							<apply>
+							<ci>min2</ci>
+							<apply>
+    <times />
+    <ci>MG_022_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							<apply>
+    <times />
+    <ci>MG_177_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+							<apply>
+    <times />
+    <ci>MG_340_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+							<apply>
+    <times />
+    <ci>MG_341_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+		</math>
+
+	</kineticLaw>
+</reaction>
+<reaction id="Complexation_RNA_POLYMERASE_HOLOENZYME" name="Complexation (DNA-directed RNA polymerase holoenzyme)" reversible="false" >
+	<listOfReactants>
+		<speciesReference species="MG_022_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_177_MONOMER__c" stoichiometry="2" />
+		<speciesReference species="MG_249_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_340_MONOMER__c" stoichiometry="1" />
+		<speciesReference species="MG_341_MONOMER__c" stoichiometry="1" />
+	</listOfReactants>
+	<listOfProducts>
+		<speciesReference species="RNA_POLYMERASE_HOLOENZYME__c" stoichiometry="1" />
+	</listOfProducts>
+
+	<kineticLaw>
+		<math xmlns='http://www.w3.org/1998/Math/MathML'>
+			<apply>
+							<ci>min2</ci>
+							<apply>
+							<ci>min2</ci>
+							<apply>
+							<ci>min2</ci>
+							<apply>
+							<ci>min2</ci>
+							<apply>
+    <times />
+    <ci>MG_022_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+							<apply>
+    <times />
+    <ci>MG_177_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>2</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+							<apply>
+    <times />
+    <ci>MG_249_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+							<apply>
+    <times />
+    <ci>MG_340_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+							<apply>
+    <times />
+    <ci>MG_341_MONOMER__c</ci>
+    <apply>
+     <power />
+     <cn type='integer'>1</cn>
+     <cn type='integer'>-1</cn>
+    </apply>
+   </apply>
+						</apply>
+		</math>
+
+	</kineticLaw>
+</reaction>

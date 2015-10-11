@@ -1,0 +1,476 @@
+<species id="MG_001_MONOMER__c" name="DNA polymerase III, beta subunit" compartment="c" initialAmount="60"/>
+<species id="MG_003_MONOMER__c" name="DNA gyrase, B subunit" compartment="c" initialAmount="20"/>
+<species id="MG_004_MONOMER__c" name="DNA gyrase, A subunit" compartment="c" initialAmount="1"/>
+<species id="MG_005_MONOMER__c" name="seryl-tRNA synthetase" compartment="c" initialAmount="1"/>
+<species id="MG_006_MONOMER__c" name="thymidylate kinase" compartment="c" initialAmount="1"/>
+<species id="MG_007_MONOMER__c" name="DNA polymerase III delta prime subunit, putative" compartment="c" initialAmount="235"/>
+<species id="MG_008_MONOMER__c" name="tRNA modification GTPase TrmE" compartment="c" initialAmount="215"/>
+<species id="MG_013_MONOMER__c" name="methylenetetrahydrofolate dehydrogenase/methylenetetrahydrofolate cyclohydrolase" compartment="c" initialAmount="0"/>
+<species id="MG_014_MONOMER__m" name="multidrug ABC transporter, ATP-binding/permease protein" compartment="m" initialAmount="1"/>
+<species id="MG_015_MONOMER__m" name="multidrug ABC transporter, ATP-binding/permease protein" compartment="m" initialAmount="0"/>
+<species id="MG_019_MONOMER__c" name="chaperone protein DnaJ" compartment="c" initialAmount="1"/>
+<species id="MG_021_MONOMER__c" name="methionyl-tRNA synthetase" compartment="c" initialAmount="0"/>
+<species id="MG_022_MONOMER__c" name="DNA-directed RNA polymerase, delta subunit" compartment="c" initialAmount="176"/>
+<species id="MG_023_MONOMER__c" name="fructose-1,6-bisphosphate aldolase, class II" compartment="c" initialAmount="1"/>
+<species id="MG_029_MONOMER__c" name="DJ-1/PfpI family protein" compartment="c" initialAmount="0"/>
+<species id="MG_030_MONOMER__c" name="uracil phosphoribosyltransferase" compartment="c" initialAmount="0"/>
+<species id="MG_031_MONOMER__c" name="DNA polymerase III, alpha subunit, Gram-positive type" compartment="c" initialAmount="9"/>
+<species id="MG_033_MONOMER__m" name="glycerol uptake facilitator" compartment="m" initialAmount="0"/>
+<species id="MG_034_MONOMER__c" name="thymidine kinase" compartment="c" initialAmount="1"/>
+<species id="MG_035_MONOMER__c" name="histidyl-tRNA synthetase" compartment="c" initialAmount="0"/>
+<species id="MG_036_MONOMER__c" name="aspartyl-tRNA synthetase" compartment="c" initialAmount="0"/>
+<species id="MG_038_MONOMER__c" name="glycerol kinase" compartment="c" initialAmount="3"/>
+<species id="MG_039_MONOMER__c" name="FAD-dependent glycerol-3-phosphate dehydrogenase, putative" compartment="c" initialAmount="0"/>
+<species id="MG_040_MONOMER__e" name="Monosaccharide (riboside/galactoside) ABC transporter, substrate binding protein" compartment="e" initialAmount="0"/>
+<species id="MG_041_MONOMER__c" name="PTS system, HPr" compartment="c" initialAmount="51"/>
+<species id="MG_042_MONOMER__c" name="spermidine/putrescine (polyamine) ABC transporter, ATP-binding protein, putative" compartment="c" initialAmount="1"/>
+<species id="MG_043_MONOMER__m" name="spermidine/putrescine (polyamine) ABC transporter, permease protein, putative" compartment="m" initialAmount="23"/>
+<species id="MG_044_MONOMER__m" name="spermidine/putrescine (polyamine) ABC transporter, permease protein, putative" compartment="m" initialAmount="31"/>
+<species id="MG_045_MONOMER__e" name="spermidine/putrescine (polyamine) ABC transporter, spermidine/putrescine binding protein, putative" compartment="e" initialAmount="3"/>
+<species id="MG_046_MONOMER__c" name="metalloendopeptidase" compartment="c" initialAmount="0"/>
+<species id="MG_047_MONOMER__c" name="S-adenosylmethionine synthetase" compartment="c" initialAmount="1"/>
+<species id="MG_048_MONOMER__c" name="signal recognition particle protein" compartment="c" initialAmount="6"/>
+<species id="MG_049_MONOMER__c" name="purine nucleoside phosphorylase" compartment="c" initialAmount="4"/>
+<species id="MG_051_MONOMER__c" name="pyrimidine-nucleoside phosphorylase" compartment="c" initialAmount="1"/>
+<species id="MG_052_MONOMER__c" name="cytidine deaminase" compartment="c" initialAmount="1"/>
+<species id="MG_053_MONOMER__c" name="phosphoglucomutase/phosphomannomutase, putative" compartment="c" initialAmount="0"/>
+<species id="MG_055_MONOMER__m" name="preprotein translocase, SecE subunit" compartment="m" initialAmount="255"/>
+<species id="MG_473_MONOMER__c" name="ribosomal protein L33 type 2" compartment="c" initialAmount="133"/>
+<species id="MG_058_MONOMER__c" name="ribose-phosphate pyrophosphokinase" compartment="c" initialAmount="5"/>
+<species id="MG_062_MONOMER__m" name="PTS system, fructose-specific IIABC component" compartment="m" initialAmount="34"/>
+<species id="MG_063_MONOMER__c" name="1-phosphofructokinase, putative" compartment="c" initialAmount="1"/>
+<species id="MG_064_MONOMER__m" name="ABC transporter, permease protein, putative" compartment="m" initialAmount="26"/>
+<species id="MG_065_MONOMER__c" name="ABC transporter, ATP-binding protein" compartment="c" initialAmount="1"/>
+<species id="MG_066_MONOMER__c" name="transketolase" compartment="c" initialAmount="0"/>
+<species id="MG_069_MONOMER__m" name="PTS system, glucose-specific IIABC component" compartment="m" initialAmount="31"/>
+<species id="MG_070_MONOMER__c" name="ribosomal protein S2" compartment="c" initialAmount="127"/>
+<species id="MG_072_MONOMER__c" name="preprotein translocase, SecA subunit" compartment="c" initialAmount="0"/>
+<species id="MG_073_MONOMER__c" name="excinuclease ABC, B subunit" compartment="c" initialAmount="0"/>
+<species id="MG_077_MONOMER__m" name="oligopeptide ABC transporter, permease protein" compartment="m" initialAmount="29"/>
+<species id="MG_078_MONOMER__m" name="oligopeptide ABC transporter, permease protein" compartment="m" initialAmount="30"/>
+<species id="MG_079_MONOMER__c" name="oligopeptide ABC transporter, ATP-binding protein" compartment="c" initialAmount="19"/>
+<species id="MG_080_MONOMER__c" name="oligopeptide ABC transporter, ATP-binding protein" compartment="c" initialAmount="22"/>
+<species id="MG_081_MONOMER__c" name="ribosomal protein L11" compartment="c" initialAmount="128"/>
+<species id="MG_082_MONOMER__c" name="ribosomal protein L1" compartment="c" initialAmount="128"/>
+<species id="MG_084_MONOMER__c" name="tRNA(Ile)-lysidine synthetase" compartment="c" initialAmount="3"/>
+<species id="MG_085_MONOMER__c" name="HPr(Ser) kinase/phosphatase" compartment="c" initialAmount="2"/>
+<species id="MG_087_MONOMER__c" name="ribosomal protein S12" compartment="c" initialAmount="209"/>
+<species id="MG_088_MONOMER__c" name="ribosomal protein S7" compartment="c" initialAmount="164"/>
+<species id="MG_089_MONOMER__c" name="translation elongation factor G" compartment="c" initialAmount="1"/>
+<species id="MG_090_MONOMER__c" name="ribosomal protein S6" compartment="c" initialAmount="120"/>
+<species id="MG_091_MONOMER__c" name="single-strand binding protein family" compartment="c" initialAmount="0"/>
+<species id="MG_092_MONOMER__c" name="ribosomal protein S18" compartment="c" initialAmount="119"/>
+<species id="MG_093_MONOMER__c" name="ribosomal protein L9" compartment="c" initialAmount="163"/>
+<species id="MG_094_MONOMER__c" name="replicative DNA helicase" compartment="c" initialAmount="3"/>
+<species id="MG_098_MONOMER__c" name="glutamyl-tRNA(Gln) and/or aspartyl-tRNA(Asn) amidotransferase, C subunit" compartment="c" initialAmount="13"/>
+<species id="MG_099_MONOMER__c" name="glutamyl-tRNA(Gln) and/or aspartyl-tRNA(Asn) amidotransferase, A subunit" compartment="c" initialAmount="17"/>
+<species id="MG_100_MONOMER__c" name="glutamyl-tRNA(Gln) and/or aspartyl-tRNA(Asn) amidotransferase, B subunit" compartment="c" initialAmount="0"/>
+<species id="MG_102_MONOMER__c" name="thioredoxin-disulfide reductase" compartment="c" initialAmount="0"/>
+<species id="MG_476_MONOMER__m" name="preprotein translocase, SecG subunit" compartment="m" initialAmount="0"/>
+<species id="MG_105_MONOMER__c" name="putative DNA integrity scanning protein" compartment="c" initialAmount="4"/>
+<species id="MG_106_MONOMER__c" name="peptide deformylase" compartment="c" initialAmount="0"/>
+<species id="MG_107_MONOMER__c" name="guanylate kinase" compartment="c" initialAmount="1"/>
+<species id="MG_109_MONOMER__m" name="serine/threonine protein kinase, putative" compartment="m" initialAmount="0"/>
+<species id="MG_111_MONOMER__c" name="glucose-6-phosphate isomerase" compartment="c" initialAmount="0"/>
+<species id="MG_112_MONOMER__c" name="ribulose-phosphate 3-epimerase" compartment="c" initialAmount="0"/>
+<species id="MG_113_MONOMER__c" name="asparaginyl-tRNA synthetase" compartment="c" initialAmount="0"/>
+<species id="MG_114_MONOMER__m" name="CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase" compartment="m" initialAmount="1"/>
+<species id="MG_118_MONOMER__c" name="UDP-glucose 4-epimerase" compartment="c" initialAmount="1"/>
+<species id="MG_119_MONOMER__c" name="Monosaccharide (riboside/galactoside) ABC transporter, ATP-binding protein" compartment="c" initialAmount="37"/>
+<species id="MG_120_MONOMER__m" name="Monosaccharide (riboside/galactoside) ABC transporter, permease protein" compartment="m" initialAmount="139"/>
+<species id="MG_121_MONOMER__m" name="Monosaccharide (riboside/galactoside) ABC transporter, permease protein" compartment="m" initialAmount="155"/>
+<species id="MG_123_MONOMER__m" name="arginine deaminasse" compartment="m" initialAmount="1"/>
+<species id="MG_124_MONOMER__c" name="thioredoxin" compartment="c" initialAmount="28"/>
+<species id="MG_126_MONOMER__c" name="tryptophanyl-tRNA synthetase" compartment="c" initialAmount="1"/>
+<species id="MG_127_MONOMER__c" name="Spx subfamily protein" compartment="c" initialAmount="73"/>
+<species id="MG_128_MONOMER__c" name="inorganic polyphosphate/ATP-NAD kinase, probable" compartment="c" initialAmount="3"/>
+<species id="MG_132_MONOMER__c" name="purine nucleoside phosphoramidase" compartment="c" initialAmount="0"/>
+<species id="MG_136_MONOMER__c" name="lysyl-tRNA synthetase" compartment="c" initialAmount="0"/>
+<species id="MG_137_MONOMER__c" name="UDP-galactopyranose mutase" compartment="c" initialAmount="0"/>
+<species id="MG_139_MONOMER__c" name="ribonuclease J" compartment="c" initialAmount="0"/>
+<species id="MG_150_MONOMER__c" name="ribosomal protein S10" compartment="c" initialAmount="131"/>
+<species id="MG_151_MONOMER__c" name="ribosomal protein L3" compartment="c" initialAmount="146"/>
+<species id="MG_152_MONOMER__c" name="ribosomal protein L4/L1 family" compartment="c" initialAmount="147"/>
+<species id="MG_153_MONOMER__c" name="ribosomal protein L23" compartment="c" initialAmount="142"/>
+<species id="MG_154_MONOMER__c" name="ribosomal protein L2" compartment="c" initialAmount="159"/>
+<species id="MG_155_MONOMER__c" name="ribosomal protein S19" compartment="c" initialAmount="130"/>
+<species id="MG_156_MONOMER__c" name="ribosomal protein L22" compartment="c" initialAmount="145"/>
+<species id="MG_157_MONOMER__c" name="ribosomal protein S3" compartment="c" initialAmount="128"/>
+<species id="MG_158_MONOMER__c" name="ribosomal protein L16" compartment="c" initialAmount="146"/>
+<species id="MG_159_MONOMER__c" name="ribosomal protein L29" compartment="c" initialAmount="159"/>
+<species id="MG_160_MONOMER__c" name="ribosomal protein S17" compartment="c" initialAmount="130"/>
+<species id="MG_161_MONOMER__c" name="ribosomal protein L14" compartment="c" initialAmount="168"/>
+<species id="MG_162_MONOMER__c" name="ribosomal protein L24" compartment="c" initialAmount="128"/>
+<species id="MG_163_MONOMER__c" name="ribosomal protein L5" compartment="c" initialAmount="161"/>
+<species id="MG_164_MONOMER__c" name="ribosomal protein S14" compartment="c" initialAmount="97"/>
+<species id="MG_165_MONOMER__c" name="ribosomal protein S8" compartment="c" initialAmount="89"/>
+<species id="MG_166_MONOMER__c" name="ribosomal protein L6" compartment="c" initialAmount="122"/>
+<species id="MG_167_MONOMER__c" name="ribosomal protein L18" compartment="c" initialAmount="94"/>
+<species id="MG_168_MONOMER__c" name="ribosomal protein S5" compartment="c" initialAmount="105"/>
+<species id="MG_169_MONOMER__c" name="ribosomal protein L15" compartment="c" initialAmount="121"/>
+<species id="MG_170_MONOMER__m" name="preprotein translocase, SecY subunit" compartment="m" initialAmount="3"/>
+<species id="MG_174_MONOMER__c" name="ribosomal protein L36" compartment="c" initialAmount="168"/>
+<species id="MG_175_MONOMER__c" name="ribosomal protein S13" compartment="c" initialAmount="120"/>
+<species id="MG_176_MONOMER__c" name="" compartment="c" initialAmount="113"/>
+<species id="MG_177_MONOMER__c" name="DNA-directed RNA polymerase, alpha subunit" compartment="c" initialAmount="126"/>
+<species id="MG_178_MONOMER__c" name="ribosomal protein L17" compartment="c" initialAmount="149"/>
+<species id="MG_179_MONOMER__c" name="metal ion (cobalt) ABC transporter, ATP-binding protein, putative" compartment="c" initialAmount="8"/>
+<species id="MG_180_MONOMER__c" name="metal ion (cobalt) ABC transporter, ATP-binding protein, putative" compartment="c" initialAmount="25"/>
+<species id="MG_181_MONOMER__m" name="metal ion (cobalt) ABC transporter, permease protein" compartment="m" initialAmount="1"/>
+<species id="MG_182_MONOMER__c" name="tRNA pseudouridine synthase A" compartment="c" initialAmount="1"/>
+<species id="MG_184_MONOMER__c" name="adenine-specific DNA modification methylase" compartment="c" initialAmount="1"/>
+<species id="MG_186_MONOMER__e" name="Oligosaccharide or polyol ABC transporter, substrate binding protein" compartment="e" initialAmount="6"/>
+<species id="MG_187_MONOMER__c" name="Oligosaccharide or polyol ABC transporter, ATP-binding protein" compartment="c" initialAmount="0"/>
+<species id="MG_188_MONOMER__m" name="Oligosaccharide or polyol ABC transporter, permease protein" compartment="m" initialAmount="15"/>
+<species id="MG_189_MONOMER__m" name="Oligosaccharide or polyol ABC transporter, permease protein" compartment="m" initialAmount="17"/>
+<species id="MG_194_MONOMER__c" name="phenylalanyl-tRNA synthetase, alpha subunit" compartment="c" initialAmount="0"/>
+<species id="MG_195_MONOMER__c" name="phenylalanyl-tRNA synthetase, beta subunit" compartment="c" initialAmount="8"/>
+<species id="MG_196_MONOMER__c" name="translation initiation factor IF-3" compartment="c" initialAmount="206"/>
+<species id="MG_197_MONOMER__c" name="ribosomal protein L35" compartment="c" initialAmount="146"/>
+<species id="MG_198_MONOMER__c" name="ribosomal protein L20" compartment="c" initialAmount="142"/>
+<species id="MG_201_MONOMER__c" name="co-chaperone GrpE" compartment="c" initialAmount="0"/>
+<species id="MG_203_MONOMER__c" name="DNA topoisomerase IV, B subunit" compartment="c" initialAmount="1"/>
+<species id="MG_204_MONOMER__c" name="DNA topoisomerase IV, A subunit" compartment="c" initialAmount="2"/>
+<species id="MG_205_MONOMER__c" name="heat-inducible transcription repressor HrcA, putative" compartment="c" initialAmount="1"/>
+<species id="MG_206_MONOMER__c" name="excinuclease ABC, C subunit" compartment="c" initialAmount="7"/>
+<species id="MG_208_MONOMER__c" name="glycoprotease" compartment="c" initialAmount="0"/>
+<species id="MG_481_MONOMER__c" name="30S ribosomal protein S21" compartment="c" initialAmount="119"/>
+<species id="MG_482_MONOMER__c" name="holo-(acyl-carrier-protein) synthase" compartment="c" initialAmount="0"/>
+<species id="MG_213_MONOMER__c" name="segregation and condensation protein A" compartment="c" initialAmount="0"/>
+<species id="MG_214_MONOMER__c" name="segregation and condensation protein B" compartment="c" initialAmount="4"/>
+<species id="MG_215_MONOMER__c" name="6-phosphofructokinase" compartment="c" initialAmount="2"/>
+<species id="MG_216_MONOMER__c" name="pyruvate kinase" compartment="c" initialAmount="2"/>
+<species id="MG_221_MONOMER__c" name="mraZ protein" compartment="c" initialAmount="6"/>
+<species id="MG_224_MONOMER__c" name="cell division protein FtsZ" compartment="c" initialAmount="0"/>
+<species id="MG_225_MONOMER__m" name="amino acid-polyamine-organocation (APC) permease" compartment="m" initialAmount="1"/>
+<species id="MG_226_MONOMER__m" name="amino acid-polyamine-organocation (APC) permease" compartment="m" initialAmount="1"/>
+<species id="MG_227_MONOMER__c" name="thymidylate synthase" compartment="c" initialAmount="0"/>
+<species id="MG_228_MONOMER__c" name="dihydrofolate reductase" compartment="c" initialAmount="3"/>
+<species id="MG_229_MONOMER__c" name="ribonucleoside-diphosphate reductase, beta chain" compartment="c" initialAmount="2"/>
+<species id="MG_231_MONOMER__c" name="ribonucleoside-diphosphate reductase, alpha chain" compartment="c" initialAmount="0"/>
+<species id="MG_232_MONOMER__c" name="ribosomal protein L21" compartment="c" initialAmount="136"/>
+<species id="MG_234_MONOMER__c" name="ribosomal protein L27" compartment="c" initialAmount="127"/>
+<species id="MG_239_MONOMER__c" name="ATP-dependent protease La" compartment="c" initialAmount="5"/>
+<species id="MG_240_MONOMER__c" name="nicotinamide-nucleotide adenylyltransferase/conserved hypothetical protein" compartment="c" initialAmount="3"/>
+<species id="MG_244_MONOMER__c" name="3-5' helicase" compartment="c" initialAmount="1"/>
+<species id="MG_249_MONOMER__c" name="RNA polymerase sigma factor RpoD" compartment="c" initialAmount="13"/>
+<species id="MG_250_MONOMER__c" name="DNA primase" compartment="c" initialAmount="33"/>
+<species id="MG_251_MONOMER__c" name="glycyl-tRNA synthetase" compartment="c" initialAmount="1"/>
+<species id="MG_252_MONOMER__c" name="23S rRNA methyltransferase; G2251" compartment="c" initialAmount="0"/>
+<species id="MG_257_MONOMER__c" name="ribosomal protein L31" compartment="c" initialAmount="114"/>
+<species id="MG_259_MONOMER__c" name="modification methylase" compartment="c" initialAmount="2"/>
+<species id="MG_261_MONOMER__c" name="DNA polymerase III, alpha subunit" compartment="c" initialAmount="0"/>
+<species id="MG_265_MONOMER__c" name="sugar phosphatase" compartment="c" initialAmount="1"/>
+<species id="MG_271_MONOMER__c" name="dihydrolipoamide dehydrogenase" compartment="c" initialAmount="628"/>
+<species id="MG_272_MONOMER__c" name="dihydrolipoamide acetyltransferase" compartment="c" initialAmount="91"/>
+<species id="MG_273_MONOMER__c" name="pyruvate dehydrogenase component E1, beta subunit" compartment="c" initialAmount="34"/>
+<species id="MG_274_MONOMER__c" name="pyruvate dehydrogenase component E1, alpha subunit" compartment="c" initialAmount="38"/>
+<species id="MG_275_MONOMER__m" name="NADH oxidase" compartment="m" initialAmount="3"/>
+<species id="MG_276_MONOMER__c" name="adenine phosphoribosyltransferase" compartment="c" initialAmount="0"/>
+<species id="MG_277_MONOMER__m" name="Protein-export membrane protein secDF" compartment="m" initialAmount="43"/>
+<species id="MG_278_MONOMER__c" name="GTP diphosphokinase" compartment="c" initialAmount="1"/>
+<species id="MG_283_MONOMER__c" name="prolyl-tRNA synthetase" compartment="c" initialAmount="1"/>
+<species id="MG_287_MONOMER__c" name="acyl carrier protein" compartment="c" initialAmount="48"/>
+<species id="MG_289_MONOMER__e" name="phosphonate ABC transporter, substrate binding protein (P37), putative" compartment="e" initialAmount="38"/>
+<species id="MG_290_MONOMER__c" name="phosphonate ABC transporter, ATP-binding protein, putative" compartment="c" initialAmount="1"/>
+<species id="MG_291_MONOMER__m" name="phosphonate ABC transporter, permease protein (P69), putative" compartment="m" initialAmount="25"/>
+<species id="MG_292_MONOMER__c" name="alanyl-tRNA synthetase" compartment="c" initialAmount="2"/>
+<species id="MG_293_MONOMER__c" name="glycerophosphoryl diester phosphodiesterase" compartment="c" initialAmount="1"/>
+<species id="MG_295_MONOMER__c" name="tRNA U34 sulfurtransferase" compartment="c" initialAmount="39"/>
+<species id="MG_298_MONOMER__c" name="chromosome segregation protein SMC" compartment="c" initialAmount="7"/>
+<species id="MG_299_MONOMER__c" name="phosphate acetyltransferase" compartment="c" initialAmount="0"/>
+<species id="MG_301_MONOMER__c" name="glyceraldehyde-3-phosphate dehydrogenase, type I" compartment="c" initialAmount="2"/>
+<species id="MG_302_MONOMER__m" name="metal ion (cobalt) ABC transporter, permease protein, putative" compartment="m" initialAmount="1"/>
+<species id="MG_303_MONOMER__c" name="metal ion (cobalt) ABC transporter, ATP-binding protein, putative" compartment="c" initialAmount="38"/>
+<species id="MG_304_MONOMER__c" name="metal ion (cobalt) ABC transporter, ATP-binding protein, putative" compartment="c" initialAmount="5"/>
+<species id="MG_311_MONOMER__c" name="ribosomal protein S4" compartment="c" initialAmount="97"/>
+<species id="MG_315_MONOMER__c" name="DNA polymerase III, delta subunit, putative" compartment="c" initialAmount="4"/>
+<species id="MG_316_MONOMER__m" name="DNA internalization-related competence protein ComEC/Rec2" compartment="m" initialAmount="0"/>
+<species id="MG_321_MONOMER__e" name="oligopeptide ABC transporter, substrate binding protein" compartment="e" initialAmount="0"/>
+<species id="MG_322_MONOMER__m" name="potassium uptake protein" compartment="m" initialAmount="2"/>
+<species id="MG_323_MONOMER__c" name="potassium uptake protein" compartment="c" initialAmount="0"/>
+<species id="MG_325_MONOMER__c" name="ribosomal protein L33" compartment="c" initialAmount="132"/>
+<species id="MG_333_MONOMER__c" name="FMN-dependent NADH-azoreductase, putative" compartment="c" initialAmount="1"/>
+<species id="MG_336_MONOMER__c" name="cysteine desulfurase" compartment="c" initialAmount="0"/>
+<species id="MG_340_MONOMER__c" name="DNA-directed RNA polymerase, beta subunit" compartment="c" initialAmount="11"/>
+<species id="MG_341_MONOMER__c" name="DNA-directed RNA polymerase, beta subunit" compartment="c" initialAmount="0"/>
+<species id="MG_346_MONOMER__c" name="23S rRNA methyltransferase; U2552" compartment="c" initialAmount="1"/>
+<species id="MG_347_MONOMER__c" name="tRNA (guanine-N(7)-)-methyltransferase" compartment="c" initialAmount="1"/>
+<species id="MG_349_MONOMER__c" name="Replication initiation/membrane attachment protein" compartment="c" initialAmount="1"/>
+<species id="MG_351_MONOMER__c" name="inorganic pyrophosphatase" compartment="c" initialAmount="4"/>
+<species id="MG_352_MONOMER__c" name="Holliday junction endonuclease" compartment="c" initialAmount="0"/>
+<species id="MG_353_MONOMER__c" name="DNA-binding protein HU, putative" compartment="c" initialAmount="1"/>
+<species id="MG_355_MONOMER__c" name="ATP-dependent Clp protease, ATPase subunit" compartment="c" initialAmount="2"/>
+<species id="MG_357_MONOMER__c" name="acetate kinase" compartment="c" initialAmount="1"/>
+<species id="MG_358_MONOMER__c" name="Holliday junction DNA helicase" compartment="c" initialAmount="35"/>
+<species id="MG_359_MONOMER__c" name="Holliday junction DNA helicase RuvB" compartment="c" initialAmount="4"/>
+<species id="MG_361_MONOMER__c" name="ribosomal protein L10" compartment="c" initialAmount="107"/>
+<species id="MG_362_MONOMER__c" name="ribosomal protein L7/L12" compartment="c" initialAmount="118"/>
+<species id="MG_363_MONOMER__c" name="ribosomal protein L32" compartment="c" initialAmount="118"/>
+<species id="MG_522_MONOMER__c" name="ribosomal protein S20" compartment="c" initialAmount="99"/>
+<species id="MG_367_MONOMER__c" name="ribonuclease III" compartment="c" initialAmount="0"/>
+<species id="MG_368_MONOMER__c" name="fatty acid/phospholipid synthesis protein PlsX" compartment="c" initialAmount="1"/>
+<species id="MG_369_MONOMER__c" name="DAK2 phosphatase domain protein" compartment="c" initialAmount="0"/>
+<species id="MG_372_MONOMER__c" name="thiamine biosynthesis/tRNA modification protein ThiI" compartment="c" initialAmount="1"/>
+<species id="MG_375_MONOMER__c" name="threonyl-tRNA synthetase" compartment="c" initialAmount="1"/>
+<species id="MG_376_MONOMER__c" name="" compartment="c" initialAmount="3"/>
+<species id="MG_379_MONOMER__c" name="tRNA uridine 5-carboxymethylaminomethyl modification enzyme GidA" compartment="c" initialAmount="0"/>
+<species id="MG_382_MONOMER__c" name="uridine kinase" compartment="c" initialAmount="2"/>
+<species id="MG_383_MONOMER__c" name="NH(3)-dependent NAD+ synthetase, putative" compartment="c" initialAmount="0"/>
+<species id="MG_385_MONOMER__c" name="glycerophosphoryl diester phosphodiesterase family protein" compartment="c" initialAmount="0"/>
+<species id="MG_390_MONOMER__m" name="toxin ABC transporter, ATP-binding/permease protein" compartment="m" initialAmount="1"/>
+<species id="MG_391_MONOMER__c" name="cytosol aminopeptidase" compartment="c" initialAmount="4"/>
+<species id="MG_392_MONOMER__c" name="chaperonin" compartment="c" initialAmount="3"/>
+<species id="MG_393_MONOMER__c" name="chaperonin, 10 kDa" compartment="c" initialAmount="97"/>
+<species id="MG_394_MONOMER__c" name="serine hydroxymethyltransferase" compartment="c" initialAmount="3"/>
+<species id="MG_396_MONOMER__c" name="ribose 5-phosphate isomerase B" compartment="c" initialAmount="0"/>
+<species id="MG_398_MONOMER__c" name="ATP synthase F1, epsilon subunit" compartment="c" initialAmount="2"/>
+<species id="MG_399_MONOMER__c" name="ATP synthase F1, beta subunit" compartment="c" initialAmount="0"/>
+<species id="MG_400_MONOMER__c" name="ATP synthase F1, gamma subunit" compartment="c" initialAmount="31"/>
+<species id="MG_401_MONOMER__c" name="ATP synthase F1, alpha subunit" compartment="c" initialAmount="16"/>
+<species id="MG_402_MONOMER__c" name="ATP synthase F1, delta subunit" compartment="c" initialAmount="77"/>
+<species id="MG_403_MONOMER__m" name="ATP synthase F0, B subunit" compartment="m" initialAmount="124"/>
+<species id="MG_404_MONOMER__m" name="ATP synthase F0, C subunit" compartment="m" initialAmount="26"/>
+<species id="MG_405_MONOMER__m" name="ATP synthase F0, A subunit" compartment="m" initialAmount="124"/>
+<species id="MG_407_MONOMER__c" name="enolase" compartment="c" initialAmount="0"/>
+<species id="MG_409_MONOMER__c" name="phosphate transport system regulatory protein PhoU, putative" compartment="c" initialAmount="0"/>
+<species id="MG_410_MONOMER__c" name="phosphate ABC transporter, ATP-binding protein" compartment="c" initialAmount="0"/>
+<species id="MG_411_MONOMER__m" name="phosphate ABC transporter, permease protein PstA" compartment="m" initialAmount="15"/>
+<species id="MG_412_MONOMER__e" name="phosphate ABC transporter, substrate-binding protein" compartment="e" initialAmount="28"/>
+<species id="MG_417_MONOMER__c" name="ribosomal protein S9" compartment="c" initialAmount="123"/>
+<species id="MG_418_MONOMER__c" name="ribosomal protein L13" compartment="c" initialAmount="114"/>
+<species id="MG_419_MONOMER__c" name="DNA polymerase III, subunit gamma and tau" compartment="c" initialAmount="2"/>
+<species id="MG_421_MONOMER__c" name="excinuclease ABC, A subunit" compartment="c" initialAmount="20"/>
+<species id="MG_424_MONOMER__c" name="ribosomal protein S15" compartment="c" initialAmount="119"/>
+<species id="MG_425_MONOMER__c" name="ATP-dependent RNA helicase" compartment="c" initialAmount="0"/>
+<species id="MG_426_MONOMER__c" name="ribosomal protein L28" compartment="c" initialAmount="152"/>
+<species id="MG_427_MONOMER__c" name="osmotically inducible peroxidase" compartment="c" initialAmount="0"/>
+<species id="MG_428_MONOMER__c" name="LuxR bacterial regulatory protein, putative" compartment="c" initialAmount="1"/>
+<species id="MG_429_MONOMER__c" name="PTS system, E1" compartment="c" initialAmount="0"/>
+<species id="MG_431_MONOMER__c" name="triosephosphate isomerase" compartment="c" initialAmount="1"/>
+<species id="MG_433_MONOMER__c" name="translation elongation factor Ts" compartment="c" initialAmount="0"/>
+<species id="MG_434_MONOMER__c" name="uridylate kinase" compartment="c" initialAmount="3"/>
+<species id="MG_437_MONOMER__m" name="phosphatidate cytidylyltransferase" compartment="m" initialAmount="1"/>
+<species id="MG_444_MONOMER__c" name="ribosomal protein L19" compartment="c" initialAmount="140"/>
+<species id="MG_445_MONOMER__c" name="tRNA (guanine-N1)-methyltransferase" compartment="c" initialAmount="1"/>
+<species id="MG_446_MONOMER__c" name="ribosomal protein S16" compartment="c" initialAmount="109"/>
+<species id="MG_451_MONOMER__c" name="translation elongation factor Tu" compartment="c" initialAmount="0"/>
+<species id="MG_453_MONOMER__c" name="UTP-glucose-1-phosphate uridylyltransferase" compartment="c" initialAmount="1"/>
+<species id="MG_454_MONOMER__c" name="thiol-dependent peroxidase" compartment="c" initialAmount="0"/>
+<species id="MG_455_MONOMER__c" name="tyrosyl-tRNA synthetase" compartment="c" initialAmount="1"/>
+<species id="MG_457_MONOMER__m" name="ATP-dependent metalloprotease FtsH" compartment="m" initialAmount="4"/>
+<species id="MG_458_MONOMER__c" name="hypoxanthine phosphoribosyltransferase" compartment="c" initialAmount="2"/>
+<species id="MG_460_MONOMER__c" name="L-lactate dehydrogenase/malate dehydrogenase" compartment="c" initialAmount="0"/>
+<species id="MG_464_MONOMER__m" name="inner-membrane protein insertion factor" compartment="m" initialAmount="0"/>
+<species id="MG_465_MONOMER__c" name="ribonuclease P protein component" compartment="c" initialAmount="11"/>
+<species id="MG_466_MONOMER__c" name="ribosomal protein L34" compartment="c" initialAmount="134"/>
+<species id="MG_467_MONOMER__c" name="salivaricin A ABC transporter, ATP-binding protein" compartment="c" initialAmount="13"/>
+<species id="MG_468_MONOMER__m" name="salivaricin A ABC transporter, permease protein" compartment="m" initialAmount="1"/>
+<species id="MG_526_MONOMER__c" name="salivaricin A ABC transporter, ATP-binding protein" compartment="c" initialAmount="6"/>
+<species id="MG_469_MONOMER__c" name="chromosomal replication initiator protein DnaA" compartment="c" initialAmount="0"/>
+<species id="MGrrnA16S__c" name="16S ribosomal rRNA" compartment="c" initialAmount="0"/>
+<species id="MGrrnA23S__c" name="23S ribosomal rRNA" compartment="c" initialAmount="0"/>
+<species id="MGrrnA5S__c" name="5S ribosomal rRNA" compartment="c" initialAmount="29"/>
+<species id="MG_0001__c" name="scRNA, signal recognition particle 4.5S RNA, MCS1" compartment="c" initialAmount="0"/>
+<species id="MG_0003__c" name="Rnase P RNA, MCS5, M1 RNA" compartment="c" initialAmount="0"/>
+<species id="DNA_GYRASE__c" name="DNA gyrase" compartment="c" initialAmount="50"/>
+<species id="DNA_POLYMERASE_2CORE_BETA_CLAMP_GAMMA_COMPLEX_PRIMASE__c" name="DNA polymerase (2) core, XX-clamp, XX-complex, and primase" compartment="c" initialAmount="0"/>
+<species id="DNA_POLYMERASE_CORE__c" name="DNA-directed DNA polymerase" compartment="c" initialAmount="26"/>
+<species id="DNA_POLYMERASE_CORE_BETA_CLAMP_GAMMA_COMPLEX__c" name="DNA polymerase core, beta-clamp, and gamma-complex" compartment="c" initialAmount="0"/>
+<species id="DNA_POLYMERASE_CORE_BETA_CLAMP_PRIMASE__c" name="DNA polymerase core, beta-clamp, and primase" compartment="c" initialAmount="0"/>
+<species id="DNA_POLYMERASE_GAMMA_COMPLEX__c" name="DNA-directed DNA polymerase gamma complex" compartment="c" initialAmount="14"/>
+<species id="DNA_POLYMERASE_HOLOENZYME__c" name="DNA-directed DNA polymerase holoenzyme" compartment="c" initialAmount="0"/>
+<species id="MG_0001_048__c" name="signal recognition particle" compartment="c" initialAmount="29"/>
+<species id="MG_0003_465__c" name="ribonuclease P" compartment="c" initialAmount="25"/>
+<species id="MG_001_DIMER__c" name="DNA polymerase III, beta clamp" compartment="c" initialAmount="0"/>
+<species id="MG_005_DIMER__c" name="seryl-tRNA synthetase" compartment="c" initialAmount="118"/>
+<species id="MG_006_DIMER__c" name="thymidylate kinase" compartment="c" initialAmount="134"/>
+<species id="MG_008_379_TETRAMER__c" name="tRNA uridine 5-carboxymethylaminomethyl modification enzyme" compartment="c" initialAmount="18"/>
+<species id="MG_013_DIMER__c" name="methylenetetrahydrofolate dehydrogenase/methylenetetrahydrofolate cyclohydrolase" compartment="c" initialAmount="9"/>
+<species id="MG_014_015_DIMER__m" name="multidrug ABC transporter" compartment="m" initialAmount="21"/>
+<species id="MG_019_DIMER__c" name="chaperone protein DnaJ" compartment="c" initialAmount="25"/>
+<species id="MG_021_DIMER__c" name="methionyl-tRNA synthetase" compartment="c" initialAmount="20"/>
+<species id="MG_023_DIMER__c" name="fructose-1,6-bisphosphate aldolase, class II" compartment="c" initialAmount="127"/>
+<species id="MG_029_DIMER__c" name="DJ-1/PfpI family protein" compartment="c" initialAmount="21"/>
+<species id="MG_030_TRIMER__c" name="uracil phosphoribosyltransferase" compartment="c" initialAmount="15"/>
+<species id="MG_033_TETRAMER__m" name="glycerol uptake facilitator" compartment="m" initialAmount="16"/>
+<species id="MG_034_DIMER__c" name="thymidine kinase" compartment="c" initialAmount="23"/>
+<species id="MG_035_DIMER__c" name="histidyl-tRNA synthetase" compartment="c" initialAmount="19"/>
+<species id="MG_036_DIMER__c" name="aspartyl-tRNA synthetase" compartment="c" initialAmount="21"/>
+<species id="MG_038_TETRAMER__c" name="glycerol kinase" compartment="c" initialAmount="15"/>
+<species id="MG_039_DIMER__c" name="FAD-dependent glycerol-3-phosphate dehydrogenase, putative" compartment="c" initialAmount="12"/>
+<species id="MG_040_119_120_121_PENTAMER__m" name="Monosaccharide (riboside/galactoside) ABC transporter" compartment="m" initialAmount="44"/>
+<species id="MG_041_062_429_PENTAMER__m" name="PTS system, fructose-specific" compartment="m" initialAmount="17"/>
+<species id="MG_041_069_429_PENTAMER__m" name="PTS system, glucose-specific" compartment="m" initialAmount="8"/>
+<species id="MG_042_043_044_045_PENTAMER__m" name="spermidine/putrescine (polyamine) ABC transporter" compartment="m" initialAmount="18"/>
+<species id="MG_046_DIMER__c" name="metalloendopeptidase" compartment="c" initialAmount="21"/>
+<species id="MG_047_TETRAMER__c" name="S-adenosylmethionine synthetase" compartment="c" initialAmount="13"/>
+<species id="MG_049_HEXAMER__c" name="purine nucleoside phosphorylase" compartment="c" initialAmount="21"/>
+<species id="MG_051_DIMER__c" name="pyrimidine-nucleoside phosphorylase" compartment="c" initialAmount="59"/>
+<species id="MG_052_DIMER__c" name="cytidine deaminase" compartment="c" initialAmount="32"/>
+<species id="MG_053_TRIMER__c" name="phosphoglucomutase/phosphomannomutase, putative" compartment="c" initialAmount="23"/>
+<species id="MG_055_170_277_464_476_20MER__m" name="preprotein translocase" compartment="m" initialAmount="13"/>
+<species id="MG_058_HEXAMER__c" name="ribose-phosphate pyrophosphokinase" compartment="c" initialAmount="8"/>
+<species id="MG_063_DIMER__c" name="1-phosphofructokinase, putative" compartment="c" initialAmount="20"/>
+<species id="MG_064_065_TETRAMER__m" name="ABC transporter" compartment="m" initialAmount="16"/>
+<species id="MG_066_DIMER__c" name="transketolase" compartment="c" initialAmount="24"/>
+<species id="MG_072_DIMER__c" name="preprotein translocase, SecA subunit" compartment="c" initialAmount="13"/>
+<species id="MG_073_206_421_TETRAMER__c" name="DNA incision complex" compartment="c" initialAmount="16"/>
+<species id="MG_077_078_079_080_321_PENTAMER__m" name="oligopeptide ABC transporter" compartment="m" initialAmount="7"/>
+<species id="MG_084_TETRAMER__c" name="tRNA(Ile)-lysidine synthetase" compartment="c" initialAmount="18"/>
+<species id="MG_085_HEXAMER__c" name="HPr(Ser) kinase/phosphatase" compartment="c" initialAmount="14"/>
+<species id="MG_089_DIMER__c" name="translation elongation factor G" compartment="c" initialAmount="133"/>
+<species id="MG_091_OCTAMER__c" name="single-strand binding protein family, octamer" compartment="c" initialAmount="0"/>
+<species id="MG_091_TETRAMER__c" name="single-strand binding protein family, tetramer" compartment="c" initialAmount="65"/>
+<species id="MG_094_HEXAMER__c" name="replicative DNA helicase" compartment="c" initialAmount="36"/>
+<species id="MG_098_099_100_TRIMER__c" name="glutamyl-tRNA(Gln) and/or aspartyl-tRNA(Asn) amidotransferase" compartment="c" initialAmount="139"/>
+<species id="MG_102_DIMER__c" name="thioredoxin-disulfide reductase" compartment="c" initialAmount="22"/>
+<species id="MG_102_DIMER_ox__c" name="oxidized thioredoxin-disulfide reductase" compartment="c" initialAmount="0"/>
+<species id="MG_105_OCTAMER__c" name="putative DNA integrity scanning protein" compartment="c" initialAmount="11"/>
+<species id="MG_106_DIMER__c" name="peptide deformylase" compartment="c" initialAmount="22"/>
+<species id="MG_107_DIMER__c" name="guanylate kinase" compartment="c" initialAmount="25"/>
+<species id="MG_109_DIMER__m" name="serine/threonine protein kinase, putative" compartment="m" initialAmount="34"/>
+<species id="MG_111_DIMER__c" name="glucose-6-phosphate isomerase" compartment="c" initialAmount="18"/>
+<species id="MG_112_DIMER__c" name="ribulose-phosphate 3-epimerase" compartment="c" initialAmount="19"/>
+<species id="MG_113_DIMER__c" name="asparaginyl-tRNA synthetase" compartment="c" initialAmount="18"/>
+<species id="MG_114_DIMER__m" name="CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase" compartment="m" initialAmount="19"/>
+<species id="MG_118_DIMER__c" name="UDP-glucose 4-epimerase" compartment="c" initialAmount="12"/>
+<species id="MG_123_DIMER__m" name="arginine deaminase" compartment="m" initialAmount="11"/>
+<species id="MG_124_MONOMER_ox__c" name="oxidized thioredoxin" compartment="c" initialAmount="0"/>
+<species id="MG_126_DIMER__c" name="tryptophanyl-tRNA synthetase" compartment="c" initialAmount="13"/>
+<species id="MG_127_MONOMER_ox__c" name="oxidized Spx subfamily protein" compartment="c" initialAmount="0"/>
+<species id="MG_128_HEXAMER__c" name="inorganic polyphosphate/ATP-NAD kinase, probable" compartment="c" initialAmount="9"/>
+<species id="MG_132_DIMER__c" name="purine nucleoside phosphoramidase" compartment="c" initialAmount="14"/>
+<species id="MG_136_DIMER__c" name="lysyl-tRNA synthetase" compartment="c" initialAmount="23"/>
+<species id="MG_137_DIMER__c" name="UDP-galactopyranose mutase" compartment="c" initialAmount="25"/>
+<species id="MG_139_DIMER__c" name="ribonuclease J" compartment="c" initialAmount="10"/>
+<species id="MG_179_180_181_TETRAMER__m" name="metal ion (cobalt) ABC transporter" compartment="m" initialAmount="14"/>
+<species id="MG_182_DIMER__c" name="Pseudouridylate synthase" compartment="c" initialAmount="13"/>
+<species id="MG_184_DIMER__c" name="adenine-specific DNA modification methylase" compartment="c" initialAmount="29"/>
+<species id="MG_186_187_188_189_PENTAMER__m" name="Oligosaccharide or polyol ABC transporter" compartment="m" initialAmount="18"/>
+<species id="MG_194_195_TETRAMER__c" name="phenylalanyl-tRNA synthetase" compartment="c" initialAmount="27"/>
+<species id="MG_201_DIMER__c" name="co-chaperone GrpE" compartment="c" initialAmount="11"/>
+<species id="MG_203_204_TETRAMER__c" name="topoisomerase IV" compartment="c" initialAmount="12"/>
+<species id="MG_205_DIMER__c" name="heat-inducible transcription repressor HrcA, putative" compartment="c" initialAmount="23"/>
+<species id="MG_208_DIMER__c" name="glycoprotease family protein" compartment="c" initialAmount="24"/>
+<species id="MG_213_214_298_6MER__c" name="chromosome segregation protein SMC" compartment="c" initialAmount="5"/>
+<species id="MG_213_214_298_6MER_ADP__c" name="Chromosome Segregation Protein SMC with SCP Proteins-ADP" compartment="c" initialAmount="81"/>
+<species id="MG_215_TETRAMER__c" name="6-phosphofructokinase" compartment="c" initialAmount="18"/>
+<species id="MG_216_TETRAMER__c" name="pyruvate kinase" compartment="c" initialAmount="19"/>
+<species id="MG_221_OCTAMER__c" name="mraZ protein" compartment="c" initialAmount="12"/>
+<species id="MG_224_2MER_GTP__c" name="cell division protein ftsZ activated 2mer" compartment="c" initialAmount="1"/>
+<species id="MG_224_3MER_GTP__c" name="cell division protein ftsZ activated 3mer" compartment="c" initialAmount="1"/>
+<species id="MG_224_4MER_GTP__c" name="cell division protein ftsZ activated 4mer" compartment="c" initialAmount="2"/>
+<species id="MG_224_5MER_GTP__c" name="cell division protein ftsZ activated 5mer" compartment="c" initialAmount="3"/>
+<species id="MG_224_6MER_GTP__c" name="cell division protein ftsZ activated 6mer" compartment="c" initialAmount="5"/>
+<species id="MG_224_7MER_GTP__c" name="cell division protein ftsZ activated 7mer" compartment="c" initialAmount="8"/>
+<species id="MG_224_8MER_GTP__c" name="cell division protein ftsZ activated 8mer" compartment="c" initialAmount="12"/>
+<species id="MG_224_9MER_GDP__c" name="cell division protein ftsZ deactivated 9mer" compartment="c" initialAmount="0"/>
+<species id="MG_224_9MER_GTP__c" name="cell division protein ftsZ activated 9mer" compartment="c" initialAmount="20"/>
+<species id="MG_224_MONOMER_GDP__c" name="cell division protein ftsZ hydrolysed" compartment="c" initialAmount="3"/>
+<species id="MG_224_MONOMER_GTP__c" name="cell division protein ftsZ activated" compartment="c" initialAmount="6"/>
+<species id="MG_225_DIMER__m" name="amino acid transporter" compartment="m" initialAmount="15"/>
+<species id="MG_226_DIMER__m" name="amino acid transporter" compartment="m" initialAmount="14"/>
+<species id="MG_227_DIMER__c" name="thymidylate synthase" compartment="c" initialAmount="22"/>
+<species id="MG_228_TETRAMER__c" name="dihydrofolate reductase" compartment="c" initialAmount="15"/>
+<species id="MG_229_231_TETRAMER__c" name="ribonucleoside-diphosphate reductase" compartment="c" initialAmount="30"/>
+<species id="MG_229_231_TETRAMER_ox__c" name="oxidized ribonucleoside-diphosphate reductase" compartment="c" initialAmount="0"/>
+<species id="MG_239_HEXAMER__c" name="ATP-dependent protease La" compartment="c" initialAmount="14"/>
+<species id="MG_240_HEXAMER__c" name="nicotinamide-nucleotide adenylyltransferase/conserved hypothetical protein" compartment="c" initialAmount="13"/>
+<species id="MG_244_DIMER__c" name="3-5' helicase" compartment="c" initialAmount="8"/>
+<species id="MG_251_DIMER__c" name="glycyl-tRNA synthetase" compartment="c" initialAmount="14"/>
+<species id="MG_252_DIMER__c" name="23S rRNA methyltransferase" compartment="c" initialAmount="9"/>
+<species id="MG_259_TETRAMER__c" name="modification methylase" compartment="c" initialAmount="48"/>
+<species id="MG_265_DIMER__c" name="sugar phosphatase" compartment="c" initialAmount="40"/>
+<species id="MG_271_272_273_274_192MER__c" name="pyruvate dehydrogenase" compartment="c" initialAmount="11"/>
+<species id="MG_271_272_273_274_192MER_ox__c" name="oxidized dihydrolipoamide dehydrogenase" compartment="c" initialAmount="0"/>
+<species id="MG_275_TETRAMER__m" name="NADH oxidase" compartment="m" initialAmount="242"/>
+<species id="MG_276_DIMER__c" name="adenine phosphoribosyltransferase" compartment="c" initialAmount="24"/>
+<species id="MG_278_DIMER__c" name="GTP pyrophosphokinase" compartment="c" initialAmount="16"/>
+<species id="MG_283_DIMER__c" name="prolyl-tRNA synthetase" compartment="c" initialAmount="14"/>
+<species id="MG_287_MONOMER_ACP__c" name="holo acyl carrier protein" compartment="c" initialAmount="0"/>
+<species id="MG_287_MONOMER_ddcaACP__c" name="Dodecanoyl-ACP (n-C12:0ACP)" compartment="c" initialAmount="0"/>
+<species id="MG_287_MONOMER_hdeACP__c" name="cis-hexadec-9-enoyl-[acyl-carrier protein] (n-C16:1)" compartment="c" initialAmount="0"/>
+<species id="MG_287_MONOMER_myrsACP__c" name="Myristoyl-ACP (n-C14:0ACP)" compartment="c" initialAmount="0"/>
+<species id="MG_287_MONOMER_ocdcaACP__c" name="Octadecanoyl-ACP (n-C18:0ACP)" compartment="c" initialAmount="0"/>
+<species id="MG_287_MONOMER_octeACP__c" name="cis-octadec-11-enoyl-[acyl-carrier protein] (n-C18:1)" compartment="c" initialAmount="0"/>
+<species id="MG_287_MONOMER_palmACP__c" name="Palmitoyl-ACP (n-C16:0ACP)" compartment="c" initialAmount="0"/>
+<species id="MG_287_MONOMER_tdeACP__c" name="cis-tetradec-7-enoyl-[acyl-carrier protein] (n-C14:1)" compartment="c" initialAmount="0"/>
+<species id="MG_289_290_291_PENTAMER__m" name="phosphonate ABC transporter" compartment="m" initialAmount="15"/>
+<species id="MG_292_TETRAMER__c" name="alanyl-tRNA synthetase" compartment="c" initialAmount="18"/>
+<species id="MG_293_DIMER__c" name="glycerophosphoryl diester phosphodiesterase family protein" compartment="c" initialAmount="33"/>
+<species id="MG_295_MONOMER_ox__c" name="oxidized tRNA U34 sulfurtransferase" compartment="c" initialAmount="0"/>
+<species id="MG_299_DIMER__c" name="phosphate acetyltransferase" compartment="c" initialAmount="22"/>
+<species id="MG_301_TETRAMER__c" name="glyceraldehyde-3-phosphate dehydrogenase, type I" compartment="c" initialAmount="15"/>
+<species id="MG_302_303_304_TETRAMER__m" name="metal ion (cobalt) ABC transporter" compartment="m" initialAmount="16"/>
+<species id="MG_316_DIMER__m" name="DNA internalization-related competence protein ComEC/Rec2" compartment="m" initialAmount="21"/>
+<species id="MG_322_323_TETRAMER__m" name="potassium uptake protein, TrkH family, putative" compartment="m" initialAmount="10"/>
+<species id="MG_333_DIMER__c" name="FMN-dependent NADH-azoreductase, putative" compartment="c" initialAmount="15"/>
+<species id="MG_336_DIMER__c" name="cysteine desulfurase" compartment="c" initialAmount="15"/>
+<species id="MG_346_DIMER__c" name="23S rRNA methyltransferase" compartment="c" initialAmount="13"/>
+<species id="MG_347_DIMER__c" name="tRNA (guanine-N(7)-)-methyltransferase" compartment="c" initialAmount="11"/>
+<species id="MG_349_HEXAMER__c" name="Replication initiation/membrane attachment protein" compartment="c" initialAmount="13"/>
+<species id="MG_351_HEXAMER__c" name="inorganic pyrophosphatase" compartment="c" initialAmount="11"/>
+<species id="MG_352_DIMER__c" name="Holliday junction endonuclease" compartment="c" initialAmount="18"/>
+<species id="MG_353_DIMER__c" name="DNA-binding protein HU, putative" compartment="c" initialAmount="16"/>
+<species id="MG_355_HEXAMER__c" name="ATP-dependent Clp protease, ATPase subunit" compartment="c" initialAmount="13"/>
+<species id="MG_357_DIMER__c" name="acetate kinase" compartment="c" initialAmount="54"/>
+<species id="MG_358_359_10MER__c" name="Holliday junction DNA helicase" compartment="c" initialAmount="13"/>
+<species id="MG_367_DIMER__c" name="ribonuclease III" compartment="c" initialAmount="13"/>
+<species id="MG_368_DIMER__c" name="fatty acid/phospholipid synthesis protein PlsX" compartment="c" initialAmount="14"/>
+<species id="MG_369_DIMER__c" name="DAK2 phosphatase domain protein" compartment="c" initialAmount="14"/>
+<species id="MG_372_DIMER__c" name="thiamine biosynthesis/tRNA modification protein ThiI" compartment="c" initialAmount="108"/>
+<species id="MG_375_DIMER__c" name="threonyl-tRNA synthetase" compartment="c" initialAmount="124"/>
+<species id="MG_376_HEXAMER__c" name="" compartment="c" initialAmount="16"/>
+<species id="MG_382_TETRAMER__c" name="uridine kinase" compartment="c" initialAmount="10"/>
+<species id="MG_383_DIMER__c" name="NH(3)-dependent NAD+ synthetase, putative" compartment="c" initialAmount="16"/>
+<species id="MG_385_DIMER__c" name="glycerophosphoryl diester phosphodiesterase family protein" compartment="c" initialAmount="10"/>
+<species id="MG_390_DIMER__m" name="toxin ABC transporter, ATP-binding/permease protein" compartment="m" initialAmount="16"/>
+<species id="MG_391_HEXAMER__c" name="cytosol aminopeptidase" compartment="c" initialAmount="35"/>
+<species id="MG_392_393_21MER__c" name="GroEL-GroES chaperonin complex" compartment="c" initialAmount="13"/>
+<species id="MG_394_TETRAMER__c" name="serine hydroxymethyltransferase" compartment="c" initialAmount="14"/>
+<species id="MG_396_DIMER__c" name="ribose 5-phosphate isomerase B" compartment="c" initialAmount="27"/>
+<species id="MG_398_399_400_401_402_403_404_405_22MER__m" name="H(+)-transporting two-sector ATPase" compartment="m" initialAmount="11"/>
+<species id="MG_407_DIMER__c" name="enolase" compartment="c" initialAmount="34"/>
+<species id="MG_409_DIMER__c" name="phosphate transport system regulatory protein PhoU, putative" compartment="c" initialAmount="16"/>
+<species id="MG_410_411_412_PENTAMER__m" name="phosphate ABC transporter" compartment="m" initialAmount="17"/>
+<species id="MG_425_DIMER__c" name="ATP-dependent RNA helicase" compartment="c" initialAmount="9"/>
+<species id="MG_427_DIMER__c" name="osmotically inducible peroxidase" compartment="c" initialAmount="17"/>
+<species id="MG_427_DIMER_ox__c" name="oxidized osmotically inducible peroxidase" compartment="c" initialAmount="0"/>
+<species id="MG_428_DIMER__c" name="LuxR bacterial regulatory protein, putative" compartment="c" initialAmount="10"/>
+<species id="MG_431_DIMER__c" name="triosephosphate isomerase" compartment="c" initialAmount="25"/>
+<species id="MG_433_DIMER__c" name="translation elongation factor Ts" compartment="c" initialAmount="122"/>
+<species id="MG_434_HEXAMER__c" name="uridylate kinase" compartment="c" initialAmount="14"/>
+<species id="MG_437_DIMER__m" name="phosphatidate cytidylyltransferase" compartment="m" initialAmount="13"/>
+<species id="MG_445_DIMER__c" name="tRNA (guanine-N1)-methyltransferase" compartment="c" initialAmount="107"/>
+<species id="MG_451_DIMER__c" name="translation elongation factor Tu" compartment="c" initialAmount="139"/>
+<species id="MG_453_TETRAMER__c" name="UTP-glucose-1-phosphate uridylyltransferase" compartment="c" initialAmount="9"/>
+<species id="MG_454_DIMER__c" name="thiol-dependent peroxidase" compartment="c" initialAmount="29"/>
+<species id="MG_454_DIMER_ox__c" name="oxidized thiol-dependent peroxidase" compartment="c" initialAmount="0"/>
+<species id="MG_455_DIMER__c" name="tyrosyl-tRNA synthetase" compartment="c" initialAmount="95"/>
+<species id="MG_457_HEXAMER__m" name="ATP-dependent metalloprotease FtsH" compartment="m" initialAmount="70"/>
+<species id="MG_458_TETRAMER__c" name="hypoxanthine phosphoribosyltransferase" compartment="c" initialAmount="17"/>
+<species id="MG_460_TETRAMER__c" name="L-lactate dehydrogenase/malate dehydrogenase" compartment="c" initialAmount="13"/>
+<species id="MG_467_468_526_TETRAMER__m" name="salivaricin A ABC transporter" compartment="m" initialAmount="26"/>
+<species id="MG_469_1MER_ADP__c" name="DnaA-ADP" compartment="c" initialAmount="0"/>
+<species id="MG_469_1MER_ATP__c" name="DnaA-ATP" compartment="c" initialAmount="25"/>
+<species id="MG_469_2MER_1ATP_ADP__c" name="DnaA 2mer-(1)ATP-(1)ADP" compartment="c" initialAmount="0"/>
+<species id="MG_469_2MER_ATP__c" name="DnaA-ATP 2mer" compartment="c" initialAmount="0"/>
+<species id="MG_469_3MER_2ATP_ADP__c" name="DnaA 3mer-(2)ATP-(1)ADP" compartment="c" initialAmount="0"/>
+<species id="MG_469_3MER_ATP__c" name="DnaA-ATP 3mer" compartment="c" initialAmount="0"/>
+<species id="MG_469_4MER_3ATP_ADP__c" name="DnaA 4mer-(3)ATP-(1)ADP" compartment="c" initialAmount="0"/>
+<species id="MG_469_4MER_ATP__c" name="DnaA-ATP 4mer" compartment="c" initialAmount="0"/>
+<species id="MG_469_5MER_4ATP_ADP__c" name="DnaA 5mer-(4)ATP-(1)ADP" compartment="c" initialAmount="0"/>
+<species id="MG_469_5MER_ATP__c" name="DnaA-ATP 5mer" compartment="c" initialAmount="0"/>
+<species id="MG_469_6MER_5ATP_ADP__c" name="DnaA 6mer-(5)ATP-(1)ADP" compartment="c" initialAmount="0"/>
+<species id="MG_469_6MER_ATP__c" name="DnaA-ATP 6mer" compartment="c" initialAmount="0"/>
+<species id="MG_469_7MER_6ATP_ADP__c" name="DnaA 7mer-(6)ATP-(1)ADP" compartment="c" initialAmount="0"/>
+<species id="MG_469_7MER_ATP__c" name="DnaA-ATP 7mer" compartment="c" initialAmount="4"/>
+<species id="MG_482_DIMER__c" name="holo-(acyl-carrier-protein) synthase" compartment="c" initialAmount="13"/>
+<species id="REPLISOME__c" name="Replisome" compartment="c" initialAmount="0"/>
+<species id="RIBOSOME_30S__c" name="30S ribosomal subunit" compartment="c" initialAmount="25"/>
+<species id="RIBOSOME_30S_IF3__c" name="30S ribosomal subunit - translation initiation factor IF-3 complex" compartment="c" initialAmount="0"/>
+<species id="RIBOSOME_50S__c" name="50S ribosomal subunit" compartment="c" initialAmount="12"/>
+<species id="RIBOSOME_70S__c" name="70S ribosome" compartment="c" initialAmount="56"/>
+<species id="RNA_POLYMERASE__c" name="DNA-directed RNA polymerase" compartment="c" initialAmount="40"/>
+<species id="RNA_POLYMERASE_HOLOENZYME__c" name="DNA-directed RNA polymerase holoenzyme" compartment="c" initialAmount="0"/>
