@@ -15,61 +15,49 @@
 
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
-		<apply>
-			<times />
-			<ci>k_tRnaAa_MG471</ci>
+			<apply>
+				<divide/>
+				<apply>
+					<times />
+					<ci>k_tRnaAa_MG471</ci>
 			<ci>MG471__c</ci>
 			<ci>ALA__c</ci>
 			<ci>ATP__c</ci>
 			<ci>MG_292_TETRAMER__c</ci>
 
-			<apply>
-			<power />
-			<apply>
-				<times />
+				</apply>
+				<apply>
+					<times />
+					
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>MG471__c</ci>
-						<apply>
-							<power />
-							<ci>KM1</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM1</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>ALA__c</ci>
-						<apply>
-							<power />
-							<ci>KM2</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM2</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>ATP__c</ci>
-						<apply>
-							<power />
-							<ci>KM3</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM3</ci>
 					</apply>
 				</apply>
+				</apply>
 			</apply>
-			<cn type='integer'>-1</cn>
-			</apply>
-		</apply>
 		</math>
 	<listOfParameters>
 		<parameter id="KM1" value="1" />
@@ -95,61 +83,49 @@
 
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
-		<apply>
-			<times />
-			<ci>k_tRnaAa_MG472</ci>
+			<apply>
+				<divide/>
+				<apply>
+					<times />
+					<ci>k_tRnaAa_MG472</ci>
 			<ci>MG472__c</ci>
 			<ci>ATP__c</ci>
 			<ci>ILE__c</ci>
 			<ci>MG_345_MONOMER__c</ci>
 
-			<apply>
-			<power />
-			<apply>
-				<times />
+				</apply>
+				<apply>
+					<times />
+					
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>MG472__c</ci>
-						<apply>
-							<power />
-							<ci>KM1</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM1</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>ATP__c</ci>
-						<apply>
-							<power />
-							<ci>KM2</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM2</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>ILE__c</ci>
-						<apply>
-							<power />
-							<ci>KM3</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM3</ci>
 					</apply>
 				</apply>
+				</apply>
 			</apply>
-			<cn type='integer'>-1</cn>
-			</apply>
-		</apply>
 		</math>
 	<listOfParameters>
 		<parameter id="KM1" value="1" />
@@ -175,61 +151,49 @@
 
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
-		<apply>
-			<times />
-			<ci>k_tRnaAa_MG475</ci>
+			<apply>
+				<divide/>
+				<apply>
+					<times />
+					<ci>k_tRnaAa_MG475</ci>
 			<ci>MG475__c</ci>
 			<ci>ATP__c</ci>
 			<ci>SER__c</ci>
 			<ci>MG_005_DIMER__c</ci>
 
-			<apply>
-			<power />
-			<apply>
-				<times />
+				</apply>
+				<apply>
+					<times />
+					
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>MG475__c</ci>
-						<apply>
-							<power />
-							<ci>KM1</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM1</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>ATP__c</ci>
-						<apply>
-							<power />
-							<ci>KM2</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM2</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>SER__c</ci>
-						<apply>
-							<power />
-							<ci>KM3</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM3</ci>
 					</apply>
 				</apply>
+				</apply>
 			</apply>
-			<cn type='integer'>-1</cn>
-			</apply>
-		</apply>
 		</math>
 	<listOfParameters>
 		<parameter id="KM1" value="1" />
@@ -255,61 +219,49 @@
 
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
-		<apply>
-			<times />
-			<ci>k_tRnaAa_MG479</ci>
+			<apply>
+				<divide/>
+				<apply>
+					<times />
+					<ci>k_tRnaAa_MG479</ci>
 			<ci>MG479__c</ci>
 			<ci>ATP__c</ci>
 			<ci>THR__c</ci>
 			<ci>MG_375_DIMER__c</ci>
 
-			<apply>
-			<power />
-			<apply>
-				<times />
+				</apply>
+				<apply>
+					<times />
+					
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>MG479__c</ci>
-						<apply>
-							<power />
-							<ci>KM1</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM1</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>ATP__c</ci>
-						<apply>
-							<power />
-							<ci>KM2</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM2</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>THR__c</ci>
-						<apply>
-							<power />
-							<ci>KM3</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM3</ci>
 					</apply>
 				</apply>
+				</apply>
 			</apply>
-			<cn type='integer'>-1</cn>
-			</apply>
-		</apply>
 		</math>
 	<listOfParameters>
 		<parameter id="KM1" value="1" />
@@ -335,61 +287,49 @@
 
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
-		<apply>
-			<times />
-			<ci>k_tRnaAa_MG483</ci>
+			<apply>
+				<divide/>
+				<apply>
+					<times />
+					<ci>k_tRnaAa_MG483</ci>
 			<ci>MG483__c</ci>
 			<ci>ATP__c</ci>
 			<ci>CYS__c</ci>
 			<ci>MG_253_MONOMER__c</ci>
 
-			<apply>
-			<power />
-			<apply>
-				<times />
+				</apply>
+				<apply>
+					<times />
+					
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>MG483__c</ci>
-						<apply>
-							<power />
-							<ci>KM1</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM1</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>ATP__c</ci>
-						<apply>
-							<power />
-							<ci>KM2</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM2</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>CYS__c</ci>
-						<apply>
-							<power />
-							<ci>KM3</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM3</ci>
 					</apply>
 				</apply>
+				</apply>
 			</apply>
-			<cn type='integer'>-1</cn>
-			</apply>
-		</apply>
 		</math>
 	<listOfParameters>
 		<parameter id="KM1" value="1" />
@@ -415,61 +355,49 @@
 
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
-		<apply>
-			<times />
-			<ci>k_tRnaAa_MG484</ci>
+			<apply>
+				<divide/>
+				<apply>
+					<times />
+					<ci>k_tRnaAa_MG484</ci>
 			<ci>MG484__c</ci>
 			<ci>ATP__c</ci>
 			<ci>PRO__c</ci>
 			<ci>MG_283_DIMER__c</ci>
 
-			<apply>
-			<power />
-			<apply>
-				<times />
+				</apply>
+				<apply>
+					<times />
+					
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>MG484__c</ci>
-						<apply>
-							<power />
-							<ci>KM1</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM1</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>ATP__c</ci>
-						<apply>
-							<power />
-							<ci>KM2</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM2</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>PRO__c</ci>
-						<apply>
-							<power />
-							<ci>KM3</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM3</ci>
 					</apply>
 				</apply>
+				</apply>
 			</apply>
-			<cn type='integer'>-1</cn>
-			</apply>
-		</apply>
 		</math>
 	<listOfParameters>
 		<parameter id="KM1" value="1" />
@@ -495,61 +423,49 @@
 
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
-		<apply>
-			<times />
-			<ci>k_tRnaAa_MG485</ci>
+			<apply>
+				<divide/>
+				<apply>
+					<times />
+					<ci>k_tRnaAa_MG485</ci>
 			<ci>MG485__c</ci>
 			<ci>ATP__c</ci>
 			<ci>MET__c</ci>
 			<ci>MG_021_DIMER__c</ci>
 
-			<apply>
-			<power />
-			<apply>
-				<times />
+				</apply>
+				<apply>
+					<times />
+					
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>MG485__c</ci>
-						<apply>
-							<power />
-							<ci>KM1</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM1</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>ATP__c</ci>
-						<apply>
-							<power />
-							<ci>KM2</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM2</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>MET__c</ci>
-						<apply>
-							<power />
-							<ci>KM3</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM3</ci>
 					</apply>
 				</apply>
+				</apply>
 			</apply>
-			<cn type='integer'>-1</cn>
-			</apply>
-		</apply>
 		</math>
 	<listOfParameters>
 		<parameter id="KM1" value="1" />
@@ -575,61 +491,49 @@
 
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
-		<apply>
-			<times />
-			<ci>k_tRnaAa_MG486</ci>
+			<apply>
+				<divide/>
+				<apply>
+					<times />
+					<ci>k_tRnaAa_MG486</ci>
 			<ci>MG486__c</ci>
 			<ci>ATP__c</ci>
 			<ci>ILE__c</ci>
 			<ci>MG_345_MONOMER__c</ci>
 
-			<apply>
-			<power />
-			<apply>
-				<times />
+				</apply>
+				<apply>
+					<times />
+					
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>MG486__c</ci>
-						<apply>
-							<power />
-							<ci>KM1</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM1</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>ATP__c</ci>
-						<apply>
-							<power />
-							<ci>KM2</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM2</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>ILE__c</ci>
-						<apply>
-							<power />
-							<ci>KM3</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM3</ci>
 					</apply>
 				</apply>
+				</apply>
 			</apply>
-			<cn type='integer'>-1</cn>
-			</apply>
-		</apply>
 		</math>
 	<listOfParameters>
 		<parameter id="KM1" value="1" />
@@ -655,61 +559,49 @@
 
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
-		<apply>
-			<times />
-			<ci>k_tRnaAa_MG487</ci>
+			<apply>
+				<divide/>
+				<apply>
+					<times />
+					<ci>k_tRnaAa_MG487</ci>
 			<ci>MG487__c</ci>
 			<ci>ATP__c</ci>
 			<ci>SER__c</ci>
 			<ci>MG_005_DIMER__c</ci>
 
-			<apply>
-			<power />
-			<apply>
-				<times />
+				</apply>
+				<apply>
+					<times />
+					
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>MG487__c</ci>
-						<apply>
-							<power />
-							<ci>KM1</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM1</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>ATP__c</ci>
-						<apply>
-							<power />
-							<ci>KM2</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM2</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>SER__c</ci>
-						<apply>
-							<power />
-							<ci>KM3</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM3</ci>
 					</apply>
 				</apply>
+				</apply>
 			</apply>
-			<cn type='integer'>-1</cn>
-			</apply>
-		</apply>
 		</math>
 	<listOfParameters>
 		<parameter id="KM1" value="1" />
@@ -738,9 +630,11 @@
 
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
-		<apply>
-			<times />
-			<ci>k_tRnaAa_MG488</ci>
+			<apply>
+				<divide/>
+				<apply>
+					<times />
+					<ci>k_tRnaAa_MG488</ci>
 			<ci>MG488__c</ci>
 			<ci>ATP__c</ci>
 			<ci>FTHF10__c</ci>
@@ -748,66 +642,48 @@
 			<ci>MG_365_MONOMER__c</ci>
 			<ci>MG_021_DIMER__c</ci>
 
-			<apply>
-			<power />
-			<apply>
-				<times />
+				</apply>
+				<apply>
+					<times />
+					
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>MG488__c</ci>
-						<apply>
-							<power />
-							<ci>KM1</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM1</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>ATP__c</ci>
-						<apply>
-							<power />
-							<ci>KM2</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM2</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>FTHF10__c</ci>
-						<apply>
-							<power />
-							<ci>KM3</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM3</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>MET__c</ci>
-						<apply>
-							<power />
-							<ci>KM4</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM4</ci>
 					</apply>
 				</apply>
+				</apply>
 			</apply>
-			<cn type='integer'>-1</cn>
-			</apply>
-		</apply>
 		</math>
 	<listOfParameters>
 		<parameter id="KM1" value="1" />
@@ -834,61 +710,49 @@
 
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
-		<apply>
-			<times />
-			<ci>k_tRnaAa_MG489</ci>
+			<apply>
+				<divide/>
+				<apply>
+					<times />
+					<ci>k_tRnaAa_MG489</ci>
 			<ci>MG489__c</ci>
 			<ci>ASP__c</ci>
 			<ci>ATP__c</ci>
 			<ci>MG_036_DIMER__c</ci>
 
-			<apply>
-			<power />
-			<apply>
-				<times />
+				</apply>
+				<apply>
+					<times />
+					
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>MG489__c</ci>
-						<apply>
-							<power />
-							<ci>KM1</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM1</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>ASP__c</ci>
-						<apply>
-							<power />
-							<ci>KM2</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM2</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>ATP__c</ci>
-						<apply>
-							<power />
-							<ci>KM3</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM3</ci>
 					</apply>
 				</apply>
+				</apply>
 			</apply>
-			<cn type='integer'>-1</cn>
-			</apply>
-		</apply>
 		</math>
 	<listOfParameters>
 		<parameter id="KM1" value="1" />
@@ -914,61 +778,49 @@
 
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
-		<apply>
-			<times />
-			<ci>k_tRnaAa_MG490</ci>
+			<apply>
+				<divide/>
+				<apply>
+					<times />
+					<ci>k_tRnaAa_MG490</ci>
 			<ci>MG490__c</ci>
 			<ci>ATP__c</ci>
 			<ci>PHE__c</ci>
 			<ci>MG_194_195_TETRAMER__c</ci>
 
-			<apply>
-			<power />
-			<apply>
-				<times />
+				</apply>
+				<apply>
+					<times />
+					
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>MG490__c</ci>
-						<apply>
-							<power />
-							<ci>KM1</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM1</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>ATP__c</ci>
-						<apply>
-							<power />
-							<ci>KM2</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM2</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>PHE__c</ci>
-						<apply>
-							<power />
-							<ci>KM3</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM3</ci>
 					</apply>
 				</apply>
+				</apply>
 			</apply>
-			<cn type='integer'>-1</cn>
-			</apply>
-		</apply>
 		</math>
 	<listOfParameters>
 		<parameter id="KM1" value="1" />
@@ -994,61 +846,49 @@
 
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
-		<apply>
-			<times />
-			<ci>k_tRnaAa_MG492</ci>
+			<apply>
+				<divide/>
+				<apply>
+					<times />
+					<ci>k_tRnaAa_MG492</ci>
 			<ci>MG492__c</ci>
 			<ci>ARG__c</ci>
 			<ci>ATP__c</ci>
 			<ci>MG_378_MONOMER__c</ci>
 
-			<apply>
-			<power />
-			<apply>
-				<times />
+				</apply>
+				<apply>
+					<times />
+					
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>MG492__c</ci>
-						<apply>
-							<power />
-							<ci>KM1</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM1</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>ARG__c</ci>
-						<apply>
-							<power />
-							<ci>KM2</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM2</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>ATP__c</ci>
-						<apply>
-							<power />
-							<ci>KM3</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM3</ci>
 					</apply>
 				</apply>
+				</apply>
 			</apply>
-			<cn type='integer'>-1</cn>
-			</apply>
-		</apply>
 		</math>
 	<listOfParameters>
 		<parameter id="KM1" value="1" />
@@ -1074,61 +914,49 @@
 
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
-		<apply>
-			<times />
-			<ci>k_tRnaAa_MG493</ci>
+			<apply>
+				<divide/>
+				<apply>
+					<times />
+					<ci>k_tRnaAa_MG493</ci>
 			<ci>MG493__c</ci>
 			<ci>ATP__c</ci>
 			<ci>GLY__c</ci>
 			<ci>MG_251_DIMER__c</ci>
 
-			<apply>
-			<power />
-			<apply>
-				<times />
+				</apply>
+				<apply>
+					<times />
+					
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>MG493__c</ci>
-						<apply>
-							<power />
-							<ci>KM1</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM1</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>ATP__c</ci>
-						<apply>
-							<power />
-							<ci>KM2</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM2</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>GLY__c</ci>
-						<apply>
-							<power />
-							<ci>KM3</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM3</ci>
 					</apply>
 				</apply>
+				</apply>
 			</apply>
-			<cn type='integer'>-1</cn>
-			</apply>
-		</apply>
 		</math>
 	<listOfParameters>
 		<parameter id="KM1" value="1" />
@@ -1154,61 +982,49 @@
 
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
-		<apply>
-			<times />
-			<ci>k_tRnaAa_MG495</ci>
+			<apply>
+				<divide/>
+				<apply>
+					<times />
+					<ci>k_tRnaAa_MG495</ci>
 			<ci>MG495__c</ci>
 			<ci>ARG__c</ci>
 			<ci>ATP__c</ci>
 			<ci>MG_378_MONOMER__c</ci>
 
-			<apply>
-			<power />
-			<apply>
-				<times />
+				</apply>
+				<apply>
+					<times />
+					
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>MG495__c</ci>
-						<apply>
-							<power />
-							<ci>KM1</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM1</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>ARG__c</ci>
-						<apply>
-							<power />
-							<ci>KM2</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM2</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>ATP__c</ci>
-						<apply>
-							<power />
-							<ci>KM3</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM3</ci>
 					</apply>
 				</apply>
+				</apply>
 			</apply>
-			<cn type='integer'>-1</cn>
-			</apply>
-		</apply>
 		</math>
 	<listOfParameters>
 		<parameter id="KM1" value="1" />
@@ -1234,61 +1050,49 @@
 
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
-		<apply>
-			<times />
-			<ci>k_tRnaAa_MG496</ci>
+			<apply>
+				<divide/>
+				<apply>
+					<times />
+					<ci>k_tRnaAa_MG496</ci>
 			<ci>MG496__c</ci>
 			<ci>ATP__c</ci>
 			<ci>TRP__c</ci>
 			<ci>MG_126_DIMER__c</ci>
 
-			<apply>
-			<power />
-			<apply>
-				<times />
+				</apply>
+				<apply>
+					<times />
+					
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>MG496__c</ci>
-						<apply>
-							<power />
-							<ci>KM1</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM1</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>ATP__c</ci>
-						<apply>
-							<power />
-							<ci>KM2</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM2</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>TRP__c</ci>
-						<apply>
-							<power />
-							<ci>KM3</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM3</ci>
 					</apply>
 				</apply>
+				</apply>
 			</apply>
-			<cn type='integer'>-1</cn>
-			</apply>
-		</apply>
 		</math>
 	<listOfParameters>
 		<parameter id="KM1" value="1" />
@@ -1314,61 +1118,49 @@
 
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
-		<apply>
-			<times />
-			<ci>k_tRnaAa_MG497</ci>
+			<apply>
+				<divide/>
+				<apply>
+					<times />
+					<ci>k_tRnaAa_MG497</ci>
 			<ci>MG497__c</ci>
 			<ci>ARG__c</ci>
 			<ci>ATP__c</ci>
 			<ci>MG_378_MONOMER__c</ci>
 
-			<apply>
-			<power />
-			<apply>
-				<times />
+				</apply>
+				<apply>
+					<times />
+					
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>MG497__c</ci>
-						<apply>
-							<power />
-							<ci>KM1</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM1</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>ARG__c</ci>
-						<apply>
-							<power />
-							<ci>KM2</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM2</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>ATP__c</ci>
-						<apply>
-							<power />
-							<ci>KM3</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM3</ci>
 					</apply>
 				</apply>
+				</apply>
 			</apply>
-			<cn type='integer'>-1</cn>
-			</apply>
-		</apply>
 		</math>
 	<listOfParameters>
 		<parameter id="KM1" value="1" />
@@ -1394,61 +1186,49 @@
 
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
-		<apply>
-			<times />
-			<ci>k_tRnaAa_MG499</ci>
+			<apply>
+				<divide/>
+				<apply>
+					<times />
+					<ci>k_tRnaAa_MG499</ci>
 			<ci>MG499__c</ci>
 			<ci>ATP__c</ci>
 			<ci>GLY__c</ci>
 			<ci>MG_251_DIMER__c</ci>
 
-			<apply>
-			<power />
-			<apply>
-				<times />
+				</apply>
+				<apply>
+					<times />
+					
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>MG499__c</ci>
-						<apply>
-							<power />
-							<ci>KM1</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM1</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>ATP__c</ci>
-						<apply>
-							<power />
-							<ci>KM2</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM2</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>GLY__c</ci>
-						<apply>
-							<power />
-							<ci>KM3</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM3</ci>
 					</apply>
 				</apply>
+				</apply>
 			</apply>
-			<cn type='integer'>-1</cn>
-			</apply>
-		</apply>
 		</math>
 	<listOfParameters>
 		<parameter id="KM1" value="1" />
@@ -1474,61 +1254,49 @@
 
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
-		<apply>
-			<times />
-			<ci>k_tRnaAa_MG500</ci>
+			<apply>
+				<divide/>
+				<apply>
+					<times />
+					<ci>k_tRnaAa_MG500</ci>
 			<ci>MG500__c</ci>
 			<ci>ATP__c</ci>
 			<ci>LEU__c</ci>
 			<ci>MG_266_MONOMER__c</ci>
 
-			<apply>
-			<power />
-			<apply>
-				<times />
+				</apply>
+				<apply>
+					<times />
+					
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>MG500__c</ci>
-						<apply>
-							<power />
-							<ci>KM1</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM1</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>ATP__c</ci>
-						<apply>
-							<power />
-							<ci>KM2</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM2</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>LEU__c</ci>
-						<apply>
-							<power />
-							<ci>KM3</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM3</ci>
 					</apply>
 				</apply>
+				</apply>
 			</apply>
-			<cn type='integer'>-1</cn>
-			</apply>
-		</apply>
 		</math>
 	<listOfParameters>
 		<parameter id="KM1" value="1" />
@@ -1554,61 +1322,49 @@
 
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
-		<apply>
-			<times />
-			<ci>k_tRnaAa_MG501</ci>
+			<apply>
+				<divide/>
+				<apply>
+					<times />
+					<ci>k_tRnaAa_MG501</ci>
 			<ci>MG501__c</ci>
 			<ci>ATP__c</ci>
 			<ci>LYS__c</ci>
 			<ci>MG_136_DIMER__c</ci>
 
-			<apply>
-			<power />
-			<apply>
-				<times />
+				</apply>
+				<apply>
+					<times />
+					
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>MG501__c</ci>
-						<apply>
-							<power />
-							<ci>KM1</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM1</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>ATP__c</ci>
-						<apply>
-							<power />
-							<ci>KM2</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM2</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>LYS__c</ci>
-						<apply>
-							<power />
-							<ci>KM3</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM3</ci>
 					</apply>
 				</apply>
+				</apply>
 			</apply>
-			<cn type='integer'>-1</cn>
-			</apply>
-		</apply>
 		</math>
 	<listOfParameters>
 		<parameter id="KM1" value="1" />
@@ -1639,9 +1395,11 @@
 
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
-		<apply>
-			<times />
-			<ci>k_tRnaAa_MG502</ci>
+			<apply>
+				<divide/>
+				<apply>
+					<times />
+					<ci>k_tRnaAa_MG502</ci>
 			<ci>MG502__c</ci>
 			<ci>ATP__c</ci>
 			<ci>H2O__c</ci>
@@ -1649,66 +1407,48 @@
 			<ci>MG_462_MONOMER__c</ci>
 			<ci>MG_098_099_100_TRIMER__c</ci>
 
-			<apply>
-			<power />
-			<apply>
-				<times />
+				</apply>
+				<apply>
+					<times />
+					
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>MG502__c</ci>
-						<apply>
-							<power />
-							<ci>KM1</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM1</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>ATP__c</ci>
-						<apply>
-							<power />
-							<ci>KM2</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM2</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>H2O__c</ci>
-						<apply>
-							<power />
-							<ci>KM3</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM3</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>GLN__c</ci>
-						<apply>
-							<power />
-							<ci>KM4</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM4</ci>
 					</apply>
 				</apply>
+				</apply>
 			</apply>
-			<cn type='integer'>-1</cn>
-			</apply>
-		</apply>
 		</math>
 	<listOfParameters>
 		<parameter id="KM1" value="1" />
@@ -1735,61 +1475,49 @@
 
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
-		<apply>
-			<times />
-			<ci>k_tRnaAa_MG503</ci>
+			<apply>
+				<divide/>
+				<apply>
+					<times />
+					<ci>k_tRnaAa_MG503</ci>
 			<ci>MG503__c</ci>
 			<ci>ATP__c</ci>
 			<ci>TYR__c</ci>
 			<ci>MG_455_DIMER__c</ci>
 
-			<apply>
-			<power />
-			<apply>
-				<times />
+				</apply>
+				<apply>
+					<times />
+					
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>MG503__c</ci>
-						<apply>
-							<power />
-							<ci>KM1</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM1</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>ATP__c</ci>
-						<apply>
-							<power />
-							<ci>KM2</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM2</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>TYR__c</ci>
-						<apply>
-							<power />
-							<ci>KM3</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM3</ci>
 					</apply>
 				</apply>
+				</apply>
 			</apply>
-			<cn type='integer'>-1</cn>
-			</apply>
-		</apply>
 		</math>
 	<listOfParameters>
 		<parameter id="KM1" value="1" />
@@ -1815,61 +1543,49 @@
 
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
-		<apply>
-			<times />
-			<ci>k_tRnaAa_MG504</ci>
+			<apply>
+				<divide/>
+				<apply>
+					<times />
+					<ci>k_tRnaAa_MG504</ci>
 			<ci>MG504__c</ci>
 			<ci>ATP__c</ci>
 			<ci>TRP__c</ci>
 			<ci>MG_126_DIMER__c</ci>
 
-			<apply>
-			<power />
-			<apply>
-				<times />
+				</apply>
+				<apply>
+					<times />
+					
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>MG504__c</ci>
-						<apply>
-							<power />
-							<ci>KM1</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM1</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>ATP__c</ci>
-						<apply>
-							<power />
-							<ci>KM2</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM2</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>TRP__c</ci>
-						<apply>
-							<power />
-							<ci>KM3</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM3</ci>
 					</apply>
 				</apply>
+				</apply>
 			</apply>
-			<cn type='integer'>-1</cn>
-			</apply>
-		</apply>
 		</math>
 	<listOfParameters>
 		<parameter id="KM1" value="1" />
@@ -1895,61 +1611,49 @@
 
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
-		<apply>
-			<times />
-			<ci>k_tRnaAa_MG506</ci>
+			<apply>
+				<divide/>
+				<apply>
+					<times />
+					<ci>k_tRnaAa_MG506</ci>
 			<ci>MG506__c</ci>
 			<ci>ATP__c</ci>
 			<ci>SER__c</ci>
 			<ci>MG_005_DIMER__c</ci>
 
-			<apply>
-			<power />
-			<apply>
-				<times />
+				</apply>
+				<apply>
+					<times />
+					
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>MG506__c</ci>
-						<apply>
-							<power />
-							<ci>KM1</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM1</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>ATP__c</ci>
-						<apply>
-							<power />
-							<ci>KM2</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM2</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>SER__c</ci>
-						<apply>
-							<power />
-							<ci>KM3</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM3</ci>
 					</apply>
 				</apply>
+				</apply>
 			</apply>
-			<cn type='integer'>-1</cn>
-			</apply>
-		</apply>
 		</math>
 	<listOfParameters>
 		<parameter id="KM1" value="1" />
@@ -1975,61 +1679,49 @@
 
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
-		<apply>
-			<times />
-			<ci>k_tRnaAa_MG507</ci>
+			<apply>
+				<divide/>
+				<apply>
+					<times />
+					<ci>k_tRnaAa_MG507</ci>
 			<ci>MG507__c</ci>
 			<ci>ATP__c</ci>
 			<ci>SER__c</ci>
 			<ci>MG_005_DIMER__c</ci>
 
-			<apply>
-			<power />
-			<apply>
-				<times />
+				</apply>
+				<apply>
+					<times />
+					
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>MG507__c</ci>
-						<apply>
-							<power />
-							<ci>KM1</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM1</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>ATP__c</ci>
-						<apply>
-							<power />
-							<ci>KM2</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM2</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>SER__c</ci>
-						<apply>
-							<power />
-							<ci>KM3</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM3</ci>
 					</apply>
 				</apply>
+				</apply>
 			</apply>
-			<cn type='integer'>-1</cn>
-			</apply>
-		</apply>
 		</math>
 	<listOfParameters>
 		<parameter id="KM1" value="1" />
@@ -2055,61 +1747,49 @@
 
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
-		<apply>
-			<times />
-			<ci>k_tRnaAa_MG508</ci>
+			<apply>
+				<divide/>
+				<apply>
+					<times />
+					<ci>k_tRnaAa_MG508</ci>
 			<ci>MG508__c</ci>
 			<ci>ATP__c</ci>
 			<ci>LEU__c</ci>
 			<ci>MG_266_MONOMER__c</ci>
 
-			<apply>
-			<power />
-			<apply>
-				<times />
+				</apply>
+				<apply>
+					<times />
+					
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>MG508__c</ci>
-						<apply>
-							<power />
-							<ci>KM1</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM1</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>ATP__c</ci>
-						<apply>
-							<power />
-							<ci>KM2</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM2</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>LEU__c</ci>
-						<apply>
-							<power />
-							<ci>KM3</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM3</ci>
 					</apply>
 				</apply>
+				</apply>
 			</apply>
-			<cn type='integer'>-1</cn>
-			</apply>
-		</apply>
 		</math>
 	<listOfParameters>
 		<parameter id="KM1" value="1" />
@@ -2135,61 +1815,49 @@
 
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
-		<apply>
-			<times />
-			<ci>k_tRnaAa_MG509</ci>
+			<apply>
+				<divide/>
+				<apply>
+					<times />
+					<ci>k_tRnaAa_MG509</ci>
 			<ci>MG509__c</ci>
 			<ci>ATP__c</ci>
 			<ci>LYS__c</ci>
 			<ci>MG_136_DIMER__c</ci>
 
-			<apply>
-			<power />
-			<apply>
-				<times />
+				</apply>
+				<apply>
+					<times />
+					
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>MG509__c</ci>
-						<apply>
-							<power />
-							<ci>KM1</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM1</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>ATP__c</ci>
-						<apply>
-							<power />
-							<ci>KM2</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM2</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>LYS__c</ci>
-						<apply>
-							<power />
-							<ci>KM3</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM3</ci>
 					</apply>
 				</apply>
+				</apply>
 			</apply>
-			<cn type='integer'>-1</cn>
-			</apply>
-		</apply>
 		</math>
 	<listOfParameters>
 		<parameter id="KM1" value="1" />
@@ -2215,61 +1883,49 @@
 
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
-		<apply>
-			<times />
-			<ci>k_tRnaAa_MG510</ci>
+			<apply>
+				<divide/>
+				<apply>
+					<times />
+					<ci>k_tRnaAa_MG510</ci>
 			<ci>MG510__c</ci>
 			<ci>ATP__c</ci>
 			<ci>THR__c</ci>
 			<ci>MG_375_DIMER__c</ci>
 
-			<apply>
-			<power />
-			<apply>
-				<times />
+				</apply>
+				<apply>
+					<times />
+					
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>MG510__c</ci>
-						<apply>
-							<power />
-							<ci>KM1</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM1</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>ATP__c</ci>
-						<apply>
-							<power />
-							<ci>KM2</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM2</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>THR__c</ci>
-						<apply>
-							<power />
-							<ci>KM3</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM3</ci>
 					</apply>
 				</apply>
+				</apply>
 			</apply>
-			<cn type='integer'>-1</cn>
-			</apply>
-		</apply>
 		</math>
 	<listOfParameters>
 		<parameter id="KM1" value="1" />
@@ -2295,61 +1951,49 @@
 
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
-		<apply>
-			<times />
-			<ci>k_tRnaAa_MG511</ci>
+			<apply>
+				<divide/>
+				<apply>
+					<times />
+					<ci>k_tRnaAa_MG511</ci>
 			<ci>MG511__c</ci>
 			<ci>ATP__c</ci>
 			<ci>VAL__c</ci>
 			<ci>MG_334_MONOMER__c</ci>
 
-			<apply>
-			<power />
-			<apply>
-				<times />
+				</apply>
+				<apply>
+					<times />
+					
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>MG511__c</ci>
-						<apply>
-							<power />
-							<ci>KM1</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM1</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>ATP__c</ci>
-						<apply>
-							<power />
-							<ci>KM2</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM2</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>VAL__c</ci>
-						<apply>
-							<power />
-							<ci>KM3</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM3</ci>
 					</apply>
 				</apply>
+				</apply>
 			</apply>
-			<cn type='integer'>-1</cn>
-			</apply>
-		</apply>
 		</math>
 	<listOfParameters>
 		<parameter id="KM1" value="1" />
@@ -2375,61 +2019,49 @@
 
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
-		<apply>
-			<times />
-			<ci>k_tRnaAa_MG512</ci>
+			<apply>
+				<divide/>
+				<apply>
+					<times />
+					<ci>k_tRnaAa_MG512</ci>
 			<ci>MG512__c</ci>
 			<ci>ATP__c</ci>
 			<ci>THR__c</ci>
 			<ci>MG_375_DIMER__c</ci>
 
-			<apply>
-			<power />
-			<apply>
-				<times />
+				</apply>
+				<apply>
+					<times />
+					
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>MG512__c</ci>
-						<apply>
-							<power />
-							<ci>KM1</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM1</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>ATP__c</ci>
-						<apply>
-							<power />
-							<ci>KM2</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM2</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>THR__c</ci>
-						<apply>
-							<power />
-							<ci>KM3</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM3</ci>
 					</apply>
 				</apply>
+				</apply>
 			</apply>
-			<cn type='integer'>-1</cn>
-			</apply>
-		</apply>
 		</math>
 	<listOfParameters>
 		<parameter id="KM1" value="1" />
@@ -2455,61 +2087,49 @@
 
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
-		<apply>
-			<times />
-			<ci>k_tRnaAa_MG513</ci>
+			<apply>
+				<divide/>
+				<apply>
+					<times />
+					<ci>k_tRnaAa_MG513</ci>
 			<ci>MG513__c</ci>
 			<ci>ATP__c</ci>
 			<ci>GLU__c</ci>
 			<ci>MG_462_MONOMER__c</ci>
 
-			<apply>
-			<power />
-			<apply>
-				<times />
+				</apply>
+				<apply>
+					<times />
+					
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>MG513__c</ci>
-						<apply>
-							<power />
-							<ci>KM1</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM1</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>ATP__c</ci>
-						<apply>
-							<power />
-							<ci>KM2</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM2</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>GLU__c</ci>
-						<apply>
-							<power />
-							<ci>KM3</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM3</ci>
 					</apply>
 				</apply>
+				</apply>
 			</apply>
-			<cn type='integer'>-1</cn>
-			</apply>
-		</apply>
 		</math>
 	<listOfParameters>
 		<parameter id="KM1" value="1" />
@@ -2535,61 +2155,49 @@
 
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
-		<apply>
-			<times />
-			<ci>k_tRnaAa_MG514</ci>
+			<apply>
+				<divide/>
+				<apply>
+					<times />
+					<ci>k_tRnaAa_MG514</ci>
 			<ci>MG514__c</ci>
 			<ci>ASN__c</ci>
 			<ci>ATP__c</ci>
 			<ci>MG_113_DIMER__c</ci>
 
-			<apply>
-			<power />
-			<apply>
-				<times />
+				</apply>
+				<apply>
+					<times />
+					
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>MG514__c</ci>
-						<apply>
-							<power />
-							<ci>KM1</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM1</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>ASN__c</ci>
-						<apply>
-							<power />
-							<ci>KM2</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM2</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>ATP__c</ci>
-						<apply>
-							<power />
-							<ci>KM3</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM3</ci>
 					</apply>
 				</apply>
+				</apply>
 			</apply>
-			<cn type='integer'>-1</cn>
-			</apply>
-		</apply>
 		</math>
 	<listOfParameters>
 		<parameter id="KM1" value="1" />
@@ -2615,61 +2223,49 @@
 
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
-		<apply>
-			<times />
-			<ci>k_tRnaAa_MG518</ci>
+			<apply>
+				<divide/>
+				<apply>
+					<times />
+					<ci>k_tRnaAa_MG518</ci>
 			<ci>MG518__c</ci>
 			<ci>ATP__c</ci>
 			<ci>HIS__c</ci>
 			<ci>MG_035_DIMER__c</ci>
 
-			<apply>
-			<power />
-			<apply>
-				<times />
+				</apply>
+				<apply>
+					<times />
+					
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>MG518__c</ci>
-						<apply>
-							<power />
-							<ci>KM1</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM1</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>ATP__c</ci>
-						<apply>
-							<power />
-							<ci>KM2</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM2</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>HIS__c</ci>
-						<apply>
-							<power />
-							<ci>KM3</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM3</ci>
 					</apply>
 				</apply>
+				</apply>
 			</apply>
-			<cn type='integer'>-1</cn>
-			</apply>
-		</apply>
 		</math>
 	<listOfParameters>
 		<parameter id="KM1" value="1" />
@@ -2695,61 +2291,49 @@
 
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
-		<apply>
-			<times />
-			<ci>k_tRnaAa_MG519</ci>
+			<apply>
+				<divide/>
+				<apply>
+					<times />
+					<ci>k_tRnaAa_MG519</ci>
 			<ci>MG519__c</ci>
 			<ci>ATP__c</ci>
 			<ci>LEU__c</ci>
 			<ci>MG_266_MONOMER__c</ci>
 
-			<apply>
-			<power />
-			<apply>
-				<times />
+				</apply>
+				<apply>
+					<times />
+					
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>MG519__c</ci>
-						<apply>
-							<power />
-							<ci>KM1</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM1</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>ATP__c</ci>
-						<apply>
-							<power />
-							<ci>KM2</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM2</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>LEU__c</ci>
-						<apply>
-							<power />
-							<ci>KM3</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM3</ci>
 					</apply>
 				</apply>
+				</apply>
 			</apply>
-			<cn type='integer'>-1</cn>
-			</apply>
-		</apply>
 		</math>
 	<listOfParameters>
 		<parameter id="KM1" value="1" />
@@ -2775,61 +2359,49 @@
 
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
-		<apply>
-			<times />
-			<ci>k_tRnaAa_MG520</ci>
+			<apply>
+				<divide/>
+				<apply>
+					<times />
+					<ci>k_tRnaAa_MG520</ci>
 			<ci>MG520__c</ci>
 			<ci>ATP__c</ci>
 			<ci>LEU__c</ci>
 			<ci>MG_266_MONOMER__c</ci>
 
-			<apply>
-			<power />
-			<apply>
-				<times />
+				</apply>
+				<apply>
+					<times />
+					
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>MG520__c</ci>
-						<apply>
-							<power />
-							<ci>KM1</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM1</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>ATP__c</ci>
-						<apply>
-							<power />
-							<ci>KM2</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM2</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>LEU__c</ci>
-						<apply>
-							<power />
-							<ci>KM3</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM3</ci>
 					</apply>
 				</apply>
+				</apply>
 			</apply>
-			<cn type='integer'>-1</cn>
-			</apply>
-		</apply>
 		</math>
 	<listOfParameters>
 		<parameter id="KM1" value="1" />
@@ -2855,61 +2427,49 @@
 
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
-		<apply>
-			<times />
-			<ci>k_tRnaAa_MG523</ci>
+			<apply>
+				<divide/>
+				<apply>
+					<times />
+					<ci>k_tRnaAa_MG523</ci>
 			<ci>MG523__c</ci>
 			<ci>ARG__c</ci>
 			<ci>ATP__c</ci>
 			<ci>MG_378_MONOMER__c</ci>
 
-			<apply>
-			<power />
-			<apply>
-				<times />
+				</apply>
+				<apply>
+					<times />
+					
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>MG523__c</ci>
-						<apply>
-							<power />
-							<ci>KM1</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM1</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>ARG__c</ci>
-						<apply>
-							<power />
-							<ci>KM2</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM2</ci>
 					</apply>
 				</apply>
 				<apply>
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>ATP__c</ci>
-						<apply>
-							<power />
-							<ci>KM3</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM3</ci>
 					</apply>
 				</apply>
+				</apply>
 			</apply>
-			<cn type='integer'>-1</cn>
-			</apply>
-		</apply>
 		</math>
 	<listOfParameters>
 		<parameter id="KM1" value="1" />

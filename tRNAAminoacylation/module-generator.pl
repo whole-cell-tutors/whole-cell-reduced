@@ -97,13 +97,9 @@ while (my $line = <$data>) {
 					<plus />
 					<cn type='integer'>1</cn>
 					<apply>
-						<times />
+						<divide />
 						<ci>".$reactants[$j]."__c</ci>
-						<apply>
-							<power />
-							<ci>KM".++$denomiNr."</ci>
-							<cn type='integer'>-1</cn>
-						</apply>
+						<ci>KM".++$denomiNr."</ci>
 					</apply>
 				</apply>";
       }
@@ -131,17 +127,17 @@ while (my $line = <$data>) {
       print REACTIONS "
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
-		<apply>
-			<times />
-			<ci>".$param[0]."</ci>$multis
 			<apply>
-			<power />
-			<apply>
-				<times />$denomis
+				<divide/>
+				<apply>
+					<times />
+					<ci>".$param[0]."</ci>$multis
+				</apply>
+				<apply>
+					<times />
+					$denomis
+				</apply>
 			</apply>
-			<cn type='integer'>-1</cn>
-			</apply>
-		</apply>
 		</math>\n";
 		print REACTIONS "\t<listOfParameters>\n";
 		for (my $j = 1; $j <= $denomiNr; $j++)
