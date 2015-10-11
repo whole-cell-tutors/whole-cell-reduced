@@ -275,10 +275,10 @@ MGrrnA5S,5S ribosomal rRNA,c,29,rna,reactant
 MG_0001,"scRNA, signal recognition particle 4.5S RNA, MCS1",c,0,rna,reactant
 MG_0003,"Rnase P RNA, MCS5, M1 RNA",c,0,rna,reactant
 DNA_GYRASE,DNA gyrase,c,50,protein-complex,product
-DNA_POLYMERASE_2CORE_BETA_CLAMP_GAMMA_COMPLEX_PRIMASE,"DNA polymerase (2) core, Î²-clamp, Î³-complex, and primase",c,0,protein-complex,product
+DNA_POLYMERASE_2CORE_BETA_CLAMP_GAMMA_COMPLEX_PRIMASE,"DNA polymerase (2) core, XX-clamp, XXX-complex, and primase",c,0,protein-complex,product
 DNA_POLYMERASE_CORE,DNA-directed DNA polymerase,c,26,protein-complex,product
-DNA_POLYMERASE_CORE_BETA_CLAMP_GAMMA_COMPLEX,"DNA polymerase core, &beta;-clamp, and &gamma;-complex",c,0,protein-complex,product
-DNA_POLYMERASE_CORE_BETA_CLAMP_PRIMASE,"DNA polymerase core, &beta;-clamp, and primase",c,0,protein-complex,product
+DNA_POLYMERASE_CORE_BETA_CLAMP_GAMMA_COMPLEX,"DNA polymerase core, beta-clamp, and gamma-complex",c,0,protein-complex,product
+DNA_POLYMERASE_CORE_BETA_CLAMP_PRIMASE,"DNA polymerase core, beta-clamp, and primase",c,0,protein-complex,product
 DNA_POLYMERASE_GAMMA_COMPLEX,DNA-directed DNA polymerase gamma complex,c,14,protein-complex,product
 DNA_POLYMERASE_HOLOENZYME,DNA-directed DNA polymerase holoenzyme,c,0,protein-complex,product
 MG_0001_048,signal recognition particle,c,29,protein-complex,product

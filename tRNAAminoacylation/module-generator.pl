@@ -40,8 +40,8 @@ while (my $line = <$data>) {
       
   next if $fields[0] ~~ @speciesIds;
       
-			#print SPECIES "<species id=\"".$fields[0]."\" name=\"".$fields[1]."\" compartment=\"".$fields[2]."\" initialAmount=\"".$fields[3]."\"/>\n";
-			print SPECIES "<species id=\"".$fields[0]."\" compartment=\"".$fields[2]."\" initialAmount=\"".$fields[3]."\"/>\n";
+			print SPECIES "<species id=\"".$fields[0]."\" name=\"".$fields[1]."\" compartment=\"".$fields[2]."\" initialAmount=\"".$fields[3]."\"/>\n";
+			#print SPECIES "<species id=\"".$fields[0]."\" compartment=\"".$fields[2]."\" initialAmount=\"".$fields[3]."\"/>\n";
 			push @speciesIds, $fields[0];
 			
 			next if $fields[2] ~~ @compartmentIds;

@@ -8,467 +8,468 @@
 
     </listOfCompartments>
     <listOfSpecies>
-			<species id="ADP" compartment="c" initialAmount="3623"/>
-<species id="ALA" compartment="c" initialAmount="8303"/>
-<species id="AMP" compartment="c" initialAmount="1449"/>
-<species id="ARG" compartment="c" initialAmount="5991"/>
-<species id="ASN" compartment="c" initialAmount="11161"/>
-<species id="ASP" compartment="c" initialAmount="9407"/>
-<species id="ATP" compartment="c" initialAmount="36234"/>
-<species id="CYS" compartment="c" initialAmount="2181"/>
-<species id="FMET" compartment="c" initialAmount="0"/>
-<species id="FTHF10" compartment="c" initialAmount="2895"/>
-<species id="GLU" compartment="c" initialAmount="9518"/>
-<species id="GLY" compartment="c" initialAmount="7679"/>
-<species id="H" compartment="c" initialAmount="13042"/>
-<species id="H2O" compartment="c" initialAmount="309737899"/>
-<species id="HIS" compartment="c" initialAmount="2933"/>
-<species id="ILE" compartment="c" initialAmount="14247"/>
-<species id="LEU" compartment="c" initialAmount="17971"/>
-<species id="LYS" compartment="c" initialAmount="15094"/>
-<species id="MET" compartment="c" initialAmount="2792"/>
-<species id="PHE" compartment="c" initialAmount="7681"/>
-<species id="PI" compartment="c" initialAmount="7246"/>
-<species id="PPI" compartment="c" initialAmount="5796"/>
-<species id="PRO" compartment="c" initialAmount="4140"/>
-<species id="SER" compartment="c" initialAmount="8749"/>
-<species id="THF" compartment="c" initialAmount="2895"/>
-<species id="THR" compartment="c" initialAmount="4460"/>
-<species id="TRP" compartment="c" initialAmount="1084"/>
-<species id="TYR" compartment="c" initialAmount="5375"/>
-<species id="VAL" compartment="c" initialAmount="9500"/>
-<species id="GLN" compartment="c" initialAmount="7920"/>
-<species id="MG471" compartment="c" initialAmount="0"/>
-<species id="MG471_aa" compartment="c" initialAmount="72"/>
-<species id="MG472" compartment="c" initialAmount="0"/>
-<species id="MG472_aa" compartment="c" initialAmount="72"/>
-<species id="MG475" compartment="c" initialAmount="0"/>
-<species id="MG475_aa" compartment="c" initialAmount="14"/>
-<species id="MG479" compartment="c" initialAmount="0"/>
-<species id="MG479_aa" compartment="c" initialAmount="25"/>
-<species id="MG483" compartment="c" initialAmount="0"/>
-<species id="MG483_aa" compartment="c" initialAmount="10"/>
-<species id="MG484" compartment="c" initialAmount="0"/>
-<species id="MG484_aa" compartment="c" initialAmount="61"/>
-<species id="MG485" compartment="c" initialAmount="0"/>
-<species id="MG485_aa" compartment="c" initialAmount="14"/>
-<species id="MG486" compartment="c" initialAmount="0"/>
-<species id="MG486_aa" compartment="c" initialAmount="46"/>
-<species id="MG487" compartment="c" initialAmount="0"/>
-<species id="MG487_aa" compartment="c" initialAmount="20"/>
-<species id="MG488" compartment="c" initialAmount="0"/>
-<species id="MG488_aa" compartment="c" initialAmount="11"/>
-<species id="MG489" compartment="c" initialAmount="0"/>
-<species id="MG489_aa" compartment="c" initialAmount="84"/>
-<species id="MG490" compartment="c" initialAmount="0"/>
-<species id="MG490_aa" compartment="c" initialAmount="55"/>
-<species id="MG492" compartment="c" initialAmount="0"/>
-<species id="MG492_aa" compartment="c" initialAmount="13"/>
-<species id="MG493" compartment="c" initialAmount="0"/>
-<species id="MG493_aa" compartment="c" initialAmount="51"/>
-<species id="MG495" compartment="c" initialAmount="0"/>
-<species id="MG495_aa" compartment="c" initialAmount="8"/>
-<species id="MG496" compartment="c" initialAmount="0"/>
-<species id="MG496_aa" compartment="c" initialAmount="9"/>
-<species id="MG497" compartment="c" initialAmount="0"/>
-<species id="MG497_aa" compartment="c" initialAmount="9"/>
-<species id="MG499" compartment="c" initialAmount="0"/>
-<species id="MG499_aa" compartment="c" initialAmount="42"/>
-<species id="MG500" compartment="c" initialAmount="0"/>
-<species id="MG500_aa" compartment="c" initialAmount="60"/>
-<species id="MG501" compartment="c" initialAmount="0"/>
-<species id="MG501_aa" compartment="c" initialAmount="36"/>
-<species id="MG502" compartment="c" initialAmount="0"/>
-<species id="MG502_aa" compartment="c" initialAmount="75"/>
-<species id="MG503" compartment="c" initialAmount="0"/>
-<species id="MG503_aa" compartment="c" initialAmount="46"/>
-<species id="MG504" compartment="c" initialAmount="0"/>
-<species id="MG504_aa" compartment="c" initialAmount="10"/>
-<species id="MG506" compartment="c" initialAmount="0"/>
-<species id="MG506_aa" compartment="c" initialAmount="16"/>
-<species id="MG507" compartment="c" initialAmount="0"/>
-<species id="MG507_aa" compartment="c" initialAmount="23"/>
-<species id="MG508" compartment="c" initialAmount="0"/>
-<species id="MG508_aa" compartment="c" initialAmount="61"/>
-<species id="MG509" compartment="c" initialAmount="0"/>
-<species id="MG509_aa" compartment="c" initialAmount="56"/>
-<species id="MG510" compartment="c" initialAmount="0"/>
-<species id="MG510_aa" compartment="c" initialAmount="50"/>
-<species id="MG511" compartment="c" initialAmount="0"/>
-<species id="MG511_aa" compartment="c" initialAmount="55"/>
-<species id="MG512" compartment="c" initialAmount="0"/>
-<species id="MG512_aa" compartment="c" initialAmount="62"/>
-<species id="MG513" compartment="c" initialAmount="0"/>
-<species id="MG513_aa" compartment="c" initialAmount="54"/>
-<species id="MG514" compartment="c" initialAmount="0"/>
-<species id="MG514_aa" compartment="c" initialAmount="56"/>
-<species id="MG518" compartment="c" initialAmount="0"/>
-<species id="MG518_aa" compartment="c" initialAmount="19"/>
-<species id="MG519" compartment="c" initialAmount="0"/>
-<species id="MG519_aa" compartment="c" initialAmount="26"/>
-<species id="MG520" compartment="c" initialAmount="0"/>
-<species id="MG520_aa" compartment="c" initialAmount="33"/>
-<species id="MG523" compartment="c" initialAmount="0"/>
-<species id="MG523_aa" compartment="c" initialAmount="14"/>
-<species id="MG_253_MONOMER" compartment="c" initialAmount="16"/>
-<species id="MG_266_MONOMER" compartment="c" initialAmount="62"/>
-<species id="MG_334_MONOMER" compartment="c" initialAmount="34"/>
-<species id="MG_345_MONOMER" compartment="c" initialAmount="48"/>
-<species id="MG_365_MONOMER" compartment="c" initialAmount="18"/>
-<species id="MG_378_MONOMER" compartment="c" initialAmount="33"/>
-<species id="MG_462_MONOMER" compartment="c" initialAmount="81"/>
-<species id="MG_005_DIMER" compartment="c" initialAmount="118"/>
-<species id="MG_021_DIMER" compartment="c" initialAmount="20"/>
-<species id="MG_035_DIMER" compartment="c" initialAmount="19"/>
-<species id="MG_036_DIMER" compartment="c" initialAmount="21"/>
-<species id="MG_098_099_100_TRIMER" compartment="c" initialAmount="139"/>
-<species id="MG_113_DIMER" compartment="c" initialAmount="18"/>
-<species id="MG_126_DIMER" compartment="c" initialAmount="13"/>
-<species id="MG_136_DIMER" compartment="c" initialAmount="23"/>
-<species id="MG_194_195_TETRAMER" compartment="c" initialAmount="27"/>
-<species id="MG_251_DIMER" compartment="c" initialAmount="14"/>
-<species id="MG_283_DIMER" compartment="c" initialAmount="14"/>
-<species id="MG_292_TETRAMER" compartment="c" initialAmount="18"/>
-<species id="MG_375_DIMER" compartment="c" initialAmount="124"/>
-<species id="MG_455_DIMER" compartment="c" initialAmount="95"/>
-<species id="MG_188_MONOMER" compartment="m" initialAmount="15"/>
-<species id="MG_189_MONOMER" compartment="m" initialAmount="17"/>
-<species id="MG_194_MONOMER" compartment="c" initialAmount="0"/>
-<species id="MG_195_MONOMER" compartment="c" initialAmount="8"/>
-<species id="MG_196_MONOMER" compartment="c" initialAmount="206"/>
-<species id="MG_197_MONOMER" compartment="c" initialAmount="146"/>
-<species id="MG_198_MONOMER" compartment="c" initialAmount="142"/>
-<species id="MG_201_MONOMER" compartment="c" initialAmount="0"/>
-<species id="MG_203_MONOMER" compartment="c" initialAmount="1"/>
-<species id="MG_204_MONOMER" compartment="c" initialAmount="2"/>
-<species id="MG_205_MONOMER" compartment="c" initialAmount="1"/>
-<species id="MG_206_MONOMER" compartment="c" initialAmount="7"/>
-<species id="MG_208_MONOMER" compartment="c" initialAmount="0"/>
-<species id="MG_481_MONOMER" compartment="c" initialAmount="119"/>
-<species id="MG_482_MONOMER" compartment="c" initialAmount="0"/>
-<species id="MG_213_MONOMER" compartment="c" initialAmount="0"/>
-<species id="MG_214_MONOMER" compartment="c" initialAmount="4"/>
-<species id="MG_215_MONOMER" compartment="c" initialAmount="2"/>
-<species id="MG_216_MONOMER" compartment="c" initialAmount="2"/>
-<species id="MG_221_MONOMER" compartment="c" initialAmount="6"/>
-<species id="MG_224_MONOMER" compartment="c" initialAmount="0"/>
-<species id="MG_225_MONOMER" compartment="m" initialAmount="1"/>
-<species id="MG_226_MONOMER" compartment="m" initialAmount="1"/>
-<species id="MG_227_MONOMER" compartment="c" initialAmount="0"/>
-<species id="MG_228_MONOMER" compartment="c" initialAmount="3"/>
-<species id="MG_229_MONOMER" compartment="c" initialAmount="2"/>
-<species id="MG_231_MONOMER" compartment="c" initialAmount="0"/>
-<species id="MG_232_MONOMER" compartment="c" initialAmount="136"/>
-<species id="MG_234_MONOMER" compartment="c" initialAmount="127"/>
-<species id="MG_239_MONOMER" compartment="c" initialAmount="5"/>
-<species id="MG_240_MONOMER" compartment="c" initialAmount="3"/>
-<species id="MG_244_MONOMER" compartment="c" initialAmount="1"/>
-<species id="MG_249_MONOMER" compartment="c" initialAmount="13"/>
-<species id="MG_250_MONOMER" compartment="c" initialAmount="33"/>
-<species id="MG_251_MONOMER" compartment="c" initialAmount="1"/>
-<species id="MG_252_MONOMER" compartment="c" initialAmount="0"/>
-<species id="MG_257_MONOMER" compartment="c" initialAmount="114"/>
-<species id="MG_259_MONOMER" compartment="c" initialAmount="2"/>
-<species id="MG_261_MONOMER" compartment="c" initialAmount="0"/>
-<species id="MG_265_MONOMER" compartment="c" initialAmount="1"/>
-<species id="MG_271_MONOMER" compartment="c" initialAmount="628"/>
-<species id="MG_272_MONOMER" compartment="c" initialAmount="91"/>
-<species id="MG_273_MONOMER" compartment="c" initialAmount="34"/>
-<species id="MG_274_MONOMER" compartment="c" initialAmount="38"/>
-<species id="MG_275_MONOMER" compartment="m" initialAmount="3"/>
-<species id="MG_276_MONOMER" compartment="c" initialAmount="0"/>
-<species id="MG_277_MONOMER" compartment="m" initialAmount="43"/>
-<species id="MG_278_MONOMER" compartment="c" initialAmount="1"/>
-<species id="MG_283_MONOMER" compartment="c" initialAmount="1"/>
-<species id="MG_287_MONOMER" compartment="c" initialAmount="48"/>
-<species id="MG_289_MONOMER" compartment="e" initialAmount="38"/>
-<species id="MG_290_MONOMER" compartment="c" initialAmount="1"/>
-<species id="MG_291_MONOMER" compartment="m" initialAmount="25"/>
-<species id="MG_292_MONOMER" compartment="c" initialAmount="2"/>
-<species id="MG_293_MONOMER" compartment="c" initialAmount="1"/>
-<species id="MG_295_MONOMER" compartment="c" initialAmount="39"/>
-<species id="MG_298_MONOMER" compartment="c" initialAmount="7"/>
-<species id="MG_299_MONOMER" compartment="c" initialAmount="0"/>
-<species id="MG_301_MONOMER" compartment="c" initialAmount="2"/>
-<species id="MG_302_MONOMER" compartment="m" initialAmount="1"/>
-<species id="MG_303_MONOMER" compartment="c" initialAmount="38"/>
-<species id="MG_304_MONOMER" compartment="c" initialAmount="5"/>
-<species id="MG_311_MONOMER" compartment="c" initialAmount="97"/>
-<species id="MG_315_MONOMER" compartment="c" initialAmount="4"/>
-<species id="MG_316_MONOMER" compartment="m" initialAmount="0"/>
-<species id="MG_321_MONOMER" compartment="e" initialAmount="0"/>
-<species id="MG_322_MONOMER" compartment="m" initialAmount="2"/>
-<species id="MG_323_MONOMER" compartment="c" initialAmount="0"/>
-<species id="MG_325_MONOMER" compartment="c" initialAmount="132"/>
-<species id="MG_333_MONOMER" compartment="c" initialAmount="1"/>
-<species id="MG_336_MONOMER" compartment="c" initialAmount="0"/>
-<species id="MG_340_MONOMER" compartment="c" initialAmount="11"/>
-<species id="MG_341_MONOMER" compartment="c" initialAmount="0"/>
-<species id="MG_346_MONOMER" compartment="c" initialAmount="1"/>
-<species id="MG_347_MONOMER" compartment="c" initialAmount="1"/>
-<species id="MG_349_MONOMER" compartment="c" initialAmount="1"/>
-<species id="MG_351_MONOMER" compartment="c" initialAmount="4"/>
-<species id="MG_352_MONOMER" compartment="c" initialAmount="0"/>
-<species id="MG_353_MONOMER" compartment="c" initialAmount="1"/>
-<species id="MG_355_MONOMER" compartment="c" initialAmount="2"/>
-<species id="MG_357_MONOMER" compartment="c" initialAmount="1"/>
-<species id="MG_358_MONOMER" compartment="c" initialAmount="35"/>
-<species id="MG_359_MONOMER" compartment="c" initialAmount="4"/>
-<species id="MG_361_MONOMER" compartment="c" initialAmount="107"/>
-<species id="MG_362_MONOMER" compartment="c" initialAmount="118"/>
-<species id="MG_363_MONOMER" compartment="c" initialAmount="118"/>
-<species id="MG_522_MONOMER" compartment="c" initialAmount="99"/>
-<species id="MG_367_MONOMER" compartment="c" initialAmount="0"/>
-<species id="MG_368_MONOMER" compartment="c" initialAmount="1"/>
-<species id="MG_369_MONOMER" compartment="c" initialAmount="0"/>
-<species id="MG_372_MONOMER" compartment="c" initialAmount="1"/>
-<species id="MG_375_MONOMER" compartment="c" initialAmount="1"/>
-<species id="MG_376_MONOMER" compartment="c" initialAmount="3"/>
-<species id="MG_379_MONOMER" compartment="c" initialAmount="0"/>
-<species id="MG_382_MONOMER" compartment="c" initialAmount="2"/>
-<species id="MG_383_MONOMER" compartment="c" initialAmount="0"/>
-<species id="MG_385_MONOMER" compartment="c" initialAmount="0"/>
-<species id="MG_390_MONOMER" compartment="m" initialAmount="1"/>
-<species id="MG_391_MONOMER" compartment="c" initialAmount="4"/>
-<species id="MG_392_MONOMER" compartment="c" initialAmount="3"/>
-<species id="MG_393_MONOMER" compartment="c" initialAmount="97"/>
-<species id="MG_394_MONOMER" compartment="c" initialAmount="3"/>
-<species id="MG_396_MONOMER" compartment="c" initialAmount="0"/>
-<species id="MG_398_MONOMER" compartment="c" initialAmount="2"/>
-<species id="MG_399_MONOMER" compartment="c" initialAmount="0"/>
-<species id="MG_400_MONOMER" compartment="c" initialAmount="31"/>
-<species id="MG_401_MONOMER" compartment="c" initialAmount="16"/>
-<species id="MG_402_MONOMER" compartment="c" initialAmount="77"/>
-<species id="MG_403_MONOMER" compartment="m" initialAmount="124"/>
-<species id="MG_404_MONOMER" compartment="m" initialAmount="26"/>
-<species id="MG_405_MONOMER" compartment="m" initialAmount="124"/>
-<species id="MG_407_MONOMER" compartment="c" initialAmount="0"/>
-<species id="MG_409_MONOMER" compartment="c" initialAmount="0"/>
-<species id="MG_410_MONOMER" compartment="c" initialAmount="0"/>
-<species id="MG_411_MONOMER" compartment="m" initialAmount="15"/>
-<species id="MG_412_MONOMER" compartment="e" initialAmount="28"/>
-<species id="MG_417_MONOMER" compartment="c" initialAmount="123"/>
-<species id="MG_418_MONOMER" compartment="c" initialAmount="114"/>
-<species id="MG_419_MONOMER" compartment="c" initialAmount="2"/>
-<species id="MG_421_MONOMER" compartment="c" initialAmount="20"/>
-<species id="MG_424_MONOMER" compartment="c" initialAmount="119"/>
-<species id="MG_425_MONOMER" compartment="c" initialAmount="0"/>
-<species id="MG_426_MONOMER" compartment="c" initialAmount="152"/>
-<species id="MG_427_MONOMER" compartment="c" initialAmount="0"/>
-<species id="MG_428_MONOMER" compartment="c" initialAmount="1"/>
-<species id="MG_429_MONOMER" compartment="c" initialAmount="0"/>
-<species id="MG_431_MONOMER" compartment="c" initialAmount="1"/>
-<species id="MG_433_MONOMER" compartment="c" initialAmount="0"/>
-<species id="MG_434_MONOMER" compartment="c" initialAmount="3"/>
-<species id="MG_437_MONOMER" compartment="m" initialAmount="1"/>
-<species id="MG_444_MONOMER" compartment="c" initialAmount="140"/>
-<species id="MG_445_MONOMER" compartment="c" initialAmount="1"/>
-<species id="MG_446_MONOMER" compartment="c" initialAmount="109"/>
-<species id="MG_451_MONOMER" compartment="c" initialAmount="0"/>
-<species id="MG_453_MONOMER" compartment="c" initialAmount="1"/>
-<species id="MG_454_MONOMER" compartment="c" initialAmount="0"/>
-<species id="MG_455_MONOMER" compartment="c" initialAmount="1"/>
-<species id="MG_457_MONOMER" compartment="m" initialAmount="4"/>
-<species id="MG_458_MONOMER" compartment="c" initialAmount="2"/>
-<species id="MG_460_MONOMER" compartment="c" initialAmount="0"/>
-<species id="MG_464_MONOMER" compartment="m" initialAmount="0"/>
-<species id="MG_465_MONOMER" compartment="c" initialAmount="11"/>
-<species id="MG_466_MONOMER" compartment="c" initialAmount="134"/>
-<species id="MG_467_MONOMER" compartment="c" initialAmount="13"/>
-<species id="MG_468_MONOMER" compartment="m" initialAmount="1"/>
-<species id="MG_526_MONOMER" compartment="c" initialAmount="6"/>
-<species id="MG_469_MONOMER" compartment="c" initialAmount="0"/>
-<species id="MGrrnA16S" compartment="c" initialAmount="0"/>
-<species id="MGrrnA23S" compartment="c" initialAmount="0"/>
-<species id="MGrrnA5S" compartment="c" initialAmount="29"/>
-<species id="MG_0001" compartment="c" initialAmount="0"/>
-<species id="MG_0003" compartment="c" initialAmount="0"/>
-<species id="DNA_GYRASE" compartment="c" initialAmount="50"/>
-<species id="DNA_POLYMERASE_CORE" compartment="c" initialAmount="26"/>
-<species id="DNA_POLYMERASE_CORE_BETA_CLAMP_GAMMA_COMPLEX" compartment="c" initialAmount="0"/>
-<species id="DNA_POLYMERASE_CORE_BETA_CLAMP_PRIMASE" compartment="c" initialAmount="0"/>
-<species id="DNA_POLYMERASE_GAMMA_COMPLEX" compartment="c" initialAmount="14"/>
-<species id="DNA_POLYMERASE_HOLOENZYME" compartment="c" initialAmount="0"/>
-<species id="MG_0001_048" compartment="c" initialAmount="29"/>
-<species id="MG_0003_465" compartment="c" initialAmount="25"/>
-<species id="MG_001_DIMER" compartment="c" initialAmount="0"/>
-<species id="MG_006_DIMER" compartment="c" initialAmount="134"/>
-<species id="MG_008_379_TETRAMER" compartment="c" initialAmount="18"/>
-<species id="MG_013_DIMER" compartment="c" initialAmount="9"/>
-<species id="MG_014_015_DIMER" compartment="m" initialAmount="21"/>
-<species id="MG_019_DIMER" compartment="c" initialAmount="25"/>
-<species id="MG_023_DIMER" compartment="c" initialAmount="127"/>
-<species id="MG_029_DIMER" compartment="c" initialAmount="21"/>
-<species id="MG_030_TRIMER" compartment="c" initialAmount="15"/>
-<species id="MG_033_TETRAMER" compartment="m" initialAmount="16"/>
-<species id="MG_034_DIMER" compartment="c" initialAmount="23"/>
-<species id="MG_038_TETRAMER" compartment="c" initialAmount="15"/>
-<species id="MG_039_DIMER" compartment="c" initialAmount="12"/>
-<species id="MG_040_119_120_121_PENTAMER" compartment="m" initialAmount="44"/>
-<species id="MG_041_062_429_PENTAMER" compartment="m" initialAmount="17"/>
-<species id="MG_041_069_429_PENTAMER" compartment="m" initialAmount="8"/>
-<species id="MG_042_043_044_045_PENTAMER" compartment="m" initialAmount="18"/>
-<species id="MG_046_DIMER" compartment="c" initialAmount="21"/>
-<species id="MG_047_TETRAMER" compartment="c" initialAmount="13"/>
-<species id="MG_049_HEXAMER" compartment="c" initialAmount="21"/>
-<species id="MG_051_DIMER" compartment="c" initialAmount="59"/>
-<species id="MG_052_DIMER" compartment="c" initialAmount="32"/>
-<species id="MG_053_TRIMER" compartment="c" initialAmount="23"/>
-<species id="MG_055_170_277_464_476_20MER" compartment="m" initialAmount="13"/>
-<species id="MG_058_HEXAMER" compartment="c" initialAmount="8"/>
-<species id="MG_063_DIMER" compartment="c" initialAmount="20"/>
-<species id="MG_064_065_TETRAMER" compartment="m" initialAmount="16"/>
-<species id="MG_066_DIMER" compartment="c" initialAmount="24"/>
-<species id="MG_072_DIMER" compartment="c" initialAmount="13"/>
-<species id="MG_073_206_421_TETRAMER" compartment="c" initialAmount="16"/>
-<species id="MG_077_078_079_080_321_PENTAMER" compartment="m" initialAmount="7"/>
-<species id="MG_084_TETRAMER" compartment="c" initialAmount="18"/>
-<species id="MG_085_HEXAMER" compartment="c" initialAmount="14"/>
-<species id="MG_089_DIMER" compartment="c" initialAmount="133"/>
-<species id="MG_091_OCTAMER" compartment="c" initialAmount="0"/>
-<species id="MG_091_TETRAMER" compartment="c" initialAmount="65"/>
-<species id="MG_094_HEXAMER" compartment="c" initialAmount="36"/>
-<species id="MG_102_DIMER" compartment="c" initialAmount="22"/>
-<species id="MG_102_DIMER_ox" compartment="c" initialAmount="0"/>
-<species id="MG_105_OCTAMER" compartment="c" initialAmount="11"/>
-<species id="MG_106_DIMER" compartment="c" initialAmount="22"/>
-<species id="MG_107_DIMER" compartment="c" initialAmount="25"/>
-<species id="MG_109_DIMER" compartment="m" initialAmount="34"/>
-<species id="MG_111_DIMER" compartment="c" initialAmount="18"/>
-<species id="MG_112_DIMER" compartment="c" initialAmount="19"/>
-<species id="MG_114_DIMER" compartment="m" initialAmount="19"/>
-<species id="MG_118_DIMER" compartment="c" initialAmount="12"/>
-<species id="MG_123_DIMER" compartment="m" initialAmount="11"/>
-<species id="MG_124_MONOMER_ox" compartment="c" initialAmount="0"/>
-<species id="MG_127_MONOMER_ox" compartment="c" initialAmount="0"/>
-<species id="MG_128_HEXAMER" compartment="c" initialAmount="9"/>
-<species id="MG_132_DIMER" compartment="c" initialAmount="14"/>
-<species id="MG_137_DIMER" compartment="c" initialAmount="25"/>
-<species id="MG_139_DIMER" compartment="c" initialAmount="10"/>
-<species id="MG_179_180_181_TETRAMER" compartment="m" initialAmount="14"/>
-<species id="MG_182_DIMER" compartment="c" initialAmount="13"/>
-<species id="MG_184_DIMER" compartment="c" initialAmount="29"/>
-<species id="MG_186_187_188_189_PENTAMER" compartment="m" initialAmount="18"/>
-<species id="MG_201_DIMER" compartment="c" initialAmount="11"/>
-<species id="MG_203_204_TETRAMER" compartment="c" initialAmount="12"/>
-<species id="MG_205_DIMER" compartment="c" initialAmount="23"/>
-<species id="MG_208_DIMER" compartment="c" initialAmount="24"/>
-<species id="MG_213_214_298_6MER" compartment="c" initialAmount="5"/>
-<species id="MG_213_214_298_6MER_ADP" compartment="c" initialAmount="81"/>
-<species id="MG_215_TETRAMER" compartment="c" initialAmount="18"/>
-<species id="MG_216_TETRAMER" compartment="c" initialAmount="19"/>
-<species id="MG_221_OCTAMER" compartment="c" initialAmount="12"/>
-<species id="MG_224_2MER_GTP" compartment="c" initialAmount="1"/>
-<species id="MG_224_3MER_GTP" compartment="c" initialAmount="1"/>
-<species id="MG_224_4MER_GTP" compartment="c" initialAmount="2"/>
-<species id="MG_224_5MER_GTP" compartment="c" initialAmount="3"/>
-<species id="MG_224_6MER_GTP" compartment="c" initialAmount="5"/>
-<species id="MG_224_7MER_GTP" compartment="c" initialAmount="8"/>
-<species id="MG_224_8MER_GTP" compartment="c" initialAmount="12"/>
-<species id="MG_224_9MER_GDP" compartment="c" initialAmount="0"/>
-<species id="MG_224_9MER_GTP" compartment="c" initialAmount="20"/>
-<species id="MG_224_MONOMER_GDP" compartment="c" initialAmount="3"/>
-<species id="MG_224_MONOMER_GTP" compartment="c" initialAmount="6"/>
-<species id="MG_225_DIMER" compartment="m" initialAmount="15"/>
-<species id="MG_226_DIMER" compartment="m" initialAmount="14"/>
-<species id="MG_227_DIMER" compartment="c" initialAmount="22"/>
-<species id="MG_228_TETRAMER" compartment="c" initialAmount="15"/>
-<species id="MG_229_231_TETRAMER" compartment="c" initialAmount="30"/>
-<species id="MG_229_231_TETRAMER_ox" compartment="c" initialAmount="0"/>
-<species id="MG_239_HEXAMER" compartment="c" initialAmount="14"/>
-<species id="MG_240_HEXAMER" compartment="c" initialAmount="13"/>
-<species id="MG_244_DIMER" compartment="c" initialAmount="8"/>
-<species id="MG_252_DIMER" compartment="c" initialAmount="9"/>
-<species id="MG_259_TETRAMER" compartment="c" initialAmount="48"/>
-<species id="MG_265_DIMER" compartment="c" initialAmount="40"/>
-<species id="MG_271_272_273_274_192MER" compartment="c" initialAmount="11"/>
-<species id="MG_271_272_273_274_192MER_ox" compartment="c" initialAmount="0"/>
-<species id="MG_275_TETRAMER" compartment="m" initialAmount="242"/>
-<species id="MG_276_DIMER" compartment="c" initialAmount="24"/>
-<species id="MG_278_DIMER" compartment="c" initialAmount="16"/>
-<species id="MG_287_MONOMER_ACP" compartment="c" initialAmount="0"/>
-<species id="MG_287_MONOMER_ddcaACP" compartment="c" initialAmount="0"/>
-<species id="MG_287_MONOMER_hdeACP" compartment="c" initialAmount="0"/>
-<species id="MG_287_MONOMER_myrsACP" compartment="c" initialAmount="0"/>
-<species id="MG_287_MONOMER_ocdcaACP" compartment="c" initialAmount="0"/>
-<species id="MG_287_MONOMER_octeACP" compartment="c" initialAmount="0"/>
-<species id="MG_287_MONOMER_palmACP" compartment="c" initialAmount="0"/>
-<species id="MG_287_MONOMER_tdeACP" compartment="c" initialAmount="0"/>
-<species id="MG_289_290_291_PENTAMER" compartment="m" initialAmount="15"/>
-<species id="MG_293_DIMER" compartment="c" initialAmount="33"/>
-<species id="MG_295_MONOMER_ox" compartment="c" initialAmount="0"/>
-<species id="MG_299_DIMER" compartment="c" initialAmount="22"/>
-<species id="MG_301_TETRAMER" compartment="c" initialAmount="15"/>
-<species id="MG_302_303_304_TETRAMER" compartment="m" initialAmount="16"/>
-<species id="MG_316_DIMER" compartment="m" initialAmount="21"/>
-<species id="MG_322_323_TETRAMER" compartment="m" initialAmount="10"/>
-<species id="MG_333_DIMER" compartment="c" initialAmount="15"/>
-<species id="MG_336_DIMER" compartment="c" initialAmount="15"/>
-<species id="MG_346_DIMER" compartment="c" initialAmount="13"/>
-<species id="MG_347_DIMER" compartment="c" initialAmount="11"/>
-<species id="MG_349_HEXAMER" compartment="c" initialAmount="13"/>
-<species id="MG_351_HEXAMER" compartment="c" initialAmount="11"/>
-<species id="MG_352_DIMER" compartment="c" initialAmount="18"/>
-<species id="MG_353_DIMER" compartment="c" initialAmount="16"/>
-<species id="MG_355_HEXAMER" compartment="c" initialAmount="13"/>
-<species id="MG_357_DIMER" compartment="c" initialAmount="54"/>
-<species id="MG_358_359_10MER" compartment="c" initialAmount="13"/>
-<species id="MG_367_DIMER" compartment="c" initialAmount="13"/>
-<species id="MG_368_DIMER" compartment="c" initialAmount="14"/>
-<species id="MG_369_DIMER" compartment="c" initialAmount="14"/>
-<species id="MG_372_DIMER" compartment="c" initialAmount="108"/>
-<species id="MG_376_HEXAMER" compartment="c" initialAmount="16"/>
-<species id="MG_382_TETRAMER" compartment="c" initialAmount="10"/>
-<species id="MG_383_DIMER" compartment="c" initialAmount="16"/>
-<species id="MG_385_DIMER" compartment="c" initialAmount="10"/>
-<species id="MG_390_DIMER" compartment="m" initialAmount="16"/>
-<species id="MG_391_HEXAMER" compartment="c" initialAmount="35"/>
-<species id="MG_392_393_21MER" compartment="c" initialAmount="13"/>
-<species id="MG_394_TETRAMER" compartment="c" initialAmount="14"/>
-<species id="MG_396_DIMER" compartment="c" initialAmount="27"/>
-<species id="MG_398_399_400_401_402_403_404_405_22MER" compartment="m" initialAmount="11"/>
-<species id="MG_407_DIMER" compartment="c" initialAmount="34"/>
-<species id="MG_409_DIMER" compartment="c" initialAmount="16"/>
-<species id="MG_410_411_412_PENTAMER" compartment="m" initialAmount="17"/>
-<species id="MG_425_DIMER" compartment="c" initialAmount="9"/>
-<species id="MG_427_DIMER" compartment="c" initialAmount="17"/>
-<species id="MG_427_DIMER_ox" compartment="c" initialAmount="0"/>
-<species id="MG_428_DIMER" compartment="c" initialAmount="10"/>
-<species id="MG_431_DIMER" compartment="c" initialAmount="25"/>
-<species id="MG_433_DIMER" compartment="c" initialAmount="122"/>
-<species id="MG_434_HEXAMER" compartment="c" initialAmount="14"/>
-<species id="MG_437_DIMER" compartment="m" initialAmount="13"/>
-<species id="MG_445_DIMER" compartment="c" initialAmount="107"/>
-<species id="MG_451_DIMER" compartment="c" initialAmount="139"/>
-<species id="MG_453_TETRAMER" compartment="c" initialAmount="9"/>
-<species id="MG_454_DIMER" compartment="c" initialAmount="29"/>
-<species id="MG_454_DIMER_ox" compartment="c" initialAmount="0"/>
-<species id="MG_457_HEXAMER" compartment="m" initialAmount="70"/>
-<species id="MG_458_TETRAMER" compartment="c" initialAmount="17"/>
-<species id="MG_460_TETRAMER" compartment="c" initialAmount="13"/>
-<species id="MG_467_468_526_TETRAMER" compartment="m" initialAmount="26"/>
-<species id="MG_469_1MER_ADP" compartment="c" initialAmount="0"/>
-<species id="MG_469_1MER_ATP" compartment="c" initialAmount="25"/>
-<species id="MG_469_2MER_1ATP_ADP" compartment="c" initialAmount="0"/>
-<species id="MG_469_2MER_ATP" compartment="c" initialAmount="0"/>
-<species id="MG_469_3MER_2ATP_ADP" compartment="c" initialAmount="0"/>
-<species id="MG_469_3MER_ATP" compartment="c" initialAmount="0"/>
-<species id="MG_469_4MER_3ATP_ADP" compartment="c" initialAmount="0"/>
-<species id="MG_469_4MER_ATP" compartment="c" initialAmount="0"/>
-<species id="MG_469_5MER_4ATP_ADP" compartment="c" initialAmount="0"/>
-<species id="MG_469_5MER_ATP" compartment="c" initialAmount="0"/>
-<species id="MG_469_6MER_5ATP_ADP" compartment="c" initialAmount="0"/>
-<species id="MG_469_6MER_ATP" compartment="c" initialAmount="0"/>
-<species id="MG_469_7MER_6ATP_ADP" compartment="c" initialAmount="0"/>
-<species id="MG_469_7MER_ATP" compartment="c" initialAmount="4"/>
-<species id="MG_482_DIMER" compartment="c" initialAmount="13"/>
-<species id="REPLISOME" compartment="c" initialAmount="0"/>
-<species id="RIBOSOME_30S" compartment="c" initialAmount="25"/>
-<species id="RIBOSOME_30S_IF3" compartment="c" initialAmount="0"/>
-<species id="RIBOSOME_50S" compartment="c" initialAmount="12"/>
-<species id="RIBOSOME_70S" compartment="c" initialAmount="56"/>
-<species id="RNA_POLYMERASE" compartment="c" initialAmount="40"/>
-<species id="RNA_POLYMERASE_HOLOENZYME" compartment="c" initialAmount="0"/>
+			<species id="ADP" name="ADP" compartment="c" initialAmount="3623"/>
+<species id="ALA" name="L-alanine" compartment="c" initialAmount="8303"/>
+<species id="AMP" name="AMP" compartment="c" initialAmount="1449"/>
+<species id="ARG" name="L-Arginine" compartment="c" initialAmount="5991"/>
+<species id="ASN" name="L-Asparagine" compartment="c" initialAmount="11161"/>
+<species id="ASP" name="L-Aspartate" compartment="c" initialAmount="9407"/>
+<species id="ATP" name="ATP" compartment="c" initialAmount="36234"/>
+<species id="CYS" name="L-Cysteine" compartment="c" initialAmount="2181"/>
+<species id="FMET" name="N-Formyl-L-methionine" compartment="c" initialAmount="0"/>
+<species id="FTHF10" name="10-formyl-tetrahydrofolate" compartment="c" initialAmount="2895"/>
+<species id="GLU" name="L-Glutamate" compartment="c" initialAmount="9518"/>
+<species id="GLY" name="glycine" compartment="c" initialAmount="7679"/>
+<species id="H" name="hydrogen ion" compartment="c" initialAmount="13042"/>
+<species id="H2O" name="water" compartment="c" initialAmount="309737899"/>
+<species id="HIS" name="L-Histidine" compartment="c" initialAmount="2933"/>
+<species id="ILE" name="L-Isoleucine" compartment="c" initialAmount="14247"/>
+<species id="LEU" name="L-Leucine" compartment="c" initialAmount="17971"/>
+<species id="LYS" name="L-Lysine" compartment="c" initialAmount="15094"/>
+<species id="MET" name="L-Methionine" compartment="c" initialAmount="2792"/>
+<species id="PHE" name="L-phenylalanine" compartment="c" initialAmount="7681"/>
+<species id="PI" name="phosphate" compartment="c" initialAmount="7246"/>
+<species id="PPI" name="diphosphate" compartment="c" initialAmount="5796"/>
+<species id="PRO" name="L-Proline" compartment="c" initialAmount="4140"/>
+<species id="SER" name="L-Serine" compartment="c" initialAmount="8749"/>
+<species id="THF" name="5,6,7,8-Tetrahydrofolate" compartment="c" initialAmount="2895"/>
+<species id="THR" name="L-Threonine" compartment="c" initialAmount="4460"/>
+<species id="TRP" name="L-tryptophan" compartment="c" initialAmount="1084"/>
+<species id="TYR" name="L-tyrosine" compartment="c" initialAmount="5375"/>
+<species id="VAL" name="L-Valine" compartment="c" initialAmount="9500"/>
+<species id="GLN" name="L-glutamine" compartment="c" initialAmount="7920"/>
+<species id="MG471" name="MG471" compartment="c" initialAmount="0"/>
+<species id="MG471_aa" name="MG471-AA" compartment="c" initialAmount="72"/>
+<species id="MG472" name="MG472" compartment="c" initialAmount="0"/>
+<species id="MG472_aa" name="MG472-AA" compartment="c" initialAmount="72"/>
+<species id="MG475" name="MG475" compartment="c" initialAmount="0"/>
+<species id="MG475_aa" name="MG475-AA" compartment="c" initialAmount="14"/>
+<species id="MG479" name="MG479" compartment="c" initialAmount="0"/>
+<species id="MG479_aa" name="MG479-AA" compartment="c" initialAmount="25"/>
+<species id="MG483" name="MG483" compartment="c" initialAmount="0"/>
+<species id="MG483_aa" name="MG483-AA" compartment="c" initialAmount="10"/>
+<species id="MG484" name="MG484" compartment="c" initialAmount="0"/>
+<species id="MG484_aa" name="MG484-AA" compartment="c" initialAmount="61"/>
+<species id="MG485" name="MG485" compartment="c" initialAmount="0"/>
+<species id="MG485_aa" name="MG485-AA" compartment="c" initialAmount="14"/>
+<species id="MG486" name="MG486" compartment="c" initialAmount="0"/>
+<species id="MG486_aa" name="MG486-AA" compartment="c" initialAmount="46"/>
+<species id="MG487" name="MG487" compartment="c" initialAmount="0"/>
+<species id="MG487_aa" name="MG487-AA" compartment="c" initialAmount="20"/>
+<species id="MG488" name="MG488" compartment="c" initialAmount="0"/>
+<species id="MG488_aa" name="MG488-AA" compartment="c" initialAmount="11"/>
+<species id="MG489" name="MG489" compartment="c" initialAmount="0"/>
+<species id="MG489_aa" name="MG489-AA" compartment="c" initialAmount="84"/>
+<species id="MG490" name="MG490" compartment="c" initialAmount="0"/>
+<species id="MG490_aa" name="MG490-AA" compartment="c" initialAmount="55"/>
+<species id="MG492" name="MG492" compartment="c" initialAmount="0"/>
+<species id="MG492_aa" name="MG492-AA" compartment="c" initialAmount="13"/>
+<species id="MG493" name="MG493" compartment="c" initialAmount="0"/>
+<species id="MG493_aa" name="MG493-AA" compartment="c" initialAmount="51"/>
+<species id="MG495" name="MG495" compartment="c" initialAmount="0"/>
+<species id="MG495_aa" name="MG495-AA" compartment="c" initialAmount="8"/>
+<species id="MG496" name="MG496" compartment="c" initialAmount="0"/>
+<species id="MG496_aa" name="MG496-AA" compartment="c" initialAmount="9"/>
+<species id="MG497" name="MG497" compartment="c" initialAmount="0"/>
+<species id="MG497_aa" name="MG497-AA" compartment="c" initialAmount="9"/>
+<species id="MG499" name="MG499" compartment="c" initialAmount="0"/>
+<species id="MG499_aa" name="MG499-AA" compartment="c" initialAmount="42"/>
+<species id="MG500" name="MG500" compartment="c" initialAmount="0"/>
+<species id="MG500_aa" name="MG500-AA" compartment="c" initialAmount="60"/>
+<species id="MG501" name="MG501" compartment="c" initialAmount="0"/>
+<species id="MG501_aa" name="MG501-AA" compartment="c" initialAmount="36"/>
+<species id="MG502" name="MG502" compartment="c" initialAmount="0"/>
+<species id="MG502_aa" name="MG502-AA" compartment="c" initialAmount="75"/>
+<species id="MG503" name="MG503" compartment="c" initialAmount="0"/>
+<species id="MG503_aa" name="MG503-AA" compartment="c" initialAmount="46"/>
+<species id="MG504" name="MG504" compartment="c" initialAmount="0"/>
+<species id="MG504_aa" name="MG504-AA" compartment="c" initialAmount="10"/>
+<species id="MG506" name="MG506" compartment="c" initialAmount="0"/>
+<species id="MG506_aa" name="MG506-AA" compartment="c" initialAmount="16"/>
+<species id="MG507" name="MG507" compartment="c" initialAmount="0"/>
+<species id="MG507_aa" name="MG507-AA" compartment="c" initialAmount="23"/>
+<species id="MG508" name="MG508" compartment="c" initialAmount="0"/>
+<species id="MG508_aa" name="MG508-AA" compartment="c" initialAmount="61"/>
+<species id="MG509" name="MG509" compartment="c" initialAmount="0"/>
+<species id="MG509_aa" name="MG509-AA" compartment="c" initialAmount="56"/>
+<species id="MG510" name="MG510" compartment="c" initialAmount="0"/>
+<species id="MG510_aa" name="MG510-AA" compartment="c" initialAmount="50"/>
+<species id="MG511" name="MG511" compartment="c" initialAmount="0"/>
+<species id="MG511_aa" name="MG511-AA" compartment="c" initialAmount="55"/>
+<species id="MG512" name="MG512" compartment="c" initialAmount="0"/>
+<species id="MG512_aa" name="MG512-AA" compartment="c" initialAmount="62"/>
+<species id="MG513" name="MG513" compartment="c" initialAmount="0"/>
+<species id="MG513_aa" name="MG513-AA" compartment="c" initialAmount="54"/>
+<species id="MG514" name="MG514" compartment="c" initialAmount="0"/>
+<species id="MG514_aa" name="MG514-AA" compartment="c" initialAmount="56"/>
+<species id="MG518" name="MG518" compartment="c" initialAmount="0"/>
+<species id="MG518_aa" name="MG518-AA" compartment="c" initialAmount="19"/>
+<species id="MG519" name="MG519" compartment="c" initialAmount="0"/>
+<species id="MG519_aa" name="MG519-AA" compartment="c" initialAmount="26"/>
+<species id="MG520" name="MG520" compartment="c" initialAmount="0"/>
+<species id="MG520_aa" name="MG520-AA" compartment="c" initialAmount="33"/>
+<species id="MG523" name="MG523" compartment="c" initialAmount="0"/>
+<species id="MG523_aa" name="MG523-AA" compartment="c" initialAmount="14"/>
+<species id="MG_253_MONOMER" name="cysteinyl-tRNA synthetase" compartment="c" initialAmount="16"/>
+<species id="MG_266_MONOMER" name="leucyl-tRNA synthetase" compartment="c" initialAmount="62"/>
+<species id="MG_334_MONOMER" name="valyl-tRNA synthetase" compartment="c" initialAmount="34"/>
+<species id="MG_345_MONOMER" name="isoleucyl-tRNA synthetase" compartment="c" initialAmount="48"/>
+<species id="MG_365_MONOMER" name="methionyl-tRNA formyltransferase" compartment="c" initialAmount="18"/>
+<species id="MG_378_MONOMER" name="arginyl-tRNA synthetase" compartment="c" initialAmount="33"/>
+<species id="MG_462_MONOMER" name="glutamyl-tRNA synthetase" compartment="c" initialAmount="81"/>
+<species id="MG_005_DIMER" name="seryl-tRNA synthetase" compartment="c" initialAmount="118"/>
+<species id="MG_021_DIMER" name="methionyl-tRNA synthetase" compartment="c" initialAmount="20"/>
+<species id="MG_035_DIMER" name="histidyl-tRNA synthetase" compartment="c" initialAmount="19"/>
+<species id="MG_036_DIMER" name="aspartyl-tRNA synthetase" compartment="c" initialAmount="21"/>
+<species id="MG_098_099_100_TRIMER" name="glutamyl-tRNA(Gln) and/or aspartyl-tRNA(Asn) amidotransferase" compartment="c" initialAmount="139"/>
+<species id="MG_113_DIMER" name="asparaginyl-tRNA synthetase" compartment="c" initialAmount="18"/>
+<species id="MG_126_DIMER" name="tryptophanyl-tRNA synthetase" compartment="c" initialAmount="13"/>
+<species id="MG_136_DIMER" name="lysyl-tRNA synthetase" compartment="c" initialAmount="23"/>
+<species id="MG_194_195_TETRAMER" name="phenylalanyl-tRNA synthetase" compartment="c" initialAmount="27"/>
+<species id="MG_251_DIMER" name="glycyl-tRNA synthetase" compartment="c" initialAmount="14"/>
+<species id="MG_283_DIMER" name="prolyl-tRNA synthetase" compartment="c" initialAmount="14"/>
+<species id="MG_292_TETRAMER" name="alanyl-tRNA synthetase" compartment="c" initialAmount="18"/>
+<species id="MG_375_DIMER" name="threonyl-tRNA synthetase" compartment="c" initialAmount="124"/>
+<species id="MG_455_DIMER" name="tyrosyl-tRNA synthetase" compartment="c" initialAmount="95"/>
+<species id="MG_188_MONOMER" name="Oligosaccharide or polyol ABC transporter, permease protein" compartment="m" initialAmount="15"/>
+<species id="MG_189_MONOMER" name="Oligosaccharide or polyol ABC transporter, permease protein" compartment="m" initialAmount="17"/>
+<species id="MG_194_MONOMER" name="phenylalanyl-tRNA synthetase, alpha subunit" compartment="c" initialAmount="0"/>
+<species id="MG_195_MONOMER" name="phenylalanyl-tRNA synthetase, beta subunit" compartment="c" initialAmount="8"/>
+<species id="MG_196_MONOMER" name="translation initiation factor IF-3" compartment="c" initialAmount="206"/>
+<species id="MG_197_MONOMER" name="ribosomal protein L35" compartment="c" initialAmount="146"/>
+<species id="MG_198_MONOMER" name="ribosomal protein L20" compartment="c" initialAmount="142"/>
+<species id="MG_201_MONOMER" name="co-chaperone GrpE" compartment="c" initialAmount="0"/>
+<species id="MG_203_MONOMER" name="DNA topoisomerase IV, B subunit" compartment="c" initialAmount="1"/>
+<species id="MG_204_MONOMER" name="DNA topoisomerase IV, A subunit" compartment="c" initialAmount="2"/>
+<species id="MG_205_MONOMER" name="heat-inducible transcription repressor HrcA, putative" compartment="c" initialAmount="1"/>
+<species id="MG_206_MONOMER" name="excinuclease ABC, C subunit" compartment="c" initialAmount="7"/>
+<species id="MG_208_MONOMER" name="glycoprotease" compartment="c" initialAmount="0"/>
+<species id="MG_481_MONOMER" name="30S ribosomal protein S21" compartment="c" initialAmount="119"/>
+<species id="MG_482_MONOMER" name="holo-(acyl-carrier-protein) synthase" compartment="c" initialAmount="0"/>
+<species id="MG_213_MONOMER" name="segregation and condensation protein A" compartment="c" initialAmount="0"/>
+<species id="MG_214_MONOMER" name="segregation and condensation protein B" compartment="c" initialAmount="4"/>
+<species id="MG_215_MONOMER" name="6-phosphofructokinase" compartment="c" initialAmount="2"/>
+<species id="MG_216_MONOMER" name="pyruvate kinase" compartment="c" initialAmount="2"/>
+<species id="MG_221_MONOMER" name="mraZ protein" compartment="c" initialAmount="6"/>
+<species id="MG_224_MONOMER" name="cell division protein FtsZ" compartment="c" initialAmount="0"/>
+<species id="MG_225_MONOMER" name="amino acid-polyamine-organocation (APC) permease" compartment="m" initialAmount="1"/>
+<species id="MG_226_MONOMER" name="amino acid-polyamine-organocation (APC) permease" compartment="m" initialAmount="1"/>
+<species id="MG_227_MONOMER" name="thymidylate synthase" compartment="c" initialAmount="0"/>
+<species id="MG_228_MONOMER" name="dihydrofolate reductase" compartment="c" initialAmount="3"/>
+<species id="MG_229_MONOMER" name="ribonucleoside-diphosphate reductase, beta chain" compartment="c" initialAmount="2"/>
+<species id="MG_231_MONOMER" name="ribonucleoside-diphosphate reductase, alpha chain" compartment="c" initialAmount="0"/>
+<species id="MG_232_MONOMER" name="ribosomal protein L21" compartment="c" initialAmount="136"/>
+<species id="MG_234_MONOMER" name="ribosomal protein L27" compartment="c" initialAmount="127"/>
+<species id="MG_239_MONOMER" name="ATP-dependent protease La" compartment="c" initialAmount="5"/>
+<species id="MG_240_MONOMER" name="nicotinamide-nucleotide adenylyltransferase/conserved hypothetical protein" compartment="c" initialAmount="3"/>
+<species id="MG_244_MONOMER" name="3-5' helicase" compartment="c" initialAmount="1"/>
+<species id="MG_249_MONOMER" name="RNA polymerase sigma factor RpoD" compartment="c" initialAmount="13"/>
+<species id="MG_250_MONOMER" name="DNA primase" compartment="c" initialAmount="33"/>
+<species id="MG_251_MONOMER" name="glycyl-tRNA synthetase" compartment="c" initialAmount="1"/>
+<species id="MG_252_MONOMER" name="23S rRNA methyltransferase; G2251" compartment="c" initialAmount="0"/>
+<species id="MG_257_MONOMER" name="ribosomal protein L31" compartment="c" initialAmount="114"/>
+<species id="MG_259_MONOMER" name="modification methylase" compartment="c" initialAmount="2"/>
+<species id="MG_261_MONOMER" name="DNA polymerase III, alpha subunit" compartment="c" initialAmount="0"/>
+<species id="MG_265_MONOMER" name="sugar phosphatase" compartment="c" initialAmount="1"/>
+<species id="MG_271_MONOMER" name="dihydrolipoamide dehydrogenase" compartment="c" initialAmount="628"/>
+<species id="MG_272_MONOMER" name="dihydrolipoamide acetyltransferase" compartment="c" initialAmount="91"/>
+<species id="MG_273_MONOMER" name="pyruvate dehydrogenase component E1, beta subunit" compartment="c" initialAmount="34"/>
+<species id="MG_274_MONOMER" name="pyruvate dehydrogenase component E1, alpha subunit" compartment="c" initialAmount="38"/>
+<species id="MG_275_MONOMER" name="NADH oxidase" compartment="m" initialAmount="3"/>
+<species id="MG_276_MONOMER" name="adenine phosphoribosyltransferase" compartment="c" initialAmount="0"/>
+<species id="MG_277_MONOMER" name="Protein-export membrane protein secDF" compartment="m" initialAmount="43"/>
+<species id="MG_278_MONOMER" name="GTP diphosphokinase" compartment="c" initialAmount="1"/>
+<species id="MG_283_MONOMER" name="prolyl-tRNA synthetase" compartment="c" initialAmount="1"/>
+<species id="MG_287_MONOMER" name="acyl carrier protein" compartment="c" initialAmount="48"/>
+<species id="MG_289_MONOMER" name="phosphonate ABC transporter, substrate binding protein (P37), putative" compartment="e" initialAmount="38"/>
+<species id="MG_290_MONOMER" name="phosphonate ABC transporter, ATP-binding protein, putative" compartment="c" initialAmount="1"/>
+<species id="MG_291_MONOMER" name="phosphonate ABC transporter, permease protein (P69), putative" compartment="m" initialAmount="25"/>
+<species id="MG_292_MONOMER" name="alanyl-tRNA synthetase" compartment="c" initialAmount="2"/>
+<species id="MG_293_MONOMER" name="glycerophosphoryl diester phosphodiesterase" compartment="c" initialAmount="1"/>
+<species id="MG_295_MONOMER" name="tRNA U34 sulfurtransferase" compartment="c" initialAmount="39"/>
+<species id="MG_298_MONOMER" name="chromosome segregation protein SMC" compartment="c" initialAmount="7"/>
+<species id="MG_299_MONOMER" name="phosphate acetyltransferase" compartment="c" initialAmount="0"/>
+<species id="MG_301_MONOMER" name="glyceraldehyde-3-phosphate dehydrogenase, type I" compartment="c" initialAmount="2"/>
+<species id="MG_302_MONOMER" name="metal ion (cobalt) ABC transporter, permease protein, putative" compartment="m" initialAmount="1"/>
+<species id="MG_303_MONOMER" name="metal ion (cobalt) ABC transporter, ATP-binding protein, putative" compartment="c" initialAmount="38"/>
+<species id="MG_304_MONOMER" name="metal ion (cobalt) ABC transporter, ATP-binding protein, putative" compartment="c" initialAmount="5"/>
+<species id="MG_311_MONOMER" name="ribosomal protein S4" compartment="c" initialAmount="97"/>
+<species id="MG_315_MONOMER" name="DNA polymerase III, delta subunit, putative" compartment="c" initialAmount="4"/>
+<species id="MG_316_MONOMER" name="DNA internalization-related competence protein ComEC/Rec2" compartment="m" initialAmount="0"/>
+<species id="MG_321_MONOMER" name="oligopeptide ABC transporter, substrate binding protein" compartment="e" initialAmount="0"/>
+<species id="MG_322_MONOMER" name="potassium uptake protein" compartment="m" initialAmount="2"/>
+<species id="MG_323_MONOMER" name="potassium uptake protein" compartment="c" initialAmount="0"/>
+<species id="MG_325_MONOMER" name="ribosomal protein L33" compartment="c" initialAmount="132"/>
+<species id="MG_333_MONOMER" name="FMN-dependent NADH-azoreductase, putative" compartment="c" initialAmount="1"/>
+<species id="MG_336_MONOMER" name="cysteine desulfurase" compartment="c" initialAmount="0"/>
+<species id="MG_340_MONOMER" name="DNA-directed RNA polymerase, beta subunit" compartment="c" initialAmount="11"/>
+<species id="MG_341_MONOMER" name="DNA-directed RNA polymerase, beta subunit" compartment="c" initialAmount="0"/>
+<species id="MG_346_MONOMER" name="23S rRNA methyltransferase; U2552" compartment="c" initialAmount="1"/>
+<species id="MG_347_MONOMER" name="tRNA (guanine-N(7)-)-methyltransferase" compartment="c" initialAmount="1"/>
+<species id="MG_349_MONOMER" name="Replication initiation/membrane attachment protein" compartment="c" initialAmount="1"/>
+<species id="MG_351_MONOMER" name="inorganic pyrophosphatase" compartment="c" initialAmount="4"/>
+<species id="MG_352_MONOMER" name="Holliday junction endonuclease" compartment="c" initialAmount="0"/>
+<species id="MG_353_MONOMER" name="DNA-binding protein HU, putative" compartment="c" initialAmount="1"/>
+<species id="MG_355_MONOMER" name="ATP-dependent Clp protease, ATPase subunit" compartment="c" initialAmount="2"/>
+<species id="MG_357_MONOMER" name="acetate kinase" compartment="c" initialAmount="1"/>
+<species id="MG_358_MONOMER" name="Holliday junction DNA helicase" compartment="c" initialAmount="35"/>
+<species id="MG_359_MONOMER" name="Holliday junction DNA helicase RuvB" compartment="c" initialAmount="4"/>
+<species id="MG_361_MONOMER" name="ribosomal protein L10" compartment="c" initialAmount="107"/>
+<species id="MG_362_MONOMER" name="ribosomal protein L7/L12" compartment="c" initialAmount="118"/>
+<species id="MG_363_MONOMER" name="ribosomal protein L32" compartment="c" initialAmount="118"/>
+<species id="MG_522_MONOMER" name="ribosomal protein S20" compartment="c" initialAmount="99"/>
+<species id="MG_367_MONOMER" name="ribonuclease III" compartment="c" initialAmount="0"/>
+<species id="MG_368_MONOMER" name="fatty acid/phospholipid synthesis protein PlsX" compartment="c" initialAmount="1"/>
+<species id="MG_369_MONOMER" name="DAK2 phosphatase domain protein" compartment="c" initialAmount="0"/>
+<species id="MG_372_MONOMER" name="thiamine biosynthesis/tRNA modification protein ThiI" compartment="c" initialAmount="1"/>
+<species id="MG_375_MONOMER" name="threonyl-tRNA synthetase" compartment="c" initialAmount="1"/>
+<species id="MG_376_MONOMER" name="" compartment="c" initialAmount="3"/>
+<species id="MG_379_MONOMER" name="tRNA uridine 5-carboxymethylaminomethyl modification enzyme GidA" compartment="c" initialAmount="0"/>
+<species id="MG_382_MONOMER" name="uridine kinase" compartment="c" initialAmount="2"/>
+<species id="MG_383_MONOMER" name="NH(3)-dependent NAD+ synthetase, putative" compartment="c" initialAmount="0"/>
+<species id="MG_385_MONOMER" name="glycerophosphoryl diester phosphodiesterase family protein" compartment="c" initialAmount="0"/>
+<species id="MG_390_MONOMER" name="toxin ABC transporter, ATP-binding/permease protein" compartment="m" initialAmount="1"/>
+<species id="MG_391_MONOMER" name="cytosol aminopeptidase" compartment="c" initialAmount="4"/>
+<species id="MG_392_MONOMER" name="chaperonin" compartment="c" initialAmount="3"/>
+<species id="MG_393_MONOMER" name="chaperonin, 10 kDa" compartment="c" initialAmount="97"/>
+<species id="MG_394_MONOMER" name="serine hydroxymethyltransferase" compartment="c" initialAmount="3"/>
+<species id="MG_396_MONOMER" name="ribose 5-phosphate isomerase B" compartment="c" initialAmount="0"/>
+<species id="MG_398_MONOMER" name="ATP synthase F1, epsilon subunit" compartment="c" initialAmount="2"/>
+<species id="MG_399_MONOMER" name="ATP synthase F1, beta subunit" compartment="c" initialAmount="0"/>
+<species id="MG_400_MONOMER" name="ATP synthase F1, gamma subunit" compartment="c" initialAmount="31"/>
+<species id="MG_401_MONOMER" name="ATP synthase F1, alpha subunit" compartment="c" initialAmount="16"/>
+<species id="MG_402_MONOMER" name="ATP synthase F1, delta subunit" compartment="c" initialAmount="77"/>
+<species id="MG_403_MONOMER" name="ATP synthase F0, B subunit" compartment="m" initialAmount="124"/>
+<species id="MG_404_MONOMER" name="ATP synthase F0, C subunit" compartment="m" initialAmount="26"/>
+<species id="MG_405_MONOMER" name="ATP synthase F0, A subunit" compartment="m" initialAmount="124"/>
+<species id="MG_407_MONOMER" name="enolase" compartment="c" initialAmount="0"/>
+<species id="MG_409_MONOMER" name="phosphate transport system regulatory protein PhoU, putative" compartment="c" initialAmount="0"/>
+<species id="MG_410_MONOMER" name="phosphate ABC transporter, ATP-binding protein" compartment="c" initialAmount="0"/>
+<species id="MG_411_MONOMER" name="phosphate ABC transporter, permease protein PstA" compartment="m" initialAmount="15"/>
+<species id="MG_412_MONOMER" name="phosphate ABC transporter, substrate-binding protein" compartment="e" initialAmount="28"/>
+<species id="MG_417_MONOMER" name="ribosomal protein S9" compartment="c" initialAmount="123"/>
+<species id="MG_418_MONOMER" name="ribosomal protein L13" compartment="c" initialAmount="114"/>
+<species id="MG_419_MONOMER" name="DNA polymerase III, subunit gamma and tau" compartment="c" initialAmount="2"/>
+<species id="MG_421_MONOMER" name="excinuclease ABC, A subunit" compartment="c" initialAmount="20"/>
+<species id="MG_424_MONOMER" name="ribosomal protein S15" compartment="c" initialAmount="119"/>
+<species id="MG_425_MONOMER" name="ATP-dependent RNA helicase" compartment="c" initialAmount="0"/>
+<species id="MG_426_MONOMER" name="ribosomal protein L28" compartment="c" initialAmount="152"/>
+<species id="MG_427_MONOMER" name="osmotically inducible peroxidase" compartment="c" initialAmount="0"/>
+<species id="MG_428_MONOMER" name="LuxR bacterial regulatory protein, putative" compartment="c" initialAmount="1"/>
+<species id="MG_429_MONOMER" name="PTS system, E1" compartment="c" initialAmount="0"/>
+<species id="MG_431_MONOMER" name="triosephosphate isomerase" compartment="c" initialAmount="1"/>
+<species id="MG_433_MONOMER" name="translation elongation factor Ts" compartment="c" initialAmount="0"/>
+<species id="MG_434_MONOMER" name="uridylate kinase" compartment="c" initialAmount="3"/>
+<species id="MG_437_MONOMER" name="phosphatidate cytidylyltransferase" compartment="m" initialAmount="1"/>
+<species id="MG_444_MONOMER" name="ribosomal protein L19" compartment="c" initialAmount="140"/>
+<species id="MG_445_MONOMER" name="tRNA (guanine-N1)-methyltransferase" compartment="c" initialAmount="1"/>
+<species id="MG_446_MONOMER" name="ribosomal protein S16" compartment="c" initialAmount="109"/>
+<species id="MG_451_MONOMER" name="translation elongation factor Tu" compartment="c" initialAmount="0"/>
+<species id="MG_453_MONOMER" name="UTP-glucose-1-phosphate uridylyltransferase" compartment="c" initialAmount="1"/>
+<species id="MG_454_MONOMER" name="thiol-dependent peroxidase" compartment="c" initialAmount="0"/>
+<species id="MG_455_MONOMER" name="tyrosyl-tRNA synthetase" compartment="c" initialAmount="1"/>
+<species id="MG_457_MONOMER" name="ATP-dependent metalloprotease FtsH" compartment="m" initialAmount="4"/>
+<species id="MG_458_MONOMER" name="hypoxanthine phosphoribosyltransferase" compartment="c" initialAmount="2"/>
+<species id="MG_460_MONOMER" name="L-lactate dehydrogenase/malate dehydrogenase" compartment="c" initialAmount="0"/>
+<species id="MG_464_MONOMER" name="inner-membrane protein insertion factor" compartment="m" initialAmount="0"/>
+<species id="MG_465_MONOMER" name="ribonuclease P protein component" compartment="c" initialAmount="11"/>
+<species id="MG_466_MONOMER" name="ribosomal protein L34" compartment="c" initialAmount="134"/>
+<species id="MG_467_MONOMER" name="salivaricin A ABC transporter, ATP-binding protein" compartment="c" initialAmount="13"/>
+<species id="MG_468_MONOMER" name="salivaricin A ABC transporter, permease protein" compartment="m" initialAmount="1"/>
+<species id="MG_526_MONOMER" name="salivaricin A ABC transporter, ATP-binding protein" compartment="c" initialAmount="6"/>
+<species id="MG_469_MONOMER" name="chromosomal replication initiator protein DnaA" compartment="c" initialAmount="0"/>
+<species id="MGrrnA16S" name="16S ribosomal rRNA" compartment="c" initialAmount="0"/>
+<species id="MGrrnA23S" name="23S ribosomal rRNA" compartment="c" initialAmount="0"/>
+<species id="MGrrnA5S" name="5S ribosomal rRNA" compartment="c" initialAmount="29"/>
+<species id="MG_0001" name="scRNA, signal recognition particle 4.5S RNA, MCS1" compartment="c" initialAmount="0"/>
+<species id="MG_0003" name="Rnase P RNA, MCS5, M1 RNA" compartment="c" initialAmount="0"/>
+<species id="DNA_GYRASE" name="DNA gyrase" compartment="c" initialAmount="50"/>
+<species id="DNA_POLYMERASE_2CORE_BETA_CLAMP_GAMMA_COMPLEX_PRIMASE" name="DNA polymerase (2) core, XX-clamp, XXX-complex, and primase" compartment="c" initialAmount="0"/>
+<species id="DNA_POLYMERASE_CORE" name="DNA-directed DNA polymerase" compartment="c" initialAmount="26"/>
+<species id="DNA_POLYMERASE_CORE_BETA_CLAMP_GAMMA_COMPLEX" name="DNA polymerase core, beta-clamp, and gamma-complex" compartment="c" initialAmount="0"/>
+<species id="DNA_POLYMERASE_CORE_BETA_CLAMP_PRIMASE" name="DNA polymerase core, beta-clamp, and primase" compartment="c" initialAmount="0"/>
+<species id="DNA_POLYMERASE_GAMMA_COMPLEX" name="DNA-directed DNA polymerase gamma complex" compartment="c" initialAmount="14"/>
+<species id="DNA_POLYMERASE_HOLOENZYME" name="DNA-directed DNA polymerase holoenzyme" compartment="c" initialAmount="0"/>
+<species id="MG_0001_048" name="signal recognition particle" compartment="c" initialAmount="29"/>
+<species id="MG_0003_465" name="ribonuclease P" compartment="c" initialAmount="25"/>
+<species id="MG_001_DIMER" name="DNA polymerase III, beta clamp" compartment="c" initialAmount="0"/>
+<species id="MG_006_DIMER" name="thymidylate kinase" compartment="c" initialAmount="134"/>
+<species id="MG_008_379_TETRAMER" name="tRNA uridine 5-carboxymethylaminomethyl modification enzyme" compartment="c" initialAmount="18"/>
+<species id="MG_013_DIMER" name="methylenetetrahydrofolate dehydrogenase/methylenetetrahydrofolate cyclohydrolase" compartment="c" initialAmount="9"/>
+<species id="MG_014_015_DIMER" name="multidrug ABC transporter" compartment="m" initialAmount="21"/>
+<species id="MG_019_DIMER" name="chaperone protein DnaJ" compartment="c" initialAmount="25"/>
+<species id="MG_023_DIMER" name="fructose-1,6-bisphosphate aldolase, class II" compartment="c" initialAmount="127"/>
+<species id="MG_029_DIMER" name="DJ-1/PfpI family protein" compartment="c" initialAmount="21"/>
+<species id="MG_030_TRIMER" name="uracil phosphoribosyltransferase" compartment="c" initialAmount="15"/>
+<species id="MG_033_TETRAMER" name="glycerol uptake facilitator" compartment="m" initialAmount="16"/>
+<species id="MG_034_DIMER" name="thymidine kinase" compartment="c" initialAmount="23"/>
+<species id="MG_038_TETRAMER" name="glycerol kinase" compartment="c" initialAmount="15"/>
+<species id="MG_039_DIMER" name="FAD-dependent glycerol-3-phosphate dehydrogenase, putative" compartment="c" initialAmount="12"/>
+<species id="MG_040_119_120_121_PENTAMER" name="Monosaccharide (riboside/galactoside) ABC transporter" compartment="m" initialAmount="44"/>
+<species id="MG_041_062_429_PENTAMER" name="PTS system, fructose-specific" compartment="m" initialAmount="17"/>
+<species id="MG_041_069_429_PENTAMER" name="PTS system, glucose-specific" compartment="m" initialAmount="8"/>
+<species id="MG_042_043_044_045_PENTAMER" name="spermidine/putrescine (polyamine) ABC transporter" compartment="m" initialAmount="18"/>
+<species id="MG_046_DIMER" name="metalloendopeptidase" compartment="c" initialAmount="21"/>
+<species id="MG_047_TETRAMER" name="S-adenosylmethionine synthetase" compartment="c" initialAmount="13"/>
+<species id="MG_049_HEXAMER" name="purine nucleoside phosphorylase" compartment="c" initialAmount="21"/>
+<species id="MG_051_DIMER" name="pyrimidine-nucleoside phosphorylase" compartment="c" initialAmount="59"/>
+<species id="MG_052_DIMER" name="cytidine deaminase" compartment="c" initialAmount="32"/>
+<species id="MG_053_TRIMER" name="phosphoglucomutase/phosphomannomutase, putative" compartment="c" initialAmount="23"/>
+<species id="MG_055_170_277_464_476_20MER" name="preprotein translocase" compartment="m" initialAmount="13"/>
+<species id="MG_058_HEXAMER" name="ribose-phosphate pyrophosphokinase" compartment="c" initialAmount="8"/>
+<species id="MG_063_DIMER" name="1-phosphofructokinase, putative" compartment="c" initialAmount="20"/>
+<species id="MG_064_065_TETRAMER" name="ABC transporter" compartment="m" initialAmount="16"/>
+<species id="MG_066_DIMER" name="transketolase" compartment="c" initialAmount="24"/>
+<species id="MG_072_DIMER" name="preprotein translocase, SecA subunit" compartment="c" initialAmount="13"/>
+<species id="MG_073_206_421_TETRAMER" name="DNA incision complex" compartment="c" initialAmount="16"/>
+<species id="MG_077_078_079_080_321_PENTAMER" name="oligopeptide ABC transporter" compartment="m" initialAmount="7"/>
+<species id="MG_084_TETRAMER" name="tRNA(Ile)-lysidine synthetase" compartment="c" initialAmount="18"/>
+<species id="MG_085_HEXAMER" name="HPr(Ser) kinase/phosphatase" compartment="c" initialAmount="14"/>
+<species id="MG_089_DIMER" name="translation elongation factor G" compartment="c" initialAmount="133"/>
+<species id="MG_091_OCTAMER" name="single-strand binding protein family, octamer" compartment="c" initialAmount="0"/>
+<species id="MG_091_TETRAMER" name="single-strand binding protein family, tetramer" compartment="c" initialAmount="65"/>
+<species id="MG_094_HEXAMER" name="replicative DNA helicase" compartment="c" initialAmount="36"/>
+<species id="MG_102_DIMER" name="thioredoxin-disulfide reductase" compartment="c" initialAmount="22"/>
+<species id="MG_102_DIMER_ox" name="oxidized thioredoxin-disulfide reductase" compartment="c" initialAmount="0"/>
+<species id="MG_105_OCTAMER" name="putative DNA integrity scanning protein" compartment="c" initialAmount="11"/>
+<species id="MG_106_DIMER" name="peptide deformylase" compartment="c" initialAmount="22"/>
+<species id="MG_107_DIMER" name="guanylate kinase" compartment="c" initialAmount="25"/>
+<species id="MG_109_DIMER" name="serine/threonine protein kinase, putative" compartment="m" initialAmount="34"/>
+<species id="MG_111_DIMER" name="glucose-6-phosphate isomerase" compartment="c" initialAmount="18"/>
+<species id="MG_112_DIMER" name="ribulose-phosphate 3-epimerase" compartment="c" initialAmount="19"/>
+<species id="MG_114_DIMER" name="CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase" compartment="m" initialAmount="19"/>
+<species id="MG_118_DIMER" name="UDP-glucose 4-epimerase" compartment="c" initialAmount="12"/>
+<species id="MG_123_DIMER" name="arginine deaminase" compartment="m" initialAmount="11"/>
+<species id="MG_124_MONOMER_ox" name="oxidized thioredoxin" compartment="c" initialAmount="0"/>
+<species id="MG_127_MONOMER_ox" name="oxidized Spx subfamily protein" compartment="c" initialAmount="0"/>
+<species id="MG_128_HEXAMER" name="inorganic polyphosphate/ATP-NAD kinase, probable" compartment="c" initialAmount="9"/>
+<species id="MG_132_DIMER" name="purine nucleoside phosphoramidase" compartment="c" initialAmount="14"/>
+<species id="MG_137_DIMER" name="UDP-galactopyranose mutase" compartment="c" initialAmount="25"/>
+<species id="MG_139_DIMER" name="ribonuclease J" compartment="c" initialAmount="10"/>
+<species id="MG_179_180_181_TETRAMER" name="metal ion (cobalt) ABC transporter" compartment="m" initialAmount="14"/>
+<species id="MG_182_DIMER" name="Pseudouridylate synthase" compartment="c" initialAmount="13"/>
+<species id="MG_184_DIMER" name="adenine-specific DNA modification methylase" compartment="c" initialAmount="29"/>
+<species id="MG_186_187_188_189_PENTAMER" name="Oligosaccharide or polyol ABC transporter" compartment="m" initialAmount="18"/>
+<species id="MG_201_DIMER" name="co-chaperone GrpE" compartment="c" initialAmount="11"/>
+<species id="MG_203_204_TETRAMER" name="topoisomerase IV" compartment="c" initialAmount="12"/>
+<species id="MG_205_DIMER" name="heat-inducible transcription repressor HrcA, putative" compartment="c" initialAmount="23"/>
+<species id="MG_208_DIMER" name="glycoprotease family protein" compartment="c" initialAmount="24"/>
+<species id="MG_213_214_298_6MER" name="chromosome segregation protein SMC" compartment="c" initialAmount="5"/>
+<species id="MG_213_214_298_6MER_ADP" name="Chromosome Segregation Protein SMC with SCP Proteins-ADP" compartment="c" initialAmount="81"/>
+<species id="MG_215_TETRAMER" name="6-phosphofructokinase" compartment="c" initialAmount="18"/>
+<species id="MG_216_TETRAMER" name="pyruvate kinase" compartment="c" initialAmount="19"/>
+<species id="MG_221_OCTAMER" name="mraZ protein" compartment="c" initialAmount="12"/>
+<species id="MG_224_2MER_GTP" name="cell division protein ftsZ activated 2mer" compartment="c" initialAmount="1"/>
+<species id="MG_224_3MER_GTP" name="cell division protein ftsZ activated 3mer" compartment="c" initialAmount="1"/>
+<species id="MG_224_4MER_GTP" name="cell division protein ftsZ activated 4mer" compartment="c" initialAmount="2"/>
+<species id="MG_224_5MER_GTP" name="cell division protein ftsZ activated 5mer" compartment="c" initialAmount="3"/>
+<species id="MG_224_6MER_GTP" name="cell division protein ftsZ activated 6mer" compartment="c" initialAmount="5"/>
+<species id="MG_224_7MER_GTP" name="cell division protein ftsZ activated 7mer" compartment="c" initialAmount="8"/>
+<species id="MG_224_8MER_GTP" name="cell division protein ftsZ activated 8mer" compartment="c" initialAmount="12"/>
+<species id="MG_224_9MER_GDP" name="cell division protein ftsZ deactivated 9mer" compartment="c" initialAmount="0"/>
+<species id="MG_224_9MER_GTP" name="cell division protein ftsZ activated 9mer" compartment="c" initialAmount="20"/>
+<species id="MG_224_MONOMER_GDP" name="cell division protein ftsZ hydrolysed" compartment="c" initialAmount="3"/>
+<species id="MG_224_MONOMER_GTP" name="cell division protein ftsZ activated" compartment="c" initialAmount="6"/>
+<species id="MG_225_DIMER" name="amino acid transporter" compartment="m" initialAmount="15"/>
+<species id="MG_226_DIMER" name="amino acid transporter" compartment="m" initialAmount="14"/>
+<species id="MG_227_DIMER" name="thymidylate synthase" compartment="c" initialAmount="22"/>
+<species id="MG_228_TETRAMER" name="dihydrofolate reductase" compartment="c" initialAmount="15"/>
+<species id="MG_229_231_TETRAMER" name="ribonucleoside-diphosphate reductase" compartment="c" initialAmount="30"/>
+<species id="MG_229_231_TETRAMER_ox" name="oxidized ribonucleoside-diphosphate reductase" compartment="c" initialAmount="0"/>
+<species id="MG_239_HEXAMER" name="ATP-dependent protease La" compartment="c" initialAmount="14"/>
+<species id="MG_240_HEXAMER" name="nicotinamide-nucleotide adenylyltransferase/conserved hypothetical protein" compartment="c" initialAmount="13"/>
+<species id="MG_244_DIMER" name="3-5' helicase" compartment="c" initialAmount="8"/>
+<species id="MG_252_DIMER" name="23S rRNA methyltransferase" compartment="c" initialAmount="9"/>
+<species id="MG_259_TETRAMER" name="modification methylase" compartment="c" initialAmount="48"/>
+<species id="MG_265_DIMER" name="sugar phosphatase" compartment="c" initialAmount="40"/>
+<species id="MG_271_272_273_274_192MER" name="pyruvate dehydrogenase" compartment="c" initialAmount="11"/>
+<species id="MG_271_272_273_274_192MER_ox" name="oxidized dihydrolipoamide dehydrogenase" compartment="c" initialAmount="0"/>
+<species id="MG_275_TETRAMER" name="NADH oxidase" compartment="m" initialAmount="242"/>
+<species id="MG_276_DIMER" name="adenine phosphoribosyltransferase" compartment="c" initialAmount="24"/>
+<species id="MG_278_DIMER" name="GTP pyrophosphokinase" compartment="c" initialAmount="16"/>
+<species id="MG_287_MONOMER_ACP" name="holo acyl carrier protein" compartment="c" initialAmount="0"/>
+<species id="MG_287_MONOMER_ddcaACP" name="Dodecanoyl-ACP (n-C12:0ACP)" compartment="c" initialAmount="0"/>
+<species id="MG_287_MONOMER_hdeACP" name="cis-hexadec-9-enoyl-[acyl-carrier protein] (n-C16:1)" compartment="c" initialAmount="0"/>
+<species id="MG_287_MONOMER_myrsACP" name="Myristoyl-ACP (n-C14:0ACP)" compartment="c" initialAmount="0"/>
+<species id="MG_287_MONOMER_ocdcaACP" name="Octadecanoyl-ACP (n-C18:0ACP)" compartment="c" initialAmount="0"/>
+<species id="MG_287_MONOMER_octeACP" name="cis-octadec-11-enoyl-[acyl-carrier protein] (n-C18:1)" compartment="c" initialAmount="0"/>
+<species id="MG_287_MONOMER_palmACP" name="Palmitoyl-ACP (n-C16:0ACP)" compartment="c" initialAmount="0"/>
+<species id="MG_287_MONOMER_tdeACP" name="cis-tetradec-7-enoyl-[acyl-carrier protein] (n-C14:1)" compartment="c" initialAmount="0"/>
+<species id="MG_289_290_291_PENTAMER" name="phosphonate ABC transporter" compartment="m" initialAmount="15"/>
+<species id="MG_293_DIMER" name="glycerophosphoryl diester phosphodiesterase family protein" compartment="c" initialAmount="33"/>
+<species id="MG_295_MONOMER_ox" name="oxidized tRNA U34 sulfurtransferase" compartment="c" initialAmount="0"/>
+<species id="MG_299_DIMER" name="phosphate acetyltransferase" compartment="c" initialAmount="22"/>
+<species id="MG_301_TETRAMER" name="glyceraldehyde-3-phosphate dehydrogenase, type I" compartment="c" initialAmount="15"/>
+<species id="MG_302_303_304_TETRAMER" name="metal ion (cobalt) ABC transporter" compartment="m" initialAmount="16"/>
+<species id="MG_316_DIMER" name="DNA internalization-related competence protein ComEC/Rec2" compartment="m" initialAmount="21"/>
+<species id="MG_322_323_TETRAMER" name="potassium uptake protein, TrkH family, putative" compartment="m" initialAmount="10"/>
+<species id="MG_333_DIMER" name="FMN-dependent NADH-azoreductase, putative" compartment="c" initialAmount="15"/>
+<species id="MG_336_DIMER" name="cysteine desulfurase" compartment="c" initialAmount="15"/>
+<species id="MG_346_DIMER" name="23S rRNA methyltransferase" compartment="c" initialAmount="13"/>
+<species id="MG_347_DIMER" name="tRNA (guanine-N(7)-)-methyltransferase" compartment="c" initialAmount="11"/>
+<species id="MG_349_HEXAMER" name="Replication initiation/membrane attachment protein" compartment="c" initialAmount="13"/>
+<species id="MG_351_HEXAMER" name="inorganic pyrophosphatase" compartment="c" initialAmount="11"/>
+<species id="MG_352_DIMER" name="Holliday junction endonuclease" compartment="c" initialAmount="18"/>
+<species id="MG_353_DIMER" name="DNA-binding protein HU, putative" compartment="c" initialAmount="16"/>
+<species id="MG_355_HEXAMER" name="ATP-dependent Clp protease, ATPase subunit" compartment="c" initialAmount="13"/>
+<species id="MG_357_DIMER" name="acetate kinase" compartment="c" initialAmount="54"/>
+<species id="MG_358_359_10MER" name="Holliday junction DNA helicase" compartment="c" initialAmount="13"/>
+<species id="MG_367_DIMER" name="ribonuclease III" compartment="c" initialAmount="13"/>
+<species id="MG_368_DIMER" name="fatty acid/phospholipid synthesis protein PlsX" compartment="c" initialAmount="14"/>
+<species id="MG_369_DIMER" name="DAK2 phosphatase domain protein" compartment="c" initialAmount="14"/>
+<species id="MG_372_DIMER" name="thiamine biosynthesis/tRNA modification protein ThiI" compartment="c" initialAmount="108"/>
+<species id="MG_376_HEXAMER" name="" compartment="c" initialAmount="16"/>
+<species id="MG_382_TETRAMER" name="uridine kinase" compartment="c" initialAmount="10"/>
+<species id="MG_383_DIMER" name="NH(3)-dependent NAD+ synthetase, putative" compartment="c" initialAmount="16"/>
+<species id="MG_385_DIMER" name="glycerophosphoryl diester phosphodiesterase family protein" compartment="c" initialAmount="10"/>
+<species id="MG_390_DIMER" name="toxin ABC transporter, ATP-binding/permease protein" compartment="m" initialAmount="16"/>
+<species id="MG_391_HEXAMER" name="cytosol aminopeptidase" compartment="c" initialAmount="35"/>
+<species id="MG_392_393_21MER" name="GroEL-GroES chaperonin complex" compartment="c" initialAmount="13"/>
+<species id="MG_394_TETRAMER" name="serine hydroxymethyltransferase" compartment="c" initialAmount="14"/>
+<species id="MG_396_DIMER" name="ribose 5-phosphate isomerase B" compartment="c" initialAmount="27"/>
+<species id="MG_398_399_400_401_402_403_404_405_22MER" name="H(+)-transporting two-sector ATPase" compartment="m" initialAmount="11"/>
+<species id="MG_407_DIMER" name="enolase" compartment="c" initialAmount="34"/>
+<species id="MG_409_DIMER" name="phosphate transport system regulatory protein PhoU, putative" compartment="c" initialAmount="16"/>
+<species id="MG_410_411_412_PENTAMER" name="phosphate ABC transporter" compartment="m" initialAmount="17"/>
+<species id="MG_425_DIMER" name="ATP-dependent RNA helicase" compartment="c" initialAmount="9"/>
+<species id="MG_427_DIMER" name="osmotically inducible peroxidase" compartment="c" initialAmount="17"/>
+<species id="MG_427_DIMER_ox" name="oxidized osmotically inducible peroxidase" compartment="c" initialAmount="0"/>
+<species id="MG_428_DIMER" name="LuxR bacterial regulatory protein, putative" compartment="c" initialAmount="10"/>
+<species id="MG_431_DIMER" name="triosephosphate isomerase" compartment="c" initialAmount="25"/>
+<species id="MG_433_DIMER" name="translation elongation factor Ts" compartment="c" initialAmount="122"/>
+<species id="MG_434_HEXAMER" name="uridylate kinase" compartment="c" initialAmount="14"/>
+<species id="MG_437_DIMER" name="phosphatidate cytidylyltransferase" compartment="m" initialAmount="13"/>
+<species id="MG_445_DIMER" name="tRNA (guanine-N1)-methyltransferase" compartment="c" initialAmount="107"/>
+<species id="MG_451_DIMER" name="translation elongation factor Tu" compartment="c" initialAmount="139"/>
+<species id="MG_453_TETRAMER" name="UTP-glucose-1-phosphate uridylyltransferase" compartment="c" initialAmount="9"/>
+<species id="MG_454_DIMER" name="thiol-dependent peroxidase" compartment="c" initialAmount="29"/>
+<species id="MG_454_DIMER_ox" name="oxidized thiol-dependent peroxidase" compartment="c" initialAmount="0"/>
+<species id="MG_457_HEXAMER" name="ATP-dependent metalloprotease FtsH" compartment="m" initialAmount="70"/>
+<species id="MG_458_TETRAMER" name="hypoxanthine phosphoribosyltransferase" compartment="c" initialAmount="17"/>
+<species id="MG_460_TETRAMER" name="L-lactate dehydrogenase/malate dehydrogenase" compartment="c" initialAmount="13"/>
+<species id="MG_467_468_526_TETRAMER" name="salivaricin A ABC transporter" compartment="m" initialAmount="26"/>
+<species id="MG_469_1MER_ADP" name="DnaA-ADP" compartment="c" initialAmount="0"/>
+<species id="MG_469_1MER_ATP" name="DnaA-ATP" compartment="c" initialAmount="25"/>
+<species id="MG_469_2MER_1ATP_ADP" name="DnaA 2mer-(1)ATP-(1)ADP" compartment="c" initialAmount="0"/>
+<species id="MG_469_2MER_ATP" name="DnaA-ATP 2mer" compartment="c" initialAmount="0"/>
+<species id="MG_469_3MER_2ATP_ADP" name="DnaA 3mer-(2)ATP-(1)ADP" compartment="c" initialAmount="0"/>
+<species id="MG_469_3MER_ATP" name="DnaA-ATP 3mer" compartment="c" initialAmount="0"/>
+<species id="MG_469_4MER_3ATP_ADP" name="DnaA 4mer-(3)ATP-(1)ADP" compartment="c" initialAmount="0"/>
+<species id="MG_469_4MER_ATP" name="DnaA-ATP 4mer" compartment="c" initialAmount="0"/>
+<species id="MG_469_5MER_4ATP_ADP" name="DnaA 5mer-(4)ATP-(1)ADP" compartment="c" initialAmount="0"/>
+<species id="MG_469_5MER_ATP" name="DnaA-ATP 5mer" compartment="c" initialAmount="0"/>
+<species id="MG_469_6MER_5ATP_ADP" name="DnaA 6mer-(5)ATP-(1)ADP" compartment="c" initialAmount="0"/>
+<species id="MG_469_6MER_ATP" name="DnaA-ATP 6mer" compartment="c" initialAmount="0"/>
+<species id="MG_469_7MER_6ATP_ADP" name="DnaA 7mer-(6)ATP-(1)ADP" compartment="c" initialAmount="0"/>
+<species id="MG_469_7MER_ATP" name="DnaA-ATP 7mer" compartment="c" initialAmount="4"/>
+<species id="MG_482_DIMER" name="holo-(acyl-carrier-protein) synthase" compartment="c" initialAmount="13"/>
+<species id="REPLISOME" name="Replisome" compartment="c" initialAmount="0"/>
+<species id="RIBOSOME_30S" name="30S ribosomal subunit" compartment="c" initialAmount="25"/>
+<species id="RIBOSOME_30S_IF3" name="30S ribosomal subunit - translation initiation factor IF-3 complex" compartment="c" initialAmount="0"/>
+<species id="RIBOSOME_50S" name="50S ribosomal subunit" compartment="c" initialAmount="12"/>
+<species id="RIBOSOME_70S" name="70S ribosome" compartment="c" initialAmount="56"/>
+<species id="RNA_POLYMERASE" name="DNA-directed RNA polymerase" compartment="c" initialAmount="40"/>
+<species id="RNA_POLYMERASE_HOLOENZYME" name="DNA-directed RNA polymerase holoenzyme" compartment="c" initialAmount="0"/>
 
     </listOfSpecies>
     <listOfParameters>
