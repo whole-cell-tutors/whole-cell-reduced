@@ -399,8 +399,10 @@ def create_model(ProteinDecay_Species_List,ProteinDecay_ReactionID_List):
         create_species(model,One_Species_ID,initialAmount)
 
     for speciesID in ProteinDecay_Reactions_List:
-        curr_reactants = Relabel_Compartments(curr_reactants)
-        curr_products = Relabel_Compartments(curr_products)
+        current_reactants = Get_Field(ProteinDecay_Reactions_Dict, speciesID, 'reactants')
+        current_products = Get_Field(ProteinDecay_Reactions_Dict, speciesID, 'products')
+        current_reactants = Relabel_Compartments(current_reactants)
+        current_products = Relabel_Compartments(current_products)
         kinetic_law_string=Make_kinetic_law_string_Translation(speciesID)
         enzymes_list=Get_Field(ProteinDecay_Reactions_Dict, speciesID, 'enzymes')
         ProteinDecay_Reaction(model,speciesID, current_reactants, current_products,kinetic_law_string,enzymes_list)
