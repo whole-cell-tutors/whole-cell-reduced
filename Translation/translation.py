@@ -263,7 +263,7 @@ def Make_kinetic_law_string_Translation(speciesID,All_tRNAs_list=All_tRNAs_list,
     k_1=str(k_1)
     k_2=str(k_2)
     m=str(m)
-    Law_string="("+kcat+"*RIBOSOME_70S*GTP^"+m+")/(1+GTP^"+m+"/"+k_2+")"
+    Law_string="(kcat*RIBOSOME_70S*GTP^"+m+")/(1+GTP^"+m+"/"+k_2+")"
     return Law_string
     
         
@@ -331,6 +331,30 @@ def Translation_Reaction(model,Reaction_name, reactants_list, products_list,kine
     kinetic_law = r1.createKineticLaw()
     check(kinetic_law,                        'create kinetic law')
     check(kinetic_law.setMath(math_ast),      'set math on kinetic law')
+
+        ## set parameters
+    para = kinetic_law.createParameter();
+    para.setId("kcat");
+    speciesID=Reaction_name
+    paraValue=Get_Field(Translation_Reactions_Dict, speciesID, 'rate_parameter_value')
+    para.setValue(paraValue);
+
+    para = kinetic_law.createParameter();
+    para.setId("m");
+    paraValue=m
+    para.setValue(paraValue);
+
+    para = kinetic_law.createParameter();
+    para.setId("k_1");
+    paraValue=k_1
+    para.setValue(paraValue);
+
+    para = kinetic_law.createParameter();
+    para.setId("k_2");
+    paraValue=k_2
+    para.setValue(paraValue);
+
+        
 
 def check(value, message):
   """If 'value' is None, prints an error message constructed using
@@ -404,4 +428,3 @@ def create_model(Translation_Species_List,Translation_ReactionID_List):
 if __name__ == '__main__':
     print(create_model(Translation_Species_List,Translation_Reactions_List))
 ###
-
