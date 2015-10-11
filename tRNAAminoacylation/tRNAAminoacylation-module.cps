@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- generated with COPASI 4.15 (Build 95) (http://www.copasi.org) at 2015-10-11 17:36:50 UTC -->
+<!-- generated with COPASI 4.16 (Build 104) (http://www.copasi.org) at 2015-10-11 17:41:30 UTC -->
 <?oxygen RNGSchema="http://www.copasi.org/static/schema/CopasiML.rng" type="xml"?>
-<COPASI xmlns="http://www.copasi.org/static/schema" versionMajor="4" versionMinor="15" versionDevel="95" copasiSourcesModified="0">
+<COPASI xmlns="http://www.copasi.org/static/schema" versionMajor="4" versionMinor="16" versionDevel="104" copasiSourcesModified="0">
   <ListOfFunctions>
-    <Function key="Function_40" name="Function for Aminoacylation (MG479)" type="UserDefined" reversible="false">
+    <Function key="Function_42" name="Function for Aminoacylation (MG479) [1]" type="UserDefined" reversible="false">
       <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Function_40">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#Function_42">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2015-10-11T11:18:17Z</dcterms:W3CDTF>
@@ -16,27 +14,26 @@
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
       </MiriamAnnotation>
       <Expression>
         k_tRnaAa_MG479*MG479__c*ATP__c*THR__c*MG_375_DIMER__c/((1+MG479__c)*(1+ATP__c)*(1+THR__c))/c
       </Expression>
       <ListOfParameterDescriptions>
-        <ParameterDescription key="FunctionParameter_269" name="ATP__c" order="0" role="substrate"/>
-        <ParameterDescription key="FunctionParameter_273" name="MG479__c" order="1" role="substrate"/>
-        <ParameterDescription key="FunctionParameter_274" name="MG_375_DIMER__c" order="2" role="modifier"/>
-        <ParameterDescription key="FunctionParameter_275" name="THR__c" order="3" role="substrate"/>
-        <ParameterDescription key="FunctionParameter_276" name="c" order="4" role="volume"/>
-        <ParameterDescription key="FunctionParameter_277" name="k_tRnaAa_MG479" order="5" role="constant"/>
+        <ParameterDescription key="FunctionParameter_313" name="ATP__c" order="0" role="substrate"/>
+        <ParameterDescription key="FunctionParameter_305" name="MG479__c" order="1" role="substrate"/>
+        <ParameterDescription key="FunctionParameter_298" name="MG_375_DIMER__c" order="2" role="modifier"/>
+        <ParameterDescription key="FunctionParameter_306" name="THR__c" order="3" role="substrate"/>
+        <ParameterDescription key="FunctionParameter_315" name="c" order="4" role="volume"/>
+        <ParameterDescription key="FunctionParameter_297" name="k_tRnaAa_MG479" order="5" role="constant"/>
       </ListOfParameterDescriptions>
     </Function>
   </ListOfFunctions>
-  <Model key="Model_4" name="tRNAAminoacylation module" simulationType="time" timeUnit="s" volumeUnit="l" areaUnit="m²" lengthUnit="m" quantityUnit="mol" type="deterministic" avogadroConstant="6.02214179e+23">
+  <Model key="Model_5" name="tRNAAminoacylation module" simulationType="time" timeUnit="s" volumeUnit="l" areaUnit="m²" lengthUnit="m" quantityUnit="mol" type="deterministic" avogadroConstant="6.02214179e+23">
     <MiriamAnnotation>
 <rdf:RDF
    xmlns:dcterms="http://purl.org/dc/terms/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Model_4">
+  <rdf:Description rdf:about="#Model_5">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2015-10-11T11:15:37Z</dcterms:W3CDTF>
@@ -47,12 +44,12 @@
 
     </MiriamAnnotation>
     <ListOfCompartments>
-      <Compartment key="Compartment_1" name="c" simulationType="fixed" dimensionality="3">
+      <Compartment key="Compartment_3" name="c" simulationType="fixed" dimensionality="3">
         <MiriamAnnotation>
 <rdf:RDF
    xmlns:dcterms="http://purl.org/dc/terms/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Compartment_1">
+  <rdf:Description rdf:about="#Compartment_3">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2015-10-11T11:17:19Z</dcterms:W3CDTF>
@@ -65,12 +62,12 @@
       </Compartment>
     </ListOfCompartments>
     <ListOfMetabolites>
-      <Metabolite key="Metabolite_1" name="ATP" simulationType="reactions" compartment="Compartment_1">
+      <Metabolite key="Metabolite_17" name="ATP" simulationType="reactions" compartment="Compartment_3">
         <MiriamAnnotation>
 <rdf:RDF
    xmlns:dcterms="http://purl.org/dc/terms/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_1">
+  <rdf:Description rdf:about="#Metabolite_17">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2015-10-11T11:15:46Z</dcterms:W3CDTF>
@@ -81,12 +78,10 @@
 
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_3" name="L-Threonine" simulationType="reactions" compartment="Compartment_1">
+      <Metabolite key="Metabolite_19" name="L-Threonine" simulationType="reactions" compartment="Compartment_3">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_3">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#Metabolite_19">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2015-10-11T11:15:51Z</dcterms:W3CDTF>
@@ -94,15 +89,12 @@
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_5" name="MG479" simulationType="reactions" compartment="Compartment_1">
+      <Metabolite key="Metabolite_21" name="MG479" simulationType="reactions" compartment="Compartment_3">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_5">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#Metabolite_21">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2015-10-11T11:15:54Z</dcterms:W3CDTF>
@@ -110,15 +102,12 @@
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_7" name="MG479-AA" simulationType="reactions" compartment="Compartment_1">
+      <Metabolite key="Metabolite_23" name="MG479-AA" simulationType="reactions" compartment="Compartment_3">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_7">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#Metabolite_23">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2015-10-11T11:15:56Z</dcterms:W3CDTF>
@@ -126,15 +115,12 @@
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_9" name="threonyl-tRNA synthetase" simulationType="reactions" compartment="Compartment_1">
+      <Metabolite key="Metabolite_25" name="threonyl-tRNA synthetase" simulationType="reactions" compartment="Compartment_3">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_9">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#Metabolite_25">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2015-10-11T11:16:01Z</dcterms:W3CDTF>
@@ -142,15 +128,14 @@
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_11" name="AMP" simulationType="reactions" compartment="Compartment_1">
+      <Metabolite key="Metabolite_27" name="AMP" simulationType="reactions" compartment="Compartment_3">
         <MiriamAnnotation>
 <rdf:RDF
    xmlns:dcterms="http://purl.org/dc/terms/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_11">
+  <rdf:Description rdf:about="#Metabolite_27">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2015-10-11T11:15:42Z</dcterms:W3CDTF>
@@ -161,12 +146,10 @@
 
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_13" name="phosphate" simulationType="reactions" compartment="Compartment_1">
+      <Metabolite key="Metabolite_29" name="phosphate" simulationType="reactions" compartment="Compartment_3">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_13">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#Metabolite_29">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2015-10-11T11:15:58Z</dcterms:W3CDTF>
@@ -174,15 +157,14 @@
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_15" name="diphosphate" simulationType="reactions" compartment="Compartment_1">
+      <Metabolite key="Metabolite_31" name="diphosphate" simulationType="reactions" compartment="Compartment_3">
         <MiriamAnnotation>
 <rdf:RDF
    xmlns:dcterms="http://purl.org/dc/terms/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_15">
+  <rdf:Description rdf:about="#Metabolite_31">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2015-10-11T11:15:48Z</dcterms:W3CDTF>
@@ -195,16 +177,14 @@
       </Metabolite>
     </ListOfMetabolites>
     <ListOfModelValues>
-      <ModelValue key="ModelValue_0" name="k_tRnaAa_MG479" simulationType="fixed">
+      <ModelValue key="ModelValue_1" name="k_tRnaAa_MG479" simulationType="fixed">
       </ModelValue>
     </ListOfModelValues>
     <ListOfReactions>
-      <Reaction key="Reaction_0" name="Aminoacylation (MG479)" reversible="false" fast="false">
+      <Reaction key="Reaction_1" name="Aminoacylation (MG479)" reversible="false" fast="false">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_0">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#Reaction_1">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2015-10-11T11:16:07Z</dcterms:W3CDTF>
@@ -212,50 +192,49 @@
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_5" stoichiometry="1"/>
-          <Substrate metabolite="Metabolite_1" stoichiometry="1"/>
-          <Substrate metabolite="Metabolite_3" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_21" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_17" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_19" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_7" stoichiometry="1"/>
-          <Product metabolite="Metabolite_11" stoichiometry="1"/>
-          <Product metabolite="Metabolite_15" stoichiometry="1"/>
+          <Product metabolite="Metabolite_23" stoichiometry="1"/>
+          <Product metabolite="Metabolite_27" stoichiometry="1"/>
+          <Product metabolite="Metabolite_31" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_9" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_25" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_4400" name="k_tRnaAa_MG479" value="90"/>
+          <Constant key="Parameter_4349" name="k_tRnaAa_MG479" value="90"/>
         </ListOfConstants>
-        <KineticLaw function="Function_40">
+        <KineticLaw function="Function_42">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_269">
-              <SourceParameter reference="Metabolite_5"/>
+            <CallParameter functionParameter="FunctionParameter_313">
+              <SourceParameter reference="Metabolite_21"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_273">
-              <SourceParameter reference="Metabolite_1"/>
+            <CallParameter functionParameter="FunctionParameter_305">
+              <SourceParameter reference="Metabolite_17"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_274">
-              <SourceParameter reference="Metabolite_9"/>
+            <CallParameter functionParameter="FunctionParameter_298">
+              <SourceParameter reference="Metabolite_25"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_275">
-              <SourceParameter reference="Metabolite_3"/>
+            <CallParameter functionParameter="FunctionParameter_306">
+              <SourceParameter reference="Metabolite_19"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_276">
-              <SourceParameter reference="Compartment_1"/>
+            <CallParameter functionParameter="FunctionParameter_315">
+              <SourceParameter reference="Compartment_3"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_277">
-              <SourceParameter reference="Parameter_4400"/>
+            <CallParameter functionParameter="FunctionParameter_297">
+              <SourceParameter reference="Parameter_4349"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
     </ListOfReactions>
-    <ListOfModelParameterSets activeSet="ModelParameterSet_0">
-      <ModelParameterSet key="ModelParameterSet_0" name="Initial State">
+    <ListOfModelParameterSets activeSet="ModelParameterSet_2">
+      <ModelParameterSet key="ModelParameterSet_2" name="Initial State">
         <ModelParameterGroup cn="String=Initial Time" type="Group">
           <ModelParameter cn="CN=Root,Model=tRNAAminoacylation module" value="0" type="Model" simulationType="time"/>
         </ModelParameterGroup>
@@ -283,25 +262,25 @@
       </ModelParameterSet>
     </ListOfModelParameterSets>
     <StateTemplate>
-      <StateTemplateVariable objectReference="Model_4"/>
-      <StateTemplateVariable objectReference="Metabolite_1"/>
-      <StateTemplateVariable objectReference="Metabolite_3"/>
-      <StateTemplateVariable objectReference="Metabolite_5"/>
-      <StateTemplateVariable objectReference="Metabolite_7"/>
-      <StateTemplateVariable objectReference="Metabolite_11"/>
-      <StateTemplateVariable objectReference="Metabolite_15"/>
-      <StateTemplateVariable objectReference="Metabolite_9"/>
-      <StateTemplateVariable objectReference="Metabolite_13"/>
-      <StateTemplateVariable objectReference="Compartment_1"/>
-      <StateTemplateVariable objectReference="ModelValue_0"/>
+      <StateTemplateVariable objectReference="Model_5"/>
+      <StateTemplateVariable objectReference="Metabolite_17"/>
+      <StateTemplateVariable objectReference="Metabolite_19"/>
+      <StateTemplateVariable objectReference="Metabolite_21"/>
+      <StateTemplateVariable objectReference="Metabolite_23"/>
+      <StateTemplateVariable objectReference="Metabolite_27"/>
+      <StateTemplateVariable objectReference="Metabolite_31"/>
+      <StateTemplateVariable objectReference="Metabolite_25"/>
+      <StateTemplateVariable objectReference="Metabolite_29"/>
+      <StateTemplateVariable objectReference="Compartment_3"/>
+      <StateTemplateVariable objectReference="ModelValue_1"/>
     </StateTemplate>
     <InitialState type="initialState">
       0 100 100 100 100 100 100 100 100 1e-16 90 
     </InitialState>
   </Model>
   <ListOfTasks>
-    <Task key="Task_12" name="Steady-State" type="steadyState" scheduled="false" updateModel="false">
-      <Report reference="Report_8" target="" append="1" confirmOverwrite="1"/>
+    <Task key="Task_26" name="Steady-State" type="steadyState" scheduled="false" updateModel="false">
+      <Report reference="Report_17" target="" append="1" confirmOverwrite="1"/>
       <Problem>
         <Parameter name="JacobianRequested" type="bool" value="1"/>
         <Parameter name="StabilityAnalysisRequested" type="bool" value="1"/>
@@ -318,11 +297,11 @@
         <Parameter name="Maximum duration for backward integration" type="unsignedFloat" value="1000000"/>
       </Method>
     </Task>
-    <Task key="Task_11" name="Time-Course" type="timeCourse" scheduled="false" updateModel="false">
+    <Task key="Task_25" name="Time-Course" type="timeCourse" scheduled="false" updateModel="false">
       <Problem>
-        <Parameter name="StepNumber" type="unsignedInteger" value="1000"/>
-        <Parameter name="StepSize" type="float" value="0.01"/>
-        <Parameter name="Duration" type="float" value="10"/>
+        <Parameter name="StepNumber" type="unsignedInteger" value="10000"/>
+        <Parameter name="StepSize" type="float" value="0.08"/>
+        <Parameter name="Duration" type="float" value="800"/>
         <Parameter name="TimeSeriesRequested" type="bool" value="1"/>
         <Parameter name="OutputStartTime" type="float" value="0"/>
         <Parameter name="Output Event" type="bool" value="0"/>
@@ -335,7 +314,7 @@
         <Parameter name="Random Seed" type="unsignedInteger" value="1"/>
       </Method>
     </Task>
-    <Task key="Task_10" name="Scan" type="scan" scheduled="false" updateModel="false">
+    <Task key="Task_24" name="Scan" type="scan" scheduled="false" updateModel="false">
       <Problem>
         <Parameter name="Subtask" type="unsignedInteger" value="1"/>
         <ParameterGroup name="ScanItems">
@@ -346,15 +325,15 @@
       <Method name="Scan Framework" type="ScanFramework">
       </Method>
     </Task>
-    <Task key="Task_9" name="Elementary Flux Modes" type="fluxMode" scheduled="false" updateModel="false">
-      <Report reference="Report_7" target="" append="1" confirmOverwrite="1"/>
+    <Task key="Task_23" name="Elementary Flux Modes" type="fluxMode" scheduled="false" updateModel="false">
+      <Report reference="Report_16" target="" append="1" confirmOverwrite="1"/>
       <Problem>
       </Problem>
       <Method name="EFM Algorithm" type="EFMAlgorithm">
       </Method>
     </Task>
-    <Task key="Task_8" name="Optimization" type="optimization" scheduled="false" updateModel="false">
-      <Report reference="Report_6" target="" append="1" confirmOverwrite="1"/>
+    <Task key="Task_22" name="Optimization" type="optimization" scheduled="false" updateModel="false">
+      <Report reference="Report_15" target="" append="1" confirmOverwrite="1"/>
       <Problem>
         <Parameter name="Subtask" type="cn" value="CN=Root,Vector=TaskList[Steady-State]"/>
         <ParameterText name="ObjectiveExpression" type="expression">
@@ -374,8 +353,8 @@
         <Parameter name="Seed" type="unsignedInteger" value="0"/>
       </Method>
     </Task>
-    <Task key="Task_7" name="Parameter Estimation" type="parameterFitting" scheduled="false" updateModel="false">
-      <Report reference="Report_5" target="" append="1" confirmOverwrite="1"/>
+    <Task key="Task_21" name="Parameter Estimation" type="parameterFitting" scheduled="false" updateModel="false">
+      <Report reference="Report_14" target="" append="1" confirmOverwrite="1"/>
       <Problem>
         <Parameter name="Maximize" type="bool" value="0"/>
         <Parameter name="Randomize Start Values" type="bool" value="0"/>
@@ -390,8 +369,8 @@
         <ParameterGroup name="Experiment Set">
         </ParameterGroup>
         <ParameterGroup name="Validation Set">
-          <Parameter name="Weight" type="unsignedFloat" value="1"/>
           <Parameter name="Threshold" type="unsignedInteger" value="5"/>
+          <Parameter name="Weight" type="unsignedFloat" value="1"/>
         </ParameterGroup>
       </Problem>
       <Method name="Evolutionary Programming" type="EvolutionaryProgram">
@@ -401,17 +380,19 @@
         <Parameter name="Seed" type="unsignedInteger" value="0"/>
       </Method>
     </Task>
-    <Task key="Task_6" name="Metabolic Control Analysis" type="metabolicControlAnalysis" scheduled="false" updateModel="false">
-      <Report reference="Report_4" target="" append="1" confirmOverwrite="1"/>
+    <Task key="Task_20" name="Metabolic Control Analysis" type="metabolicControlAnalysis" scheduled="false" updateModel="false">
+      <Report reference="Report_13" target="" append="1" confirmOverwrite="1"/>
       <Problem>
-        <Parameter name="Steady-State" type="key" value="Task_12"/>
+        <Parameter name="Steady-State" type="key" value="Task_26"/>
       </Problem>
       <Method name="MCA Method (Reder)" type="MCAMethod(Reder)">
         <Parameter name="Modulation Factor" type="unsignedFloat" value="1e-09"/>
+        <Parameter name="Use Reeder" type="bool" value="1"/>
+        <Parameter name="Use Smallbone" type="bool" value="1"/>
       </Method>
     </Task>
-    <Task key="Task_5" name="Lyapunov Exponents" type="lyapunovExponents" scheduled="false" updateModel="false">
-      <Report reference="Report_3" target="" append="1" confirmOverwrite="1"/>
+    <Task key="Task_19" name="Lyapunov Exponents" type="lyapunovExponents" scheduled="false" updateModel="false">
+      <Report reference="Report_12" target="" append="1" confirmOverwrite="1"/>
       <Problem>
         <Parameter name="ExponentNumber" type="unsignedInteger" value="3"/>
         <Parameter name="DivergenceRequested" type="bool" value="1"/>
@@ -425,8 +406,8 @@
         <Parameter name="Max Internal Steps" type="unsignedInteger" value="10000"/>
       </Method>
     </Task>
-    <Task key="Task_4" name="Time Scale Separation Analysis" type="timeScaleSeparationAnalysis" scheduled="false" updateModel="false">
-      <Report reference="Report_2" target="" append="1" confirmOverwrite="1"/>
+    <Task key="Task_18" name="Time Scale Separation Analysis" type="timeScaleSeparationAnalysis" scheduled="false" updateModel="false">
+      <Report reference="Report_11" target="" append="1" confirmOverwrite="1"/>
       <Problem>
         <Parameter name="StepNumber" type="unsignedInteger" value="100"/>
         <Parameter name="StepSize" type="float" value="0.01"/>
@@ -438,8 +419,8 @@
         <Parameter name="Deuflhard Tolerance" type="unsignedFloat" value="1e-06"/>
       </Method>
     </Task>
-    <Task key="Task_3" name="Sensitivities" type="sensitivities" scheduled="false" updateModel="false">
-      <Report reference="Report_1" target="" append="1" confirmOverwrite="1"/>
+    <Task key="Task_17" name="Sensitivities" type="sensitivities" scheduled="false" updateModel="false">
+      <Report reference="Report_10" target="" append="1" confirmOverwrite="1"/>
       <Problem>
         <Parameter name="SubtaskType" type="unsignedInteger" value="1"/>
         <ParameterGroup name="TargetFunctions">
@@ -458,13 +439,13 @@
         <Parameter name="Delta minimum" type="unsignedFloat" value="1e-12"/>
       </Method>
     </Task>
-    <Task key="Task_2" name="Moieties" type="moieties" scheduled="false" updateModel="false">
+    <Task key="Task_16" name="Moieties" type="moieties" scheduled="false" updateModel="false">
       <Problem>
       </Problem>
       <Method name="Householder Reduction" type="Householder">
       </Method>
     </Task>
-    <Task key="Task_1" name="Cross Section" type="crosssection" scheduled="false" updateModel="false">
+    <Task key="Task_15" name="Cross Section" type="crosssection" scheduled="false" updateModel="false">
       <Problem>
         <Parameter name="StepNumber" type="unsignedInteger" value="100"/>
         <Parameter name="StepSize" type="float" value="0.01"/>
@@ -496,17 +477,17 @@
         <Parameter name="Max Internal Steps" type="unsignedInteger" value="10000"/>
       </Method>
     </Task>
-    <Task key="Task_13" name="Linear Noise Approximation" type="linearNoiseApproximation" scheduled="false" updateModel="false">
-      <Report reference="Report_0" target="" append="1" confirmOverwrite="1"/>
+    <Task key="Task_27" name="Linear Noise Approximation" type="linearNoiseApproximation" scheduled="false" updateModel="false">
+      <Report reference="Report_9" target="" append="1" confirmOverwrite="1"/>
       <Problem>
-        <Parameter name="Steady-State" type="key" value="Task_12"/>
+        <Parameter name="Steady-State" type="key" value="Task_26"/>
       </Problem>
       <Method name="Linear Noise Approximation" type="LinearNoiseApproximation">
       </Method>
     </Task>
   </ListOfTasks>
   <ListOfReports>
-    <Report key="Report_8" name="Steady-State" taskType="steadyState" separator="&#x09;" precision="6">
+    <Report key="Report_17" name="Steady-State" taskType="steadyState" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -514,7 +495,7 @@
         <Object cn="CN=Root,Vector=TaskList[Steady-State]"/>
       </Footer>
     </Report>
-    <Report key="Report_7" name="Elementary Flux Modes" taskType="fluxMode" separator="&#x09;" precision="6">
+    <Report key="Report_16" name="Elementary Flux Modes" taskType="fluxMode" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -522,7 +503,7 @@
         <Object cn="CN=Root,Vector=TaskList[Elementary Flux Modes],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_6" name="Optimization" taskType="optimization" separator="&#x09;" precision="6">
+    <Report key="Report_15" name="Optimization" taskType="optimization" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -546,7 +527,7 @@
         <Object cn="CN=Root,Vector=TaskList[Optimization],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_5" name="Parameter Estimation" taskType="parameterFitting" separator="&#x09;" precision="6">
+    <Report key="Report_14" name="Parameter Estimation" taskType="parameterFitting" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -570,7 +551,7 @@
         <Object cn="CN=Root,Vector=TaskList[Parameter Estimation],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_4" name="Metabolic Control Analysis" taskType="metabolicControlAnalysis" separator="&#x09;" precision="6">
+    <Report key="Report_13" name="Metabolic Control Analysis" taskType="metabolicControlAnalysis" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -582,7 +563,7 @@
         <Object cn="CN=Root,Vector=TaskList[Metabolic Control Analysis],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_3" name="Lyapunov Exponents" taskType="lyapunovExponents" separator="&#x09;" precision="6">
+    <Report key="Report_12" name="Lyapunov Exponents" taskType="lyapunovExponents" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -594,7 +575,7 @@
         <Object cn="CN=Root,Vector=TaskList[Lyapunov Exponents],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_2" name="Time Scale Separation Analysis" taskType="timeScaleSeparationAnalysis" separator="&#x09;" precision="6">
+    <Report key="Report_11" name="Time Scale Separation Analysis" taskType="timeScaleSeparationAnalysis" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -606,7 +587,7 @@
         <Object cn="CN=Root,Vector=TaskList[Time Scale Separation Analysis],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_1" name="Sensitivities" taskType="sensitivities" separator="&#x09;" precision="6">
+    <Report key="Report_10" name="Sensitivities" taskType="sensitivities" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -618,7 +599,7 @@
         <Object cn="CN=Root,Vector=TaskList[Sensitivities],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_0" name="Linear Noise Approximation" taskType="linearNoiseApproximation" separator="&#x09;" precision="6">
+    <Report key="Report_9" name="Linear Noise Approximation" taskType="linearNoiseApproximation" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -637,120 +618,120 @@
       <Parameter name="log Y" type="bool" value="0"/>
       <ListOfPlotItems>
         <PlotItem name="ATP.ParticleNumber" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=tRNAAminoacylation module,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=tRNAAminoacylation module,Vector=Compartments[c],Vector=Metabolites[ATP],Reference=ParticleNumber"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="L-Threonine.ParticleNumber" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=tRNAAminoacylation module,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=tRNAAminoacylation module,Vector=Compartments[c],Vector=Metabolites[L-Threonine],Reference=ParticleNumber"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="MG479.ParticleNumber" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=tRNAAminoacylation module,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=tRNAAminoacylation module,Vector=Compartments[c],Vector=Metabolites[MG479],Reference=ParticleNumber"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="MG479-AA.ParticleNumber" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=tRNAAminoacylation module,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=tRNAAminoacylation module,Vector=Compartments[c],Vector=Metabolites[MG479-AA],Reference=ParticleNumber"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="threonyl-tRNA synthetase.ParticleNumber" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=tRNAAminoacylation module,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=tRNAAminoacylation module,Vector=Compartments[c],Vector=Metabolites[threonyl-tRNA synthetase],Reference=ParticleNumber"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="AMP.ParticleNumber" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=tRNAAminoacylation module,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=tRNAAminoacylation module,Vector=Compartments[c],Vector=Metabolites[AMP],Reference=ParticleNumber"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="phosphate.ParticleNumber" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=tRNAAminoacylation module,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=tRNAAminoacylation module,Vector=Compartments[c],Vector=Metabolites[phosphate],Reference=ParticleNumber"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="diphosphate.ParticleNumber" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=tRNAAminoacylation module,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=tRNAAminoacylation module,Vector=Compartments[c],Vector=Metabolites[diphosphate],Reference=ParticleNumber"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="Compartments[c].Volume" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=tRNAAminoacylation module,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=tRNAAminoacylation module,Vector=Compartments[c],Reference=Volume"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="Values[k_tRnaAa_MG479]" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=tRNAAminoacylation module,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=tRNAAminoacylation module,Vector=Values[k_tRnaAa_MG479],Reference=Value"/>
@@ -762,17 +743,17 @@
   <GUI>
   </GUI>
   <SBMLReference file="tRNAAminoacylation-module.xml">
-    <SBMLMap SBMLid="AMP__c" COPASIkey="Metabolite_11"/>
-    <SBMLMap SBMLid="ATP__c" COPASIkey="Metabolite_1"/>
-    <SBMLMap SBMLid="Aminoacylation_MG479" COPASIkey="Reaction_0"/>
-    <SBMLMap SBMLid="Function_for_Aminoacylation__MG479" COPASIkey="Function_40"/>
-    <SBMLMap SBMLid="MG479__c" COPASIkey="Metabolite_5"/>
-    <SBMLMap SBMLid="MG479_aa__c" COPASIkey="Metabolite_7"/>
-    <SBMLMap SBMLid="MG_375_DIMER__c" COPASIkey="Metabolite_9"/>
-    <SBMLMap SBMLid="PI__c" COPASIkey="Metabolite_13"/>
-    <SBMLMap SBMLid="PPI__c" COPASIkey="Metabolite_15"/>
-    <SBMLMap SBMLid="THR__c" COPASIkey="Metabolite_3"/>
-    <SBMLMap SBMLid="c" COPASIkey="Compartment_1"/>
-    <SBMLMap SBMLid="k_tRnaAa_MG479" COPASIkey="ModelValue_0"/>
+    <SBMLMap SBMLid="AMP__c" COPASIkey="Metabolite_27"/>
+    <SBMLMap SBMLid="ATP__c" COPASIkey="Metabolite_17"/>
+    <SBMLMap SBMLid="Aminoacylation_MG479" COPASIkey="Reaction_1"/>
+    <SBMLMap SBMLid="Function_for_Aminoacylation__MG479" COPASIkey="Function_42"/>
+    <SBMLMap SBMLid="MG479__c" COPASIkey="Metabolite_21"/>
+    <SBMLMap SBMLid="MG479_aa__c" COPASIkey="Metabolite_23"/>
+    <SBMLMap SBMLid="MG_375_DIMER__c" COPASIkey="Metabolite_25"/>
+    <SBMLMap SBMLid="PI__c" COPASIkey="Metabolite_29"/>
+    <SBMLMap SBMLid="PPI__c" COPASIkey="Metabolite_31"/>
+    <SBMLMap SBMLid="THR__c" COPASIkey="Metabolite_19"/>
+    <SBMLMap SBMLid="c" COPASIkey="Compartment_3"/>
+    <SBMLMap SBMLid="k_tRnaAa_MG479" COPASIkey="ModelValue_1"/>
   </SBMLReference>
 </COPASI>
