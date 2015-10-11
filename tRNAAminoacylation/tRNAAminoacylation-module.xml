@@ -512,7 +512,7 @@
 
     </listOfParameters>
     <listOfReactions>
-			<reaction id="Aminoacylation_MG471" name="Aminoacylation (MG471)">
+			<reaction id="Aminoacylation_MG471" name="Aminoacylation (MG471)" reversible="false" >
 	<listOfReactants>
 		<speciesReference species="MG471__c" stoichiometry="1" />
 		<speciesReference species="ALA__c" stoichiometry="1" />
@@ -592,7 +592,7 @@
 	</listOfParameters>
 	</kineticLaw>
 </reaction>
-<reaction id="Aminoacylation_MG472" name="Aminoacylation (MG472)">
+<reaction id="Aminoacylation_MG472" name="Aminoacylation (MG472)" reversible="false" >
 	<listOfReactants>
 		<speciesReference species="MG472__c" stoichiometry="1" />
 		<speciesReference species="ATP__c" stoichiometry="1" />
@@ -672,7 +672,7 @@
 	</listOfParameters>
 	</kineticLaw>
 </reaction>
-<reaction id="Aminoacylation_MG475" name="Aminoacylation (MG475)">
+<reaction id="Aminoacylation_MG475" name="Aminoacylation (MG475)" reversible="false" >
 	<listOfReactants>
 		<speciesReference species="MG475__c" stoichiometry="1" />
 		<speciesReference species="ATP__c" stoichiometry="1" />
@@ -752,7 +752,7 @@
 	</listOfParameters>
 	</kineticLaw>
 </reaction>
-<reaction id="Aminoacylation_MG479" name="Aminoacylation (MG479)">
+<reaction id="Aminoacylation_MG479" name="Aminoacylation (MG479)" reversible="false" >
 	<listOfReactants>
 		<speciesReference species="MG479__c" stoichiometry="1" />
 		<speciesReference species="ATP__c" stoichiometry="1" />
@@ -832,7 +832,7 @@
 	</listOfParameters>
 	</kineticLaw>
 </reaction>
-<reaction id="Aminoacylation_MG483" name="Aminoacylation (MG483)">
+<reaction id="Aminoacylation_MG483" name="Aminoacylation (MG483)" reversible="false" >
 	<listOfReactants>
 		<speciesReference species="MG483__c" stoichiometry="1" />
 		<speciesReference species="ATP__c" stoichiometry="1" />
@@ -912,7 +912,7 @@
 	</listOfParameters>
 	</kineticLaw>
 </reaction>
-<reaction id="Aminoacylation_MG484" name="Aminoacylation (MG484)">
+<reaction id="Aminoacylation_MG484" name="Aminoacylation (MG484)" reversible="false" >
 	<listOfReactants>
 		<speciesReference species="MG484__c" stoichiometry="1" />
 		<speciesReference species="ATP__c" stoichiometry="1" />
@@ -992,7 +992,7 @@
 	</listOfParameters>
 	</kineticLaw>
 </reaction>
-<reaction id="Aminoacylation_MG485" name="Aminoacylation (MG485)">
+<reaction id="Aminoacylation_MG485" name="Aminoacylation (MG485)" reversible="false" >
 	<listOfReactants>
 		<speciesReference species="MG485__c" stoichiometry="1" />
 		<speciesReference species="ATP__c" stoichiometry="1" />
@@ -1072,7 +1072,7 @@
 	</listOfParameters>
 	</kineticLaw>
 </reaction>
-<reaction id="Aminoacylation_MG486" name="Aminoacylation (MG486)">
+<reaction id="Aminoacylation_MG486" name="Aminoacylation (MG486)" reversible="false" >
 	<listOfReactants>
 		<speciesReference species="MG486__c" stoichiometry="1" />
 		<speciesReference species="ATP__c" stoichiometry="1" />
@@ -1152,7 +1152,7 @@
 	</listOfParameters>
 	</kineticLaw>
 </reaction>
-<reaction id="Aminoacylation_MG487" name="Aminoacylation (MG487)">
+<reaction id="Aminoacylation_MG487" name="Aminoacylation (MG487)" reversible="false" >
 	<listOfReactants>
 		<speciesReference species="MG487__c" stoichiometry="1" />
 		<speciesReference species="ATP__c" stoichiometry="1" />
@@ -1232,7 +1232,7 @@
 	</listOfParameters>
 	</kineticLaw>
 </reaction>
-<reaction id="Aminoacylation_MG488" name="Aminoacylation (MG488)">
+<reaction id="Aminoacylation_MG488" name="Aminoacylation (MG488)" reversible="false" >
 	<listOfReactants>
 		<speciesReference species="MG488__c" stoichiometry="1" />
 		<speciesReference species="ATP__c" stoichiometry="1" />
@@ -1331,7 +1331,7 @@
 	</listOfParameters>
 	</kineticLaw>
 </reaction>
-<reaction id="Aminoacylation_MG489" name="Aminoacylation (MG489)">
+<reaction id="Aminoacylation_MG489" name="Aminoacylation (MG489)" reversible="false" >
 	<listOfReactants>
 		<speciesReference species="MG489__c" stoichiometry="1" />
 		<speciesReference species="ASP__c" stoichiometry="1" />
@@ -1411,7 +1411,7 @@
 	</listOfParameters>
 	</kineticLaw>
 </reaction>
-<reaction id="Aminoacylation_MG490" name="Aminoacylation (MG490)">
+<reaction id="Aminoacylation_MG490" name="Aminoacylation (MG490)" reversible="false" >
 	<listOfReactants>
 		<speciesReference species="MG490__c" stoichiometry="1" />
 		<speciesReference species="ATP__c" stoichiometry="1" />
@@ -1491,7 +1491,7 @@
 	</listOfParameters>
 	</kineticLaw>
 </reaction>
-<reaction id="Aminoacylation_MG492" name="Aminoacylation (MG492)">
+<reaction id="Aminoacylation_MG492" name="Aminoacylation (MG492)" reversible="false" >
 	<listOfReactants>
 		<speciesReference species="MG492__c" stoichiometry="1" />
 		<speciesReference species="ARG__c" stoichiometry="1" />
@@ -1571,7 +1571,7 @@
 	</listOfParameters>
 	</kineticLaw>
 </reaction>
-<reaction id="Aminoacylation_MG493" name="Aminoacylation (MG493)">
+<reaction id="Aminoacylation_MG493" name="Aminoacylation (MG493)" reversible="false" >
 	<listOfReactants>
 		<speciesReference species="MG493__c" stoichiometry="1" />
 		<speciesReference species="ATP__c" stoichiometry="1" />
@@ -1651,7 +1651,7 @@
 	</listOfParameters>
 	</kineticLaw>
 </reaction>
-<reaction id="Aminoacylation_MG495" name="Aminoacylation (MG495)">
+<reaction id="Aminoacylation_MG495" name="Aminoacylation (MG495)" reversible="false" >
 	<listOfReactants>
 		<speciesReference species="MG495__c" stoichiometry="1" />
 		<speciesReference species="ARG__c" stoichiometry="1" />
@@ -1731,7 +1731,7 @@
 	</listOfParameters>
 	</kineticLaw>
 </reaction>
-<reaction id="Aminoacylation_MG496" name="Aminoacylation (MG496)">
+<reaction id="Aminoacylation_MG496" name="Aminoacylation (MG496)" reversible="false" >
 	<listOfReactants>
 		<speciesReference species="MG496__c" stoichiometry="1" />
 		<speciesReference species="ATP__c" stoichiometry="1" />
@@ -1811,7 +1811,7 @@
 	</listOfParameters>
 	</kineticLaw>
 </reaction>
-<reaction id="Aminoacylation_MG497" name="Aminoacylation (MG497)">
+<reaction id="Aminoacylation_MG497" name="Aminoacylation (MG497)" reversible="false" >
 	<listOfReactants>
 		<speciesReference species="MG497__c" stoichiometry="1" />
 		<speciesReference species="ARG__c" stoichiometry="1" />
@@ -1891,7 +1891,7 @@
 	</listOfParameters>
 	</kineticLaw>
 </reaction>
-<reaction id="Aminoacylation_MG499" name="Aminoacylation (MG499)">
+<reaction id="Aminoacylation_MG499" name="Aminoacylation (MG499)" reversible="false" >
 	<listOfReactants>
 		<speciesReference species="MG499__c" stoichiometry="1" />
 		<speciesReference species="ATP__c" stoichiometry="1" />
@@ -1971,7 +1971,7 @@
 	</listOfParameters>
 	</kineticLaw>
 </reaction>
-<reaction id="Aminoacylation_MG500" name="Aminoacylation (MG500)">
+<reaction id="Aminoacylation_MG500" name="Aminoacylation (MG500)" reversible="false" >
 	<listOfReactants>
 		<speciesReference species="MG500__c" stoichiometry="1" />
 		<speciesReference species="ATP__c" stoichiometry="1" />
@@ -2051,7 +2051,7 @@
 	</listOfParameters>
 	</kineticLaw>
 </reaction>
-<reaction id="Aminoacylation_MG501" name="Aminoacylation (MG501)">
+<reaction id="Aminoacylation_MG501" name="Aminoacylation (MG501)" reversible="false" >
 	<listOfReactants>
 		<speciesReference species="MG501__c" stoichiometry="1" />
 		<speciesReference species="ATP__c" stoichiometry="1" />
@@ -2131,7 +2131,7 @@
 	</listOfParameters>
 	</kineticLaw>
 </reaction>
-<reaction id="Aminoacylation_MG502" name="Aminoacylation (MG502)">
+<reaction id="Aminoacylation_MG502" name="Aminoacylation (MG502)" reversible="false" >
 	<listOfReactants>
 		<speciesReference species="MG502__c" stoichiometry="1" />
 		<speciesReference species="ATP__c" stoichiometry="2" />
@@ -2232,7 +2232,7 @@
 	</listOfParameters>
 	</kineticLaw>
 </reaction>
-<reaction id="Aminoacylation_MG503" name="Aminoacylation (MG503)">
+<reaction id="Aminoacylation_MG503" name="Aminoacylation (MG503)" reversible="false" >
 	<listOfReactants>
 		<speciesReference species="MG503__c" stoichiometry="1" />
 		<speciesReference species="ATP__c" stoichiometry="1" />
@@ -2312,7 +2312,7 @@
 	</listOfParameters>
 	</kineticLaw>
 </reaction>
-<reaction id="Aminoacylation_MG504" name="Aminoacylation (MG504)">
+<reaction id="Aminoacylation_MG504" name="Aminoacylation (MG504)" reversible="false" >
 	<listOfReactants>
 		<speciesReference species="MG504__c" stoichiometry="1" />
 		<speciesReference species="ATP__c" stoichiometry="1" />
@@ -2392,7 +2392,7 @@
 	</listOfParameters>
 	</kineticLaw>
 </reaction>
-<reaction id="Aminoacylation_MG506" name="Aminoacylation (MG506)">
+<reaction id="Aminoacylation_MG506" name="Aminoacylation (MG506)" reversible="false" >
 	<listOfReactants>
 		<speciesReference species="MG506__c" stoichiometry="1" />
 		<speciesReference species="ATP__c" stoichiometry="1" />
@@ -2472,7 +2472,7 @@
 	</listOfParameters>
 	</kineticLaw>
 </reaction>
-<reaction id="Aminoacylation_MG507" name="Aminoacylation (MG507)">
+<reaction id="Aminoacylation_MG507" name="Aminoacylation (MG507)" reversible="false" >
 	<listOfReactants>
 		<speciesReference species="MG507__c" stoichiometry="1" />
 		<speciesReference species="ATP__c" stoichiometry="1" />
@@ -2552,7 +2552,7 @@
 	</listOfParameters>
 	</kineticLaw>
 </reaction>
-<reaction id="Aminoacylation_MG508" name="Aminoacylation (MG508)">
+<reaction id="Aminoacylation_MG508" name="Aminoacylation (MG508)" reversible="false" >
 	<listOfReactants>
 		<speciesReference species="MG508__c" stoichiometry="1" />
 		<speciesReference species="ATP__c" stoichiometry="1" />
@@ -2632,7 +2632,7 @@
 	</listOfParameters>
 	</kineticLaw>
 </reaction>
-<reaction id="Aminoacylation_MG509" name="Aminoacylation (MG509)">
+<reaction id="Aminoacylation_MG509" name="Aminoacylation (MG509)" reversible="false" >
 	<listOfReactants>
 		<speciesReference species="MG509__c" stoichiometry="1" />
 		<speciesReference species="ATP__c" stoichiometry="1" />
@@ -2712,7 +2712,7 @@
 	</listOfParameters>
 	</kineticLaw>
 </reaction>
-<reaction id="Aminoacylation_MG510" name="Aminoacylation (MG510)">
+<reaction id="Aminoacylation_MG510" name="Aminoacylation (MG510)" reversible="false" >
 	<listOfReactants>
 		<speciesReference species="MG510__c" stoichiometry="1" />
 		<speciesReference species="ATP__c" stoichiometry="1" />
@@ -2792,7 +2792,7 @@
 	</listOfParameters>
 	</kineticLaw>
 </reaction>
-<reaction id="Aminoacylation_MG511" name="Aminoacylation (MG511)">
+<reaction id="Aminoacylation_MG511" name="Aminoacylation (MG511)" reversible="false" >
 	<listOfReactants>
 		<speciesReference species="MG511__c" stoichiometry="1" />
 		<speciesReference species="ATP__c" stoichiometry="1" />
@@ -2872,7 +2872,7 @@
 	</listOfParameters>
 	</kineticLaw>
 </reaction>
-<reaction id="Aminoacylation_MG512" name="Aminoacylation (MG512)">
+<reaction id="Aminoacylation_MG512" name="Aminoacylation (MG512)" reversible="false" >
 	<listOfReactants>
 		<speciesReference species="MG512__c" stoichiometry="1" />
 		<speciesReference species="ATP__c" stoichiometry="1" />
@@ -2952,7 +2952,7 @@
 	</listOfParameters>
 	</kineticLaw>
 </reaction>
-<reaction id="Aminoacylation_MG513" name="Aminoacylation (MG513)">
+<reaction id="Aminoacylation_MG513" name="Aminoacylation (MG513)" reversible="false" >
 	<listOfReactants>
 		<speciesReference species="MG513__c" stoichiometry="1" />
 		<speciesReference species="ATP__c" stoichiometry="1" />
@@ -3032,7 +3032,7 @@
 	</listOfParameters>
 	</kineticLaw>
 </reaction>
-<reaction id="Aminoacylation_MG514" name="Aminoacylation (MG514)">
+<reaction id="Aminoacylation_MG514" name="Aminoacylation (MG514)" reversible="false" >
 	<listOfReactants>
 		<speciesReference species="MG514__c" stoichiometry="1" />
 		<speciesReference species="ASN__c" stoichiometry="1" />
@@ -3112,7 +3112,7 @@
 	</listOfParameters>
 	</kineticLaw>
 </reaction>
-<reaction id="Aminoacylation_MG518" name="Aminoacylation (MG518)">
+<reaction id="Aminoacylation_MG518" name="Aminoacylation (MG518)" reversible="false" >
 	<listOfReactants>
 		<speciesReference species="MG518__c" stoichiometry="1" />
 		<speciesReference species="ATP__c" stoichiometry="1" />
@@ -3192,7 +3192,7 @@
 	</listOfParameters>
 	</kineticLaw>
 </reaction>
-<reaction id="Aminoacylation_MG519" name="Aminoacylation (MG519)">
+<reaction id="Aminoacylation_MG519" name="Aminoacylation (MG519)" reversible="false" >
 	<listOfReactants>
 		<speciesReference species="MG519__c" stoichiometry="1" />
 		<speciesReference species="ATP__c" stoichiometry="1" />
@@ -3272,7 +3272,7 @@
 	</listOfParameters>
 	</kineticLaw>
 </reaction>
-<reaction id="Aminoacylation_MG520" name="Aminoacylation (MG520)">
+<reaction id="Aminoacylation_MG520" name="Aminoacylation (MG520)" reversible="false" >
 	<listOfReactants>
 		<speciesReference species="MG520__c" stoichiometry="1" />
 		<speciesReference species="ATP__c" stoichiometry="1" />
@@ -3352,7 +3352,7 @@
 	</listOfParameters>
 	</kineticLaw>
 </reaction>
-<reaction id="Aminoacylation_MG523" name="Aminoacylation (MG523)">
+<reaction id="Aminoacylation_MG523" name="Aminoacylation (MG523)" reversible="false" >
 	<listOfReactants>
 		<speciesReference species="MG523__c" stoichiometry="1" />
 		<speciesReference species="ARG__c" stoichiometry="1" />

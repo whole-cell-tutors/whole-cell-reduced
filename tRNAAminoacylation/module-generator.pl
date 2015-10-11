@@ -73,7 +73,7 @@ while (my $line = <$data>) {
   
       my @fields = $csv->fields();
       # ID,Name,Stoichiometry,Enzyme,Rate law,Rate parameters,Type,KM1,KM2,KM3
-      print REACTIONS "<reaction id=\"".$fields[0]."\" name=\"".$fields[1]."\">\n";
+      print REACTIONS "<reaction id=\"".$fields[0]."\" name=\"".$fields[1]."\" reversible=\"false\" >\n";
 			
 			my @stoich = split "->", $fields[2];
 			my @reactants = split " ", $stoich[0];
