@@ -1,13 +1,13 @@
 <reaction id="Aminoacylation_MG471" name="Aminoacylation (MG471)">
 	<listOfReactants>
-		<speciesReference species="MG471" />
-		<speciesReference species="ALA" />
-		<speciesReference species="ATP" />
+		<speciesReference species="MG471" stoichiometry="1" />
+		<speciesReference species="ALA" stoichiometry="1" />
+		<speciesReference species="ATP" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG471_aa" />
-		<speciesReference species="AMP" />
-		<speciesReference species="PPI" />
+		<speciesReference species="MG471_aa" stoichiometry="1" />
+		<speciesReference species="AMP" stoichiometry="1" />
+		<speciesReference species="PPI" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
 		<modifierSpeciesReference species="MG_292_TETRAMER" />
@@ -69,14 +69,14 @@
 </reaction>
 <reaction id="Aminoacylation_MG472" name="Aminoacylation (MG472)">
 	<listOfReactants>
-		<speciesReference species="MG472" />
-		<speciesReference species="ATP" />
-		<speciesReference species="ILE" />
+		<speciesReference species="MG472" stoichiometry="1" />
+		<speciesReference species="ATP" stoichiometry="1" />
+		<speciesReference species="ILE" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG472_aa" />
-		<speciesReference species="AMP" />
-		<speciesReference species="PPI" />
+		<speciesReference species="MG472_aa" stoichiometry="1" />
+		<speciesReference species="AMP" stoichiometry="1" />
+		<speciesReference species="PPI" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
 		<modifierSpeciesReference species="MG_345_MONOMER" />
@@ -138,14 +138,14 @@
 </reaction>
 <reaction id="Aminoacylation_MG475" name="Aminoacylation (MG475)">
 	<listOfReactants>
-		<speciesReference species="MG475" />
-		<speciesReference species="ATP" />
-		<speciesReference species="SER" />
+		<speciesReference species="MG475" stoichiometry="1" />
+		<speciesReference species="ATP" stoichiometry="1" />
+		<speciesReference species="SER" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG475_aa" />
-		<speciesReference species="AMP" />
-		<speciesReference species="PPI" />
+		<speciesReference species="MG475_aa" stoichiometry="1" />
+		<speciesReference species="AMP" stoichiometry="1" />
+		<speciesReference species="PPI" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
 		<modifierSpeciesReference species="MG_005_DIMER" />
@@ -207,14 +207,14 @@
 </reaction>
 <reaction id="Aminoacylation_MG479" name="Aminoacylation (MG479)">
 	<listOfReactants>
-		<speciesReference species="MG479" />
-		<speciesReference species="ATP" />
-		<speciesReference species="THR" />
+		<speciesReference species="MG479" stoichiometry="1" />
+		<speciesReference species="ATP" stoichiometry="1" />
+		<speciesReference species="THR" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG479_aa" />
-		<speciesReference species="AMP" />
-		<speciesReference species="PPI" />
+		<speciesReference species="MG479_aa" stoichiometry="1" />
+		<speciesReference species="AMP" stoichiometry="1" />
+		<speciesReference species="PPI" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
 		<modifierSpeciesReference species="MG_375_DIMER" />
@@ -276,14 +276,14 @@
 </reaction>
 <reaction id="Aminoacylation_MG483" name="Aminoacylation (MG483)">
 	<listOfReactants>
-		<speciesReference species="MG483" />
-		<speciesReference species="ATP" />
-		<speciesReference species="CYS" />
+		<speciesReference species="MG483" stoichiometry="1" />
+		<speciesReference species="ATP" stoichiometry="1" />
+		<speciesReference species="CYS" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG483_aa" />
-		<speciesReference species="AMP" />
-		<speciesReference species="PPI" />
+		<speciesReference species="MG483_aa" stoichiometry="1" />
+		<speciesReference species="AMP" stoichiometry="1" />
+		<speciesReference species="PPI" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
 		<modifierSpeciesReference species="MG_253_MONOMER" />
@@ -345,14 +345,14 @@
 </reaction>
 <reaction id="Aminoacylation_MG484" name="Aminoacylation (MG484)">
 	<listOfReactants>
-		<speciesReference species="MG484" />
-		<speciesReference species="ATP" />
-		<speciesReference species="PRO" />
+		<speciesReference species="MG484" stoichiometry="1" />
+		<speciesReference species="ATP" stoichiometry="1" />
+		<speciesReference species="PRO" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG484_aa" />
-		<speciesReference species="AMP" />
-		<speciesReference species="PPI" />
+		<speciesReference species="MG484_aa" stoichiometry="1" />
+		<speciesReference species="AMP" stoichiometry="1" />
+		<speciesReference species="PPI" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
 		<modifierSpeciesReference species="MG_283_DIMER" />
@@ -414,14 +414,14 @@
 </reaction>
 <reaction id="Aminoacylation_MG485" name="Aminoacylation (MG485)">
 	<listOfReactants>
-		<speciesReference species="MG485" />
-		<speciesReference species="ATP" />
-		<speciesReference species="MET" />
+		<speciesReference species="MG485" stoichiometry="1" />
+		<speciesReference species="ATP" stoichiometry="1" />
+		<speciesReference species="MET" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG485_aa" />
-		<speciesReference species="AMP" />
-		<speciesReference species="PPI" />
+		<speciesReference species="MG485_aa" stoichiometry="1" />
+		<speciesReference species="AMP" stoichiometry="1" />
+		<speciesReference species="PPI" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
 		<modifierSpeciesReference species="MG_021_DIMER" />
@@ -483,14 +483,14 @@
 </reaction>
 <reaction id="Aminoacylation_MG486" name="Aminoacylation (MG486)">
 	<listOfReactants>
-		<speciesReference species="MG486" />
-		<speciesReference species="ATP" />
-		<speciesReference species="ILE" />
+		<speciesReference species="MG486" stoichiometry="1" />
+		<speciesReference species="ATP" stoichiometry="1" />
+		<speciesReference species="ILE" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG486_aa" />
-		<speciesReference species="AMP" />
-		<speciesReference species="PPI" />
+		<speciesReference species="MG486_aa" stoichiometry="1" />
+		<speciesReference species="AMP" stoichiometry="1" />
+		<speciesReference species="PPI" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
 		<modifierSpeciesReference species="MG_345_MONOMER" />
@@ -552,14 +552,14 @@
 </reaction>
 <reaction id="Aminoacylation_MG487" name="Aminoacylation (MG487)">
 	<listOfReactants>
-		<speciesReference species="MG487" />
-		<speciesReference species="ATP" />
-		<speciesReference species="SER" />
+		<speciesReference species="MG487" stoichiometry="1" />
+		<speciesReference species="ATP" stoichiometry="1" />
+		<speciesReference species="SER" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG487_aa" />
-		<speciesReference species="AMP" />
-		<speciesReference species="PPI" />
+		<speciesReference species="MG487_aa" stoichiometry="1" />
+		<speciesReference species="AMP" stoichiometry="1" />
+		<speciesReference species="PPI" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
 		<modifierSpeciesReference species="MG_005_DIMER" />
@@ -621,16 +621,16 @@
 </reaction>
 <reaction id="Aminoacylation_MG488" name="Aminoacylation (MG488)">
 	<listOfReactants>
-		<speciesReference species="MG488" />
-		<speciesReference species="ATP" />
-		<speciesReference species="FTHF10" />
-		<speciesReference species="MET" />
+		<speciesReference species="MG488" stoichiometry="1" />
+		<speciesReference species="ATP" stoichiometry="1" />
+		<speciesReference species="FTHF10" stoichiometry="1" />
+		<speciesReference species="MET" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG488_aa" />
-		<speciesReference species="AMP" />
-		<speciesReference species="PPI" />
-		<speciesReference species="THF" />
+		<speciesReference species="MG488_aa" stoichiometry="1" />
+		<speciesReference species="AMP" stoichiometry="1" />
+		<speciesReference species="PPI" stoichiometry="1" />
+		<speciesReference species="THF" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
 		<modifierSpeciesReference species="MG_365_MONOMER" />
@@ -705,14 +705,14 @@
 </reaction>
 <reaction id="Aminoacylation_MG489" name="Aminoacylation (MG489)">
 	<listOfReactants>
-		<speciesReference species="MG489" />
-		<speciesReference species="ASP" />
-		<speciesReference species="ATP" />
+		<speciesReference species="MG489" stoichiometry="1" />
+		<speciesReference species="ASP" stoichiometry="1" />
+		<speciesReference species="ATP" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG489_aa" />
-		<speciesReference species="AMP" />
-		<speciesReference species="PPI" />
+		<speciesReference species="MG489_aa" stoichiometry="1" />
+		<speciesReference species="AMP" stoichiometry="1" />
+		<speciesReference species="PPI" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
 		<modifierSpeciesReference species="MG_036_DIMER" />
@@ -774,14 +774,14 @@
 </reaction>
 <reaction id="Aminoacylation_MG490" name="Aminoacylation (MG490)">
 	<listOfReactants>
-		<speciesReference species="MG490" />
-		<speciesReference species="ATP" />
-		<speciesReference species="PHE" />
+		<speciesReference species="MG490" stoichiometry="1" />
+		<speciesReference species="ATP" stoichiometry="1" />
+		<speciesReference species="PHE" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG490_aa" />
-		<speciesReference species="AMP" />
-		<speciesReference species="PPI" />
+		<speciesReference species="MG490_aa" stoichiometry="1" />
+		<speciesReference species="AMP" stoichiometry="1" />
+		<speciesReference species="PPI" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
 		<modifierSpeciesReference species="MG_194_195_TETRAMER" />
@@ -843,14 +843,14 @@
 </reaction>
 <reaction id="Aminoacylation_MG492" name="Aminoacylation (MG492)">
 	<listOfReactants>
-		<speciesReference species="MG492" />
-		<speciesReference species="ARG" />
-		<speciesReference species="ATP" />
+		<speciesReference species="MG492" stoichiometry="1" />
+		<speciesReference species="ARG" stoichiometry="1" />
+		<speciesReference species="ATP" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG492_aa" />
-		<speciesReference species="AMP" />
-		<speciesReference species="PPI" />
+		<speciesReference species="MG492_aa" stoichiometry="1" />
+		<speciesReference species="AMP" stoichiometry="1" />
+		<speciesReference species="PPI" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
 		<modifierSpeciesReference species="MG_378_MONOMER" />
@@ -912,14 +912,14 @@
 </reaction>
 <reaction id="Aminoacylation_MG493" name="Aminoacylation (MG493)">
 	<listOfReactants>
-		<speciesReference species="MG493" />
-		<speciesReference species="ATP" />
-		<speciesReference species="GLY" />
+		<speciesReference species="MG493" stoichiometry="1" />
+		<speciesReference species="ATP" stoichiometry="1" />
+		<speciesReference species="GLY" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG493_aa" />
-		<speciesReference species="AMP" />
-		<speciesReference species="PPI" />
+		<speciesReference species="MG493_aa" stoichiometry="1" />
+		<speciesReference species="AMP" stoichiometry="1" />
+		<speciesReference species="PPI" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
 		<modifierSpeciesReference species="MG_251_DIMER" />
@@ -981,14 +981,14 @@
 </reaction>
 <reaction id="Aminoacylation_MG495" name="Aminoacylation (MG495)">
 	<listOfReactants>
-		<speciesReference species="MG495" />
-		<speciesReference species="ARG" />
-		<speciesReference species="ATP" />
+		<speciesReference species="MG495" stoichiometry="1" />
+		<speciesReference species="ARG" stoichiometry="1" />
+		<speciesReference species="ATP" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG495_aa" />
-		<speciesReference species="AMP" />
-		<speciesReference species="PPI" />
+		<speciesReference species="MG495_aa" stoichiometry="1" />
+		<speciesReference species="AMP" stoichiometry="1" />
+		<speciesReference species="PPI" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
 		<modifierSpeciesReference species="MG_378_MONOMER" />
@@ -1050,14 +1050,14 @@
 </reaction>
 <reaction id="Aminoacylation_MG496" name="Aminoacylation (MG496)">
 	<listOfReactants>
-		<speciesReference species="MG496" />
-		<speciesReference species="ATP" />
-		<speciesReference species="TRP" />
+		<speciesReference species="MG496" stoichiometry="1" />
+		<speciesReference species="ATP" stoichiometry="1" />
+		<speciesReference species="TRP" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG496_aa" />
-		<speciesReference species="AMP" />
-		<speciesReference species="PPI" />
+		<speciesReference species="MG496_aa" stoichiometry="1" />
+		<speciesReference species="AMP" stoichiometry="1" />
+		<speciesReference species="PPI" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
 		<modifierSpeciesReference species="MG_126_DIMER" />
@@ -1119,14 +1119,14 @@
 </reaction>
 <reaction id="Aminoacylation_MG497" name="Aminoacylation (MG497)">
 	<listOfReactants>
-		<speciesReference species="MG497" />
-		<speciesReference species="ARG" />
-		<speciesReference species="ATP" />
+		<speciesReference species="MG497" stoichiometry="1" />
+		<speciesReference species="ARG" stoichiometry="1" />
+		<speciesReference species="ATP" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG497_aa" />
-		<speciesReference species="AMP" />
-		<speciesReference species="PPI" />
+		<speciesReference species="MG497_aa" stoichiometry="1" />
+		<speciesReference species="AMP" stoichiometry="1" />
+		<speciesReference species="PPI" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
 		<modifierSpeciesReference species="MG_378_MONOMER" />
@@ -1188,14 +1188,14 @@
 </reaction>
 <reaction id="Aminoacylation_MG499" name="Aminoacylation (MG499)">
 	<listOfReactants>
-		<speciesReference species="MG499" />
-		<speciesReference species="ATP" />
-		<speciesReference species="GLY" />
+		<speciesReference species="MG499" stoichiometry="1" />
+		<speciesReference species="ATP" stoichiometry="1" />
+		<speciesReference species="GLY" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG499_aa" />
-		<speciesReference species="AMP" />
-		<speciesReference species="PPI" />
+		<speciesReference species="MG499_aa" stoichiometry="1" />
+		<speciesReference species="AMP" stoichiometry="1" />
+		<speciesReference species="PPI" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
 		<modifierSpeciesReference species="MG_251_DIMER" />
@@ -1257,14 +1257,14 @@
 </reaction>
 <reaction id="Aminoacylation_MG500" name="Aminoacylation (MG500)">
 	<listOfReactants>
-		<speciesReference species="MG500" />
-		<speciesReference species="ATP" />
-		<speciesReference species="LEU" />
+		<speciesReference species="MG500" stoichiometry="1" />
+		<speciesReference species="ATP" stoichiometry="1" />
+		<speciesReference species="LEU" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG500_aa" />
-		<speciesReference species="AMP" />
-		<speciesReference species="PPI" />
+		<speciesReference species="MG500_aa" stoichiometry="1" />
+		<speciesReference species="AMP" stoichiometry="1" />
+		<speciesReference species="PPI" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
 		<modifierSpeciesReference species="MG_266_MONOMER" />
@@ -1326,14 +1326,14 @@
 </reaction>
 <reaction id="Aminoacylation_MG501" name="Aminoacylation (MG501)">
 	<listOfReactants>
-		<speciesReference species="MG501" />
-		<speciesReference species="ATP" />
-		<speciesReference species="LYS" />
+		<speciesReference species="MG501" stoichiometry="1" />
+		<speciesReference species="ATP" stoichiometry="1" />
+		<speciesReference species="LYS" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG501_aa" />
-		<speciesReference species="AMP" />
-		<speciesReference species="PPI" />
+		<speciesReference species="MG501_aa" stoichiometry="1" />
+		<speciesReference species="AMP" stoichiometry="1" />
+		<speciesReference species="PPI" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
 		<modifierSpeciesReference species="MG_136_DIMER" />
@@ -1395,18 +1395,18 @@
 </reaction>
 <reaction id="Aminoacylation_MG502" name="Aminoacylation (MG502)">
 	<listOfReactants>
-		<speciesReference species="MG502" />
-		<speciesReference species="ATP" />
-		<speciesReference species="H2O" />
-		<speciesReference species="GLN" />
+		<speciesReference species="MG502" stoichiometry="1" />
+		<speciesReference species="ATP" stoichiometry="2" />
+		<speciesReference species="H2O" stoichiometry="1" />
+		<speciesReference species="GLN" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG502_aa" />
-		<speciesReference species="ADP" />
-		<speciesReference species="AMP" />
-		<speciesReference species="H" />
-		<speciesReference species="PI" />
-		<speciesReference species="PPI" />
+		<speciesReference species="MG502_aa" stoichiometry="1" />
+		<speciesReference species="ADP" stoichiometry="1" />
+		<speciesReference species="AMP" stoichiometry="1" />
+		<speciesReference species="H" stoichiometry="1" />
+		<speciesReference species="PI" stoichiometry="1" />
+		<speciesReference species="PPI" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
 		<modifierSpeciesReference species="MG_462_MONOMER" />
@@ -1481,14 +1481,14 @@
 </reaction>
 <reaction id="Aminoacylation_MG503" name="Aminoacylation (MG503)">
 	<listOfReactants>
-		<speciesReference species="MG503" />
-		<speciesReference species="ATP" />
-		<speciesReference species="TYR" />
+		<speciesReference species="MG503" stoichiometry="1" />
+		<speciesReference species="ATP" stoichiometry="1" />
+		<speciesReference species="TYR" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG503_aa" />
-		<speciesReference species="AMP" />
-		<speciesReference species="PPI" />
+		<speciesReference species="MG503_aa" stoichiometry="1" />
+		<speciesReference species="AMP" stoichiometry="1" />
+		<speciesReference species="PPI" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
 		<modifierSpeciesReference species="MG_455_DIMER" />
@@ -1550,14 +1550,14 @@
 </reaction>
 <reaction id="Aminoacylation_MG504" name="Aminoacylation (MG504)">
 	<listOfReactants>
-		<speciesReference species="MG504" />
-		<speciesReference species="ATP" />
-		<speciesReference species="TRP" />
+		<speciesReference species="MG504" stoichiometry="1" />
+		<speciesReference species="ATP" stoichiometry="1" />
+		<speciesReference species="TRP" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG504_aa" />
-		<speciesReference species="AMP" />
-		<speciesReference species="PPI" />
+		<speciesReference species="MG504_aa" stoichiometry="1" />
+		<speciesReference species="AMP" stoichiometry="1" />
+		<speciesReference species="PPI" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
 		<modifierSpeciesReference species="MG_126_DIMER" />
@@ -1619,14 +1619,14 @@
 </reaction>
 <reaction id="Aminoacylation_MG506" name="Aminoacylation (MG506)">
 	<listOfReactants>
-		<speciesReference species="MG506" />
-		<speciesReference species="ATP" />
-		<speciesReference species="SER" />
+		<speciesReference species="MG506" stoichiometry="1" />
+		<speciesReference species="ATP" stoichiometry="1" />
+		<speciesReference species="SER" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG506_aa" />
-		<speciesReference species="AMP" />
-		<speciesReference species="PPI" />
+		<speciesReference species="MG506_aa" stoichiometry="1" />
+		<speciesReference species="AMP" stoichiometry="1" />
+		<speciesReference species="PPI" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
 		<modifierSpeciesReference species="MG_005_DIMER" />
@@ -1688,14 +1688,14 @@
 </reaction>
 <reaction id="Aminoacylation_MG507" name="Aminoacylation (MG507)">
 	<listOfReactants>
-		<speciesReference species="MG507" />
-		<speciesReference species="ATP" />
-		<speciesReference species="SER" />
+		<speciesReference species="MG507" stoichiometry="1" />
+		<speciesReference species="ATP" stoichiometry="1" />
+		<speciesReference species="SER" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG507_aa" />
-		<speciesReference species="AMP" />
-		<speciesReference species="PPI" />
+		<speciesReference species="MG507_aa" stoichiometry="1" />
+		<speciesReference species="AMP" stoichiometry="1" />
+		<speciesReference species="PPI" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
 		<modifierSpeciesReference species="MG_005_DIMER" />
@@ -1757,14 +1757,14 @@
 </reaction>
 <reaction id="Aminoacylation_MG508" name="Aminoacylation (MG508)">
 	<listOfReactants>
-		<speciesReference species="MG508" />
-		<speciesReference species="ATP" />
-		<speciesReference species="LEU" />
+		<speciesReference species="MG508" stoichiometry="1" />
+		<speciesReference species="ATP" stoichiometry="1" />
+		<speciesReference species="LEU" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG508_aa" />
-		<speciesReference species="AMP" />
-		<speciesReference species="PPI" />
+		<speciesReference species="MG508_aa" stoichiometry="1" />
+		<speciesReference species="AMP" stoichiometry="1" />
+		<speciesReference species="PPI" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
 		<modifierSpeciesReference species="MG_266_MONOMER" />
@@ -1826,14 +1826,14 @@
 </reaction>
 <reaction id="Aminoacylation_MG509" name="Aminoacylation (MG509)">
 	<listOfReactants>
-		<speciesReference species="MG509" />
-		<speciesReference species="ATP" />
-		<speciesReference species="LYS" />
+		<speciesReference species="MG509" stoichiometry="1" />
+		<speciesReference species="ATP" stoichiometry="1" />
+		<speciesReference species="LYS" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG509_aa" />
-		<speciesReference species="AMP" />
-		<speciesReference species="PPI" />
+		<speciesReference species="MG509_aa" stoichiometry="1" />
+		<speciesReference species="AMP" stoichiometry="1" />
+		<speciesReference species="PPI" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
 		<modifierSpeciesReference species="MG_136_DIMER" />
@@ -1895,14 +1895,14 @@
 </reaction>
 <reaction id="Aminoacylation_MG510" name="Aminoacylation (MG510)">
 	<listOfReactants>
-		<speciesReference species="MG510" />
-		<speciesReference species="ATP" />
-		<speciesReference species="THR" />
+		<speciesReference species="MG510" stoichiometry="1" />
+		<speciesReference species="ATP" stoichiometry="1" />
+		<speciesReference species="THR" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG510_aa" />
-		<speciesReference species="AMP" />
-		<speciesReference species="PPI" />
+		<speciesReference species="MG510_aa" stoichiometry="1" />
+		<speciesReference species="AMP" stoichiometry="1" />
+		<speciesReference species="PPI" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
 		<modifierSpeciesReference species="MG_375_DIMER" />
@@ -1964,14 +1964,14 @@
 </reaction>
 <reaction id="Aminoacylation_MG511" name="Aminoacylation (MG511)">
 	<listOfReactants>
-		<speciesReference species="MG511" />
-		<speciesReference species="ATP" />
-		<speciesReference species="VAL" />
+		<speciesReference species="MG511" stoichiometry="1" />
+		<speciesReference species="ATP" stoichiometry="1" />
+		<speciesReference species="VAL" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG511_aa" />
-		<speciesReference species="AMP" />
-		<speciesReference species="PPI" />
+		<speciesReference species="MG511_aa" stoichiometry="1" />
+		<speciesReference species="AMP" stoichiometry="1" />
+		<speciesReference species="PPI" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
 		<modifierSpeciesReference species="MG_334_MONOMER" />
@@ -2033,14 +2033,14 @@
 </reaction>
 <reaction id="Aminoacylation_MG512" name="Aminoacylation (MG512)">
 	<listOfReactants>
-		<speciesReference species="MG512" />
-		<speciesReference species="ATP" />
-		<speciesReference species="THR" />
+		<speciesReference species="MG512" stoichiometry="1" />
+		<speciesReference species="ATP" stoichiometry="1" />
+		<speciesReference species="THR" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG512_aa" />
-		<speciesReference species="AMP" />
-		<speciesReference species="PPI" />
+		<speciesReference species="MG512_aa" stoichiometry="1" />
+		<speciesReference species="AMP" stoichiometry="1" />
+		<speciesReference species="PPI" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
 		<modifierSpeciesReference species="MG_375_DIMER" />
@@ -2102,14 +2102,14 @@
 </reaction>
 <reaction id="Aminoacylation_MG513" name="Aminoacylation (MG513)">
 	<listOfReactants>
-		<speciesReference species="MG513" />
-		<speciesReference species="ATP" />
-		<speciesReference species="GLU" />
+		<speciesReference species="MG513" stoichiometry="1" />
+		<speciesReference species="ATP" stoichiometry="1" />
+		<speciesReference species="GLU" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG513_aa" />
-		<speciesReference species="AMP" />
-		<speciesReference species="PPI" />
+		<speciesReference species="MG513_aa" stoichiometry="1" />
+		<speciesReference species="AMP" stoichiometry="1" />
+		<speciesReference species="PPI" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
 		<modifierSpeciesReference species="MG_462_MONOMER" />
@@ -2171,14 +2171,14 @@
 </reaction>
 <reaction id="Aminoacylation_MG514" name="Aminoacylation (MG514)">
 	<listOfReactants>
-		<speciesReference species="MG514" />
-		<speciesReference species="ASN" />
-		<speciesReference species="ATP" />
+		<speciesReference species="MG514" stoichiometry="1" />
+		<speciesReference species="ASN" stoichiometry="1" />
+		<speciesReference species="ATP" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG514_aa" />
-		<speciesReference species="AMP" />
-		<speciesReference species="PPI" />
+		<speciesReference species="MG514_aa" stoichiometry="1" />
+		<speciesReference species="AMP" stoichiometry="1" />
+		<speciesReference species="PPI" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
 		<modifierSpeciesReference species="MG_113_DIMER" />
@@ -2240,14 +2240,14 @@
 </reaction>
 <reaction id="Aminoacylation_MG518" name="Aminoacylation (MG518)">
 	<listOfReactants>
-		<speciesReference species="MG518" />
-		<speciesReference species="ATP" />
-		<speciesReference species="HIS" />
+		<speciesReference species="MG518" stoichiometry="1" />
+		<speciesReference species="ATP" stoichiometry="1" />
+		<speciesReference species="HIS" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG518_aa" />
-		<speciesReference species="AMP" />
-		<speciesReference species="PPI" />
+		<speciesReference species="MG518_aa" stoichiometry="1" />
+		<speciesReference species="AMP" stoichiometry="1" />
+		<speciesReference species="PPI" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
 		<modifierSpeciesReference species="MG_035_DIMER" />
@@ -2309,14 +2309,14 @@
 </reaction>
 <reaction id="Aminoacylation_MG519" name="Aminoacylation (MG519)">
 	<listOfReactants>
-		<speciesReference species="MG519" />
-		<speciesReference species="ATP" />
-		<speciesReference species="LEU" />
+		<speciesReference species="MG519" stoichiometry="1" />
+		<speciesReference species="ATP" stoichiometry="1" />
+		<speciesReference species="LEU" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG519_aa" />
-		<speciesReference species="AMP" />
-		<speciesReference species="PPI" />
+		<speciesReference species="MG519_aa" stoichiometry="1" />
+		<speciesReference species="AMP" stoichiometry="1" />
+		<speciesReference species="PPI" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
 		<modifierSpeciesReference species="MG_266_MONOMER" />
@@ -2378,14 +2378,14 @@
 </reaction>
 <reaction id="Aminoacylation_MG520" name="Aminoacylation (MG520)">
 	<listOfReactants>
-		<speciesReference species="MG520" />
-		<speciesReference species="ATP" />
-		<speciesReference species="LEU" />
+		<speciesReference species="MG520" stoichiometry="1" />
+		<speciesReference species="ATP" stoichiometry="1" />
+		<speciesReference species="LEU" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG520_aa" />
-		<speciesReference species="AMP" />
-		<speciesReference species="PPI" />
+		<speciesReference species="MG520_aa" stoichiometry="1" />
+		<speciesReference species="AMP" stoichiometry="1" />
+		<speciesReference species="PPI" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
 		<modifierSpeciesReference species="MG_266_MONOMER" />
@@ -2447,14 +2447,14 @@
 </reaction>
 <reaction id="Aminoacylation_MG523" name="Aminoacylation (MG523)">
 	<listOfReactants>
-		<speciesReference species="MG523" />
-		<speciesReference species="ARG" />
-		<speciesReference species="ATP" />
+		<speciesReference species="MG523" stoichiometry="1" />
+		<speciesReference species="ARG" stoichiometry="1" />
+		<speciesReference species="ATP" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG523_aa" />
-		<speciesReference species="AMP" />
-		<speciesReference species="PPI" />
+		<speciesReference species="MG523_aa" stoichiometry="1" />
+		<speciesReference species="AMP" stoichiometry="1" />
+		<speciesReference species="PPI" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
 		<modifierSpeciesReference species="MG_378_MONOMER" />

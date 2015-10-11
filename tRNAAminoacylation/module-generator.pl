@@ -90,7 +90,7 @@ while (my $line = <$data>) {
       print REACTIONS "\t<listOfReactants>\n";
       for (my $j = 1; $j < @reactants; $j+=3)
       {
-				print REACTIONS "\t\t<speciesReference species=\"" . $reactants[$j] . "\" />\n";
+				print REACTIONS "\t\t<speciesReference species=\"" . $reactants[$j] . "\" stoichiometry=\"".$reactants[$j - 1]."\" />\n";
 				$multis .= "\t\t\t<ci>".$reactants[$j]."</ci>\n";
 				$denomis .= "
 				<apply>
@@ -109,7 +109,7 @@ while (my $line = <$data>) {
       print REACTIONS "\t<listOfProducts>\n";
       for (my $j = 1; $j < @products; $j+=3)
       {
-				print REACTIONS "\t\t<speciesReference species=\"" . $products[$j] . "\" />\n";
+				print REACTIONS "\t\t<speciesReference species=\"" . $products[$j] . "\" stoichiometry=\"".$products[$j - 1]."\" />\n";
       }
       print REACTIONS "\t</listOfProducts>\n";
 
