@@ -12,22 +12,14 @@
 			<apply>
 							<ci>min2</ci>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_003_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_004_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 						</apply>
 		</math>
@@ -57,72 +49,44 @@
 							<apply>
 							<ci>min2</ci>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_001_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 							<apply>
 								<ci>min4</ci>
 								<apply>
-    <times />
+    <divide />
     <ci>MG_007_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 								<apply>
-    <times />
+    <divide />
     <ci>MG_031_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 								<apply>
-    <times />
+    <divide />
     <ci>MG_250_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 								<apply>
-    <times />
+    <divide />
     <ci>MG_261_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 							</apply>
 						</apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_315_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 						</apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_419_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>4</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>4</cn>
    </apply>
 						</apply>
 		</math>
@@ -143,22 +107,14 @@
 			<apply>
 							<ci>min2</ci>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_031_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_261_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 						</apply>
 		</math>
@@ -185,62 +141,38 @@
 							<apply>
 							<ci>min2</ci>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_001_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 							<apply>
 								<ci>min4</ci>
 								<apply>
-    <times />
+    <divide />
     <ci>MG_007_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 								<apply>
-    <times />
+    <divide />
     <ci>MG_031_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 								<apply>
-    <times />
+    <divide />
     <ci>MG_261_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 								<apply>
-    <times />
+    <divide />
     <ci>MG_315_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 							</apply>
 						</apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_419_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>4</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>4</cn>
    </apply>
 						</apply>
 		</math>
@@ -267,42 +199,26 @@
 							<apply>
 							<ci>min2</ci>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_001_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_031_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 						</apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_250_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 						</apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_261_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 						</apply>
 		</math>
@@ -326,32 +242,20 @@
 							<apply>
 							<ci>min2</ci>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_007_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_315_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 						</apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_419_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>4</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>4</cn>
    </apply>
 						</apply>
 		</math>
@@ -378,62 +282,38 @@
 							<apply>
 							<ci>min2</ci>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_001_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 							<apply>
 								<ci>min4</ci>
 								<apply>
-    <times />
+    <divide />
     <ci>MG_007_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 								<apply>
-    <times />
+    <divide />
     <ci>MG_031_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 								<apply>
-    <times />
+    <divide />
     <ci>MG_261_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 								<apply>
-    <times />
+    <divide />
     <ci>MG_315_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 							</apply>
 						</apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_419_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>4</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>4</cn>
    </apply>
 						</apply>
 		</math>
@@ -454,22 +334,14 @@
 			<apply>
 							<ci>min2</ci>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_048_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_0001__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 						</apply>
 		</math>
@@ -490,22 +362,14 @@
 			<apply>
 							<ci>min2</ci>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_465_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_0003__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 						</apply>
 		</math>
@@ -523,13 +387,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_001_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -546,13 +406,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_005_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -569,13 +425,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_006_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -595,22 +447,14 @@
 			<apply>
 							<ci>min2</ci>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_008_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_379_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 						</apply>
 		</math>
@@ -628,13 +472,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_013_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -654,22 +494,14 @@
 			<apply>
 							<ci>min2</ci>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_014_MONOMER__m</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_015_MONOMER__m</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 						</apply>
 		</math>
@@ -687,13 +519,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_019_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -710,13 +538,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_021_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -733,13 +557,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_023_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -756,13 +576,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_029_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -779,13 +595,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_030_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>3</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>3</cn>
    </apply>
 		</math>
 
@@ -802,13 +614,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_033_MONOMER__m</ci>
-    <apply>
-     <power />
-     <cn type='integer'>4</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>4</cn>
    </apply>
 		</math>
 
@@ -825,13 +633,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_034_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -848,13 +652,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_035_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -871,13 +671,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_036_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -894,13 +690,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_038_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>4</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>4</cn>
    </apply>
 		</math>
 
@@ -917,13 +709,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_039_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -949,42 +737,26 @@
 							<apply>
 							<ci>min2</ci>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_040_MONOMER__e</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_119_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 						</apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_120_MONOMER__m</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 						</apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_121_MONOMER__m</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 						</apply>
 		</math>
@@ -1008,32 +780,20 @@
 							<apply>
 							<ci>min2</ci>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_041_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_062_MONOMER__m</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 						</apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_429_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 						</apply>
 		</math>
@@ -1057,32 +817,20 @@
 							<apply>
 							<ci>min2</ci>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_041_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_069_MONOMER__m</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 						</apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_429_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 						</apply>
 		</math>
@@ -1109,42 +857,26 @@
 							<apply>
 							<ci>min2</ci>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_042_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_043_MONOMER__m</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 						</apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_044_MONOMER__m</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 						</apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_045_MONOMER__e</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 						</apply>
 		</math>
@@ -1162,13 +894,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_046_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -1185,13 +913,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_047_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>4</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>4</cn>
    </apply>
 		</math>
 
@@ -1208,13 +932,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_049_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>6</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>6</cn>
    </apply>
 		</math>
 
@@ -1231,13 +951,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_051_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -1254,13 +970,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_052_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -1277,13 +989,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_053_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>3</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>3</cn>
    </apply>
 		</math>
 
@@ -1312,52 +1020,32 @@
 							<apply>
 							<ci>min2</ci>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_055_MONOMER__m</ci>
-    <apply>
-     <power />
-     <cn type='integer'>4</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>4</cn>
    </apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_476_MONOMER__m</ci>
-    <apply>
-     <power />
-     <cn type='integer'>4</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>4</cn>
    </apply>
 						</apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_170_MONOMER__m</ci>
-    <apply>
-     <power />
-     <cn type='integer'>4</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>4</cn>
    </apply>
 						</apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_277_MONOMER__m</ci>
-    <apply>
-     <power />
-     <cn type='integer'>4</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>4</cn>
    </apply>
 						</apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_464_MONOMER__m</ci>
-    <apply>
-     <power />
-     <cn type='integer'>4</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>4</cn>
    </apply>
 						</apply>
 		</math>
@@ -1375,13 +1063,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_058_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>6</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>6</cn>
    </apply>
 		</math>
 
@@ -1398,13 +1082,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_063_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -1424,22 +1104,14 @@
 			<apply>
 							<ci>min2</ci>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_064_MONOMER__m</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_065_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 						</apply>
 		</math>
@@ -1457,13 +1129,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_066_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -1480,13 +1148,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_072_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -1509,32 +1173,20 @@
 							<apply>
 							<ci>min2</ci>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_073_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_206_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 						</apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_421_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 						</apply>
 		</math>
@@ -1564,52 +1216,32 @@
 							<apply>
 							<ci>min2</ci>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_077_MONOMER__m</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_078_MONOMER__m</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 						</apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_079_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 						</apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_080_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 						</apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_321_MONOMER__e</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 						</apply>
 		</math>
@@ -1627,13 +1259,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_084_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>4</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>4</cn>
    </apply>
 		</math>
 
@@ -1650,13 +1278,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_085_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>6</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>6</cn>
    </apply>
 		</math>
 
@@ -1673,13 +1297,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_089_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -1696,13 +1316,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_091_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>8</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>8</cn>
    </apply>
 		</math>
 
@@ -1719,13 +1335,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_091_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>4</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>4</cn>
    </apply>
 		</math>
 
@@ -1742,13 +1354,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_094_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>6</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>6</cn>
    </apply>
 		</math>
 
@@ -1771,32 +1379,20 @@
 							<apply>
 							<ci>min2</ci>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_098_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_099_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 						</apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_100_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 						</apply>
 		</math>
@@ -1814,13 +1410,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_102_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -1837,13 +1429,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_102_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -1860,13 +1448,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_105_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>8</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>8</cn>
    </apply>
 		</math>
 
@@ -1883,13 +1467,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_106_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -1906,13 +1486,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_107_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -1929,13 +1505,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_109_MONOMER__m</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -1952,13 +1524,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_111_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -1975,13 +1543,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_112_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -1998,13 +1562,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_113_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -2021,13 +1581,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_114_MONOMER__m</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -2044,13 +1600,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_118_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -2067,13 +1619,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_123_MONOMER__m</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -2090,13 +1638,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_124_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 		</math>
 
@@ -2113,13 +1657,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_126_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -2136,13 +1676,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_127_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 		</math>
 
@@ -2159,13 +1695,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_128_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>6</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>6</cn>
    </apply>
 		</math>
 
@@ -2182,13 +1714,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_132_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -2205,13 +1733,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_136_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -2228,13 +1752,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_137_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -2251,13 +1771,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_139_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -2280,32 +1796,20 @@
 							<apply>
 							<ci>min2</ci>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_179_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_180_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 						</apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_181_MONOMER__m</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 						</apply>
 		</math>
@@ -2323,13 +1827,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_182_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -2346,13 +1846,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_184_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -2378,42 +1874,26 @@
 							<apply>
 							<ci>min2</ci>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_186_MONOMER__e</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_187_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 						</apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_188_MONOMER__m</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 						</apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_189_MONOMER__m</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 						</apply>
 		</math>
@@ -2434,22 +1914,14 @@
 			<apply>
 							<ci>min2</ci>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_194_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_195_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 						</apply>
 		</math>
@@ -2467,13 +1939,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_201_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -2493,22 +1961,14 @@
 			<apply>
 							<ci>min2</ci>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_203_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_204_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 						</apply>
 		</math>
@@ -2526,13 +1986,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_205_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -2549,13 +2005,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_208_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -2578,32 +2030,20 @@
 							<apply>
 							<ci>min2</ci>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_213_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_214_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 						</apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_298_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 						</apply>
 		</math>
@@ -2627,32 +2067,20 @@
 							<apply>
 							<ci>min2</ci>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_213_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_214_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 						</apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_298_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 						</apply>
 		</math>
@@ -2670,13 +2098,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_215_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>4</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>4</cn>
    </apply>
 		</math>
 
@@ -2693,13 +2117,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_216_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>4</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>4</cn>
    </apply>
 		</math>
 
@@ -2716,13 +2136,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_221_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>8</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>8</cn>
    </apply>
 		</math>
 
@@ -2739,13 +2155,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_224_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -2762,13 +2174,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_224_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>3</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>3</cn>
    </apply>
 		</math>
 
@@ -2785,13 +2193,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_224_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>4</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>4</cn>
    </apply>
 		</math>
 
@@ -2808,13 +2212,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_224_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>5</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>5</cn>
    </apply>
 		</math>
 
@@ -2831,13 +2231,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_224_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>6</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>6</cn>
    </apply>
 		</math>
 
@@ -2854,13 +2250,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_224_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>7</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>7</cn>
    </apply>
 		</math>
 
@@ -2877,13 +2269,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_224_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>8</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>8</cn>
    </apply>
 		</math>
 
@@ -2900,13 +2288,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_224_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>9</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>9</cn>
    </apply>
 		</math>
 
@@ -2923,13 +2307,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_224_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>9</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>9</cn>
    </apply>
 		</math>
 
@@ -2946,13 +2326,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_224_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 		</math>
 
@@ -2969,13 +2345,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_224_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 		</math>
 
@@ -2992,13 +2364,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_225_MONOMER__m</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -3015,13 +2383,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_226_MONOMER__m</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -3038,13 +2402,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_227_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -3061,13 +2421,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_228_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>4</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>4</cn>
    </apply>
 		</math>
 
@@ -3087,22 +2443,14 @@
 			<apply>
 							<ci>min2</ci>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_229_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_231_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 						</apply>
 		</math>
@@ -3123,22 +2471,14 @@
 			<apply>
 							<ci>min2</ci>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_229_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_231_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 						</apply>
 		</math>
@@ -3156,13 +2496,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_239_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>6</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>6</cn>
    </apply>
 		</math>
 
@@ -3179,13 +2515,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_240_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>6</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>6</cn>
    </apply>
 		</math>
 
@@ -3202,13 +2534,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_244_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -3225,13 +2553,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_251_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -3248,13 +2572,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_252_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -3271,13 +2591,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_259_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>4</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>4</cn>
    </apply>
 		</math>
 
@@ -3294,13 +2610,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_265_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -3326,42 +2638,26 @@
 							<apply>
 							<ci>min2</ci>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_271_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>12</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>12</cn>
    </apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_272_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>60</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>60</cn>
    </apply>
 						</apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_273_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>60</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>60</cn>
    </apply>
 						</apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_274_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>60</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>60</cn>
    </apply>
 						</apply>
 		</math>
@@ -3388,42 +2684,26 @@
 							<apply>
 							<ci>min2</ci>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_271_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>12</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>12</cn>
    </apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_272_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>60</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>60</cn>
    </apply>
 						</apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_273_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>60</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>60</cn>
    </apply>
 						</apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_274_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>60</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>60</cn>
    </apply>
 						</apply>
 		</math>
@@ -3441,13 +2721,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_275_MONOMER__m</ci>
-    <apply>
-     <power />
-     <cn type='integer'>4</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>4</cn>
    </apply>
 		</math>
 
@@ -3464,13 +2740,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_276_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -3487,13 +2759,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_278_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -3510,13 +2778,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_283_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -3533,13 +2797,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_287_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 		</math>
 
@@ -3556,13 +2816,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_287_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 		</math>
 
@@ -3579,13 +2835,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_287_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 		</math>
 
@@ -3602,13 +2854,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_287_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 		</math>
 
@@ -3625,13 +2873,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_287_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 		</math>
 
@@ -3648,13 +2892,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_287_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 		</math>
 
@@ -3671,13 +2911,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_287_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 		</math>
 
@@ -3694,13 +2930,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_287_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 		</math>
 
@@ -3723,32 +2955,20 @@
 							<apply>
 							<ci>min2</ci>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_289_MONOMER__e</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_290_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 						</apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_291_MONOMER__m</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 						</apply>
 		</math>
@@ -3766,13 +2986,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_292_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>4</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>4</cn>
    </apply>
 		</math>
 
@@ -3789,13 +3005,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_293_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -3812,13 +3024,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_295_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 		</math>
 
@@ -3835,13 +3043,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_299_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -3858,13 +3062,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_301_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>4</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>4</cn>
    </apply>
 		</math>
 
@@ -3887,32 +3087,20 @@
 							<apply>
 							<ci>min2</ci>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_302_MONOMER__m</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_303_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 						</apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_304_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 						</apply>
 		</math>
@@ -3930,13 +3118,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_316_MONOMER__m</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -3956,22 +3140,14 @@
 			<apply>
 							<ci>min2</ci>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_322_MONOMER__m</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_323_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 						</apply>
 		</math>
@@ -3989,13 +3165,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_333_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -4012,13 +3184,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_336_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -4035,13 +3203,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_346_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -4058,13 +3222,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_347_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -4081,13 +3241,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_349_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>6</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>6</cn>
    </apply>
 		</math>
 
@@ -4104,13 +3260,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_351_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>6</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>6</cn>
    </apply>
 		</math>
 
@@ -4127,13 +3279,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_352_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -4150,13 +3298,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_353_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -4173,13 +3317,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_355_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>6</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>6</cn>
    </apply>
 		</math>
 
@@ -4196,13 +3336,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_357_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -4222,22 +3358,14 @@
 			<apply>
 							<ci>min2</ci>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_358_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>4</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>4</cn>
    </apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_359_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>6</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>6</cn>
    </apply>
 						</apply>
 		</math>
@@ -4255,13 +3383,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_367_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -4278,13 +3402,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_368_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -4301,13 +3421,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_369_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -4324,13 +3440,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_372_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -4347,13 +3459,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_375_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -4370,13 +3478,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_376_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>6</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>6</cn>
    </apply>
 		</math>
 
@@ -4393,13 +3497,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_382_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>4</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>4</cn>
    </apply>
 		</math>
 
@@ -4416,13 +3516,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_383_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -4439,13 +3535,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_385_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -4462,13 +3554,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_390_MONOMER__m</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -4485,13 +3573,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_391_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>6</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>6</cn>
    </apply>
 		</math>
 
@@ -4511,22 +3595,14 @@
 			<apply>
 							<ci>min2</ci>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_392_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>14</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>14</cn>
    </apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_393_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>7</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>7</cn>
    </apply>
 						</apply>
 		</math>
@@ -4544,13 +3620,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_394_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>4</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>4</cn>
    </apply>
 		</math>
 
@@ -4567,13 +3639,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_396_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -4605,82 +3673,50 @@
 							<apply>
 							<ci>min2</ci>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_398_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 							<apply>
 								<ci>min4</ci>
 								<apply>
-    <times />
+    <divide />
     <ci>MG_399_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>3</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>3</cn>
    </apply>
 								<apply>
-    <times />
+    <divide />
     <ci>MG_400_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 								<apply>
-    <times />
+    <divide />
     <ci>MG_401_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>3</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>3</cn>
    </apply>
 								<apply>
-    <times />
+    <divide />
     <ci>MG_402_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 							</apply>
 						</apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_403_MONOMER__m</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 						</apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_404_MONOMER__m</ci>
-    <apply>
-     <power />
-     <cn type='integer'>10</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>10</cn>
    </apply>
 						</apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_405_MONOMER__m</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 						</apply>
 		</math>
@@ -4698,13 +3734,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_407_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -4721,13 +3753,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_409_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -4750,32 +3778,20 @@
 							<apply>
 							<ci>min2</ci>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_410_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_411_MONOMER__m</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 						</apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_412_MONOMER__e</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 						</apply>
 		</math>
@@ -4793,13 +3809,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_425_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -4816,13 +3828,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_427_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -4839,13 +3847,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_427_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -4862,13 +3866,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_428_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -4885,13 +3885,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_431_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -4908,13 +3904,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_433_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -4931,13 +3923,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_434_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>6</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>6</cn>
    </apply>
 		</math>
 
@@ -4954,13 +3942,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_437_MONOMER__m</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -4977,13 +3961,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_445_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -5000,13 +3980,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_451_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -5023,13 +3999,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_453_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>4</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>4</cn>
    </apply>
 		</math>
 
@@ -5046,13 +4018,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_454_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -5069,13 +4037,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_454_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -5092,13 +4056,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_455_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -5115,13 +4075,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_457_MONOMER__m</ci>
-    <apply>
-     <power />
-     <cn type='integer'>6</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>6</cn>
    </apply>
 		</math>
 
@@ -5138,13 +4094,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_458_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>4</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>4</cn>
    </apply>
 		</math>
 
@@ -5161,13 +4113,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_460_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>4</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>4</cn>
    </apply>
 		</math>
 
@@ -5190,32 +4138,20 @@
 							<apply>
 							<ci>min2</ci>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_467_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_468_MONOMER__m</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 						</apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_526_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 						</apply>
 		</math>
@@ -5233,13 +4169,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_469_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 		</math>
 
@@ -5256,13 +4188,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_469_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 		</math>
 
@@ -5279,13 +4207,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_469_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -5302,13 +4226,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_469_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -5325,13 +4245,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_469_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>3</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>3</cn>
    </apply>
 		</math>
 
@@ -5348,13 +4264,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_469_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>3</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>3</cn>
    </apply>
 		</math>
 
@@ -5371,13 +4283,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_469_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>4</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>4</cn>
    </apply>
 		</math>
 
@@ -5394,13 +4302,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_469_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>4</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>4</cn>
    </apply>
 		</math>
 
@@ -5417,13 +4321,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_469_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>5</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>5</cn>
    </apply>
 		</math>
 
@@ -5440,13 +4340,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_469_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>5</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>5</cn>
    </apply>
 		</math>
 
@@ -5463,13 +4359,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_469_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>6</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>6</cn>
    </apply>
 		</math>
 
@@ -5486,13 +4378,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_469_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>6</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>6</cn>
    </apply>
 		</math>
 
@@ -5509,13 +4397,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_469_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>7</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>7</cn>
    </apply>
 		</math>
 
@@ -5532,13 +4416,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_469_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>7</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>7</cn>
    </apply>
 		</math>
 
@@ -5555,13 +4435,9 @@
 	<kineticLaw>
 		<math xmlns='http://www.w3.org/1998/Math/MathML'>
 			<apply>
-    <times />
+    <divide />
     <ci>MG_482_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 		</math>
 
@@ -5593,82 +4469,50 @@
 							<apply>
 							<ci>min2</ci>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_001_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>4</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>4</cn>
    </apply>
 							<apply>
 								<ci>min4</ci>
 								<apply>
-    <times />
+    <divide />
     <ci>MG_007_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 								<apply>
-    <times />
+    <divide />
     <ci>MG_031_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 								<apply>
-    <times />
+    <divide />
     <ci>MG_094_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>6</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>6</cn>
    </apply>
 								<apply>
-    <times />
+    <divide />
     <ci>MG_250_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 							</apply>
 						</apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_261_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 						</apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_315_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 						</apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_419_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>4</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>4</cn>
    </apply>
 						</apply>
 		</math>
@@ -5708,51 +4552,31 @@
 			<apply>
 							<ci>min2</ci>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_070_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 							<apply>
 								<ci>min4</ci>
 								<apply>
-    <times />
+    <divide />
     <ci>MG_087_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 								<apply>
-    <times />
+    <divide />
     <ci>MG_088_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 								<apply>
-    <times />
+    <divide />
     <ci>MG_090_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 								<apply>
-    <times />
+    <divide />
     <ci>MG_092_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 							</apply>
 						</apply>
@@ -5794,51 +4618,31 @@
 			<apply>
 							<ci>min2</ci>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_070_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 							<apply>
 								<ci>min4</ci>
 								<apply>
-    <times />
+    <divide />
     <ci>MG_087_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 								<apply>
-    <times />
+    <divide />
     <ci>MG_088_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 								<apply>
-    <times />
+    <divide />
     <ci>MG_090_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 								<apply>
-    <times />
+    <divide />
     <ci>MG_092_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 							</apply>
 						</apply>
@@ -5892,51 +4696,31 @@
 			<apply>
 							<ci>min2</ci>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_473_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 							<apply>
 								<ci>min4</ci>
 								<apply>
-    <times />
+    <divide />
     <ci>MG_081_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 								<apply>
-    <times />
+    <divide />
     <ci>MG_082_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 								<apply>
-    <times />
+    <divide />
     <ci>MG_093_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 								<apply>
-    <times />
+    <divide />
     <ci>MG_151_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 							</apply>
 						</apply>
@@ -6013,91 +4797,55 @@
 							<apply>
 							<ci>min2</ci>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_473_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 							<apply>
 								<ci>min4</ci>
 								<apply>
-    <times />
+    <divide />
     <ci>MG_070_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 								<apply>
-    <times />
+    <divide />
     <ci>MG_081_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 								<apply>
-    <times />
+    <divide />
     <ci>MG_082_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 								<apply>
-    <times />
+    <divide />
     <ci>MG_087_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 							</apply>
 						</apply>
 							<apply>
 								<ci>min4</ci>
 								<apply>
-    <times />
+    <divide />
     <ci>MG_088_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 								<apply>
-    <times />
+    <divide />
     <ci>MG_090_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 								<apply>
-    <times />
+    <divide />
     <ci>MG_092_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 								<apply>
-    <times />
+    <divide />
     <ci>MG_093_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 							</apply>
 						</apply>
@@ -6125,42 +4873,26 @@
 							<apply>
 							<ci>min2</ci>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_022_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_177_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 						</apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_340_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 						</apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_341_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 						</apply>
 		</math>
@@ -6190,52 +4922,32 @@
 							<apply>
 							<ci>min2</ci>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_022_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_177_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>2</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>2</cn>
    </apply>
 						</apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_249_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 						</apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_340_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 						</apply>
 							<apply>
-    <times />
+    <divide />
     <ci>MG_341_MONOMER__c</ci>
-    <apply>
-     <power />
-     <cn type='integer'>1</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>1</cn>
    </apply>
 						</apply>
 		</math>

@@ -90,13 +90,9 @@ while (my $line = <$data>) {
 				$reactants[$j] =~ s/^(.*)\.(.*)$/$2__$1/g;
 				print REACTIONS "\t\t<speciesReference species=\"" . $reactants[$j] . "\" stoichiometry=\"".$reactants[$j - 1]."\" />\n";
 				push @minis, "<apply>
-    <times />
+    <divide />
     <ci>".$reactants[$j]."</ci>
-    <apply>
-     <power />
-     <cn type='integer'>".$reactants[$j - 1]."</cn>
-     <cn type='integer'>-1</cn>
-    </apply>
+		<cn type='integer'>".$reactants[$j - 1]."</cn>
    </apply>";
       }
       print REACTIONS "\t</listOfReactants>\n";
