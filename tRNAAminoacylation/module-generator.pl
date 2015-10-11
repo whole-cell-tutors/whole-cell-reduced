@@ -40,7 +40,7 @@ while (my $line = <$data>) {
       
   next if $fields[0] ~~ @speciesIds;
       
-			print SPECIES "<species id=\"".$fields[0]."\" name=\"".$fields[1]."\" compartment=\"".$fields[2]."\" initialAmount=\"".$fields[3]."\"/>\n";
+			print SPECIES "<species id=\"".$fields[0]."__".$fields[2]."\" name=\"".$fields[1]."\" compartment=\"".$fields[2]."\" initialAmount=\"".$fields[3]."\"/>\n";
 			#print SPECIES "<species id=\"".$fields[0]."\" compartment=\"".$fields[2]."\" initialAmount=\"".$fields[3]."\"/>\n";
 			push @speciesIds, $fields[0];
 			
@@ -90,12 +90,12 @@ while (my $line = <$data>) {
       print REACTIONS "\t<listOfReactants>\n";
       for (my $j = 1; $j < @reactants; $j+=3)
       {
-				print REACTIONS "\t\t<speciesReference species=\"" . $reactants[$j] . "\" stoichiometry=\"".$reactants[$j - 1]."\" />\n";
-				$multis .= "\t\t\t<ci>".$reactants[$j]."</ci>\n";
+				print REACTIONS "\t\t<speciesReference species=\"" . $reactants[$j] . "__c\" stoichiometry=\"".$reactants[$j - 1]."\" />\n";
+				$multis .= "\t\t\t<ci>".$reactants[$j]."__c</ci>\n";
 				$denomis .= "
 				<apply>
 					<times />
-					<ci>".$reactants[$j]."</ci>
+					<ci>".$reactants[$j]."__c</ci>
 					<apply>
 						<power />
 						<ci>KM".++$denomiNr."</ci>
@@ -109,7 +109,7 @@ while (my $line = <$data>) {
       print REACTIONS "\t<listOfProducts>\n";
       for (my $j = 1; $j < @products; $j+=3)
       {
-				print REACTIONS "\t\t<speciesReference species=\"" . $products[$j] . "\" stoichiometry=\"".$products[$j - 1]."\" />\n";
+				print REACTIONS "\t\t<speciesReference species=\"" . $products[$j] . "__c\" stoichiometry=\"".$products[$j - 1]."\" />\n";
       }
       print REACTIONS "\t</listOfProducts>\n";
 
@@ -117,8 +117,8 @@ while (my $line = <$data>) {
       print REACTIONS "\t<listOfModifiers>\n";
       for (my $j = 0; $j < @modifiers; $j++)
       {
-				print REACTIONS "\t\t<modifierSpeciesReference species=\"" . $modifiers[$j] . "\" />\n";
-				$multis .= "\t\t\t<ci>".$modifiers[$j]."</ci>\n";
+				print REACTIONS "\t\t<modifierSpeciesReference species=\"" . $modifiers[$j] . "__c\" />\n";
+				$multis .= "\t\t\t<ci>".$modifiers[$j]."__c</ci>\n";
       }
       print REACTIONS "\t</listOfModifiers>\n";
       

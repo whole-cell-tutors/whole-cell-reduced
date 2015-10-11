@@ -1,16 +1,16 @@
 <reaction id="Aminoacylation_MG471" name="Aminoacylation (MG471)">
 	<listOfReactants>
-		<speciesReference species="MG471" stoichiometry="1" />
-		<speciesReference species="ALA" stoichiometry="1" />
-		<speciesReference species="ATP" stoichiometry="1" />
+		<speciesReference species="MG471__c" stoichiometry="1" />
+		<speciesReference species="ALA__c" stoichiometry="1" />
+		<speciesReference species="ATP__c" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG471_aa" stoichiometry="1" />
-		<speciesReference species="AMP" stoichiometry="1" />
-		<speciesReference species="PPI" stoichiometry="1" />
+		<speciesReference species="MG471_aa__c" stoichiometry="1" />
+		<speciesReference species="AMP__c" stoichiometry="1" />
+		<speciesReference species="PPI__c" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
-		<modifierSpeciesReference species="MG_292_TETRAMER" />
+		<modifierSpeciesReference species="MG_292_TETRAMER__c" />
 	</listOfModifiers>
 
 	<kineticLaw>
@@ -18,10 +18,10 @@
 		<apply>
 			<times />
 			<ci>k_tRnaAa_MG471</ci>
-			<ci>MG471</ci>
-			<ci>ALA</ci>
-			<ci>ATP</ci>
-			<ci>MG_292_TETRAMER</ci>
+			<ci>MG471__c</ci>
+			<ci>ALA__c</ci>
+			<ci>ATP__c</ci>
+			<ci>MG_292_TETRAMER__c</ci>
 
 			<apply>
 			<power />
@@ -30,7 +30,7 @@
 				<cn type='integer'>1</cn>
 				<apply>
 					<times />
-					<ci>MG471</ci>
+					<ci>MG471__c</ci>
 					<apply>
 						<power />
 						<ci>KM1</ci>
@@ -39,7 +39,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>ALA</ci>
+					<ci>ALA__c</ci>
 					<apply>
 						<power />
 						<ci>KM2</ci>
@@ -48,7 +48,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>ATP</ci>
+					<ci>ATP__c</ci>
 					<apply>
 						<power />
 						<ci>KM3</ci>
@@ -69,17 +69,17 @@
 </reaction>
 <reaction id="Aminoacylation_MG472" name="Aminoacylation (MG472)">
 	<listOfReactants>
-		<speciesReference species="MG472" stoichiometry="1" />
-		<speciesReference species="ATP" stoichiometry="1" />
-		<speciesReference species="ILE" stoichiometry="1" />
+		<speciesReference species="MG472__c" stoichiometry="1" />
+		<speciesReference species="ATP__c" stoichiometry="1" />
+		<speciesReference species="ILE__c" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG472_aa" stoichiometry="1" />
-		<speciesReference species="AMP" stoichiometry="1" />
-		<speciesReference species="PPI" stoichiometry="1" />
+		<speciesReference species="MG472_aa__c" stoichiometry="1" />
+		<speciesReference species="AMP__c" stoichiometry="1" />
+		<speciesReference species="PPI__c" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
-		<modifierSpeciesReference species="MG_345_MONOMER" />
+		<modifierSpeciesReference species="MG_345_MONOMER__c" />
 	</listOfModifiers>
 
 	<kineticLaw>
@@ -87,10 +87,10 @@
 		<apply>
 			<times />
 			<ci>k_tRnaAa_MG472</ci>
-			<ci>MG472</ci>
-			<ci>ATP</ci>
-			<ci>ILE</ci>
-			<ci>MG_345_MONOMER</ci>
+			<ci>MG472__c</ci>
+			<ci>ATP__c</ci>
+			<ci>ILE__c</ci>
+			<ci>MG_345_MONOMER__c</ci>
 
 			<apply>
 			<power />
@@ -99,7 +99,7 @@
 				<cn type='integer'>1</cn>
 				<apply>
 					<times />
-					<ci>MG472</ci>
+					<ci>MG472__c</ci>
 					<apply>
 						<power />
 						<ci>KM1</ci>
@@ -108,7 +108,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>ATP</ci>
+					<ci>ATP__c</ci>
 					<apply>
 						<power />
 						<ci>KM2</ci>
@@ -117,7 +117,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>ILE</ci>
+					<ci>ILE__c</ci>
 					<apply>
 						<power />
 						<ci>KM3</ci>
@@ -138,17 +138,17 @@
 </reaction>
 <reaction id="Aminoacylation_MG475" name="Aminoacylation (MG475)">
 	<listOfReactants>
-		<speciesReference species="MG475" stoichiometry="1" />
-		<speciesReference species="ATP" stoichiometry="1" />
-		<speciesReference species="SER" stoichiometry="1" />
+		<speciesReference species="MG475__c" stoichiometry="1" />
+		<speciesReference species="ATP__c" stoichiometry="1" />
+		<speciesReference species="SER__c" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG475_aa" stoichiometry="1" />
-		<speciesReference species="AMP" stoichiometry="1" />
-		<speciesReference species="PPI" stoichiometry="1" />
+		<speciesReference species="MG475_aa__c" stoichiometry="1" />
+		<speciesReference species="AMP__c" stoichiometry="1" />
+		<speciesReference species="PPI__c" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
-		<modifierSpeciesReference species="MG_005_DIMER" />
+		<modifierSpeciesReference species="MG_005_DIMER__c" />
 	</listOfModifiers>
 
 	<kineticLaw>
@@ -156,10 +156,10 @@
 		<apply>
 			<times />
 			<ci>k_tRnaAa_MG475</ci>
-			<ci>MG475</ci>
-			<ci>ATP</ci>
-			<ci>SER</ci>
-			<ci>MG_005_DIMER</ci>
+			<ci>MG475__c</ci>
+			<ci>ATP__c</ci>
+			<ci>SER__c</ci>
+			<ci>MG_005_DIMER__c</ci>
 
 			<apply>
 			<power />
@@ -168,7 +168,7 @@
 				<cn type='integer'>1</cn>
 				<apply>
 					<times />
-					<ci>MG475</ci>
+					<ci>MG475__c</ci>
 					<apply>
 						<power />
 						<ci>KM1</ci>
@@ -177,7 +177,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>ATP</ci>
+					<ci>ATP__c</ci>
 					<apply>
 						<power />
 						<ci>KM2</ci>
@@ -186,7 +186,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>SER</ci>
+					<ci>SER__c</ci>
 					<apply>
 						<power />
 						<ci>KM3</ci>
@@ -207,17 +207,17 @@
 </reaction>
 <reaction id="Aminoacylation_MG479" name="Aminoacylation (MG479)">
 	<listOfReactants>
-		<speciesReference species="MG479" stoichiometry="1" />
-		<speciesReference species="ATP" stoichiometry="1" />
-		<speciesReference species="THR" stoichiometry="1" />
+		<speciesReference species="MG479__c" stoichiometry="1" />
+		<speciesReference species="ATP__c" stoichiometry="1" />
+		<speciesReference species="THR__c" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG479_aa" stoichiometry="1" />
-		<speciesReference species="AMP" stoichiometry="1" />
-		<speciesReference species="PPI" stoichiometry="1" />
+		<speciesReference species="MG479_aa__c" stoichiometry="1" />
+		<speciesReference species="AMP__c" stoichiometry="1" />
+		<speciesReference species="PPI__c" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
-		<modifierSpeciesReference species="MG_375_DIMER" />
+		<modifierSpeciesReference species="MG_375_DIMER__c" />
 	</listOfModifiers>
 
 	<kineticLaw>
@@ -225,10 +225,10 @@
 		<apply>
 			<times />
 			<ci>k_tRnaAa_MG479</ci>
-			<ci>MG479</ci>
-			<ci>ATP</ci>
-			<ci>THR</ci>
-			<ci>MG_375_DIMER</ci>
+			<ci>MG479__c</ci>
+			<ci>ATP__c</ci>
+			<ci>THR__c</ci>
+			<ci>MG_375_DIMER__c</ci>
 
 			<apply>
 			<power />
@@ -237,7 +237,7 @@
 				<cn type='integer'>1</cn>
 				<apply>
 					<times />
-					<ci>MG479</ci>
+					<ci>MG479__c</ci>
 					<apply>
 						<power />
 						<ci>KM1</ci>
@@ -246,7 +246,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>ATP</ci>
+					<ci>ATP__c</ci>
 					<apply>
 						<power />
 						<ci>KM2</ci>
@@ -255,7 +255,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>THR</ci>
+					<ci>THR__c</ci>
 					<apply>
 						<power />
 						<ci>KM3</ci>
@@ -276,17 +276,17 @@
 </reaction>
 <reaction id="Aminoacylation_MG483" name="Aminoacylation (MG483)">
 	<listOfReactants>
-		<speciesReference species="MG483" stoichiometry="1" />
-		<speciesReference species="ATP" stoichiometry="1" />
-		<speciesReference species="CYS" stoichiometry="1" />
+		<speciesReference species="MG483__c" stoichiometry="1" />
+		<speciesReference species="ATP__c" stoichiometry="1" />
+		<speciesReference species="CYS__c" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG483_aa" stoichiometry="1" />
-		<speciesReference species="AMP" stoichiometry="1" />
-		<speciesReference species="PPI" stoichiometry="1" />
+		<speciesReference species="MG483_aa__c" stoichiometry="1" />
+		<speciesReference species="AMP__c" stoichiometry="1" />
+		<speciesReference species="PPI__c" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
-		<modifierSpeciesReference species="MG_253_MONOMER" />
+		<modifierSpeciesReference species="MG_253_MONOMER__c" />
 	</listOfModifiers>
 
 	<kineticLaw>
@@ -294,10 +294,10 @@
 		<apply>
 			<times />
 			<ci>k_tRnaAa_MG483</ci>
-			<ci>MG483</ci>
-			<ci>ATP</ci>
-			<ci>CYS</ci>
-			<ci>MG_253_MONOMER</ci>
+			<ci>MG483__c</ci>
+			<ci>ATP__c</ci>
+			<ci>CYS__c</ci>
+			<ci>MG_253_MONOMER__c</ci>
 
 			<apply>
 			<power />
@@ -306,7 +306,7 @@
 				<cn type='integer'>1</cn>
 				<apply>
 					<times />
-					<ci>MG483</ci>
+					<ci>MG483__c</ci>
 					<apply>
 						<power />
 						<ci>KM1</ci>
@@ -315,7 +315,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>ATP</ci>
+					<ci>ATP__c</ci>
 					<apply>
 						<power />
 						<ci>KM2</ci>
@@ -324,7 +324,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>CYS</ci>
+					<ci>CYS__c</ci>
 					<apply>
 						<power />
 						<ci>KM3</ci>
@@ -345,17 +345,17 @@
 </reaction>
 <reaction id="Aminoacylation_MG484" name="Aminoacylation (MG484)">
 	<listOfReactants>
-		<speciesReference species="MG484" stoichiometry="1" />
-		<speciesReference species="ATP" stoichiometry="1" />
-		<speciesReference species="PRO" stoichiometry="1" />
+		<speciesReference species="MG484__c" stoichiometry="1" />
+		<speciesReference species="ATP__c" stoichiometry="1" />
+		<speciesReference species="PRO__c" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG484_aa" stoichiometry="1" />
-		<speciesReference species="AMP" stoichiometry="1" />
-		<speciesReference species="PPI" stoichiometry="1" />
+		<speciesReference species="MG484_aa__c" stoichiometry="1" />
+		<speciesReference species="AMP__c" stoichiometry="1" />
+		<speciesReference species="PPI__c" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
-		<modifierSpeciesReference species="MG_283_DIMER" />
+		<modifierSpeciesReference species="MG_283_DIMER__c" />
 	</listOfModifiers>
 
 	<kineticLaw>
@@ -363,10 +363,10 @@
 		<apply>
 			<times />
 			<ci>k_tRnaAa_MG484</ci>
-			<ci>MG484</ci>
-			<ci>ATP</ci>
-			<ci>PRO</ci>
-			<ci>MG_283_DIMER</ci>
+			<ci>MG484__c</ci>
+			<ci>ATP__c</ci>
+			<ci>PRO__c</ci>
+			<ci>MG_283_DIMER__c</ci>
 
 			<apply>
 			<power />
@@ -375,7 +375,7 @@
 				<cn type='integer'>1</cn>
 				<apply>
 					<times />
-					<ci>MG484</ci>
+					<ci>MG484__c</ci>
 					<apply>
 						<power />
 						<ci>KM1</ci>
@@ -384,7 +384,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>ATP</ci>
+					<ci>ATP__c</ci>
 					<apply>
 						<power />
 						<ci>KM2</ci>
@@ -393,7 +393,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>PRO</ci>
+					<ci>PRO__c</ci>
 					<apply>
 						<power />
 						<ci>KM3</ci>
@@ -414,17 +414,17 @@
 </reaction>
 <reaction id="Aminoacylation_MG485" name="Aminoacylation (MG485)">
 	<listOfReactants>
-		<speciesReference species="MG485" stoichiometry="1" />
-		<speciesReference species="ATP" stoichiometry="1" />
-		<speciesReference species="MET" stoichiometry="1" />
+		<speciesReference species="MG485__c" stoichiometry="1" />
+		<speciesReference species="ATP__c" stoichiometry="1" />
+		<speciesReference species="MET__c" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG485_aa" stoichiometry="1" />
-		<speciesReference species="AMP" stoichiometry="1" />
-		<speciesReference species="PPI" stoichiometry="1" />
+		<speciesReference species="MG485_aa__c" stoichiometry="1" />
+		<speciesReference species="AMP__c" stoichiometry="1" />
+		<speciesReference species="PPI__c" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
-		<modifierSpeciesReference species="MG_021_DIMER" />
+		<modifierSpeciesReference species="MG_021_DIMER__c" />
 	</listOfModifiers>
 
 	<kineticLaw>
@@ -432,10 +432,10 @@
 		<apply>
 			<times />
 			<ci>k_tRnaAa_MG485</ci>
-			<ci>MG485</ci>
-			<ci>ATP</ci>
-			<ci>MET</ci>
-			<ci>MG_021_DIMER</ci>
+			<ci>MG485__c</ci>
+			<ci>ATP__c</ci>
+			<ci>MET__c</ci>
+			<ci>MG_021_DIMER__c</ci>
 
 			<apply>
 			<power />
@@ -444,7 +444,7 @@
 				<cn type='integer'>1</cn>
 				<apply>
 					<times />
-					<ci>MG485</ci>
+					<ci>MG485__c</ci>
 					<apply>
 						<power />
 						<ci>KM1</ci>
@@ -453,7 +453,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>ATP</ci>
+					<ci>ATP__c</ci>
 					<apply>
 						<power />
 						<ci>KM2</ci>
@@ -462,7 +462,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>MET</ci>
+					<ci>MET__c</ci>
 					<apply>
 						<power />
 						<ci>KM3</ci>
@@ -483,17 +483,17 @@
 </reaction>
 <reaction id="Aminoacylation_MG486" name="Aminoacylation (MG486)">
 	<listOfReactants>
-		<speciesReference species="MG486" stoichiometry="1" />
-		<speciesReference species="ATP" stoichiometry="1" />
-		<speciesReference species="ILE" stoichiometry="1" />
+		<speciesReference species="MG486__c" stoichiometry="1" />
+		<speciesReference species="ATP__c" stoichiometry="1" />
+		<speciesReference species="ILE__c" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG486_aa" stoichiometry="1" />
-		<speciesReference species="AMP" stoichiometry="1" />
-		<speciesReference species="PPI" stoichiometry="1" />
+		<speciesReference species="MG486_aa__c" stoichiometry="1" />
+		<speciesReference species="AMP__c" stoichiometry="1" />
+		<speciesReference species="PPI__c" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
-		<modifierSpeciesReference species="MG_345_MONOMER" />
+		<modifierSpeciesReference species="MG_345_MONOMER__c" />
 	</listOfModifiers>
 
 	<kineticLaw>
@@ -501,10 +501,10 @@
 		<apply>
 			<times />
 			<ci>k_tRnaAa_MG486</ci>
-			<ci>MG486</ci>
-			<ci>ATP</ci>
-			<ci>ILE</ci>
-			<ci>MG_345_MONOMER</ci>
+			<ci>MG486__c</ci>
+			<ci>ATP__c</ci>
+			<ci>ILE__c</ci>
+			<ci>MG_345_MONOMER__c</ci>
 
 			<apply>
 			<power />
@@ -513,7 +513,7 @@
 				<cn type='integer'>1</cn>
 				<apply>
 					<times />
-					<ci>MG486</ci>
+					<ci>MG486__c</ci>
 					<apply>
 						<power />
 						<ci>KM1</ci>
@@ -522,7 +522,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>ATP</ci>
+					<ci>ATP__c</ci>
 					<apply>
 						<power />
 						<ci>KM2</ci>
@@ -531,7 +531,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>ILE</ci>
+					<ci>ILE__c</ci>
 					<apply>
 						<power />
 						<ci>KM3</ci>
@@ -552,17 +552,17 @@
 </reaction>
 <reaction id="Aminoacylation_MG487" name="Aminoacylation (MG487)">
 	<listOfReactants>
-		<speciesReference species="MG487" stoichiometry="1" />
-		<speciesReference species="ATP" stoichiometry="1" />
-		<speciesReference species="SER" stoichiometry="1" />
+		<speciesReference species="MG487__c" stoichiometry="1" />
+		<speciesReference species="ATP__c" stoichiometry="1" />
+		<speciesReference species="SER__c" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG487_aa" stoichiometry="1" />
-		<speciesReference species="AMP" stoichiometry="1" />
-		<speciesReference species="PPI" stoichiometry="1" />
+		<speciesReference species="MG487_aa__c" stoichiometry="1" />
+		<speciesReference species="AMP__c" stoichiometry="1" />
+		<speciesReference species="PPI__c" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
-		<modifierSpeciesReference species="MG_005_DIMER" />
+		<modifierSpeciesReference species="MG_005_DIMER__c" />
 	</listOfModifiers>
 
 	<kineticLaw>
@@ -570,10 +570,10 @@
 		<apply>
 			<times />
 			<ci>k_tRnaAa_MG487</ci>
-			<ci>MG487</ci>
-			<ci>ATP</ci>
-			<ci>SER</ci>
-			<ci>MG_005_DIMER</ci>
+			<ci>MG487__c</ci>
+			<ci>ATP__c</ci>
+			<ci>SER__c</ci>
+			<ci>MG_005_DIMER__c</ci>
 
 			<apply>
 			<power />
@@ -582,7 +582,7 @@
 				<cn type='integer'>1</cn>
 				<apply>
 					<times />
-					<ci>MG487</ci>
+					<ci>MG487__c</ci>
 					<apply>
 						<power />
 						<ci>KM1</ci>
@@ -591,7 +591,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>ATP</ci>
+					<ci>ATP__c</ci>
 					<apply>
 						<power />
 						<ci>KM2</ci>
@@ -600,7 +600,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>SER</ci>
+					<ci>SER__c</ci>
 					<apply>
 						<power />
 						<ci>KM3</ci>
@@ -621,20 +621,20 @@
 </reaction>
 <reaction id="Aminoacylation_MG488" name="Aminoacylation (MG488)">
 	<listOfReactants>
-		<speciesReference species="MG488" stoichiometry="1" />
-		<speciesReference species="ATP" stoichiometry="1" />
-		<speciesReference species="FTHF10" stoichiometry="1" />
-		<speciesReference species="MET" stoichiometry="1" />
+		<speciesReference species="MG488__c" stoichiometry="1" />
+		<speciesReference species="ATP__c" stoichiometry="1" />
+		<speciesReference species="FTHF10__c" stoichiometry="1" />
+		<speciesReference species="MET__c" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG488_aa" stoichiometry="1" />
-		<speciesReference species="AMP" stoichiometry="1" />
-		<speciesReference species="PPI" stoichiometry="1" />
-		<speciesReference species="THF" stoichiometry="1" />
+		<speciesReference species="MG488_aa__c" stoichiometry="1" />
+		<speciesReference species="AMP__c" stoichiometry="1" />
+		<speciesReference species="PPI__c" stoichiometry="1" />
+		<speciesReference species="THF__c" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
-		<modifierSpeciesReference species="MG_365_MONOMER" />
-		<modifierSpeciesReference species="MG_021_DIMER" />
+		<modifierSpeciesReference species="MG_365_MONOMER__c" />
+		<modifierSpeciesReference species="MG_021_DIMER__c" />
 	</listOfModifiers>
 
 	<kineticLaw>
@@ -642,12 +642,12 @@
 		<apply>
 			<times />
 			<ci>k_tRnaAa_MG488</ci>
-			<ci>MG488</ci>
-			<ci>ATP</ci>
-			<ci>FTHF10</ci>
-			<ci>MET</ci>
-			<ci>MG_365_MONOMER</ci>
-			<ci>MG_021_DIMER</ci>
+			<ci>MG488__c</ci>
+			<ci>ATP__c</ci>
+			<ci>FTHF10__c</ci>
+			<ci>MET__c</ci>
+			<ci>MG_365_MONOMER__c</ci>
+			<ci>MG_021_DIMER__c</ci>
 
 			<apply>
 			<power />
@@ -656,7 +656,7 @@
 				<cn type='integer'>1</cn>
 				<apply>
 					<times />
-					<ci>MG488</ci>
+					<ci>MG488__c</ci>
 					<apply>
 						<power />
 						<ci>KM1</ci>
@@ -665,7 +665,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>ATP</ci>
+					<ci>ATP__c</ci>
 					<apply>
 						<power />
 						<ci>KM2</ci>
@@ -674,7 +674,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>FTHF10</ci>
+					<ci>FTHF10__c</ci>
 					<apply>
 						<power />
 						<ci>KM3</ci>
@@ -683,7 +683,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>MET</ci>
+					<ci>MET__c</ci>
 					<apply>
 						<power />
 						<ci>KM4</ci>
@@ -705,17 +705,17 @@
 </reaction>
 <reaction id="Aminoacylation_MG489" name="Aminoacylation (MG489)">
 	<listOfReactants>
-		<speciesReference species="MG489" stoichiometry="1" />
-		<speciesReference species="ASP" stoichiometry="1" />
-		<speciesReference species="ATP" stoichiometry="1" />
+		<speciesReference species="MG489__c" stoichiometry="1" />
+		<speciesReference species="ASP__c" stoichiometry="1" />
+		<speciesReference species="ATP__c" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG489_aa" stoichiometry="1" />
-		<speciesReference species="AMP" stoichiometry="1" />
-		<speciesReference species="PPI" stoichiometry="1" />
+		<speciesReference species="MG489_aa__c" stoichiometry="1" />
+		<speciesReference species="AMP__c" stoichiometry="1" />
+		<speciesReference species="PPI__c" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
-		<modifierSpeciesReference species="MG_036_DIMER" />
+		<modifierSpeciesReference species="MG_036_DIMER__c" />
 	</listOfModifiers>
 
 	<kineticLaw>
@@ -723,10 +723,10 @@
 		<apply>
 			<times />
 			<ci>k_tRnaAa_MG489</ci>
-			<ci>MG489</ci>
-			<ci>ASP</ci>
-			<ci>ATP</ci>
-			<ci>MG_036_DIMER</ci>
+			<ci>MG489__c</ci>
+			<ci>ASP__c</ci>
+			<ci>ATP__c</ci>
+			<ci>MG_036_DIMER__c</ci>
 
 			<apply>
 			<power />
@@ -735,7 +735,7 @@
 				<cn type='integer'>1</cn>
 				<apply>
 					<times />
-					<ci>MG489</ci>
+					<ci>MG489__c</ci>
 					<apply>
 						<power />
 						<ci>KM1</ci>
@@ -744,7 +744,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>ASP</ci>
+					<ci>ASP__c</ci>
 					<apply>
 						<power />
 						<ci>KM2</ci>
@@ -753,7 +753,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>ATP</ci>
+					<ci>ATP__c</ci>
 					<apply>
 						<power />
 						<ci>KM3</ci>
@@ -774,17 +774,17 @@
 </reaction>
 <reaction id="Aminoacylation_MG490" name="Aminoacylation (MG490)">
 	<listOfReactants>
-		<speciesReference species="MG490" stoichiometry="1" />
-		<speciesReference species="ATP" stoichiometry="1" />
-		<speciesReference species="PHE" stoichiometry="1" />
+		<speciesReference species="MG490__c" stoichiometry="1" />
+		<speciesReference species="ATP__c" stoichiometry="1" />
+		<speciesReference species="PHE__c" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG490_aa" stoichiometry="1" />
-		<speciesReference species="AMP" stoichiometry="1" />
-		<speciesReference species="PPI" stoichiometry="1" />
+		<speciesReference species="MG490_aa__c" stoichiometry="1" />
+		<speciesReference species="AMP__c" stoichiometry="1" />
+		<speciesReference species="PPI__c" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
-		<modifierSpeciesReference species="MG_194_195_TETRAMER" />
+		<modifierSpeciesReference species="MG_194_195_TETRAMER__c" />
 	</listOfModifiers>
 
 	<kineticLaw>
@@ -792,10 +792,10 @@
 		<apply>
 			<times />
 			<ci>k_tRnaAa_MG490</ci>
-			<ci>MG490</ci>
-			<ci>ATP</ci>
-			<ci>PHE</ci>
-			<ci>MG_194_195_TETRAMER</ci>
+			<ci>MG490__c</ci>
+			<ci>ATP__c</ci>
+			<ci>PHE__c</ci>
+			<ci>MG_194_195_TETRAMER__c</ci>
 
 			<apply>
 			<power />
@@ -804,7 +804,7 @@
 				<cn type='integer'>1</cn>
 				<apply>
 					<times />
-					<ci>MG490</ci>
+					<ci>MG490__c</ci>
 					<apply>
 						<power />
 						<ci>KM1</ci>
@@ -813,7 +813,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>ATP</ci>
+					<ci>ATP__c</ci>
 					<apply>
 						<power />
 						<ci>KM2</ci>
@@ -822,7 +822,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>PHE</ci>
+					<ci>PHE__c</ci>
 					<apply>
 						<power />
 						<ci>KM3</ci>
@@ -843,17 +843,17 @@
 </reaction>
 <reaction id="Aminoacylation_MG492" name="Aminoacylation (MG492)">
 	<listOfReactants>
-		<speciesReference species="MG492" stoichiometry="1" />
-		<speciesReference species="ARG" stoichiometry="1" />
-		<speciesReference species="ATP" stoichiometry="1" />
+		<speciesReference species="MG492__c" stoichiometry="1" />
+		<speciesReference species="ARG__c" stoichiometry="1" />
+		<speciesReference species="ATP__c" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG492_aa" stoichiometry="1" />
-		<speciesReference species="AMP" stoichiometry="1" />
-		<speciesReference species="PPI" stoichiometry="1" />
+		<speciesReference species="MG492_aa__c" stoichiometry="1" />
+		<speciesReference species="AMP__c" stoichiometry="1" />
+		<speciesReference species="PPI__c" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
-		<modifierSpeciesReference species="MG_378_MONOMER" />
+		<modifierSpeciesReference species="MG_378_MONOMER__c" />
 	</listOfModifiers>
 
 	<kineticLaw>
@@ -861,10 +861,10 @@
 		<apply>
 			<times />
 			<ci>k_tRnaAa_MG492</ci>
-			<ci>MG492</ci>
-			<ci>ARG</ci>
-			<ci>ATP</ci>
-			<ci>MG_378_MONOMER</ci>
+			<ci>MG492__c</ci>
+			<ci>ARG__c</ci>
+			<ci>ATP__c</ci>
+			<ci>MG_378_MONOMER__c</ci>
 
 			<apply>
 			<power />
@@ -873,7 +873,7 @@
 				<cn type='integer'>1</cn>
 				<apply>
 					<times />
-					<ci>MG492</ci>
+					<ci>MG492__c</ci>
 					<apply>
 						<power />
 						<ci>KM1</ci>
@@ -882,7 +882,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>ARG</ci>
+					<ci>ARG__c</ci>
 					<apply>
 						<power />
 						<ci>KM2</ci>
@@ -891,7 +891,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>ATP</ci>
+					<ci>ATP__c</ci>
 					<apply>
 						<power />
 						<ci>KM3</ci>
@@ -912,17 +912,17 @@
 </reaction>
 <reaction id="Aminoacylation_MG493" name="Aminoacylation (MG493)">
 	<listOfReactants>
-		<speciesReference species="MG493" stoichiometry="1" />
-		<speciesReference species="ATP" stoichiometry="1" />
-		<speciesReference species="GLY" stoichiometry="1" />
+		<speciesReference species="MG493__c" stoichiometry="1" />
+		<speciesReference species="ATP__c" stoichiometry="1" />
+		<speciesReference species="GLY__c" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG493_aa" stoichiometry="1" />
-		<speciesReference species="AMP" stoichiometry="1" />
-		<speciesReference species="PPI" stoichiometry="1" />
+		<speciesReference species="MG493_aa__c" stoichiometry="1" />
+		<speciesReference species="AMP__c" stoichiometry="1" />
+		<speciesReference species="PPI__c" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
-		<modifierSpeciesReference species="MG_251_DIMER" />
+		<modifierSpeciesReference species="MG_251_DIMER__c" />
 	</listOfModifiers>
 
 	<kineticLaw>
@@ -930,10 +930,10 @@
 		<apply>
 			<times />
 			<ci>k_tRnaAa_MG493</ci>
-			<ci>MG493</ci>
-			<ci>ATP</ci>
-			<ci>GLY</ci>
-			<ci>MG_251_DIMER</ci>
+			<ci>MG493__c</ci>
+			<ci>ATP__c</ci>
+			<ci>GLY__c</ci>
+			<ci>MG_251_DIMER__c</ci>
 
 			<apply>
 			<power />
@@ -942,7 +942,7 @@
 				<cn type='integer'>1</cn>
 				<apply>
 					<times />
-					<ci>MG493</ci>
+					<ci>MG493__c</ci>
 					<apply>
 						<power />
 						<ci>KM1</ci>
@@ -951,7 +951,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>ATP</ci>
+					<ci>ATP__c</ci>
 					<apply>
 						<power />
 						<ci>KM2</ci>
@@ -960,7 +960,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>GLY</ci>
+					<ci>GLY__c</ci>
 					<apply>
 						<power />
 						<ci>KM3</ci>
@@ -981,17 +981,17 @@
 </reaction>
 <reaction id="Aminoacylation_MG495" name="Aminoacylation (MG495)">
 	<listOfReactants>
-		<speciesReference species="MG495" stoichiometry="1" />
-		<speciesReference species="ARG" stoichiometry="1" />
-		<speciesReference species="ATP" stoichiometry="1" />
+		<speciesReference species="MG495__c" stoichiometry="1" />
+		<speciesReference species="ARG__c" stoichiometry="1" />
+		<speciesReference species="ATP__c" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG495_aa" stoichiometry="1" />
-		<speciesReference species="AMP" stoichiometry="1" />
-		<speciesReference species="PPI" stoichiometry="1" />
+		<speciesReference species="MG495_aa__c" stoichiometry="1" />
+		<speciesReference species="AMP__c" stoichiometry="1" />
+		<speciesReference species="PPI__c" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
-		<modifierSpeciesReference species="MG_378_MONOMER" />
+		<modifierSpeciesReference species="MG_378_MONOMER__c" />
 	</listOfModifiers>
 
 	<kineticLaw>
@@ -999,10 +999,10 @@
 		<apply>
 			<times />
 			<ci>k_tRnaAa_MG495</ci>
-			<ci>MG495</ci>
-			<ci>ARG</ci>
-			<ci>ATP</ci>
-			<ci>MG_378_MONOMER</ci>
+			<ci>MG495__c</ci>
+			<ci>ARG__c</ci>
+			<ci>ATP__c</ci>
+			<ci>MG_378_MONOMER__c</ci>
 
 			<apply>
 			<power />
@@ -1011,7 +1011,7 @@
 				<cn type='integer'>1</cn>
 				<apply>
 					<times />
-					<ci>MG495</ci>
+					<ci>MG495__c</ci>
 					<apply>
 						<power />
 						<ci>KM1</ci>
@@ -1020,7 +1020,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>ARG</ci>
+					<ci>ARG__c</ci>
 					<apply>
 						<power />
 						<ci>KM2</ci>
@@ -1029,7 +1029,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>ATP</ci>
+					<ci>ATP__c</ci>
 					<apply>
 						<power />
 						<ci>KM3</ci>
@@ -1050,17 +1050,17 @@
 </reaction>
 <reaction id="Aminoacylation_MG496" name="Aminoacylation (MG496)">
 	<listOfReactants>
-		<speciesReference species="MG496" stoichiometry="1" />
-		<speciesReference species="ATP" stoichiometry="1" />
-		<speciesReference species="TRP" stoichiometry="1" />
+		<speciesReference species="MG496__c" stoichiometry="1" />
+		<speciesReference species="ATP__c" stoichiometry="1" />
+		<speciesReference species="TRP__c" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG496_aa" stoichiometry="1" />
-		<speciesReference species="AMP" stoichiometry="1" />
-		<speciesReference species="PPI" stoichiometry="1" />
+		<speciesReference species="MG496_aa__c" stoichiometry="1" />
+		<speciesReference species="AMP__c" stoichiometry="1" />
+		<speciesReference species="PPI__c" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
-		<modifierSpeciesReference species="MG_126_DIMER" />
+		<modifierSpeciesReference species="MG_126_DIMER__c" />
 	</listOfModifiers>
 
 	<kineticLaw>
@@ -1068,10 +1068,10 @@
 		<apply>
 			<times />
 			<ci>k_tRnaAa_MG496</ci>
-			<ci>MG496</ci>
-			<ci>ATP</ci>
-			<ci>TRP</ci>
-			<ci>MG_126_DIMER</ci>
+			<ci>MG496__c</ci>
+			<ci>ATP__c</ci>
+			<ci>TRP__c</ci>
+			<ci>MG_126_DIMER__c</ci>
 
 			<apply>
 			<power />
@@ -1080,7 +1080,7 @@
 				<cn type='integer'>1</cn>
 				<apply>
 					<times />
-					<ci>MG496</ci>
+					<ci>MG496__c</ci>
 					<apply>
 						<power />
 						<ci>KM1</ci>
@@ -1089,7 +1089,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>ATP</ci>
+					<ci>ATP__c</ci>
 					<apply>
 						<power />
 						<ci>KM2</ci>
@@ -1098,7 +1098,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>TRP</ci>
+					<ci>TRP__c</ci>
 					<apply>
 						<power />
 						<ci>KM3</ci>
@@ -1119,17 +1119,17 @@
 </reaction>
 <reaction id="Aminoacylation_MG497" name="Aminoacylation (MG497)">
 	<listOfReactants>
-		<speciesReference species="MG497" stoichiometry="1" />
-		<speciesReference species="ARG" stoichiometry="1" />
-		<speciesReference species="ATP" stoichiometry="1" />
+		<speciesReference species="MG497__c" stoichiometry="1" />
+		<speciesReference species="ARG__c" stoichiometry="1" />
+		<speciesReference species="ATP__c" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG497_aa" stoichiometry="1" />
-		<speciesReference species="AMP" stoichiometry="1" />
-		<speciesReference species="PPI" stoichiometry="1" />
+		<speciesReference species="MG497_aa__c" stoichiometry="1" />
+		<speciesReference species="AMP__c" stoichiometry="1" />
+		<speciesReference species="PPI__c" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
-		<modifierSpeciesReference species="MG_378_MONOMER" />
+		<modifierSpeciesReference species="MG_378_MONOMER__c" />
 	</listOfModifiers>
 
 	<kineticLaw>
@@ -1137,10 +1137,10 @@
 		<apply>
 			<times />
 			<ci>k_tRnaAa_MG497</ci>
-			<ci>MG497</ci>
-			<ci>ARG</ci>
-			<ci>ATP</ci>
-			<ci>MG_378_MONOMER</ci>
+			<ci>MG497__c</ci>
+			<ci>ARG__c</ci>
+			<ci>ATP__c</ci>
+			<ci>MG_378_MONOMER__c</ci>
 
 			<apply>
 			<power />
@@ -1149,7 +1149,7 @@
 				<cn type='integer'>1</cn>
 				<apply>
 					<times />
-					<ci>MG497</ci>
+					<ci>MG497__c</ci>
 					<apply>
 						<power />
 						<ci>KM1</ci>
@@ -1158,7 +1158,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>ARG</ci>
+					<ci>ARG__c</ci>
 					<apply>
 						<power />
 						<ci>KM2</ci>
@@ -1167,7 +1167,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>ATP</ci>
+					<ci>ATP__c</ci>
 					<apply>
 						<power />
 						<ci>KM3</ci>
@@ -1188,17 +1188,17 @@
 </reaction>
 <reaction id="Aminoacylation_MG499" name="Aminoacylation (MG499)">
 	<listOfReactants>
-		<speciesReference species="MG499" stoichiometry="1" />
-		<speciesReference species="ATP" stoichiometry="1" />
-		<speciesReference species="GLY" stoichiometry="1" />
+		<speciesReference species="MG499__c" stoichiometry="1" />
+		<speciesReference species="ATP__c" stoichiometry="1" />
+		<speciesReference species="GLY__c" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG499_aa" stoichiometry="1" />
-		<speciesReference species="AMP" stoichiometry="1" />
-		<speciesReference species="PPI" stoichiometry="1" />
+		<speciesReference species="MG499_aa__c" stoichiometry="1" />
+		<speciesReference species="AMP__c" stoichiometry="1" />
+		<speciesReference species="PPI__c" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
-		<modifierSpeciesReference species="MG_251_DIMER" />
+		<modifierSpeciesReference species="MG_251_DIMER__c" />
 	</listOfModifiers>
 
 	<kineticLaw>
@@ -1206,10 +1206,10 @@
 		<apply>
 			<times />
 			<ci>k_tRnaAa_MG499</ci>
-			<ci>MG499</ci>
-			<ci>ATP</ci>
-			<ci>GLY</ci>
-			<ci>MG_251_DIMER</ci>
+			<ci>MG499__c</ci>
+			<ci>ATP__c</ci>
+			<ci>GLY__c</ci>
+			<ci>MG_251_DIMER__c</ci>
 
 			<apply>
 			<power />
@@ -1218,7 +1218,7 @@
 				<cn type='integer'>1</cn>
 				<apply>
 					<times />
-					<ci>MG499</ci>
+					<ci>MG499__c</ci>
 					<apply>
 						<power />
 						<ci>KM1</ci>
@@ -1227,7 +1227,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>ATP</ci>
+					<ci>ATP__c</ci>
 					<apply>
 						<power />
 						<ci>KM2</ci>
@@ -1236,7 +1236,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>GLY</ci>
+					<ci>GLY__c</ci>
 					<apply>
 						<power />
 						<ci>KM3</ci>
@@ -1257,17 +1257,17 @@
 </reaction>
 <reaction id="Aminoacylation_MG500" name="Aminoacylation (MG500)">
 	<listOfReactants>
-		<speciesReference species="MG500" stoichiometry="1" />
-		<speciesReference species="ATP" stoichiometry="1" />
-		<speciesReference species="LEU" stoichiometry="1" />
+		<speciesReference species="MG500__c" stoichiometry="1" />
+		<speciesReference species="ATP__c" stoichiometry="1" />
+		<speciesReference species="LEU__c" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG500_aa" stoichiometry="1" />
-		<speciesReference species="AMP" stoichiometry="1" />
-		<speciesReference species="PPI" stoichiometry="1" />
+		<speciesReference species="MG500_aa__c" stoichiometry="1" />
+		<speciesReference species="AMP__c" stoichiometry="1" />
+		<speciesReference species="PPI__c" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
-		<modifierSpeciesReference species="MG_266_MONOMER" />
+		<modifierSpeciesReference species="MG_266_MONOMER__c" />
 	</listOfModifiers>
 
 	<kineticLaw>
@@ -1275,10 +1275,10 @@
 		<apply>
 			<times />
 			<ci>k_tRnaAa_MG500</ci>
-			<ci>MG500</ci>
-			<ci>ATP</ci>
-			<ci>LEU</ci>
-			<ci>MG_266_MONOMER</ci>
+			<ci>MG500__c</ci>
+			<ci>ATP__c</ci>
+			<ci>LEU__c</ci>
+			<ci>MG_266_MONOMER__c</ci>
 
 			<apply>
 			<power />
@@ -1287,7 +1287,7 @@
 				<cn type='integer'>1</cn>
 				<apply>
 					<times />
-					<ci>MG500</ci>
+					<ci>MG500__c</ci>
 					<apply>
 						<power />
 						<ci>KM1</ci>
@@ -1296,7 +1296,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>ATP</ci>
+					<ci>ATP__c</ci>
 					<apply>
 						<power />
 						<ci>KM2</ci>
@@ -1305,7 +1305,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>LEU</ci>
+					<ci>LEU__c</ci>
 					<apply>
 						<power />
 						<ci>KM3</ci>
@@ -1326,17 +1326,17 @@
 </reaction>
 <reaction id="Aminoacylation_MG501" name="Aminoacylation (MG501)">
 	<listOfReactants>
-		<speciesReference species="MG501" stoichiometry="1" />
-		<speciesReference species="ATP" stoichiometry="1" />
-		<speciesReference species="LYS" stoichiometry="1" />
+		<speciesReference species="MG501__c" stoichiometry="1" />
+		<speciesReference species="ATP__c" stoichiometry="1" />
+		<speciesReference species="LYS__c" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG501_aa" stoichiometry="1" />
-		<speciesReference species="AMP" stoichiometry="1" />
-		<speciesReference species="PPI" stoichiometry="1" />
+		<speciesReference species="MG501_aa__c" stoichiometry="1" />
+		<speciesReference species="AMP__c" stoichiometry="1" />
+		<speciesReference species="PPI__c" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
-		<modifierSpeciesReference species="MG_136_DIMER" />
+		<modifierSpeciesReference species="MG_136_DIMER__c" />
 	</listOfModifiers>
 
 	<kineticLaw>
@@ -1344,10 +1344,10 @@
 		<apply>
 			<times />
 			<ci>k_tRnaAa_MG501</ci>
-			<ci>MG501</ci>
-			<ci>ATP</ci>
-			<ci>LYS</ci>
-			<ci>MG_136_DIMER</ci>
+			<ci>MG501__c</ci>
+			<ci>ATP__c</ci>
+			<ci>LYS__c</ci>
+			<ci>MG_136_DIMER__c</ci>
 
 			<apply>
 			<power />
@@ -1356,7 +1356,7 @@
 				<cn type='integer'>1</cn>
 				<apply>
 					<times />
-					<ci>MG501</ci>
+					<ci>MG501__c</ci>
 					<apply>
 						<power />
 						<ci>KM1</ci>
@@ -1365,7 +1365,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>ATP</ci>
+					<ci>ATP__c</ci>
 					<apply>
 						<power />
 						<ci>KM2</ci>
@@ -1374,7 +1374,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>LYS</ci>
+					<ci>LYS__c</ci>
 					<apply>
 						<power />
 						<ci>KM3</ci>
@@ -1395,22 +1395,22 @@
 </reaction>
 <reaction id="Aminoacylation_MG502" name="Aminoacylation (MG502)">
 	<listOfReactants>
-		<speciesReference species="MG502" stoichiometry="1" />
-		<speciesReference species="ATP" stoichiometry="2" />
-		<speciesReference species="H2O" stoichiometry="1" />
-		<speciesReference species="GLN" stoichiometry="1" />
+		<speciesReference species="MG502__c" stoichiometry="1" />
+		<speciesReference species="ATP__c" stoichiometry="2" />
+		<speciesReference species="H2O__c" stoichiometry="1" />
+		<speciesReference species="GLN__c" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG502_aa" stoichiometry="1" />
-		<speciesReference species="ADP" stoichiometry="1" />
-		<speciesReference species="AMP" stoichiometry="1" />
-		<speciesReference species="H" stoichiometry="1" />
-		<speciesReference species="PI" stoichiometry="1" />
-		<speciesReference species="PPI" stoichiometry="1" />
+		<speciesReference species="MG502_aa__c" stoichiometry="1" />
+		<speciesReference species="ADP__c" stoichiometry="1" />
+		<speciesReference species="AMP__c" stoichiometry="1" />
+		<speciesReference species="H__c" stoichiometry="1" />
+		<speciesReference species="PI__c" stoichiometry="1" />
+		<speciesReference species="PPI__c" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
-		<modifierSpeciesReference species="MG_462_MONOMER" />
-		<modifierSpeciesReference species="MG_098_099_100_TRIMER" />
+		<modifierSpeciesReference species="MG_462_MONOMER__c" />
+		<modifierSpeciesReference species="MG_098_099_100_TRIMER__c" />
 	</listOfModifiers>
 
 	<kineticLaw>
@@ -1418,12 +1418,12 @@
 		<apply>
 			<times />
 			<ci>k_tRnaAa_MG502</ci>
-			<ci>MG502</ci>
-			<ci>ATP</ci>
-			<ci>H2O</ci>
-			<ci>GLN</ci>
-			<ci>MG_462_MONOMER</ci>
-			<ci>MG_098_099_100_TRIMER</ci>
+			<ci>MG502__c</ci>
+			<ci>ATP__c</ci>
+			<ci>H2O__c</ci>
+			<ci>GLN__c</ci>
+			<ci>MG_462_MONOMER__c</ci>
+			<ci>MG_098_099_100_TRIMER__c</ci>
 
 			<apply>
 			<power />
@@ -1432,7 +1432,7 @@
 				<cn type='integer'>1</cn>
 				<apply>
 					<times />
-					<ci>MG502</ci>
+					<ci>MG502__c</ci>
 					<apply>
 						<power />
 						<ci>KM1</ci>
@@ -1441,7 +1441,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>ATP</ci>
+					<ci>ATP__c</ci>
 					<apply>
 						<power />
 						<ci>KM2</ci>
@@ -1450,7 +1450,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>H2O</ci>
+					<ci>H2O__c</ci>
 					<apply>
 						<power />
 						<ci>KM3</ci>
@@ -1459,7 +1459,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>GLN</ci>
+					<ci>GLN__c</ci>
 					<apply>
 						<power />
 						<ci>KM4</ci>
@@ -1481,17 +1481,17 @@
 </reaction>
 <reaction id="Aminoacylation_MG503" name="Aminoacylation (MG503)">
 	<listOfReactants>
-		<speciesReference species="MG503" stoichiometry="1" />
-		<speciesReference species="ATP" stoichiometry="1" />
-		<speciesReference species="TYR" stoichiometry="1" />
+		<speciesReference species="MG503__c" stoichiometry="1" />
+		<speciesReference species="ATP__c" stoichiometry="1" />
+		<speciesReference species="TYR__c" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG503_aa" stoichiometry="1" />
-		<speciesReference species="AMP" stoichiometry="1" />
-		<speciesReference species="PPI" stoichiometry="1" />
+		<speciesReference species="MG503_aa__c" stoichiometry="1" />
+		<speciesReference species="AMP__c" stoichiometry="1" />
+		<speciesReference species="PPI__c" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
-		<modifierSpeciesReference species="MG_455_DIMER" />
+		<modifierSpeciesReference species="MG_455_DIMER__c" />
 	</listOfModifiers>
 
 	<kineticLaw>
@@ -1499,10 +1499,10 @@
 		<apply>
 			<times />
 			<ci>k_tRnaAa_MG503</ci>
-			<ci>MG503</ci>
-			<ci>ATP</ci>
-			<ci>TYR</ci>
-			<ci>MG_455_DIMER</ci>
+			<ci>MG503__c</ci>
+			<ci>ATP__c</ci>
+			<ci>TYR__c</ci>
+			<ci>MG_455_DIMER__c</ci>
 
 			<apply>
 			<power />
@@ -1511,7 +1511,7 @@
 				<cn type='integer'>1</cn>
 				<apply>
 					<times />
-					<ci>MG503</ci>
+					<ci>MG503__c</ci>
 					<apply>
 						<power />
 						<ci>KM1</ci>
@@ -1520,7 +1520,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>ATP</ci>
+					<ci>ATP__c</ci>
 					<apply>
 						<power />
 						<ci>KM2</ci>
@@ -1529,7 +1529,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>TYR</ci>
+					<ci>TYR__c</ci>
 					<apply>
 						<power />
 						<ci>KM3</ci>
@@ -1550,17 +1550,17 @@
 </reaction>
 <reaction id="Aminoacylation_MG504" name="Aminoacylation (MG504)">
 	<listOfReactants>
-		<speciesReference species="MG504" stoichiometry="1" />
-		<speciesReference species="ATP" stoichiometry="1" />
-		<speciesReference species="TRP" stoichiometry="1" />
+		<speciesReference species="MG504__c" stoichiometry="1" />
+		<speciesReference species="ATP__c" stoichiometry="1" />
+		<speciesReference species="TRP__c" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG504_aa" stoichiometry="1" />
-		<speciesReference species="AMP" stoichiometry="1" />
-		<speciesReference species="PPI" stoichiometry="1" />
+		<speciesReference species="MG504_aa__c" stoichiometry="1" />
+		<speciesReference species="AMP__c" stoichiometry="1" />
+		<speciesReference species="PPI__c" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
-		<modifierSpeciesReference species="MG_126_DIMER" />
+		<modifierSpeciesReference species="MG_126_DIMER__c" />
 	</listOfModifiers>
 
 	<kineticLaw>
@@ -1568,10 +1568,10 @@
 		<apply>
 			<times />
 			<ci>k_tRnaAa_MG504</ci>
-			<ci>MG504</ci>
-			<ci>ATP</ci>
-			<ci>TRP</ci>
-			<ci>MG_126_DIMER</ci>
+			<ci>MG504__c</ci>
+			<ci>ATP__c</ci>
+			<ci>TRP__c</ci>
+			<ci>MG_126_DIMER__c</ci>
 
 			<apply>
 			<power />
@@ -1580,7 +1580,7 @@
 				<cn type='integer'>1</cn>
 				<apply>
 					<times />
-					<ci>MG504</ci>
+					<ci>MG504__c</ci>
 					<apply>
 						<power />
 						<ci>KM1</ci>
@@ -1589,7 +1589,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>ATP</ci>
+					<ci>ATP__c</ci>
 					<apply>
 						<power />
 						<ci>KM2</ci>
@@ -1598,7 +1598,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>TRP</ci>
+					<ci>TRP__c</ci>
 					<apply>
 						<power />
 						<ci>KM3</ci>
@@ -1619,17 +1619,17 @@
 </reaction>
 <reaction id="Aminoacylation_MG506" name="Aminoacylation (MG506)">
 	<listOfReactants>
-		<speciesReference species="MG506" stoichiometry="1" />
-		<speciesReference species="ATP" stoichiometry="1" />
-		<speciesReference species="SER" stoichiometry="1" />
+		<speciesReference species="MG506__c" stoichiometry="1" />
+		<speciesReference species="ATP__c" stoichiometry="1" />
+		<speciesReference species="SER__c" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG506_aa" stoichiometry="1" />
-		<speciesReference species="AMP" stoichiometry="1" />
-		<speciesReference species="PPI" stoichiometry="1" />
+		<speciesReference species="MG506_aa__c" stoichiometry="1" />
+		<speciesReference species="AMP__c" stoichiometry="1" />
+		<speciesReference species="PPI__c" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
-		<modifierSpeciesReference species="MG_005_DIMER" />
+		<modifierSpeciesReference species="MG_005_DIMER__c" />
 	</listOfModifiers>
 
 	<kineticLaw>
@@ -1637,10 +1637,10 @@
 		<apply>
 			<times />
 			<ci>k_tRnaAa_MG506</ci>
-			<ci>MG506</ci>
-			<ci>ATP</ci>
-			<ci>SER</ci>
-			<ci>MG_005_DIMER</ci>
+			<ci>MG506__c</ci>
+			<ci>ATP__c</ci>
+			<ci>SER__c</ci>
+			<ci>MG_005_DIMER__c</ci>
 
 			<apply>
 			<power />
@@ -1649,7 +1649,7 @@
 				<cn type='integer'>1</cn>
 				<apply>
 					<times />
-					<ci>MG506</ci>
+					<ci>MG506__c</ci>
 					<apply>
 						<power />
 						<ci>KM1</ci>
@@ -1658,7 +1658,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>ATP</ci>
+					<ci>ATP__c</ci>
 					<apply>
 						<power />
 						<ci>KM2</ci>
@@ -1667,7 +1667,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>SER</ci>
+					<ci>SER__c</ci>
 					<apply>
 						<power />
 						<ci>KM3</ci>
@@ -1688,17 +1688,17 @@
 </reaction>
 <reaction id="Aminoacylation_MG507" name="Aminoacylation (MG507)">
 	<listOfReactants>
-		<speciesReference species="MG507" stoichiometry="1" />
-		<speciesReference species="ATP" stoichiometry="1" />
-		<speciesReference species="SER" stoichiometry="1" />
+		<speciesReference species="MG507__c" stoichiometry="1" />
+		<speciesReference species="ATP__c" stoichiometry="1" />
+		<speciesReference species="SER__c" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG507_aa" stoichiometry="1" />
-		<speciesReference species="AMP" stoichiometry="1" />
-		<speciesReference species="PPI" stoichiometry="1" />
+		<speciesReference species="MG507_aa__c" stoichiometry="1" />
+		<speciesReference species="AMP__c" stoichiometry="1" />
+		<speciesReference species="PPI__c" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
-		<modifierSpeciesReference species="MG_005_DIMER" />
+		<modifierSpeciesReference species="MG_005_DIMER__c" />
 	</listOfModifiers>
 
 	<kineticLaw>
@@ -1706,10 +1706,10 @@
 		<apply>
 			<times />
 			<ci>k_tRnaAa_MG507</ci>
-			<ci>MG507</ci>
-			<ci>ATP</ci>
-			<ci>SER</ci>
-			<ci>MG_005_DIMER</ci>
+			<ci>MG507__c</ci>
+			<ci>ATP__c</ci>
+			<ci>SER__c</ci>
+			<ci>MG_005_DIMER__c</ci>
 
 			<apply>
 			<power />
@@ -1718,7 +1718,7 @@
 				<cn type='integer'>1</cn>
 				<apply>
 					<times />
-					<ci>MG507</ci>
+					<ci>MG507__c</ci>
 					<apply>
 						<power />
 						<ci>KM1</ci>
@@ -1727,7 +1727,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>ATP</ci>
+					<ci>ATP__c</ci>
 					<apply>
 						<power />
 						<ci>KM2</ci>
@@ -1736,7 +1736,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>SER</ci>
+					<ci>SER__c</ci>
 					<apply>
 						<power />
 						<ci>KM3</ci>
@@ -1757,17 +1757,17 @@
 </reaction>
 <reaction id="Aminoacylation_MG508" name="Aminoacylation (MG508)">
 	<listOfReactants>
-		<speciesReference species="MG508" stoichiometry="1" />
-		<speciesReference species="ATP" stoichiometry="1" />
-		<speciesReference species="LEU" stoichiometry="1" />
+		<speciesReference species="MG508__c" stoichiometry="1" />
+		<speciesReference species="ATP__c" stoichiometry="1" />
+		<speciesReference species="LEU__c" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG508_aa" stoichiometry="1" />
-		<speciesReference species="AMP" stoichiometry="1" />
-		<speciesReference species="PPI" stoichiometry="1" />
+		<speciesReference species="MG508_aa__c" stoichiometry="1" />
+		<speciesReference species="AMP__c" stoichiometry="1" />
+		<speciesReference species="PPI__c" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
-		<modifierSpeciesReference species="MG_266_MONOMER" />
+		<modifierSpeciesReference species="MG_266_MONOMER__c" />
 	</listOfModifiers>
 
 	<kineticLaw>
@@ -1775,10 +1775,10 @@
 		<apply>
 			<times />
 			<ci>k_tRnaAa_MG508</ci>
-			<ci>MG508</ci>
-			<ci>ATP</ci>
-			<ci>LEU</ci>
-			<ci>MG_266_MONOMER</ci>
+			<ci>MG508__c</ci>
+			<ci>ATP__c</ci>
+			<ci>LEU__c</ci>
+			<ci>MG_266_MONOMER__c</ci>
 
 			<apply>
 			<power />
@@ -1787,7 +1787,7 @@
 				<cn type='integer'>1</cn>
 				<apply>
 					<times />
-					<ci>MG508</ci>
+					<ci>MG508__c</ci>
 					<apply>
 						<power />
 						<ci>KM1</ci>
@@ -1796,7 +1796,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>ATP</ci>
+					<ci>ATP__c</ci>
 					<apply>
 						<power />
 						<ci>KM2</ci>
@@ -1805,7 +1805,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>LEU</ci>
+					<ci>LEU__c</ci>
 					<apply>
 						<power />
 						<ci>KM3</ci>
@@ -1826,17 +1826,17 @@
 </reaction>
 <reaction id="Aminoacylation_MG509" name="Aminoacylation (MG509)">
 	<listOfReactants>
-		<speciesReference species="MG509" stoichiometry="1" />
-		<speciesReference species="ATP" stoichiometry="1" />
-		<speciesReference species="LYS" stoichiometry="1" />
+		<speciesReference species="MG509__c" stoichiometry="1" />
+		<speciesReference species="ATP__c" stoichiometry="1" />
+		<speciesReference species="LYS__c" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG509_aa" stoichiometry="1" />
-		<speciesReference species="AMP" stoichiometry="1" />
-		<speciesReference species="PPI" stoichiometry="1" />
+		<speciesReference species="MG509_aa__c" stoichiometry="1" />
+		<speciesReference species="AMP__c" stoichiometry="1" />
+		<speciesReference species="PPI__c" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
-		<modifierSpeciesReference species="MG_136_DIMER" />
+		<modifierSpeciesReference species="MG_136_DIMER__c" />
 	</listOfModifiers>
 
 	<kineticLaw>
@@ -1844,10 +1844,10 @@
 		<apply>
 			<times />
 			<ci>k_tRnaAa_MG509</ci>
-			<ci>MG509</ci>
-			<ci>ATP</ci>
-			<ci>LYS</ci>
-			<ci>MG_136_DIMER</ci>
+			<ci>MG509__c</ci>
+			<ci>ATP__c</ci>
+			<ci>LYS__c</ci>
+			<ci>MG_136_DIMER__c</ci>
 
 			<apply>
 			<power />
@@ -1856,7 +1856,7 @@
 				<cn type='integer'>1</cn>
 				<apply>
 					<times />
-					<ci>MG509</ci>
+					<ci>MG509__c</ci>
 					<apply>
 						<power />
 						<ci>KM1</ci>
@@ -1865,7 +1865,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>ATP</ci>
+					<ci>ATP__c</ci>
 					<apply>
 						<power />
 						<ci>KM2</ci>
@@ -1874,7 +1874,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>LYS</ci>
+					<ci>LYS__c</ci>
 					<apply>
 						<power />
 						<ci>KM3</ci>
@@ -1895,17 +1895,17 @@
 </reaction>
 <reaction id="Aminoacylation_MG510" name="Aminoacylation (MG510)">
 	<listOfReactants>
-		<speciesReference species="MG510" stoichiometry="1" />
-		<speciesReference species="ATP" stoichiometry="1" />
-		<speciesReference species="THR" stoichiometry="1" />
+		<speciesReference species="MG510__c" stoichiometry="1" />
+		<speciesReference species="ATP__c" stoichiometry="1" />
+		<speciesReference species="THR__c" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG510_aa" stoichiometry="1" />
-		<speciesReference species="AMP" stoichiometry="1" />
-		<speciesReference species="PPI" stoichiometry="1" />
+		<speciesReference species="MG510_aa__c" stoichiometry="1" />
+		<speciesReference species="AMP__c" stoichiometry="1" />
+		<speciesReference species="PPI__c" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
-		<modifierSpeciesReference species="MG_375_DIMER" />
+		<modifierSpeciesReference species="MG_375_DIMER__c" />
 	</listOfModifiers>
 
 	<kineticLaw>
@@ -1913,10 +1913,10 @@
 		<apply>
 			<times />
 			<ci>k_tRnaAa_MG510</ci>
-			<ci>MG510</ci>
-			<ci>ATP</ci>
-			<ci>THR</ci>
-			<ci>MG_375_DIMER</ci>
+			<ci>MG510__c</ci>
+			<ci>ATP__c</ci>
+			<ci>THR__c</ci>
+			<ci>MG_375_DIMER__c</ci>
 
 			<apply>
 			<power />
@@ -1925,7 +1925,7 @@
 				<cn type='integer'>1</cn>
 				<apply>
 					<times />
-					<ci>MG510</ci>
+					<ci>MG510__c</ci>
 					<apply>
 						<power />
 						<ci>KM1</ci>
@@ -1934,7 +1934,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>ATP</ci>
+					<ci>ATP__c</ci>
 					<apply>
 						<power />
 						<ci>KM2</ci>
@@ -1943,7 +1943,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>THR</ci>
+					<ci>THR__c</ci>
 					<apply>
 						<power />
 						<ci>KM3</ci>
@@ -1964,17 +1964,17 @@
 </reaction>
 <reaction id="Aminoacylation_MG511" name="Aminoacylation (MG511)">
 	<listOfReactants>
-		<speciesReference species="MG511" stoichiometry="1" />
-		<speciesReference species="ATP" stoichiometry="1" />
-		<speciesReference species="VAL" stoichiometry="1" />
+		<speciesReference species="MG511__c" stoichiometry="1" />
+		<speciesReference species="ATP__c" stoichiometry="1" />
+		<speciesReference species="VAL__c" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG511_aa" stoichiometry="1" />
-		<speciesReference species="AMP" stoichiometry="1" />
-		<speciesReference species="PPI" stoichiometry="1" />
+		<speciesReference species="MG511_aa__c" stoichiometry="1" />
+		<speciesReference species="AMP__c" stoichiometry="1" />
+		<speciesReference species="PPI__c" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
-		<modifierSpeciesReference species="MG_334_MONOMER" />
+		<modifierSpeciesReference species="MG_334_MONOMER__c" />
 	</listOfModifiers>
 
 	<kineticLaw>
@@ -1982,10 +1982,10 @@
 		<apply>
 			<times />
 			<ci>k_tRnaAa_MG511</ci>
-			<ci>MG511</ci>
-			<ci>ATP</ci>
-			<ci>VAL</ci>
-			<ci>MG_334_MONOMER</ci>
+			<ci>MG511__c</ci>
+			<ci>ATP__c</ci>
+			<ci>VAL__c</ci>
+			<ci>MG_334_MONOMER__c</ci>
 
 			<apply>
 			<power />
@@ -1994,7 +1994,7 @@
 				<cn type='integer'>1</cn>
 				<apply>
 					<times />
-					<ci>MG511</ci>
+					<ci>MG511__c</ci>
 					<apply>
 						<power />
 						<ci>KM1</ci>
@@ -2003,7 +2003,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>ATP</ci>
+					<ci>ATP__c</ci>
 					<apply>
 						<power />
 						<ci>KM2</ci>
@@ -2012,7 +2012,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>VAL</ci>
+					<ci>VAL__c</ci>
 					<apply>
 						<power />
 						<ci>KM3</ci>
@@ -2033,17 +2033,17 @@
 </reaction>
 <reaction id="Aminoacylation_MG512" name="Aminoacylation (MG512)">
 	<listOfReactants>
-		<speciesReference species="MG512" stoichiometry="1" />
-		<speciesReference species="ATP" stoichiometry="1" />
-		<speciesReference species="THR" stoichiometry="1" />
+		<speciesReference species="MG512__c" stoichiometry="1" />
+		<speciesReference species="ATP__c" stoichiometry="1" />
+		<speciesReference species="THR__c" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG512_aa" stoichiometry="1" />
-		<speciesReference species="AMP" stoichiometry="1" />
-		<speciesReference species="PPI" stoichiometry="1" />
+		<speciesReference species="MG512_aa__c" stoichiometry="1" />
+		<speciesReference species="AMP__c" stoichiometry="1" />
+		<speciesReference species="PPI__c" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
-		<modifierSpeciesReference species="MG_375_DIMER" />
+		<modifierSpeciesReference species="MG_375_DIMER__c" />
 	</listOfModifiers>
 
 	<kineticLaw>
@@ -2051,10 +2051,10 @@
 		<apply>
 			<times />
 			<ci>k_tRnaAa_MG512</ci>
-			<ci>MG512</ci>
-			<ci>ATP</ci>
-			<ci>THR</ci>
-			<ci>MG_375_DIMER</ci>
+			<ci>MG512__c</ci>
+			<ci>ATP__c</ci>
+			<ci>THR__c</ci>
+			<ci>MG_375_DIMER__c</ci>
 
 			<apply>
 			<power />
@@ -2063,7 +2063,7 @@
 				<cn type='integer'>1</cn>
 				<apply>
 					<times />
-					<ci>MG512</ci>
+					<ci>MG512__c</ci>
 					<apply>
 						<power />
 						<ci>KM1</ci>
@@ -2072,7 +2072,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>ATP</ci>
+					<ci>ATP__c</ci>
 					<apply>
 						<power />
 						<ci>KM2</ci>
@@ -2081,7 +2081,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>THR</ci>
+					<ci>THR__c</ci>
 					<apply>
 						<power />
 						<ci>KM3</ci>
@@ -2102,17 +2102,17 @@
 </reaction>
 <reaction id="Aminoacylation_MG513" name="Aminoacylation (MG513)">
 	<listOfReactants>
-		<speciesReference species="MG513" stoichiometry="1" />
-		<speciesReference species="ATP" stoichiometry="1" />
-		<speciesReference species="GLU" stoichiometry="1" />
+		<speciesReference species="MG513__c" stoichiometry="1" />
+		<speciesReference species="ATP__c" stoichiometry="1" />
+		<speciesReference species="GLU__c" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG513_aa" stoichiometry="1" />
-		<speciesReference species="AMP" stoichiometry="1" />
-		<speciesReference species="PPI" stoichiometry="1" />
+		<speciesReference species="MG513_aa__c" stoichiometry="1" />
+		<speciesReference species="AMP__c" stoichiometry="1" />
+		<speciesReference species="PPI__c" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
-		<modifierSpeciesReference species="MG_462_MONOMER" />
+		<modifierSpeciesReference species="MG_462_MONOMER__c" />
 	</listOfModifiers>
 
 	<kineticLaw>
@@ -2120,10 +2120,10 @@
 		<apply>
 			<times />
 			<ci>k_tRnaAa_MG513</ci>
-			<ci>MG513</ci>
-			<ci>ATP</ci>
-			<ci>GLU</ci>
-			<ci>MG_462_MONOMER</ci>
+			<ci>MG513__c</ci>
+			<ci>ATP__c</ci>
+			<ci>GLU__c</ci>
+			<ci>MG_462_MONOMER__c</ci>
 
 			<apply>
 			<power />
@@ -2132,7 +2132,7 @@
 				<cn type='integer'>1</cn>
 				<apply>
 					<times />
-					<ci>MG513</ci>
+					<ci>MG513__c</ci>
 					<apply>
 						<power />
 						<ci>KM1</ci>
@@ -2141,7 +2141,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>ATP</ci>
+					<ci>ATP__c</ci>
 					<apply>
 						<power />
 						<ci>KM2</ci>
@@ -2150,7 +2150,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>GLU</ci>
+					<ci>GLU__c</ci>
 					<apply>
 						<power />
 						<ci>KM3</ci>
@@ -2171,17 +2171,17 @@
 </reaction>
 <reaction id="Aminoacylation_MG514" name="Aminoacylation (MG514)">
 	<listOfReactants>
-		<speciesReference species="MG514" stoichiometry="1" />
-		<speciesReference species="ASN" stoichiometry="1" />
-		<speciesReference species="ATP" stoichiometry="1" />
+		<speciesReference species="MG514__c" stoichiometry="1" />
+		<speciesReference species="ASN__c" stoichiometry="1" />
+		<speciesReference species="ATP__c" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG514_aa" stoichiometry="1" />
-		<speciesReference species="AMP" stoichiometry="1" />
-		<speciesReference species="PPI" stoichiometry="1" />
+		<speciesReference species="MG514_aa__c" stoichiometry="1" />
+		<speciesReference species="AMP__c" stoichiometry="1" />
+		<speciesReference species="PPI__c" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
-		<modifierSpeciesReference species="MG_113_DIMER" />
+		<modifierSpeciesReference species="MG_113_DIMER__c" />
 	</listOfModifiers>
 
 	<kineticLaw>
@@ -2189,10 +2189,10 @@
 		<apply>
 			<times />
 			<ci>k_tRnaAa_MG514</ci>
-			<ci>MG514</ci>
-			<ci>ASN</ci>
-			<ci>ATP</ci>
-			<ci>MG_113_DIMER</ci>
+			<ci>MG514__c</ci>
+			<ci>ASN__c</ci>
+			<ci>ATP__c</ci>
+			<ci>MG_113_DIMER__c</ci>
 
 			<apply>
 			<power />
@@ -2201,7 +2201,7 @@
 				<cn type='integer'>1</cn>
 				<apply>
 					<times />
-					<ci>MG514</ci>
+					<ci>MG514__c</ci>
 					<apply>
 						<power />
 						<ci>KM1</ci>
@@ -2210,7 +2210,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>ASN</ci>
+					<ci>ASN__c</ci>
 					<apply>
 						<power />
 						<ci>KM2</ci>
@@ -2219,7 +2219,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>ATP</ci>
+					<ci>ATP__c</ci>
 					<apply>
 						<power />
 						<ci>KM3</ci>
@@ -2240,17 +2240,17 @@
 </reaction>
 <reaction id="Aminoacylation_MG518" name="Aminoacylation (MG518)">
 	<listOfReactants>
-		<speciesReference species="MG518" stoichiometry="1" />
-		<speciesReference species="ATP" stoichiometry="1" />
-		<speciesReference species="HIS" stoichiometry="1" />
+		<speciesReference species="MG518__c" stoichiometry="1" />
+		<speciesReference species="ATP__c" stoichiometry="1" />
+		<speciesReference species="HIS__c" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG518_aa" stoichiometry="1" />
-		<speciesReference species="AMP" stoichiometry="1" />
-		<speciesReference species="PPI" stoichiometry="1" />
+		<speciesReference species="MG518_aa__c" stoichiometry="1" />
+		<speciesReference species="AMP__c" stoichiometry="1" />
+		<speciesReference species="PPI__c" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
-		<modifierSpeciesReference species="MG_035_DIMER" />
+		<modifierSpeciesReference species="MG_035_DIMER__c" />
 	</listOfModifiers>
 
 	<kineticLaw>
@@ -2258,10 +2258,10 @@
 		<apply>
 			<times />
 			<ci>k_tRnaAa_MG518</ci>
-			<ci>MG518</ci>
-			<ci>ATP</ci>
-			<ci>HIS</ci>
-			<ci>MG_035_DIMER</ci>
+			<ci>MG518__c</ci>
+			<ci>ATP__c</ci>
+			<ci>HIS__c</ci>
+			<ci>MG_035_DIMER__c</ci>
 
 			<apply>
 			<power />
@@ -2270,7 +2270,7 @@
 				<cn type='integer'>1</cn>
 				<apply>
 					<times />
-					<ci>MG518</ci>
+					<ci>MG518__c</ci>
 					<apply>
 						<power />
 						<ci>KM1</ci>
@@ -2279,7 +2279,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>ATP</ci>
+					<ci>ATP__c</ci>
 					<apply>
 						<power />
 						<ci>KM2</ci>
@@ -2288,7 +2288,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>HIS</ci>
+					<ci>HIS__c</ci>
 					<apply>
 						<power />
 						<ci>KM3</ci>
@@ -2309,17 +2309,17 @@
 </reaction>
 <reaction id="Aminoacylation_MG519" name="Aminoacylation (MG519)">
 	<listOfReactants>
-		<speciesReference species="MG519" stoichiometry="1" />
-		<speciesReference species="ATP" stoichiometry="1" />
-		<speciesReference species="LEU" stoichiometry="1" />
+		<speciesReference species="MG519__c" stoichiometry="1" />
+		<speciesReference species="ATP__c" stoichiometry="1" />
+		<speciesReference species="LEU__c" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG519_aa" stoichiometry="1" />
-		<speciesReference species="AMP" stoichiometry="1" />
-		<speciesReference species="PPI" stoichiometry="1" />
+		<speciesReference species="MG519_aa__c" stoichiometry="1" />
+		<speciesReference species="AMP__c" stoichiometry="1" />
+		<speciesReference species="PPI__c" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
-		<modifierSpeciesReference species="MG_266_MONOMER" />
+		<modifierSpeciesReference species="MG_266_MONOMER__c" />
 	</listOfModifiers>
 
 	<kineticLaw>
@@ -2327,10 +2327,10 @@
 		<apply>
 			<times />
 			<ci>k_tRnaAa_MG519</ci>
-			<ci>MG519</ci>
-			<ci>ATP</ci>
-			<ci>LEU</ci>
-			<ci>MG_266_MONOMER</ci>
+			<ci>MG519__c</ci>
+			<ci>ATP__c</ci>
+			<ci>LEU__c</ci>
+			<ci>MG_266_MONOMER__c</ci>
 
 			<apply>
 			<power />
@@ -2339,7 +2339,7 @@
 				<cn type='integer'>1</cn>
 				<apply>
 					<times />
-					<ci>MG519</ci>
+					<ci>MG519__c</ci>
 					<apply>
 						<power />
 						<ci>KM1</ci>
@@ -2348,7 +2348,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>ATP</ci>
+					<ci>ATP__c</ci>
 					<apply>
 						<power />
 						<ci>KM2</ci>
@@ -2357,7 +2357,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>LEU</ci>
+					<ci>LEU__c</ci>
 					<apply>
 						<power />
 						<ci>KM3</ci>
@@ -2378,17 +2378,17 @@
 </reaction>
 <reaction id="Aminoacylation_MG520" name="Aminoacylation (MG520)">
 	<listOfReactants>
-		<speciesReference species="MG520" stoichiometry="1" />
-		<speciesReference species="ATP" stoichiometry="1" />
-		<speciesReference species="LEU" stoichiometry="1" />
+		<speciesReference species="MG520__c" stoichiometry="1" />
+		<speciesReference species="ATP__c" stoichiometry="1" />
+		<speciesReference species="LEU__c" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG520_aa" stoichiometry="1" />
-		<speciesReference species="AMP" stoichiometry="1" />
-		<speciesReference species="PPI" stoichiometry="1" />
+		<speciesReference species="MG520_aa__c" stoichiometry="1" />
+		<speciesReference species="AMP__c" stoichiometry="1" />
+		<speciesReference species="PPI__c" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
-		<modifierSpeciesReference species="MG_266_MONOMER" />
+		<modifierSpeciesReference species="MG_266_MONOMER__c" />
 	</listOfModifiers>
 
 	<kineticLaw>
@@ -2396,10 +2396,10 @@
 		<apply>
 			<times />
 			<ci>k_tRnaAa_MG520</ci>
-			<ci>MG520</ci>
-			<ci>ATP</ci>
-			<ci>LEU</ci>
-			<ci>MG_266_MONOMER</ci>
+			<ci>MG520__c</ci>
+			<ci>ATP__c</ci>
+			<ci>LEU__c</ci>
+			<ci>MG_266_MONOMER__c</ci>
 
 			<apply>
 			<power />
@@ -2408,7 +2408,7 @@
 				<cn type='integer'>1</cn>
 				<apply>
 					<times />
-					<ci>MG520</ci>
+					<ci>MG520__c</ci>
 					<apply>
 						<power />
 						<ci>KM1</ci>
@@ -2417,7 +2417,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>ATP</ci>
+					<ci>ATP__c</ci>
 					<apply>
 						<power />
 						<ci>KM2</ci>
@@ -2426,7 +2426,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>LEU</ci>
+					<ci>LEU__c</ci>
 					<apply>
 						<power />
 						<ci>KM3</ci>
@@ -2447,17 +2447,17 @@
 </reaction>
 <reaction id="Aminoacylation_MG523" name="Aminoacylation (MG523)">
 	<listOfReactants>
-		<speciesReference species="MG523" stoichiometry="1" />
-		<speciesReference species="ARG" stoichiometry="1" />
-		<speciesReference species="ATP" stoichiometry="1" />
+		<speciesReference species="MG523__c" stoichiometry="1" />
+		<speciesReference species="ARG__c" stoichiometry="1" />
+		<speciesReference species="ATP__c" stoichiometry="1" />
 	</listOfReactants>
 	<listOfProducts>
-		<speciesReference species="MG523_aa" stoichiometry="1" />
-		<speciesReference species="AMP" stoichiometry="1" />
-		<speciesReference species="PPI" stoichiometry="1" />
+		<speciesReference species="MG523_aa__c" stoichiometry="1" />
+		<speciesReference species="AMP__c" stoichiometry="1" />
+		<speciesReference species="PPI__c" stoichiometry="1" />
 	</listOfProducts>
 	<listOfModifiers>
-		<modifierSpeciesReference species="MG_378_MONOMER" />
+		<modifierSpeciesReference species="MG_378_MONOMER__c" />
 	</listOfModifiers>
 
 	<kineticLaw>
@@ -2465,10 +2465,10 @@
 		<apply>
 			<times />
 			<ci>k_tRnaAa_MG523</ci>
-			<ci>MG523</ci>
-			<ci>ARG</ci>
-			<ci>ATP</ci>
-			<ci>MG_378_MONOMER</ci>
+			<ci>MG523__c</ci>
+			<ci>ARG__c</ci>
+			<ci>ATP__c</ci>
+			<ci>MG_378_MONOMER__c</ci>
 
 			<apply>
 			<power />
@@ -2477,7 +2477,7 @@
 				<cn type='integer'>1</cn>
 				<apply>
 					<times />
-					<ci>MG523</ci>
+					<ci>MG523__c</ci>
 					<apply>
 						<power />
 						<ci>KM1</ci>
@@ -2486,7 +2486,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>ARG</ci>
+					<ci>ARG__c</ci>
 					<apply>
 						<power />
 						<ci>KM2</ci>
@@ -2495,7 +2495,7 @@
 				</apply>
 				<apply>
 					<times />
-					<ci>ATP</ci>
+					<ci>ATP__c</ci>
 					<apply>
 						<power />
 						<ci>KM3</ci>
