@@ -2,13 +2,13 @@
 <sbml xmlns="http://www.sbml.org/sbml/level2" level="2" version="1">
   <model id="tRNAAminoacylation" name="tRNAAminoacylation module">
     <listOfCompartments>
-      <compartment id="c" size="1"/>
+      <compartment id="c" size="0.00002"/>
 
     </listOfCompartments>
     <listOfSpecies>
 			<species id="ATP__c" name="ATP" compartment="c" initialAmount="36234"/>
 <species id="THR__c" name="L-Threonine" compartment="c" initialAmount="4460"/>
-<species id="MG479__c" name="MG479" compartment="c" initialAmount="0"/>
+<species id="MG479__c" name="MG479" compartment="c" initialAmount="1"/>
 <species id="MG479_aa__c" name="MG479-AA" compartment="c" initialAmount="25"/>
 <species id="MG_375_DIMER__c" name="threonyl-tRNA synthetase" compartment="c" initialAmount="124"/>
 <species id="AMP__c" name="AMP" compartment="c" initialAmount="1449"/>
