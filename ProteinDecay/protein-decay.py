@@ -217,10 +217,10 @@ def Get_Field(dictionary, ID, field):
     return dictionary[ID][field]
 ##############################################
 [ProteinDecay_Species_Dict, ProteinDecay_Reactions_Dict] = Extract_ProteinDecay_Excel_File()
-[ProteinDecay_Species_Dict, ProteinDecay_Reactions_Dict] = Extract_ProteinDecay_Excel_File()
+#[ProteinDecay_Species_Dict, ProteinDecay_Reactions_Dict] = Extract_ProteinDecay_Excel_File()
 
-ProteinDecay_Species_List = Get_List(ProteinDecay_Species_Dict)
-ProteinDecay_Reactions_List = Get_List(ProteinDecay_Reactions_Dict)
+#ProteinDecay_Species_List = Get_List(ProteinDecay_Species_Dict)
+#ProteinDecay_Reactions_List = Get_List(ProteinDecay_Reactions_Dict)
 
 ProteinDecay_Species_List = Get_List(ProteinDecay_Species_Dict)
 ProteinDecay_Reactions_List = Get_List(ProteinDecay_Reactions_Dict)
@@ -289,14 +289,14 @@ def create_species(model, var_name,initialAmount=0):
     check(s1.setBoundaryCondition(False),     'set "boundaryCondition" on s1')
     check(s1.setHasOnlySubstanceUnits(True), 'set "hasOnlySubstanceUnits" on s1')
 
-def ProteinDecay_Reaction(model,Reaction_name, reactants_list, products_list,kinetic_law_string,enzymes_list):
+def ProteinDecay_Reaction(model, reaction_id, Reaction_name, reactants_list, products_list,kinetic_law_string,enzymes_list):
     ## input: Reaction name
     ## Lists in the form [[coeffitient, ID]...] 
 
     r1 = model.createReaction()
     check(r1,                                 'create reaction')
     check(r1.setName(Reaction_name),                     'set reaction name')
-    check(r1.setId(Reaction_name),                     'set reaction id')
+    check(r1.setId(reaction_id),                     'set reaction id')
     check(r1.setReversible(False),            'set reaction reversibility flag')
     check(r1.setFast(False),                  'set reaction "fast" attribute')
 
@@ -401,14 +401,15 @@ def create_model(ProteinDecay_Species_List,ProteinDecay_ReactionID_List):
         initialAmount=1 
         create_species(model,One_Species_ID,initialAmount)
 
-    for speciesID in ProteinDecay_Reactions_List:
-        current_reactants = Get_Field(ProteinDecay_Reactions_Dict, speciesID, 'reactants')
-        current_products = Get_Field(ProteinDecay_Reactions_Dict, speciesID, 'products')
+    for reactionID in ProteinDecay_ReactionID_List:
+        current_reactants = Get_Field(ProteinDecay_Reactions_Dict, reactionID, 'reactants')
+        current_products = Get_Field(ProteinDecay_Reactions_Dict, reactionID, 'products')
         current_reactants = Relabel_Compartments(current_reactants)
         current_products = Relabel_Compartments(current_products)
-        kinetic_law_string=Make_kinetic_law_string_Translation(speciesID)
-        enzymes_list=Get_Field(ProteinDecay_Reactions_Dict, speciesID, 'enzymes')
-        ProteinDecay_Reaction(model,speciesID, current_reactants, current_products,kinetic_law_string,enzymes_list)
+        kinetic_law_string=Make_kinetic_law_string_Translation(reactionID)
+        enzymes_list=Get_Field(ProteinDecay_Reactions_Dict, reactionID, 'enzymes')
+        reactionName = ProteinDecay_Reactions_Dict[reactionID]['name']
+        ProteinDecay_Reaction(model,reactionID, reactionName, current_reactants, current_products,kinetic_law_string,enzymes_list)
 
     return writeSBMLToFile(document,'Decay.xml')
 
