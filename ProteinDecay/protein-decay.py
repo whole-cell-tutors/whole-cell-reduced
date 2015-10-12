@@ -234,7 +234,7 @@ def Relabel_Compartments(species):
         compartment = current[0]
         
         current = current[2:]
-        current = current + '_' + compartment
+        current = current + '__' + compartment
         
         pair[1] = current
         
@@ -281,7 +281,7 @@ def create_species(model, var_name,initialAmount=0):
     s1 = model.createSpecies()
     check(s1,                                 'create species s1')
     check(s1.setName(var_name),                     'set species s1 name')
-    check(s1.setId(var_name),                     'set species s1 id')
+    check(s1.setId(var_name+"__c"),                     'set species s1 id')
     check(s1.setCompartment('c'),            'set species s1 compartment')
     check(s1.setConstant(False),              'set "constant" attribute on s1')
     check(s1.setInitialAmount(initialAmount),             'set initial amount for s1')
