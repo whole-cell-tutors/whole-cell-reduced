@@ -179,12 +179,12 @@ def Make_kinetic_law_string_ProteinDecay(speciesID,k_1=k_1):
 
     
         
-def create_species(model, var_name,initialAmount=0):
+def create_species(model, var_name, compartment, initialAmount=0):
     s1 = model.createSpecies()
     check(s1,                                 'create species s1')
     check(s1.setName(var_name),                     'set species s1 name')
-    check(s1.setId(var_name+"__c"),                     'set species s1 id')
-    check(s1.setCompartment('c'),            'set species s1 compartment')
+    check(s1.setId(var_name + "__" + compartment),                     'set species s1 id')
+    check(s1.setCompartment(compartment),            'set species s1 compartment')
     check(s1.setConstant(False),              'set "constant" attribute on s1')
     check(s1.setInitialAmount(initialAmount),             'set initial amount for s1')
     check(s1.setSubstanceUnits('item'),       'set substance units for s1')
@@ -301,7 +301,8 @@ def create_model(ProteinDecay_Species_List,ProteinDecay_ReactionID_List):
     for One_Species_ID in ProteinDecay_Species_List:
         ## TODO parse initial amount
         initialAmount=1 
-        create_species(model,One_Species_ID,initialAmount)
+        compartment=ProteinDecay_Species_Dict[One_Species_ID]['compartment']
+        create_species(model,One_Species_ID, compartment,initialAmount)
 
     for reactionID in ProteinDecay_ReactionID_List:
         current_reactants = Get_Field(ProteinDecay_Reactions_Dict, reactionID, 'reactants')
