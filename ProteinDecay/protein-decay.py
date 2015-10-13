@@ -42,6 +42,55 @@ def Get_Stoichiometries(string):
         
     return [ind_reactants_list, ind_products_list]
 
+def GetDecaySpeciesPatch(xlsFile='ProteinDecay.xls'):
+    ## input excel file
+    ## ouput: list of species
+
+    # import xlrd package to read from excel file (sudo pip install xlrd)
+    import xlrd
+
+    # open excel file
+    workbook = xlrd.open_workbook(xlsFile)
+
+    # get sheet name for species data
+    sheet = workbook.sheet_by_index(0)
+    nrows = sheet.nrows
+
+    # instantiate variables
+    species = []
+
+    # cycle through rows of sheet
+    for rindex in range(1, nrows):
+        curr_id = sheet.cell(rindex, 0)
+        curr_id = str(curr_id.value)
+
+        try:
+            curr_name = sheet.cell(rindex, 1)
+            curr_name = str(curr_name.value)
+        except UnicodeEncodeError:
+            curr_name = str(curr_name.value[0:10])
+
+        curr_compartment = sheet.cell(rindex, 2)
+        curr_compartment = str(curr_compartment.value)
+
+        curr_copy_number = sheet.cell(rindex, 3)
+        curr_copy_number = int(curr_copy_number.value)
+
+        curr_type = sheet.cell(rindex, 4)
+        curr_type = str(curr_type.value)
+
+        curr_role = sheet.cell(rindex, 5)
+        curr_role = str(curr_role.value)
+
+        curr_species_string=curr_id+"__"+curr_compartment
+                
+        species.append(curr_species_string)
+
+    return species
+
+# global
+ProteinDecay_Species_List = GetDecaySpeciesPatch()
+
 
 def Extract_ProteinDecay_Excel_File():
     # import xlrd package to read from excel file (sudo pip install xlrd)
@@ -115,7 +164,10 @@ def Extract_ProteinDecay_Excel_File():
         curr_enzymes = curr_enzymes.split(', ')
         enzymes = []
         for enzyme in curr_enzymes:
-					enzymes.append (enzyme + "__" + curr_id[-1:])
+            # assumtion: each enzyme resides in one compartment only
+            tmp=[x for x in ProteinDecay_Species_List if x[:-3]==enzyme]
+            enzyme=tmp[0]
+            enzymes.append(enzyme)
 
         curr_rate_parameter = sheet.cell(rindex, 5)
         curr_rate_parameter = str(curr_rate_parameter.value)
@@ -140,14 +192,16 @@ def Get_List(dictionary):
 def Get_Field(dictionary, ID, field):
     # given an ID and a field (both strings), return value from dictionary
     return dictionary[ID][field]
+
+
+
+
 ##############################################
+# global dictionaries and lists
+# for reactions and for species
 [ProteinDecay_Species_Dict, ProteinDecay_Reactions_Dict] = Extract_ProteinDecay_Excel_File()
-#[ProteinDecay_Species_Dict, ProteinDecay_Reactions_Dict] = Extract_ProteinDecay_Excel_File()
 
-#ProteinDecay_Species_List = Get_List(ProteinDecay_Species_Dict)
-#ProteinDecay_Reactions_List = Get_List(ProteinDecay_Reactions_Dict)
 
-ProteinDecay_Species_List = Get_List(ProteinDecay_Species_Dict)
 ProteinDecay_Reactions_List = Get_List(ProteinDecay_Reactions_Dict)
 ###############################################
 
@@ -190,7 +244,7 @@ def create_species(model, var_name, compartment, initialAmount=0):
     s1 = model.createSpecies()
     check(s1,                                 'create species s1')
     check(s1.setName(var_name),                     'set species s1 name')
-    check(s1.setId(var_name + "__" + compartment),                     'set species s1 id')
+    check(s1.setId(var_name),                     'set species s1 id')
     check(s1.setCompartment(compartment),            'set species s1 compartment')
     check(s1.setConstant(False),              'set "constant" attribute on s1')
     check(s1.setInitialAmount(initialAmount),             'set initial amount for s1')
@@ -336,7 +390,7 @@ def create_model(ProteinDecay_Species_List,ProteinDecay_ReactionID_List):
     for One_Species_ID in ProteinDecay_Species_List:
         ## TODO parse initial amount
         initialAmount=1 
-        compartment=ProteinDecay_Species_Dict[One_Species_ID]['compartment']
+        compartment=One_Species_ID[-1]
         create_species(model,One_Species_ID, compartment,initialAmount)
 
     for reactionID in ProteinDecay_ReactionID_List:
@@ -348,6 +402,24 @@ def create_model(ProteinDecay_Species_List,ProteinDecay_ReactionID_List):
         enzymes_list=Get_Field(ProteinDecay_Reactions_Dict, reactionID, 'enzymes')
         reactionName = ProteinDecay_Reactions_Dict[reactionID]['name']
         ProteinDecay_Reaction(model,reactionID, reactionName, current_reactants, current_products,kinetic_law_string,enzymes_list)
+
+    ####
+    ## debugging (from @Frank)
+
+    ## show more errors
+    ## numErrors = document.checkConsistency()
+    ## if numErrors > 0:
+    ##     document.printErrors()
+
+    ## show less errors 
+    ##  document.setConsistencyChecks(LIBSBML_CAT_UNITS_CONSISTENCY, False)
+    ## document.setConsistencyChecks(LIBSBML_CAT)MODELING_PRACTICE, False)
+     ## numErrors = document.checkConsistency()
+     ## if numErrors > 0:
+     ##     document.printErrors()
+
+
+        
 
     return writeSBMLToFile(document,'Decay_lvl3_v1.xml')
 
