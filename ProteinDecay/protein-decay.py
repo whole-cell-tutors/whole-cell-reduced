@@ -179,7 +179,8 @@ def Make_kinetic_law_string_ProteinDecay(speciesID,k_1=k_1):
     enzymes_string='*'.join(current_enzymes)
     k_1=str(k_1)
     species=speciesID[14:]
-    Law_string="("+kcat+"*"+enzymes_string+"*"+species+")/(1+"+species+"/"+k_1+")"
+    Law_string="(kcat*"+enzymes_string+"*"+speciesID+")/(1+"+speciesID+"/k_1)"
+#        Law_string="("+kcat+"*"+enzymes_string+"*"+species+")/(1+"+species+"/"+k_1+")"
     return Law_string
 ##TODO
 
@@ -250,6 +251,20 @@ def ProteinDecay_Reaction(model, reaction_id, Reaction_name, reactants_list, pro
     check(kinetic_law,                        'create kinetic law')
     check(kinetic_law.setMath(math_ast),      'set math on kinetic law')
 
+    para = kinetic_law.createParameter();
+    para.setId("kcat");
+    speciesID=reaction_id
+    paraValue=Get_Field(ProteinDecay_Reactions_Dict, speciesID, 'rate_parameter_value')
+    paraValue=1
+
+    para.setValue(paraValue);
+
+    p2 = kinetic_law.createParameter()
+    p2.setId("k_1")
+    p2value = k_1
+    p2.setValue(p2value)
+
+    
 def check(value, message):
   """If 'value' is None, prints an error message constructed using
   'message' and then exits with status code 1.  If 'value' is an integer,
@@ -334,7 +349,7 @@ def create_model(ProteinDecay_Species_List,ProteinDecay_ReactionID_List):
         reactionName = ProteinDecay_Reactions_Dict[reactionID]['name']
         ProteinDecay_Reaction(model,reactionID, reactionName, current_reactants, current_products,kinetic_law_string,enzymes_list)
 
-    return writeSBMLToFile(document,'Decay.xml')
+    return writeSBMLToFile(document,'Decay_lvl3_v1.xml')
 
 # write the model
 if __name__ == '__main__':
