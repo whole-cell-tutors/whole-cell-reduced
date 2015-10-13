@@ -5,7 +5,7 @@
 
 import sys
 from libsbml import *
-
+import re
 
 
 ## Set variables
@@ -15,7 +15,7 @@ k_1=1
 
 ## INPUT: ProteinDecay_Species_list,ProteinDecay_ReactionID_list
 
-
+speciesCompartmentPattern = re.compile('^([a-z])\.(.*)$')
 
 
 
@@ -31,11 +31,13 @@ def Get_Stoichiometries(string):
     ind_reactants_list = []
     for item in ind_reactants:
         [coef, species] = item.split(' ')
+        species = speciesCompartmentPattern.sub (r'\2__\1', species)
         ind_reactants_list.append([int(coef), species])
     
     ind_products_list = []
     for item in ind_products:
         [coef, species] = item.split(' ')
+        species = speciesCompartmentPattern.sub (r'\2__\1', species)
         ind_products_list.append([int(coef), species])
         
     return [ind_reactants_list, ind_products_list]
@@ -111,6 +113,9 @@ def Extract_ProteinDecay_Excel_File():
         curr_enzymes = sheet.cell(rindex, 3)
         curr_enzymes = str(curr_enzymes.value)
         curr_enzymes = curr_enzymes.split(', ')
+        enzymes = []
+        for enzyme in curr_enzymes:
+					enzymes.append (enzyme + "__" + curr_id[-1:])
 
         curr_rate_parameter = sheet.cell(rindex, 5)
         curr_rate_parameter = str(curr_rate_parameter.value)
@@ -122,7 +127,7 @@ def Extract_ProteinDecay_Excel_File():
         proteins[curr_id]['name'] = curr_name
         proteins[curr_id]['products'] = curr_products
         proteins[curr_id]['reactants'] = curr_reactants
-        proteins[curr_id]['enzymes'] = curr_enzymes
+        proteins[curr_id]['enzymes'] = enzymes
         proteins[curr_id]['rate_parameter_name'] = curr_rate_parameter_name
         proteins[curr_id]['rate_parameter_value'] = curr_rate_parameter_value
         
@@ -307,8 +312,8 @@ def create_model(ProteinDecay_Species_List,ProteinDecay_ReactionID_List):
     for reactionID in ProteinDecay_ReactionID_List:
         current_reactants = Get_Field(ProteinDecay_Reactions_Dict, reactionID, 'reactants')
         current_products = Get_Field(ProteinDecay_Reactions_Dict, reactionID, 'products')
-        current_reactants = Relabel_Compartments(current_reactants)
-        current_products = Relabel_Compartments(current_products)
+        #current_reactants = Relabel_Compartments(current_reactants)
+        #current_products = Relabel_Compartments(current_products)
         kinetic_law_string=Make_kinetic_law_string_ProteinDecay(reactionID)
         enzymes_list=Get_Field(ProteinDecay_Reactions_Dict, reactionID, 'enzymes')
         reactionName = ProteinDecay_Reactions_Dict[reactionID]['name']
