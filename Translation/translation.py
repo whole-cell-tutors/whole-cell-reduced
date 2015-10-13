@@ -65,6 +65,9 @@ def Extract_Translation_Excel_File(file_name='Translation.xls'):
         curr_id = sheet.cell(rindex, 0)
         curr_id = str(curr_id.value)
 
+        #---#
+        curr_id=curr_id+'__c'
+
         curr_name = sheet.cell(rindex, 1)
         curr_name = str(curr_name.value)
 
@@ -110,6 +113,15 @@ def Extract_Translation_Excel_File(file_name='Translation.xls'):
         curr_enzymes = sheet.cell(rindex, 3)
         curr_enzymes = str(curr_enzymes.value)
         curr_enzymes = curr_enzymes.split(', ')
+        
+
+        #---#
+        tmp=map(lambda x: [x[0],x[1]+'__c'], curr_reactants)
+        curr_reactants=tmp
+        tmp=map(lambda x: [x[0],x[1]+'__c'], curr_products)
+        curr_products=tmp
+        tmp=map(lambda x: x+'__c', curr_enzymes)
+        curr_enzymes=tmp
 
         curr_rate_parameter = sheet.cell(rindex, 5)
         curr_rate_parameter = str(curr_rate_parameter.value)
@@ -375,6 +387,16 @@ def create_model(Translation_Species_List,Translation_ReactionID_List):
         kinetic_law_string=Make_kinetic_law_string_Translation(speciesID)
         enzymes_list=Get_Field(Translation_Reactions_Dict, speciesID, 'enzymes')
         Translation_Reaction(model,speciesID, current_reactants, current_products,kinetic_law_string,enzymes_list)
+
+
+        ####
+    ## debugging (from @Frank)
+
+    ##show more errors
+    ##numErrors = document.checkConsistency()
+    ##if numErrors > 0:
+      ##  document.printErrors()
+
 
     return writeSBMLToFile(document,'Translation_lvl3_v1.xml')
 
