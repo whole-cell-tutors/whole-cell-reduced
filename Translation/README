@@ -1,3 +1,5 @@
+translation.py generates SBML Translation module 
+
 translation.py input: Translation.xls
 translation.py output: Translation_lvl3_v1.xml , SBML level 3 version 1
 
