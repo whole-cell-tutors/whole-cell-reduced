@@ -178,8 +178,8 @@ def Make_kinetic_law_string_ProteinDecay(speciesID,k_1=k_1):
     current_enzymes = Get_Field(ProteinDecay_Reactions_Dict, speciesID, 'enzymes')
     enzymes_string='*'.join(current_enzymes)
     k_1=str(k_1)
-    species=speciesID[14:]
-    Law_string="(kcat*"+enzymes_string+"*"+speciesID+")/(1+"+speciesID+"/k_1)"
+    species=speciesID[14:-1]+"_"+speciesID[-1]
+    Law_string="(kcat*"+enzymes_string+"*"+species+")/(1+"+species+"/k_1)"
 #        Law_string="("+kcat+"*"+enzymes_string+"*"+species+")/(1+"+species+"/"+k_1+")"
     return Law_string
 ##TODO
