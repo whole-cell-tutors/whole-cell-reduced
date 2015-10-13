@@ -4,6 +4,7 @@
 
 
 import sys
+import libsbml
 from libsbml import *
 
 
@@ -152,34 +153,49 @@ All_tRNAs_list=All_reactants_list[:-2]
 #Proper kinetic_law_string_Translation
 # Works only if min function in SBML is available
 # uncomment to use (recheck identation)
-
-## def Make_kinetic_law_string_Translation(speciesID,All_tRNAs_list=All_tRNAs_list):
-##     ## speciesID -- Translation_reaction_ID
-##     All_tRNAs_string='*'.join(All_tRNAs_list)
-##     min_tRNA_sring="min("+All_tRNAs_string+")"
-##     current_enzymes = Get_Field(Translation_Reactions_Dict, speciesID, 'enzymes')
-##     enzymes_string='*'.join(current_enzymes)
-##     min_enzymes_string="min("+enzymes_string+")"
-##     Law_string="(kcat*"+min_enzymes_string+"*"+min_tRNA_sring+"*GTP^m)/((1+"+min_tRNA_sring+"/k_1)*(1+GTP^m/k_2))"
-##     return Law_string
-
-
-
-
-# dummy kinetic_law_string_Translation
-# WARNING: This is improper kinetic law definition
-# does not have min function
-# comment it out if min function is available
-
-def Make_kinetic_law_string_Translation(speciesID,All_tRNAs_list=All_tRNAs_list):
-    ## speciesID -- Translation_reaction_ID
-    ## current_rate_parameter_value = Get_Field(Translation_Reactions_Dict, speciesID, 'rate_parameter_value')
-    ## kcat=str(current_rate_parameter_value)
-    ## k_1=str(k_1)
-    ## k_2=str(k_2)
-    ## m=str(m)
-    Law_string="(kcat*RIBOSOME_70S*GTP^m)/(1+GTP^m/k_2)"
-    return Law_string
+def Make_kinetic_law_string_Translation(speciesID,All_tRNAs_list=All_tRNAs_list,m=m,k_1=k_1,k_2=k_2):
+		## speciesID -- Translation_reaction_ID
+		current_enzymes = Get_Field(Translation_Reactions_Dict, speciesID, 'enzymes')
+		current_rate_parameter_value = Get_Field(Translation_Reactions_Dict, speciesID, 'rate_parameter_value')
+		kcat=str(current_rate_parameter_value)
+		k_1=str(k_1)
+		k_2=str(k_2)
+		m=str(m)
+		minis=current_enzymes
+		for mini in All_tRNAs_list:
+			minis.append (mini[1])
+		i = 1
+		Law_string=minis[0]
+		while i < len(minis):
+			if i + 16 < len(minis):
+				Law_string="min16("+Law_string+",";
+				for j in range (16):
+					Law_string=Law_string+minis[i]
+					if j != 15:
+						Law_string=Law_string+","
+					i=i+1;
+				Law_string=Law_string+")"
+			elif i + 8 < len(minis):
+				Law_string="min8("+Law_string+",";
+				for j in range (8):
+					Law_string=Law_string+minis[i]
+					if j != 7:
+						Law_string=Law_string+","
+					i=i+1;
+				Law_string=Law_string+")"
+			elif i + 4 < len(minis):
+				Law_string="min4("+Law_string+",";
+				for j in range (3):
+					Law_string=Law_string+minis[i]
+					if j != 2:
+						Law_string=Law_string+","
+					i=i+1;
+				Law_string=Law_string+")"
+			else:
+				Law_string="min2("+Law_string+","+minis[i]+")"
+				i+=1
+		Law_string="("+kcat+"*"+Law_string+"*GTP^"+m+")/((1+"+Law_string+"/"+k_1+")*(1+GTP^"+m+"/"+k_2+"))"
+		return Law_string
     
         
 def create_species(model, var_name,initialAmount=0):
@@ -241,6 +257,8 @@ def Translation_Reaction(model,Reaction_name, reactants_list, products_list,kine
 
     ### kinetic law part
     math_ast = parseL3Formula(kinetic_law_string)
+    if math_ast == None:
+			print kinetic_law_string
     check(math_ast,                           'create AST for rate expression')
  
     kinetic_law = r1.createKineticLaw()
@@ -323,6 +341,27 @@ def create_model(Translation_Species_List,Translation_ReactionID_List):
     check(c1.setSize(1),                      'set compartment "size"')
     check(c1.setSpatialDimensions(3),         'set compartment dimensions')
     check(c1.setUnits('litre'),               'set compartment size units')
+    
+    ## create functions
+    f1 = model.createFunctionDefinition()
+    check (f1, "create function definition for min2")
+    check (f1.setId('min2'),  "set id of function definition for min2")
+    check (f1.setMath (libsbml.readMathMLFromString("<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><lambda><bvar> <ci> a </ci> </bvar> <bvar> <ci> b </ci> </bvar> <apply> <times></times> <cn type=\"rational\"> 1 <sep></sep> 2 </cn> <apply> <minus></minus> <apply> <plus></plus> <ci> a </ci> <ci> b </ci> </apply> <apply> <abs></abs> <apply> <minus></minus> <ci> a </ci> <ci> b </ci> </apply> </apply> </apply> </apply> </lambda> </math>")), "setting math for function definition for min2")
+    
+    f2 = model.createFunctionDefinition()
+    check (f2, "create function definition for min4")
+    check (f2.setId('min4'),  "set id of function definition for min4")
+    check (f2.setMath (libsbml.readMathMLFromString("<math xmlns=\"http://www.w3.org/1998/Math/MathML\"> <lambda> <bvar> <ci> a </ci> </bvar> <bvar> <ci> b </ci> </bvar> <bvar> <ci> c </ci> </bvar> <bvar> <ci> d </ci> </bvar> <apply> <ci> min2 </ci> <apply> <ci> min2 </ci> <ci> a </ci> <ci> b </ci> </apply> <apply> <ci> min2 </ci> <ci> c </ci> <ci> d </ci> </apply> </apply> </lambda> </math>")), "setting math for function definition for min2")
+    
+    f3 = model.createFunctionDefinition()
+    check (f3, "create function definition for min8")
+    check (f3.setId('min8'),  "set id of function definition for min8")
+    check (f3.setMath (libsbml.readMathMLFromString("<math xmlns=\"http://www.w3.org/1998/Math/MathML\"> <lambda> <bvar> <ci> a </ci> </bvar> <bvar> <ci> b </ci> </bvar> <bvar> <ci> c </ci> </bvar> <bvar> <ci> d </ci> </bvar> <bvar> <ci> e </ci> </bvar> <bvar> <ci> f </ci> </bvar> <bvar> <ci> g </ci> </bvar> <bvar> <ci> h </ci> </bvar> <apply> <ci> min2 </ci> <apply> <ci> min4 </ci> <ci> a </ci> <ci> b </ci> <ci> c </ci> <ci> d </ci> </apply> <apply> <ci> min4 </ci> <ci> e </ci> <ci> f </ci> <ci> g </ci> <ci> h </ci> </apply> </apply> </lambda> </math>")), "setting math for function definition for min8")
+    
+    f3 = model.createFunctionDefinition()
+    check (f3, "create function definition for min16")
+    check (f3.setId('min16'),  "set id of function definition for min16")
+    check (f3.setMath (libsbml.readMathMLFromString("<math xmlns=\"http://www.w3.org/1998/Math/MathML\"> <lambda> <bvar> <ci> a </ci> </bvar> <bvar> <ci> b </ci> </bvar> <bvar> <ci> c </ci> </bvar> <bvar> <ci> d </ci> </bvar> <bvar> <ci> e </ci> </bvar> <bvar> <ci> f </ci> </bvar> <bvar> <ci> g </ci> </bvar> <bvar> <ci> h </ci> </bvar> <bvar> <ci> i </ci> </bvar> <bvar> <ci> j </ci> </bvar> <bvar> <ci> k </ci> </bvar> <bvar> <ci> l </ci> </bvar> <bvar> <ci> m </ci> </bvar> <bvar> <ci> n </ci> </bvar> <bvar> <ci> o </ci> </bvar> <bvar> <ci> p </ci> </bvar> <apply> <ci> min4 </ci> <apply> <ci> min4 </ci> <ci> a </ci> <ci> b </ci> <ci> c </ci> <ci> d </ci> </apply> <apply> <ci> min4 </ci> <ci> e </ci> <ci> f </ci> <ci> g </ci> <ci> h </ci> </apply> <apply> <ci> min4 </ci> <ci> i </ci> <ci> j </ci> <ci> k </ci> <ci> l </ci> </apply> <apply> <ci> min4 </ci> <ci> m </ci> <ci> n </ci> <ci> o </ci> <ci> p </ci> </apply> </apply> </lambda> </math>")), "setting math for function definition for min16")
 
     ## create species
     for One_Species_ID in Translation_Species_List:
