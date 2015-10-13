@@ -301,6 +301,20 @@ def create_model(ProteinDecay_Species_List,ProteinDecay_ReactionID_List):
     check(c1.setSize(1),                      'set compartment "size"')
     check(c1.setSpatialDimensions(3),         'set compartment dimensions')
     check(c1.setUnits('litre'),               'set compartment size units')
+    c1 = model.createCompartment()
+    check(c1,                                 'create compartment')
+    check(c1.setId('m'),                     'set compartment id')
+    check(c1.setConstant(True),               'set compartment "constant"')
+    check(c1.setSize(1),                      'set compartment "size"')
+    check(c1.setSpatialDimensions(3),         'set compartment dimensions')
+    check(c1.setUnits('litre'),               'set compartment size units')
+    c1 = model.createCompartment()
+    check(c1,                                 'create compartment')
+    check(c1.setId('e'),                     'set compartment id')
+    check(c1.setConstant(True),               'set compartment "constant"')
+    check(c1.setSize(1),                      'set compartment "size"')
+    check(c1.setSpatialDimensions(3),         'set compartment dimensions')
+    check(c1.setUnits('litre'),               'set compartment size units')
 
     ## create species
     for One_Species_ID in ProteinDecay_Species_List:
