@@ -25,6 +25,7 @@ speciesIDFortRNAlist="Translation_MG_031_MONOMER"
 
 
 ###################################################
+##  functions to parse data from excel tables 
 def Get_Stoichiometries(string):
     # define function to get stoichiometries for each species
     [reactants, products] = string.split(' -> ')
@@ -44,12 +45,12 @@ def Get_Stoichiometries(string):
         
     return [ind_reactants_list, ind_products_list]
 
-def Extract_Translation_Excel_File():
+def Extract_Translation_Excel_File(file_name='Translation.xls'):
     # import xlrd package to read from excel file (sudo pip install xlrd)
     import xlrd
 
     # open excel file
-    workbook = xlrd.open_workbook('Translation.xls')
+    workbook = xlrd.open_workbook(file_name)
 
     # get sheet name for species data
     sheet = workbook.sheet_by_index(0)
@@ -125,92 +126,6 @@ def Extract_Translation_Excel_File():
         
     return [species, proteins]
 
-def Extract_ProteinDecay_Excel_File():
-    # import xlrd package to read from excel file (sudo pip install xlrd)
-    import xlrd
-
-    # open excel file
-    workbook = xlrd.open_workbook('ProteinDecay.xls')
-
-    # get sheet name for species data
-    sheet = workbook.sheet_by_index(0)
-    nrows = sheet.nrows
-
-    # instantiate variables
-    species = {}
-
-    # cycle through rows of sheet
-    for rindex in range(1, nrows):
-        curr_id = sheet.cell(rindex, 0)
-        curr_id = str(curr_id.value)
-
-        try:
-            curr_name = sheet.cell(rindex, 1)
-            curr_name = str(curr_name.value)
-        except UnicodeEncodeError:
-            curr_name = str(curr_name.value[0:10])
-
-        curr_compartment = sheet.cell(rindex, 2)
-        curr_compartment = str(curr_compartment.value)
-
-        curr_copy_number = sheet.cell(rindex, 3)
-        curr_copy_number = int(curr_copy_number.value)
-
-        curr_type = sheet.cell(rindex, 4)
-        curr_type = str(curr_type.value)
-
-        curr_role = sheet.cell(rindex, 5)
-        curr_role = str(curr_role.value)
-
-        # populate dict for the rindex-th entry
-        species[curr_id] = {}
-        species[curr_id]['name'] = curr_name
-        species[curr_id]['compartment'] = curr_compartment
-        species[curr_id]['copy_number'] = curr_copy_number
-        species[curr_id]['type'] = curr_type
-        species[curr_id]['role'] = curr_role
-
-    # get sheet name for reaction data
-    sheet = workbook.sheet_by_index(1)
-    nrows = sheet.nrows
-
-    # instantiate variables
-    proteins = {}
-
-    # cycle through rows of sheet
-    for rindex in range(1, nrows):
-        curr_id = sheet.cell(rindex, 0)
-        curr_id = str(curr_id.value)
-
-        try:
-            curr_name = sheet.cell(rindex, 1)
-            curr_name = str(curr_name.value)
-        except UnicodeEncodeError:
-            curr_name = str(curr_name.value[0:10])
-
-        curr_stoichiometry = sheet.cell(rindex, 2)
-        curr_stoichiometry = str(curr_stoichiometry.value)
-        [curr_reactants, curr_products] = Get_Stoichiometries(curr_stoichiometry)
-
-        curr_enzymes = sheet.cell(rindex, 3)
-        curr_enzymes = str(curr_enzymes.value)
-        curr_enzymes = curr_enzymes.split(', ')
-
-        curr_rate_parameter = sheet.cell(rindex, 5)
-        curr_rate_parameter = str(curr_rate_parameter.value)
-        [curr_rate_parameter_name, curr_rate_parameter_value] = curr_rate_parameter.split(' = ')
-        curr_rate_parameter_value = float(curr_rate_parameter_value)
-
-        # populate dict for the rindex-th entry
-        proteins[curr_id] = {}
-        proteins[curr_id]['name'] = curr_name
-        proteins[curr_id]['products'] = curr_products
-        proteins[curr_id]['reactants'] = curr_reactants
-        proteins[curr_id]['enzymes'] = curr_enzymes
-        proteins[curr_id]['rate_parameter_name'] = curr_rate_parameter_name
-        proteins[curr_id]['rate_parameter_value'] = curr_rate_parameter_value
-        
-    return [species, proteins]
 
 def Get_List(dictionary):
     # get list of dictionary keys
@@ -219,15 +134,14 @@ def Get_List(dictionary):
 def Get_Field(dictionary, ID, field):
     # given an ID and a field (both strings), return value from dictionary
     return dictionary[ID][field]
-##############################################
-[Translation_Species_Dict, Translation_Reactions_Dict] = Extract_Translation_Excel_File()
-[ProteinDecay_Species_Dict, ProteinDecay_Reactions_Dict] = Extract_ProteinDecay_Excel_File()
 
+##############################################
+## parse global dictionaries of species and reactions
+## from excel table 
+[Translation_Species_Dict, Translation_Reactions_Dict] = Extract_Translation_Excel_File()
 Translation_Species_List = Get_List(Translation_Species_Dict)
 Translation_Reactions_List = Get_List(Translation_Reactions_Dict)
 
-ProteinDecay_Species_List = Get_List(ProteinDecay_Species_Dict)
-ProteinDecay_Reactions_List = Get_List(ProteinDecay_Reactions_Dict)
 ###############################################
 
 
@@ -236,34 +150,35 @@ All_tRNAs_list=All_reactants_list[:-2]
 
 
 #Proper kinetic_law_string_Translation
-## TODO test
-## def Make_kinetic_law_string_Translation(speciesID,All_tRNAs_list=All_tRNAs_list,m,k_1,k_2):
+# Works only if min function in SBML is available
+# uncomment to use (recheck identation)
+
+## def Make_kinetic_law_string_Translation(speciesID,All_tRNAs_list=All_tRNAs_list):
 ##     ## speciesID -- Translation_reaction_ID
 ##     All_tRNAs_string='*'.join(All_tRNAs_list)
 ##     min_tRNA_sring="min("+All_tRNAs_string+")"
 ##     current_enzymes = Get_Field(Translation_Reactions_Dict, speciesID, 'enzymes')
 ##     enzymes_string='*'.join(current_enzymes)
 ##     min_enzymes_string="min("+enzymes_string+")"
-##     current_rate_parameter_value = Get_Field(Translation_Reactions_Dict, speciesID, 'rate_parameter_value')
-##     kcat=str(current_rate_parameter_value)
-##     k_1=str(k_1)
-##     k_2=str(k_2)
-##     m=str(m)
-##     Law_string="("+kcat+"*"+min_enzymes_string+"*"+min_tRNA_sring+"*GTP^"+m+")/((1+"+min_tRNA_sring+"/"+k_1+")*(1+GTP^"+m+"/"+k_2+"))"
+##     Law_string="(kcat*"+min_enzymes_string+"*"+min_tRNA_sring+"*GTP^m)/((1+"+min_tRNA_sring+"/k_1)*(1+GTP^m/k_2))"
 ##     return Law_string
 
 
 
 
 # dummy kinetic_law_string_Translation
-def Make_kinetic_law_string_Translation(speciesID,All_tRNAs_list=All_tRNAs_list,m=m,k_1=k_1,k_2=k_2):
+# WARNING: This is improper kinetic law definition
+# does not have min function
+# comment it out if min function is available
+
+def Make_kinetic_law_string_Translation(speciesID,All_tRNAs_list=All_tRNAs_list):
     ## speciesID -- Translation_reaction_ID
-    current_rate_parameter_value = Get_Field(Translation_Reactions_Dict, speciesID, 'rate_parameter_value')
-    kcat=str(current_rate_parameter_value)
-    k_1=str(k_1)
-    k_2=str(k_2)
-    m=str(m)
-    Law_string="(kcat*RIBOSOME_70S*GTP^"+m+")/(1+GTP^"+m+"/"+k_2+")"
+    ## current_rate_parameter_value = Get_Field(Translation_Reactions_Dict, speciesID, 'rate_parameter_value')
+    ## kcat=str(current_rate_parameter_value)
+    ## k_1=str(k_1)
+    ## k_2=str(k_2)
+    ## m=str(m)
+    Law_string="(kcat*RIBOSOME_70S*GTP^m)/(1+GTP^m/k_2)"
     return Law_string
     
         
@@ -422,7 +337,7 @@ def create_model(Translation_Species_List,Translation_ReactionID_List):
         enzymes_list=Get_Field(Translation_Reactions_Dict, speciesID, 'enzymes')
         Translation_Reaction(model,speciesID, current_reactants, current_products,kinetic_law_string,enzymes_list)
 
-    return writeSBMLToFile(document,'ProteinToy.xml')
+    return writeSBMLToFile(document,'Translation_lvl3_v1.xml')
 
 # write the model
 if __name__ == '__main__':
