@@ -222,14 +222,14 @@ def create_species(model, var_name,initialAmount=0):
     check(s1.setBoundaryCondition(False),     'set "boundaryCondition" on s1')
     check(s1.setHasOnlySubstanceUnits(True), 'set "hasOnlySubstanceUnits" on s1')
 
-def Translation_Reaction(model,Reaction_name, reactants_list, products_list,kinetic_law_string,enzymes_list):
+def Translation_Reaction(model, reaction_id, Reaction_name, reactants_list, products_list,kinetic_law_string,enzymes_list):
     ## input: Reaction name
     ## Lists in the form [[coeffitient, ID]...] 
 
     r1 = model.createReaction()
     check(r1,                                 'create reaction')
     check(r1.setName(Reaction_name),                     'set reaction name')
-    check(r1.setId(Reaction_name),                     'set reaction id')
+    check(r1.setId(reaction_id),                     'set reaction id')
     check(r1.setReversible(False),            'set reaction reversibility flag')
     check(r1.setFast(False),                  'set reaction "fast" attribute')
 
@@ -280,7 +280,7 @@ def Translation_Reaction(model,Reaction_name, reactants_list, products_list,kine
         ## set parameters
     para = kinetic_law.createParameter();
     para.setId("kcat");
-    speciesID=Reaction_name
+    speciesID=reaction_id
     paraValue=Get_Field(Translation_Reactions_Dict, speciesID, 'rate_parameter_value')
     para.setValue(paraValue);
 
@@ -381,12 +381,13 @@ def create_model(Translation_Species_List,Translation_ReactionID_List):
         initialAmount=1 
         create_species(model,One_Species_ID,initialAmount)
 
-    for speciesID in Translation_Reactions_List:
-        current_reactants = Get_Field(Translation_Reactions_Dict, speciesID, 'reactants')
-        current_products = Get_Field(Translation_Reactions_Dict, speciesID, 'products')
-        kinetic_law_string=Make_kinetic_law_string_Translation(speciesID)
-        enzymes_list=Get_Field(Translation_Reactions_Dict, speciesID, 'enzymes')
-        Translation_Reaction(model,speciesID, current_reactants, current_products,kinetic_law_string,enzymes_list)
+    for reactionID in Translation_Reactions_List:
+        current_reactants = Get_Field(Translation_Reactions_Dict, reactionID, 'reactants')
+        current_products = Get_Field(Translation_Reactions_Dict, reactionID, 'products')
+        kinetic_law_string=Make_kinetic_law_string_Translation(reactionID)
+        enzymes_list=Get_Field(Translation_Reactions_Dict, reactionID, 'enzymes')
+        reactionName = Translation_Reactions_Dict[reactionID]['name']
+        Translation_Reaction(model, reactionID, reactionName, current_reactants, current_products,kinetic_law_string,enzymes_list)
 
 
         ####
