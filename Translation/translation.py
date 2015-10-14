@@ -206,7 +206,7 @@ def Make_kinetic_law_string_Translation(speciesID,All_tRNAs_list=All_tRNAs_list,
 			else:
 				Law_string="min2("+Law_string+","+minis[i]+")"
 				i+=1
-		Law_string="(kcat*"+Law_string+"*GTP__c^"+m+")/((1+"+Law_string+"/"+k_1+")*(1+GTP__c^"+m+"/"+k_2+"))"
+		Law_string="(kcat*"+Law_string+"*GTP__c^m)/((1+"+Law_string+"/k_1)*(1+GTP__c^m/k_2))"
 		return Law_string
     
         
