@@ -11,9 +11,9 @@ my @files = (
 "../MacromolecularComplexation/MacromolecularComplexation-module.xml",
 "../ProteinTranslocation/ProteinTranslocation.xml",
 "../Transcription/transcription_sbml.xml",
-"../Translation/translation.xml",
+"../Translation/Translation_lvl3_v1.xml",
 "../RNADecay/rnadecay_sbml.xml",
-"../ProteinDecay/protein-decay.xml"
+"../ProteinDecay/Decay_lvl3_v1.xml"
 );
 
 my %species = ();
@@ -103,3 +103,10 @@ open FILE, ">combined-model.sbml" or die "Could not write to output $!\n";
 print FILE $template;
 close FILE;
 
+
+my $errs=`python validator.py combined-model.sbml`;
+if ($errs > 0)
+{
+	print "found $errs errors in combined model!!";
+	exit 2;
+}
