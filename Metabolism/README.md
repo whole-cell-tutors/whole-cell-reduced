@@ -8,12 +8,12 @@ A toy model for the coupling of ODE/SSA with FBA simulations was generated using
 
 The model consists of multiple SBML submodels which are coupled via comp
 
-`toy_comp.xml` : complete ODE/SSA model consisting of  
-* `toy_ode_bounds.xml` : model for calculating flux bounds
-* `toy_ode_update.xml` : model for updating nutrient counts based on FBA fluxes
-* `toy_ode_model.xml` : arbitrary ODE/SSA model for demonstrating coupling
+[`toy_comp.xml`](toy_model/toy_comp.xml) : complete ODE/SSA model consisting of  
+* [`toy_ode_bounds.xml`](toy_model/toy_ode_bounds.xml) : model for calculating flux bounds
+* [`toy_ode_update.xml`](toy_model/toy_ode_update.xml) : model for updating nutrient counts based on FBA fluxes
+* [`toy_ode_model.xml`](toy_model/toy_ode_model.xml) : arbitrary ODE/SSA model for demonstrating coupling
 
-`toy_fba.xml` : complete FBA model
+[`toy_fba.xml`](toy_model/toy_fba.xml)  : complete FBA model
 
 An overview of the model and a example simulation are provided [here](toy_model/Integrated Toy Model.pdf).
 
@@ -27,9 +27,13 @@ The `toy_model` model is simulated by iteratively
 
 # Full model
 The annotated SBML was generated from the Matlab source code and the wholecell knowledgebase.
+
+[`Metabolism_matrices_08_L3V1.xml`](toy_model/Metabolism_matrices_08_L3V1.xml) : full FBA model  
+[Metabolism_matrices_annotated_08_L3V1.xml](toy_model/Metabolism_matrices_annotated_08_L3V1.xml) : full annotated FBA model
+
+![Figure with cy3sbml](full_model/Metabolism_matrices_annotated_08_L3V1.png)
+
 ## Model creation
   * TODO
 ## Model annotation
   * TODO
-
-![Figure with cy3sbml](full_model/Metabolism_matrices_annotated_08_L3V1.png)
