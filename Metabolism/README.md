@@ -3,7 +3,7 @@ This page describes how to the metabolism submodules were generated. The submodu
 Two models were generate, a `full_model` which corresponds to the Karr Matlab code and a `toy_model`, a simplfied model with the focus on coupling FBA models to the ODE/SSA models.  
 All code and scripts for model generation are available from https://github.com/dagwa/wholecell-metabolism  
 
-# toy_model
+# Toy model
 A toy model for the coupling of ODE/SSA with FBA simulations was generated using SBML and fbc v2 and comp v1. The toy models were generated with the python bindings to `libsbml` and were simulated using python bindings to `cobrapy` and `libroadrunner`. The python scripts for model generation and simulation are available from https://github.com/dagwa/wholecell-metabolism/tree/master/mkoenig/python/metabolism/toymodel
 
 The model consists of multiple SBML submodels which are coupled via comp
@@ -28,12 +28,13 @@ The `toy_model` model is simulated by iteratively
 # Full model
 The annotated SBML was generated from the Matlab source code and the wholecell knowledgebase.
 
-[`Metabolism_matrices_08_L3V1.xml`](toy_model/Metabolism_matrices_08_L3V1.xml) : full FBA model  
-[Metabolism_matrices_annotated_08_L3V1.xml](toy_model/Metabolism_matrices_annotated_08_L3V1.xml) : full annotated FBA model
+[`Metabolism_matrices_08_L3V1.xml`](full_model/Metabolism_matrices_08_L3V1.xml) : full FBA model  
+[`Metabolism_matrices_annotated_08_L3V1.xml`](full_model/Metabolism_matrices_annotated_08_L3V1.xml) : full annotated FBA model
 
 ![Figure with cy3sbml](full_model/Metabolism_matrices_annotated_08_L3V1.png)
 
 ## Model creation
-  * TODO
+* TODO
+ 
 ## Model annotation
-  * TODO
+* TODO
