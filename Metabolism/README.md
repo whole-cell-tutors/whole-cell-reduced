@@ -23,7 +23,9 @@ The `toy_model` model is simulated by iteratively
 * sending the flux bounds to the FBA part
 * performing FBA with FBA model
 * sending the optimal fluxes to the ODE/SSA part
- 
+
+See [toymodel_simulator.py](https://github.com/dagwa/wholecell-metabolism/blob/master/mkoenig/python/metabolism/toymodel/toymodel_simulator.py).
+
 
 # Full model
 The annotated SBML was generated from the Matlab source code and the wholecell knowledgebase.
