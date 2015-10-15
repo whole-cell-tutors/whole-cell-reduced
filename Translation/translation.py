@@ -4,6 +4,8 @@
 
 
 import sys
+sys.path.append('/opt/libsbml/lib/python2.7/site-packages/libsbml/')
+
 import libsbml
 from libsbml import *
 
@@ -161,6 +163,38 @@ Translation_Reactions_List = Get_List(Translation_Reactions_Dict)
 All_reactants_list=Get_Field(Translation_Reactions_Dict, speciesIDFortRNAlist, 'reactants')
 All_tRNAs_list=All_reactants_list[:-2]
 
+def generateMinLaw (listofStuff):
+	i = 1
+	Law_string=listofStuff[0]
+	while i < len(listofStuff):
+		if i + 16 < len(listofStuff):
+			Law_string="min16("+Law_string+",";
+			for j in range (16):
+				Law_string=Law_string+listofStuff[i]
+				if j != 15:
+					Law_string=Law_string+","
+				i=i+1;
+			Law_string=Law_string+")"
+		elif i + 8 < len(listofStuff):
+			Law_string="min8("+Law_string+",";
+			for j in range (8):
+				Law_string=Law_string+listofStuff[i]
+				if j != 7:
+					Law_string=Law_string+","
+				i=i+1;
+			Law_string=Law_string+")"
+		elif i + 4 < len(listofStuff):
+			Law_string="min4("+Law_string+",";
+			for j in range (3):
+				Law_string=Law_string+listofStuff[i]
+				if j != 2:
+					Law_string=Law_string+","
+				i=i+1;
+			Law_string=Law_string+")"
+		else:
+			Law_string="min2("+Law_string+","+listofStuff[i]+")"
+			i+=1
+	return Law_string
 
 #Proper kinetic_law_string_Translation
 # Works only if min function in SBML is available
@@ -173,40 +207,12 @@ def Make_kinetic_law_string_Translation(speciesID,All_tRNAs_list=All_tRNAs_list,
 		k_1=str(k_1)
 		k_2=str(k_2)
 		m=str(m)
-		minis=current_enzymes
+		minis=[]
 		for mini in All_tRNAs_list:
 			minis.append (mini[1])
-		i = 1
-		Law_string=minis[0]
-		while i < len(minis):
-			if i + 16 < len(minis):
-				Law_string="min16("+Law_string+",";
-				for j in range (16):
-					Law_string=Law_string+minis[i]
-					if j != 15:
-						Law_string=Law_string+","
-					i=i+1;
-				Law_string=Law_string+")"
-			elif i + 8 < len(minis):
-				Law_string="min8("+Law_string+",";
-				for j in range (8):
-					Law_string=Law_string+minis[i]
-					if j != 7:
-						Law_string=Law_string+","
-					i=i+1;
-				Law_string=Law_string+")"
-			elif i + 4 < len(minis):
-				Law_string="min4("+Law_string+",";
-				for j in range (3):
-					Law_string=Law_string+minis[i]
-					if j != 2:
-						Law_string=Law_string+","
-					i=i+1;
-				Law_string=Law_string+")"
-			else:
-				Law_string="min2("+Law_string+","+minis[i]+")"
-				i+=1
-		Law_string="(kcat*"+Law_string+"*GTP__c^m)/((1+"+Law_string+"/k_1)*(1+GTP__c^m/k_2))"
+		Law_string_enz=generateMinLaw(current_enzymes)
+		Law_string_trna=generateMinLaw(minis)
+		Law_string="(kcat*("+Law_string_enz+"*"+Law_string_trna+")*GTP__c^m)/((1+"+Law_string_trna+"/k_1)*(1+GTP__c^m/k_2))"
 		return Law_string
     
         
