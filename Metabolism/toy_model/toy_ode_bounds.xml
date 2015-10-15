@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" level="3" version="1">
+  <model id="toy_ode_bounds" name="ODE bound calculation submodel">
+    <listOfParameters>
+      <parameter id="ub_R1" name="ub r1" value="1" constant="false"/>
+      <parameter id="k1" name="k1" value="-0.2" constant="false"/>
+    </listOfParameters>
+    <listOfRules>
+      <rateRule variable="ub_R1">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k1 </ci>
+            <ci> ub_R1 </ci>
+          </apply>
+        </math>
+      </rateRule>
+    </listOfRules>
+  </model>
+</sbml>
