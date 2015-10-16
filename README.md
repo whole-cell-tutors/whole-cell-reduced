@@ -6,5 +6,3 @@ This project started as a Whole Cell Workshop funded by the Volkswagen Stiftung.
 
 For further questions, feel free to contact the project members :-)
 
-[Metabolism](Metabolism/README.md)
-
