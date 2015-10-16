@@ -7,13 +7,13 @@ use XML::TreeBuilder;
 
 
 my @files = (
-"../tRNAAminoacylation/tRNAAminoacylation-module.xml",
 "../MacromolecularComplexation/MacromolecularComplexation-module.xml",
 "../ProteinTranslocation/ProteinTranslocation_v2.xml",
 "../Transcription/transcription_sbml.xml",
+"../ProteinDecay/Decay_lvl3_v1.xml",
 "../Translation/Translation_lvl3_v1.xml",
 "../RNADecay/rnadecay_sbml.xml",
-"../ProteinDecay/Decay_lvl3_v1.xml"
+"../tRNAAminoacylation/tRNAAminoacylation-module.xml"
 );
 
 my %species = ();
@@ -29,10 +29,11 @@ for my $file (@files)
 	my $tmp = $file;
 	$tmp =~ s/^.*\///g;
 	$tmp = $tmp."-converted";
-	if ($file ne "../ProteinTranslocation/ProteinTranslocation.xml")
+	if ($file ne "../ProteinTranslocation/ProteinTranslocation_v2.xml")
 	{
 		unlink $tmp;
 		system ("python", "sbml-converter.py", $file, $tmp);
+        sleep 2;
 	}
 	else
 	{
@@ -103,10 +104,10 @@ open FILE, ">combined-model.sbml" or die "Could not write to output $!\n";
 print FILE $template;
 close FILE;
 
-
+print "validating combined file\n";
 my $errs=`python validator.py combined-model.sbml`;
 if ($errs > 0)
 {
-	print "found $errs errors in combined model!!";
+	print "found $errs errors in combined model!!\n";
 	exit 2;
 }
