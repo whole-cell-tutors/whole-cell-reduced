@@ -8,7 +8,7 @@ use XML::TreeBuilder;
 
 my @files = (
 "../MacromolecularComplexation/MacromolecularComplexation-module.xml",
-"../ProteinTranslocation/ProteinTranslocation_v2.xml",
+"../ProteinTranslocation/ProteinTranslocation.xml",
 "../Transcription/transcription_sbml.xml",
 "../ProteinDecay/Decay_lvl3_v1.xml",
 "../Translation/Translation_lvl3_v1.xml",
