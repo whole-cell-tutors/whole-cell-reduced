@@ -1,0 +1,271 @@
+ID;Name;Compartment;Copy number, typical;Type
+ATP;ATP;c;36234;metabolite
+ADP;ADP;c;3623;metabolite
+H2O;water;c;309737899;metabolite
+PI;phosphate;c;7246;metabolite
+H;hydrogen ion;c;13042;metabolite
+MG_014_MONOMER;multidrug ABC transporter, ATP-binding/permease protein;c;0;protein-monomer
+MG_014_MONOMER;multidrug ABC transporter, ATP-binding/permease protein;m;1;protein-monomer
+MG_015_MONOMER;multidrug ABC transporter, ATP-binding/permease protein;c;0;protein-monomer
+MG_015_MONOMER;multidrug ABC transporter, ATP-binding/permease protein;m;0;protein-monomer
+MG_028_MONOMER;;c;0;protein-monomer
+MG_028_MONOMER;;m;200;protein-monomer
+MG_032_MONOMER;;c;0;protein-monomer
+MG_032_MONOMER;;e;10;protein-monomer
+MG_033_MONOMER;glycerol uptake facilitator;c;0;protein-monomer
+MG_033_MONOMER;glycerol uptake facilitator;m;0;protein-monomer
+MG_040_MONOMER;Monosaccharide (riboside/galactoside) ABC transporter, substrate binding protein;c;0;protein-monomer
+MG_040_MONOMER;Monosaccharide (riboside/galactoside) ABC transporter, substrate binding protein;e;0;protein-monomer
+MG_043_MONOMER;spermidine/putrescine (polyamine) ABC transporter, permease protein, putative;c;0;protein-monomer
+MG_043_MONOMER;spermidine/putrescine (polyamine) ABC transporter, permease protein, putative;m;23;protein-monomer
+MG_044_MONOMER;spermidine/putrescine (polyamine) ABC transporter, permease protein, putative;c;0;protein-monomer
+MG_044_MONOMER;spermidine/putrescine (polyamine) ABC transporter, permease protein, putative;m;31;protein-monomer
+MG_045_MONOMER;spermidine/putrescine (polyamine) ABC transporter, spermidine/putrescine binding protein, putative;c;0;protein-monomer
+MG_045_MONOMER;spermidine/putrescine (polyamine) ABC transporter, spermidine/putrescine binding protein, putative;e;3;protein-monomer
+MG_055_MONOMER;preprotein translocase, SecE subunit;c;0;protein-monomer
+MG_055_MONOMER;preprotein translocase, SecE subunit;m;255;protein-monomer
+MG_474_MONOMER;;c;0;protein-monomer
+MG_474_MONOMER;;m;18;protein-monomer
+MG_061_MONOMER;Mycoplasma MFS transporter;c;0;protein-monomer
+MG_061_MONOMER;Mycoplasma MFS transporter;m;22;protein-monomer
+MG_062_MONOMER;PTS system, fructose-specific IIABC component;c;0;protein-monomer
+MG_062_MONOMER;PTS system, fructose-specific IIABC component;m;34;protein-monomer
+MG_064_MONOMER;ABC transporter, permease protein, putative;c;0;protein-monomer
+MG_064_MONOMER;ABC transporter, permease protein, putative;m;26;protein-monomer
+MG_067_MONOMER;lipoprotein, putative;c;0;protein-monomer
+MG_067_MONOMER;lipoprotein, putative;m;41;protein-monomer
+MG_068_MONOMER;lipoprotein, putative;c;0;protein-monomer
+MG_068_MONOMER;lipoprotein, putative;m;43;protein-monomer
+MG_069_MONOMER;PTS system, glucose-specific IIABC component;c;0;protein-monomer
+MG_069_MONOMER;PTS system, glucose-specific IIABC component;m;31;protein-monomer
+MG_071_MONOMER;ATPase, P-type (transporting), HAD superfamily, subfamily IC;c;0;protein-monomer
+MG_071_MONOMER;ATPase, P-type (transporting), HAD superfamily, subfamily IC;m;2;protein-monomer
+MG_074_MONOMER;;c;0;protein-monomer
+MG_074_MONOMER;;e;49;protein-monomer
+MG_075_MONOMER;116 kDa surface antigen;c;0;protein-monomer
+MG_075_MONOMER;116 kDa surface antigen;m;27;protein-monomer
+MG_076_MONOMER;;c;0;protein-monomer
+MG_076_MONOMER;;m;22;protein-monomer
+MG_077_MONOMER;oligopeptide ABC transporter, permease protein;c;0;protein-monomer
+MG_077_MONOMER;oligopeptide ABC transporter, permease protein;m;29;protein-monomer
+MG_078_MONOMER;oligopeptide ABC transporter, permease protein;c;0;protein-monomer
+MG_078_MONOMER;oligopeptide ABC transporter, permease protein;m;30;protein-monomer
+MG_086_MONOMER;prolipoprotein diacylglyceryl transferase;c;0;protein-monomer
+MG_086_MONOMER;prolipoprotein diacylglyceryl transferase;m;372;protein-monomer
+MG_095_MONOMER;lipoprotein, putative;c;0;protein-monomer
+MG_095_MONOMER;lipoprotein, putative;m;326;protein-monomer
+MG_096_MONOMER;;c;0;protein-monomer
+MG_096_MONOMER;;e;5;protein-monomer
+MG_476_MONOMER;preprotein translocase, SecG subunit;c;0;protein-monomer
+MG_476_MONOMER;preprotein translocase, SecG subunit;m;0;protein-monomer
+MG_109_MONOMER;serine/threonine protein kinase, putative;c;0;protein-monomer
+MG_109_MONOMER;serine/threonine protein kinase, putative;m;0;protein-monomer
+MG_114_MONOMER;CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase;c;0;protein-monomer
+MG_114_MONOMER;CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase;m;1;protein-monomer
+MG_120_MONOMER;Monosaccharide (riboside/galactoside) ABC transporter, permease protein;c;0;protein-monomer
+MG_120_MONOMER;Monosaccharide (riboside/galactoside) ABC transporter, permease protein;m;139;protein-monomer
+MG_121_MONOMER;Monosaccharide (riboside/galactoside) ABC transporter, permease protein;c;0;protein-monomer
+MG_121_MONOMER;Monosaccharide (riboside/galactoside) ABC transporter, permease protein;m;155;protein-monomer
+MG_123_MONOMER;arginine deaminasse;c;0;protein-monomer
+MG_123_MONOMER;arginine deaminasse;m;1;protein-monomer
+MG_129_MONOMER;Putative phosphotransferase enzyme glucose-specific IIB component;c;0;protein-monomer
+MG_129_MONOMER;Putative phosphotransferase enzyme glucose-specific IIB component;e;14;protein-monomer
+MG_130_MONOMER;;c;0;protein-monomer
+MG_130_MONOMER;;m;46;protein-monomer
+MG_131_MONOMER;hypothetical protein;c;0;protein-monomer
+MG_131_MONOMER;hypothetical protein;m;4;protein-monomer
+MG_133_MONOMER;membrane protein, putative;c;0;protein-monomer
+MG_133_MONOMER;membrane protein, putative;m;13;protein-monomer
+MG_135_MONOMER;membrane protein, putative;c;0;protein-monomer
+MG_135_MONOMER;membrane protein, putative;m;8;protein-monomer
+MG_144_MONOMER;;c;0;protein-monomer
+MG_144_MONOMER;;m;33;protein-monomer
+MG_146_MONOMER;UPF0053 protein;c;0;protein-monomer
+MG_146_MONOMER;UPF0053 protein;e;21;protein-monomer
+MG_147_MONOMER;membrane protein, putative;c;0;protein-monomer
+MG_147_MONOMER;membrane protein, putative;m;5;protein-monomer
+MG_148_MONOMER;;c;0;protein-monomer
+MG_148_MONOMER;;m;25;protein-monomer
+MG_149_MONOMER;lipoprotein, putative;c;0;protein-monomer
+MG_149_MONOMER;lipoprotein, putative;m;11;protein-monomer
+MG_478_MONOMER;;c;0;protein-monomer
+MG_478_MONOMER;;m;13;protein-monomer
+MG_170_MONOMER;preprotein translocase, SecY subunit;c;0;protein-monomer
+MG_170_MONOMER;preprotein translocase, SecY subunit;m;3;protein-monomer
+MG_181_MONOMER;metal ion (cobalt) ABC transporter, permease protein;c;0;protein-monomer
+MG_181_MONOMER;metal ion (cobalt) ABC transporter, permease protein;m;1;protein-monomer
+MG_185_MONOMER;lipoprotein, putative;c;0;protein-monomer
+MG_185_MONOMER;lipoprotein, putative;m;22;protein-monomer
+MG_186_MONOMER;Oligosaccharide or polyol ABC transporter, substrate binding protein;c;0;protein-monomer
+MG_186_MONOMER;Oligosaccharide or polyol ABC transporter, substrate binding protein;e;6;protein-monomer
+MG_188_MONOMER;Oligosaccharide or polyol ABC transporter, permease protein;c;0;protein-monomer
+MG_188_MONOMER;Oligosaccharide or polyol ABC transporter, permease protein;m;15;protein-monomer
+MG_189_MONOMER;Oligosaccharide or polyol ABC transporter, permease protein;c;0;protein-monomer
+MG_189_MONOMER;Oligosaccharide or polyol ABC transporter, permease protein;m;17;protein-monomer
+MG_191_MONOMER;MgPa adhesin;c;0;protein-monomer
+MG_191_MONOMER;MgPa adhesin;m;31;protein-monomer
+MG_192_MONOMER;P110 protein;c;0;protein-monomer
+MG_192_MONOMER;P110 protein;m;31;protein-monomer
+MG_210_MONOMER;prolipoprotein signal peptidase, signal peptidase II;c;0;protein-monomer
+MG_210_MONOMER;prolipoprotein signal peptidase, signal peptidase II;m;58;protein-monomer
+MG_212_MONOMER;1-acyl-sn-glycerol-3-phosphate acyltransferase, putative;c;0;protein-monomer
+MG_212_MONOMER;1-acyl-sn-glycerol-3-phosphate acyltransferase, putative;m;33;protein-monomer
+MG_220_MONOMER;;c;0;protein-monomer
+MG_220_MONOMER;;e;11;protein-monomer
+MG_225_MONOMER;amino acid-polyamine-organocation (APC) permease;c;0;protein-monomer
+MG_225_MONOMER;amino acid-polyamine-organocation (APC) permease;m;1;protein-monomer
+MG_226_MONOMER;amino acid-polyamine-organocation (APC) permease;c;0;protein-monomer
+MG_226_MONOMER;amino acid-polyamine-organocation (APC) permease;m;1;protein-monomer
+MG_241_MONOMER;;c;0;protein-monomer
+MG_241_MONOMER;;m;3;protein-monomer
+MG_242_MONOMER;;c;0;protein-monomer
+MG_242_MONOMER;;m;2;protein-monomer
+MG_243_MONOMER;conserved hypothetical protein, authentic frameshift;c;0;protein-monomer
+MG_243_MONOMER;conserved hypothetical protein, authentic frameshift;m;18;protein-monomer
+MG_247_MONOMER;membrane protein, putative;c;0;protein-monomer
+MG_247_MONOMER;membrane protein, putative;m;4;protein-monomer
+MG_255_MONOMER;;c;0;protein-monomer
+MG_255_MONOMER;;m;20;protein-monomer
+MG_256_MONOMER;;c;0;protein-monomer
+MG_256_MONOMER;;m;17;protein-monomer
+MG_260_MONOMER;lipoprotein, putative;c;0;protein-monomer
+MG_260_MONOMER;lipoprotein, putative;m;11;protein-monomer
+MG_267_MONOMER;;c;0;protein-monomer
+MG_267_MONOMER;;m;100;protein-monomer
+MG_275_MONOMER;NADH oxidase;c;0;protein-monomer
+MG_275_MONOMER;NADH oxidase;m;3;protein-monomer
+MG_277_MONOMER;Protein-export membrane protein secDF;c;0;protein-monomer
+MG_277_MONOMER;Protein-export membrane protein secDF;m;43;protein-monomer
+MG_279_MONOMER;;c;0;protein-monomer
+MG_279_MONOMER;;m;55;protein-monomer
+MG_280_MONOMER;sensory rhodopsin II transducer motif;c;0;protein-monomer
+MG_280_MONOMER;sensory rhodopsin II transducer motif;m;47;protein-monomer
+MG_281_MONOMER;;c;0;protein-monomer
+MG_281_MONOMER;;e;53;protein-monomer
+MG_286_MONOMER;;c;0;protein-monomer
+MG_286_MONOMER;;e;16;protein-monomer
+MG_289_MONOMER;phosphonate ABC transporter, substrate binding protein (P37), putative;c;0;protein-monomer
+MG_289_MONOMER;phosphonate ABC transporter, substrate binding protein (P37), putative;e;38;protein-monomer
+MG_291_MONOMER;phosphonate ABC transporter, permease protein (P69), putative;c;0;protein-monomer
+MG_291_MONOMER;phosphonate ABC transporter, permease protein (P69), putative;m;25;protein-monomer
+MG_294_MONOMER;major facilitator superfamily (MFS) protein;c;0;protein-monomer
+MG_294_MONOMER;major facilitator superfamily (MFS) protein;m;102;protein-monomer
+MG_302_MONOMER;metal ion (cobalt) ABC transporter, permease protein, putative;c;0;protein-monomer
+MG_302_MONOMER;metal ion (cobalt) ABC transporter, permease protein, putative;m;1;protein-monomer
+MG_306_MONOMER;membrane protein, putative;c;0;protein-monomer
+MG_306_MONOMER;membrane protein, putative;m;7;protein-monomer
+MG_307_MONOMER;lipoprotein, putative;c;0;protein-monomer
+MG_307_MONOMER;lipoprotein, putative;m;25;protein-monomer
+MG_309_MONOMER;lipoprotein, putative;c;0;protein-monomer
+MG_309_MONOMER;lipoprotein, putative;m;17;protein-monomer
+MG_310_MONOMER;hydrolase, Putative esterase/lipase 1;c;0;protein-monomer
+MG_310_MONOMER;hydrolase, Putative esterase/lipase 1;e;37;protein-monomer
+MG_313_MONOMER;membrane protein, putative;c;0;protein-monomer
+MG_313_MONOMER;membrane protein, putative;m;26;protein-monomer
+MG_314_MONOMER;;c;0;protein-monomer
+MG_314_MONOMER;;m;30;protein-monomer
+MG_316_MONOMER;DNA internalization-related competence protein ComEC/Rec2;c;0;protein-monomer
+MG_316_MONOMER;DNA internalization-related competence protein ComEC/Rec2;m;0;protein-monomer
+MG_318_MONOMER;P32 adhesin;c;0;protein-monomer
+MG_318_MONOMER;P32 adhesin;m;24;protein-monomer
+MG_319_MONOMER;;c;0;protein-monomer
+MG_319_MONOMER;;m;62;protein-monomer
+MG_320_MONOMER;membrane protein, putative;c;0;protein-monomer
+MG_320_MONOMER;membrane protein, putative;m;19;protein-monomer
+MG_321_MONOMER;oligopeptide ABC transporter, substrate binding protein;c;0;protein-monomer
+MG_321_MONOMER;oligopeptide ABC transporter, substrate binding protein;e;0;protein-monomer
+MG_322_MONOMER;potassium uptake protein;c;0;protein-monomer
+MG_322_MONOMER;potassium uptake protein;m;2;protein-monomer
+MG_515_MONOMER;;c;0;protein-monomer
+MG_515_MONOMER;;m;280;protein-monomer
+MG_327_MONOMER;hydrolase, Putative esterase/lipase 2;c;0;protein-monomer
+MG_327_MONOMER;hydrolase, Putative esterase/lipase 2;e;17;protein-monomer
+MG_331_MONOMER;;c;0;protein-monomer
+MG_331_MONOMER;;m;42;protein-monomer
+MG_338_MONOMER;lipoprotein, putative;c;0;protein-monomer
+MG_338_MONOMER;lipoprotein, putative;m;13;protein-monomer
+MG_344_MONOMER;hydrolase, Putative esterase/lipase 3;c;0;protein-monomer
+MG_344_MONOMER;hydrolase, Putative esterase/lipase 3;e;15;protein-monomer
+MG_348_MONOMER;lipoprotein, putative;c;0;protein-monomer
+MG_348_MONOMER;lipoprotein, putative;m;33;protein-monomer
+MG_521_MONOMER;membrane protein, putative;c;0;protein-monomer
+MG_521_MONOMER;membrane protein, putative;m;14;protein-monomer
+MG_354_MONOMER;;c;0;protein-monomer
+MG_354_MONOMER;;m;40;protein-monomer
+MG_364_MONOMER;Replication initiation/membrane attachment protein;c;0;protein-monomer
+MG_364_MONOMER;Replication initiation/membrane attachment protein;m;18;protein-monomer
+MG_524_MONOMER;;c;0;protein-monomer
+MG_524_MONOMER;;m;31;protein-monomer
+MG_389_MONOMER;;c;0;protein-monomer
+MG_389_MONOMER;;e;28;protein-monomer
+MG_390_MONOMER;toxin ABC transporter, ATP-binding/permease protein;c;0;protein-monomer
+MG_390_MONOMER;toxin ABC transporter, ATP-binding/permease protein;m;1;protein-monomer
+MG_395_MONOMER;lipoprotein, putative;c;0;protein-monomer
+MG_395_MONOMER;lipoprotein, putative;m;31;protein-monomer
+MG_397_MONOMER;;c;0;protein-monomer
+MG_397_MONOMER;;e;79;protein-monomer
+MG_403_MONOMER;ATP synthase F0, B subunit;c;0;protein-monomer
+MG_403_MONOMER;ATP synthase F0, B subunit;m;124;protein-monomer
+MG_404_MONOMER;ATP synthase F0, C subunit;c;0;protein-monomer
+MG_404_MONOMER;ATP synthase F0, C subunit;m;26;protein-monomer
+MG_405_MONOMER;ATP synthase F0, A subunit;c;0;protein-monomer
+MG_405_MONOMER;ATP synthase F0, A subunit;m;124;protein-monomer
+MG_406_MONOMER;;c;0;protein-monomer
+MG_406_MONOMER;;m;27;protein-monomer
+MG_411_MONOMER;phosphate ABC transporter, permease protein PstA;c;0;protein-monomer
+MG_411_MONOMER;phosphate ABC transporter, permease protein PstA;m;15;protein-monomer
+MG_412_MONOMER;phosphate ABC transporter, substrate-binding protein;c;0;protein-monomer
+MG_412_MONOMER;phosphate ABC transporter, substrate-binding protein;e;28;protein-monomer
+MG_414_MONOMER;;c;0;protein-monomer
+MG_414_MONOMER;;e;3;protein-monomer
+MG_432_MONOMER;membrane protein, putative;c;0;protein-monomer
+MG_432_MONOMER;membrane protein, putative;m;6;protein-monomer
+MG_437_MONOMER;phosphatidate cytidylyltransferase;c;0;protein-monomer
+MG_437_MONOMER;phosphatidate cytidylyltransferase;m;1;protein-monomer
+MG_439_MONOMER;lipoprotein, putative;c;0;protein-monomer
+MG_439_MONOMER;lipoprotein, putative;m;21;protein-monomer
+MG_440_MONOMER;lipoprotein, putative;c;0;protein-monomer
+MG_440_MONOMER;lipoprotein, putative;m;8;protein-monomer
+MG_441_MONOMER;;c;0;protein-monomer
+MG_441_MONOMER;;m;13;protein-monomer
+MG_443_MONOMER;membrane protein, putative;c;0;protein-monomer
+MG_443_MONOMER;membrane protein, putative;m;21;protein-monomer
+MG_447_MONOMER;multidrug efflux pump;c;0;protein-monomer
+MG_447_MONOMER;multidrug efflux pump;m;25;protein-monomer
+MG_452_MONOMER;membrane protein, putative;c;0;protein-monomer
+MG_452_MONOMER;membrane protein, putative;m;48;protein-monomer
+MG_456_MONOMER;;c;0;protein-monomer
+MG_456_MONOMER;;m;26;protein-monomer
+MG_457_MONOMER;ATP-dependent metalloprotease FtsH;c;0;protein-monomer
+MG_457_MONOMER;ATP-dependent metalloprotease FtsH;m;4;protein-monomer
+MG_464_MONOMER;inner-membrane protein insertion factor;c;0;protein-monomer
+MG_464_MONOMER;inner-membrane protein insertion factor;m;0;protein-monomer
+MG_468_MONOMER;salivaricin A ABC transporter, permease protein;c;0;protein-monomer
+MG_468_MONOMER;salivaricin A ABC transporter, permease protein;m;1;protein-monomer
+MG_072_DIMER;preprotein translocase, SecA subunit;c;13;protein-complex
+MG_055_170_277_464_476_20MER;preprotein translocase;m;13;protein-complex
+MG_426_MONOMER;ribosomal protein L28;c;152;protein-monomer
+MG_427_MONOMER;osmotically inducible peroxidase;c;0;protein-monomer
+MG_428_MONOMER;LuxR bacterial regulatory protein, putative;c;1;protein-monomer
+MG_429_MONOMER;PTS system, E1;c;0;protein-monomer
+MG_431_MONOMER;triosephosphate isomerase;c;1;protein-monomer
+MG_433_MONOMER;translation elongation factor Ts;c;0;protein-monomer
+MG_434_MONOMER;uridylate kinase;c;3;protein-monomer
+MG_437_MONOMER;phosphatidate cytidylyltransferase;m;1;protein-monomer
+MG_444_MONOMER;ribosomal protein L19;c;140;protein-monomer
+MG_445_MONOMER;tRNA (guanine-N1)-methyltransferase;c;1;protein-monomer
+MG_446_MONOMER;ribosomal protein S16;c;109;protein-monomer
+MG_451_MONOMER;translation elongation factor Tu;c;0;protein-monomer
+MG_453_MONOMER;UTP-glucose-1-phosphate uridylyltransferase;c;1;protein-monomer
+MG_454_MONOMER;thiol-dependent peroxidase;c;0;protein-monomer
+MG_455_MONOMER;tyrosyl-tRNA synthetase;c;1;protein-monomer
+MG_457_MONOMER;ATP-dependent metalloprotease FtsH;m;4;protein-monomer
+MG_458_MONOMER;hypoxanthine phosphoribosyltransferase;c;2;protein-monomer
+MG_460_MONOMER;L-lactate dehydrogenase/malate dehydrogenase;c;0;protein-monomer
+MG_464_MONOMER;inner-membrane protein insertion factor;m;0;protein-monomer
+MG_465_MONOMER;ribonuclease P protein component;c;11;protein-monomer
+MG_466_MONOMER;ribosomal protein L34;c;134;protein-monomer
+MG_467_MONOMER;salivaricin A ABC transporter, ATP-binding protein;c;13;protein-monomer
+MG_468_MONOMER;salivaricin A ABC transporter, permease protein;m;1;protein-monomer
+MG_526_MONOMER;salivaricin A ABC transporter, ATP-binding protein;c;6;protein-monomer
+MG_469_MONOMER;chromosomal replication initiator protein DnaA;c;0;protein-monomer
