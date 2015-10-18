@@ -383,8 +383,7 @@ def create_model(Translation_Species_List,Translation_ReactionID_List):
 
     ## create species
     for One_Species_ID in Translation_Species_List:
-        ## TODO parse initial amount
-        initialAmount=1
+        initialAmount=Get_Field (Translation_Species_Dict, One_Species_ID, "copy_number")
         species_name=Get_Field (Translation_Species_Dict, One_Species_ID, "name")
         create_species(model,One_Species_ID,species_name,initialAmount)
 
