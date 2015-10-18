@@ -388,8 +388,7 @@ def create_model(ProteinDecay_Species_List,ProteinDecay_ReactionID_List):
 
     ## create species
     for One_Species_ID in ProteinDecay_Species_List:
-        ## TODO parse initial amount
-        initialAmount=1 
+        initialAmount=Get_Field (ProteinDecay_Species_Dict, One_Species_ID[:-3], "copy_number")
         compartment=One_Species_ID[-1]
         species_name=Get_Field (ProteinDecay_Species_Dict, One_Species_ID[:-3], "name")
         create_species(model,One_Species_ID, species_name, compartment,initialAmount)
