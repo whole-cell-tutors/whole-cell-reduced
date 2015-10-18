@@ -216,11 +216,11 @@ def Make_kinetic_law_string_Translation(speciesID,All_tRNAs_list=All_tRNAs_list,
 		return Law_string
     
         
-def create_species(model, var_name,initialAmount=0):
+def create_species(model, var_id, var_name, initialAmount=0):
     s1 = model.createSpecies()
     check(s1,                                 'create species s1')
     check(s1.setName(var_name),                     'set species s1 name')
-    check(s1.setId(var_name),                     'set species s1 id')
+    check(s1.setId(var_id),                     'set species s1 id')
     check(s1.setCompartment('c'),            'set species s1 compartment')
     check(s1.setConstant(False),              'set "constant" attribute on s1')
     check(s1.setInitialAmount(initialAmount),             'set initial amount for s1')
@@ -384,8 +384,9 @@ def create_model(Translation_Species_List,Translation_ReactionID_List):
     ## create species
     for One_Species_ID in Translation_Species_List:
         ## TODO parse initial amount
-        initialAmount=1 
-        create_species(model,One_Species_ID,initialAmount)
+        initialAmount=1
+        species_name=Get_Field (Translation_Species_Dict, One_Species_ID, "name")
+        create_species(model,One_Species_ID,species_name,initialAmount)
 
     for reactionID in Translation_Reactions_List:
         current_reactants = Get_Field(Translation_Reactions_Dict, reactionID, 'reactants')
