@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<sedML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://sed-ml.org/sed-ml-L1-V2.xsd" xmlns="http://sed-ml.org/sed-ml/level1/version2" level="1" version="2">
+  <listOfSimulations>
+    SIMULATION
+  </listOfSimulations>
+
+  <listOfModels>
+		MODELS
+    </listOfModels>
+    <listOfTasks>
+		TASKS
+    </listOfTasks>
+    <listOfDataGenerators>
+		DATAGENERATOR
+    </listOfDataGenerators>
+
+    <listOfOutputs>
+		OUTPUT
+    </listOfOutputs>
+
+</sedML>
