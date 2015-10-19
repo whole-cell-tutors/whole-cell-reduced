@@ -348,7 +348,6 @@
       <species compartment="m" hasOnlySubstanceUnits="false" id="MG_524_MONOMER__m" initialAmount="31.0" name="protein-monomer, MG_524_MONOMER"/>
     </listOfSpecies>
     <listOfParameters>
-      <parameter constant="false" id="Km1" value="0.0"/>
       <parameter constant="true" id="Km1_MG_014_MONOMER" value="1.0"/>
       <parameter constant="true" id="Km1_MG_015_MONOMER" value="1.0"/>
       <parameter constant="true" id="Km1_MG_028_MONOMER" value="1.0"/>
@@ -468,12 +467,7 @@
       <parameter constant="true" id="Km1_MG_515_MONOMER" value="1.0"/>
       <parameter constant="true" id="Km1_MG_521_MONOMER" value="1.0"/>
       <parameter constant="true" id="Km1_MG_524_MONOMER" value="1.0"/>
-      <parameter constant="false" id="Km2" value="0.0"/>
       <parameter constant="true" id="Km2_ATP" value="1.0"/>
-      <parameter constant="false" id="atp" value="0.0"/>
-      <parameter constant="false" id="en1" value="0.0"/>
-      <parameter constant="false" id="en2" value="0.0"/>
-      <parameter constant="false" id="k_cat" value="0.0"/>
       <parameter constant="true" id="k_trans_MG_014_MONOMER" value="5.9385205411612295E12"/>
       <parameter constant="true" id="k_trans_MG_015_MONOMER" value="6.281321387340316E12"/>
       <parameter constant="true" id="k_trans_MG_028_MONOMER" value="1.8406459189768387E13"/>
@@ -593,7 +587,6 @@
       <parameter constant="true" id="k_trans_MG_515_MONOMER" value="1.375352526819125E13"/>
       <parameter constant="true" id="k_trans_MG_521_MONOMER" value="1.6516510255104668E13"/>
       <parameter constant="true" id="k_trans_MG_524_MONOMER" value="2.4830189913714402E13"/>
-      <parameter constant="false" id="monomer" value="0.0"/>
     </listOfParameters>
     <listOfReactions>
       <reaction id="Translocation_MG_014_MONOMER" name="ATP__c + H2O__c + MG_014_MONOMER__c -MG_055_170_277_464_476_20MER__m, MG_072_DIMER__c-&gt; ADP__c + H__c + MG_014_MONOMER__m + PI__c" reversible="false">
