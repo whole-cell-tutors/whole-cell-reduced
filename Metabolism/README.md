@@ -1,6 +1,6 @@
 # Metabolism
-This page describes how to the metabolism submodules were generated. The submodul metabolism is an FBA model. 
-Two models were generate, a `full_model` which corresponds to the Karr Matlab code and a `toy_model`, a simplfied model with the focus on coupling FBA models to the ODE/SSA models.  
+This page describes how to the metabolism FBA submodules were generated and integrated with other submodels.
+Three models were generate, a `full_model` which corresponds to the Karr Matlab code, a `toy_model` as proof of principle for coupling a FBA model to the ODE/SSA models using comp and fbc, and a `glycolysis` model, a subset of the full Karr model corresponding to glycolysis. 
 All code and scripts for model generation are available from https://github.com/dagwa/wholecell-metabolism  
 
 # Toy model
@@ -26,6 +26,27 @@ The `toy_model` model is simulated by iteratively
 
 See [toymodel_simulator.py](https://github.com/dagwa/wholecell-metabolism/blob/master/mkoenig/python/metabolism/toymodel/toymodel_simulator.py).
 
+# Glycolysis
+A submodel corresponding to glycolysis for the integration of the various submodules. 
+![Figure with cy3sbml](glycolysis/glycolysis_v02.png)
+The coupling to translation, protein degradation, and protein translocation is performed via the protein counts of the enzymes catalyzing the reactions in glycolysis, namely
+```
+MG_023_DIMER	fructose-1,6-bisphosphate aldolase, class II
+MG_041_062_429_PENTAMER	PTS system, fructose-specific
+MG_041_069_429_PENTAMER	PTS system, glucose-specific
+MG_061_MONOMER	Mycoplasma MFS transporter
+MG_063_DIMER	1-phosphofructokinase, putative
+MG_111_DIMER	glucose-6-phosphate isomerase
+MG_215_TETRAMER	6-phosphofructokinase
+MG_216_TETRAMER	pyruvate kinase
+MG_300_MONOMER	phosphoglycerate kinase
+MG_301_TETRAMER	glyceraldehyde-3-phosphate dehydrogenase, type I
+MG_407_DIMER	enolase
+MG_410_411_412_PENTAMER	phosphate ABC transporter
+MG_430_MONOMER	2,3-bisphosphoglycerate-independent phosphoglycerate mutase
+MG_431_DIMER	triosephosphate isomerase
+```
+Submodels of the translation, protein degradation, and protein translocation for these proteins have to be generated for the coupling with the glycolysis test model.
 
 # Full model
 The annotated SBML was generated from the Matlab source code and the wholecell knowledgebase.
