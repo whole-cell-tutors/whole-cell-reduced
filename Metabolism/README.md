@@ -4,7 +4,7 @@ Three models were generate, a `full_model` which corresponds to the Karr Matlab 
 All code and scripts for model generation are available from https://github.com/dagwa/wholecell-metabolism  
 
 # Toy model
-A toy model for the coupling of ODE/SSA with FBA simulations was generated using SBML and fbc v2 and comp v1. The toy models were generated with the python bindings to `libsbml` and were simulated using python bindings to `cobrapy` and `libroadrunner`. The python scripts for model generation and simulation are available from https://github.com/dagwa/wholecell-metabolism/tree/master/mkoenig/python/metabolism/toymodel
+A toy model for the coupling of ODE/SSA with FBA simulations was generated using SBML and [FBC v2](http://co.mbine.org/specifications/sbml.level-3.version-1.fbc.version-2.release-1) and [Comp v1](http://co.mbine.org/specifications/sbml.level-3.version-1.comp.version-1.release-3) The toy models were generated with the python bindings to `libsbml` and were simulated using python bindings to `cobrapy` and `libroadrunner`. The python scripts for model generation and simulation are available from https://github.com/dagwa/wholecell-metabolism/tree/master/mkoenig/python/metabolism/toymodel
 
 The model consists of multiple SBML submodels which are coupled via comp
 
