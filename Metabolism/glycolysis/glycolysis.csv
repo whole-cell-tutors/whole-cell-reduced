@@ -1,0 +1,105 @@
+id	name	compartment	SBO	sbmlType	fbcFormula
+ADP	ADP	c	SBO:0000247	species	C10H12N5O10P2
+ATP	ATP	c	SBO:0000247	species	C10H12N5O13P3
+CDP	CDP	c	SBO:0000247	species	C9H12N3O11P2
+CTP	CTP	c	SBO:0000247	species	C9H12N3O14P3
+DADP	dADP	c	SBO:0000247	species	C10H12N5O9P2
+DATP	dATP	c	SBO:0000247	species	C10H12N5O12P3
+DCDP	dCDP	c	SBO:0000247	species	C9H12N3O10P2
+DCTP	dCTP	c	SBO:0000247	species	C9H12N3O13P3
+DGDP	dGDP	c	SBO:0000247	species	C10H12N5O10P2
+DGTP	dGTP	c	SBO:0000247	species	C10H12N5O13P3
+DPG	3-Phospho-D-glyceroyl phosphate	c	SBO:0000247	species	C3H4O10P2
+DTDP	dTDP	c	SBO:0000247	species	C10H13N2O11P2
+DTTP	dTTP	c	SBO:0000247	species	C10H13N2O14P3
+Eno	enolase		SBO:0000176	reaction	
+F1P	D-Fructose 1-phosphate	c	SBO:0000247	species	C6H11O9P1
+F6P	D-Fructose 6-phosphate	c	SBO:0000247	species	C6H11O9P1
+FDP	D-Fructose 1,6-bisphosphate	c	SBO:0000247	species	C6H10O12P2
+FRU__e	D-Fructose	e	SBO:0000247	species	C6H12O6
+Fba	fructose-bisphosphate aldolase		SBO:0000176	reaction	
+FruK1	fructose-1-phosphate kinase		SBO:0000176	reaction	
+G2P	D-Glycerate 2-phosphate	c	SBO:0000247	species	C3H4O7P1
+G3P	3-Phospho-D-glycerate	c	SBO:0000247	species	C3H4O7P1
+G6P	D-Glucose 6-phosphate	c	SBO:0000247	species	C6H11O9P1
+G6P__e	D-Glucose 6-phosphate	e	SBO:0000247	species	C6H11O9P1
+GDP	GDP	c	SBO:0000247	species	C10H12N5O11P2
+GLC__e	D-Glucose	e	SBO:0000247	species	C6H12O6
+GTP	GTP	c	SBO:0000247	species	C10H12N5O14P3
+GapA	glyceraldehyde-3-phosphate dehydrogenase		SBO:0000176	reaction	
+GpmA	phosphoglycerate mutase		SBO:0000176	reaction	
+H	hydrogen ion	c	SBO:0000247	species	H1
+H2O	water	c	SBO:0000247	species	H2O1
+IDP	IDP	c	SBO:0000247	species	C10H11N4O11P2
+ITP	ITP	c	SBO:0000247	species	C10H11N4O14P3
+MG_023_DIMER	fructose-1,6-bisphosphate aldolase, class II	c	SBO:0000297	species	
+MG_041_062_429_PENTAMER	PTS system, fructose-specific	c	SBO:0000297	species	
+MG_041_069_429_PENTAMER	PTS system, glucose-specific	c	SBO:0000297	species	
+MG_061_MONOMER	Mycoplasma MFS transporter	c	SBO:0000245	species	
+MG_063_DIMER	1-phosphofructokinase, putative	c	SBO:0000297	species	
+MG_111_DIMER	glucose-6-phosphate isomerase	c	SBO:0000297	species	
+MG_215_TETRAMER	6-phosphofructokinase	c	SBO:0000297	species	
+MG_216_TETRAMER	pyruvate kinase	c	SBO:0000297	species	
+MG_300_MONOMER	phosphoglycerate kinase	c	SBO:0000245	species	
+MG_301_TETRAMER	glyceraldehyde-3-phosphate dehydrogenase, type I	c	SBO:0000297	species	
+MG_407_DIMER	enolase	c	SBO:0000297	species	
+MG_410_411_412_PENTAMER	phosphate ABC transporter	c	SBO:0000297	species	
+MG_430_MONOMER	2,3-bisphosphoglycerate-independent phosphoglycerate mutase	c	SBO:0000245	species	
+MG_431_DIMER	triosephosphate isomerase	c	SBO:0000297	species	
+NAD	nicotinamide adenine dinucleotide, oxidized	c	SBO:0000247	species	C21H26N7O14P2
+NADH	nicotinamide adenine dinucleotide, reduced	c	SBO:0000247	species	C21H27N7O14P2
+PEP	phosphoenolpyruvate	c	SBO:0000247	species	C3H2O6P1
+PI	phosphate	c	SBO:0000247	species	H1O4P1
+PI__e	phosphate	e	SBO:0000247	species	H1O4P1
+PYR	pyruvate	c	SBO:0000247	species	C3H3O3
+PfkA1	phosphofructokinase		SBO:0000176	reaction	
+PfkA2	phosphofructokinase		SBO:0000176	reaction	
+PfkA3	phosphofructokinase		SBO:0000176	reaction	
+PfkA4	phosphofructokinase		SBO:0000176	reaction	
+PfkA5	phosphofructokinase		SBO:0000176	reaction	
+Pgi	glucose-6-phosphate isomerase		SBO:0000176	reaction	
+Pgk1	phosphoglycerate kinase		SBO:0000176	reaction	
+Pgk2	phosphoglycerate kinase		SBO:0000176	reaction	
+Pgk3	phosphoglycerate kinase		SBO:0000176	reaction	
+Pgk4	phosphoglycerate kinase		SBO:0000176	reaction	
+Pgk5	phosphoglycerate kinase		SBO:0000176	reaction	
+Pyk_ADP	pyruvate kinase		SBO:0000176	reaction	
+Pyk_CDP	pyruvate kinase		SBO:0000176	reaction	
+Pyk_DADP	pyruvate kinase		SBO:0000176	reaction	
+Pyk_DCDP	pyruvate kinase		SBO:0000176	reaction	
+Pyk_DGDP	pyruvate kinase		SBO:0000176	reaction	
+Pyk_DTDP	pyruvate kinase		SBO:0000176	reaction	
+Pyk_GDP	pyruvate kinase		SBO:0000176	reaction	
+Pyk_IDP	pyruvate kinase		SBO:0000176	reaction	
+Pyk_UDP	pyruvate kinase		SBO:0000176	reaction	
+T3P1	D-glyceraldehdye-3-phosphate	c	SBO:0000247	species	C3H5O6P1
+T3P2	Dihydroxyacetone phosphate	c	SBO:0000247	species	C3H5O6P1
+TX_FRUPTS	D-fructose transport via PEP:Pyr PTS		SBO:0000185	reaction	
+TX_GLCPTS	D-glucose transport via PEP:Pyr PTS		SBO:0000185	reaction	
+TX_PIUP1	phosphate transport via ABC system		SBO:0000185	reaction	
+TX_UHPT1	Glucose-6-phosphate transport via phosphate antiport		SBO:0000185	reaction	
+TpiA	triose-phosphate isomerase		SBO:0000176	reaction	
+UDP	UDP	c	SBO:0000247	species	C9H11N2O12P2
+UTP	UTP	c	SBO:0000247	species	C9H11N2O15P3
+gp_MG___FOUR____ONE____ONE__				fbc:geneProduct	
+gp_MG___FOUR____ONE____TWO__				fbc:geneProduct	
+gp_MG___FOUR____ONE____ZERO__				fbc:geneProduct	
+gp_MG___FOUR____THREE____ONE__				fbc:geneProduct	
+gp_MG___FOUR____THREE____ZERO__				fbc:geneProduct	
+gp_MG___FOUR____TWO____NINE__				fbc:geneProduct	
+gp_MG___FOUR____ZERO____SEVEN__				fbc:geneProduct	
+gp_MG___ONE____ONE____ONE__				fbc:geneProduct	
+gp_MG___THREE____ZERO____ONE__				fbc:geneProduct	
+gp_MG___THREE____ZERO____ZERO__				fbc:geneProduct	
+gp_MG___TWO____ONE____FIVE__				fbc:geneProduct	
+gp_MG___TWO____ONE____SIX__				fbc:geneProduct	
+gp_MG___ZERO____FOUR____ONE__				fbc:geneProduct	
+gp_MG___ZERO____SIX____NINE__				fbc:geneProduct	
+gp_MG___ZERO____SIX____ONE__				fbc:geneProduct	
+gp_MG___ZERO____SIX____THREE__				fbc:geneProduct	
+gp_MG___ZERO____SIX____TWO__				fbc:geneProduct	
+gp_MG___ZERO____TWO____THREE__				fbc:geneProduct	
+metabolite_ex_41	metabolite_ex_41			reaction	
+metabolite_ex_42	metabolite_ex_42			reaction	
+metabolite_ex_45	metabolite_ex_45			reaction	
+metabolite_ex_90	metabolite_ex_90			reaction	
