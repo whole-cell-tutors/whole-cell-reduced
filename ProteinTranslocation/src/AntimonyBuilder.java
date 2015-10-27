@@ -1,4 +1,3 @@
-
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -12,9 +11,9 @@ import java.util.Set;
 
 public class AntimonyBuilder
 {
-    private static final String DIR = "resources/";
-    private static final String REACTIONS_FILE = DIR + "reactions.csv";
-    private static final String SPECIES_FILE = DIR + "species.csv";
+    private static final String RESOURCES_DIR = "resources/";
+    private static final String REACTIONS_FILE = RESOURCES_DIR + "reactions.csv";
+    private static final String SPECIES_FILE = RESOURCES_DIR + "species.csv";
 
     public static void main(String[] args)
     {
@@ -147,7 +146,7 @@ public class AntimonyBuilder
             reactionSB.append( enz );
         }
 
-        for(String param : reactParams )
+        for( String param : reactParams )
         {
             constSB.append( param ).append( ", " );
             initializationSB.append( param ).append( " = 1;\n" );
@@ -157,8 +156,8 @@ public class AntimonyBuilder
         constSB.replace( length - 2, length, ";" );
         try (PrintWriter pw = new PrintWriter( filePath ))
         {
-            System.out.println( "Writing to the file: " + filePath );
-            System.out.println( "Antimony model name: " + modelName );
+            System.out.println( "Writing to the file: '" + filePath + "'." );
+            System.out.println( "Antimony model name: '" + modelName + "'." );
             pw.println( "function TranslocationRate(k_cat, en1, en2, monomer, atp, Km1, Km2)" );
             pw.println( "    k_cat*en1*en2*monomer*atp/( (1+monomer/Km1)*(1+atp/Km2) );" );
             pw.println( "end" );
