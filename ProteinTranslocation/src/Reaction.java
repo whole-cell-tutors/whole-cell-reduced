@@ -3,6 +3,7 @@ import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.StringTokenizer;
 import java.util.stream.Stream;
 
@@ -62,6 +63,26 @@ public class Reaction
             if( value == null )
                 System.out.println( "Invalid stoichiometry: " + token );
         }
+    }
+
+    public boolean areReactantsAllowable(Set<String> allowableNames)
+    {
+        if( allowableNames.isEmpty() )
+            return true;
+
+        for( String reactant : reactStroich.keySet() )
+        {
+            boolean found1 = false;
+            for( String allowableName : allowableNames )
+            {
+                if( reactant.startsWith( allowableName ) )
+                    found1 = true;
+            }
+            if( !found1 )
+                return false;
+        }
+
+        return true;
     }
 
 }

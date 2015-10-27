@@ -1,5 +1,6 @@
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -15,23 +16,15 @@ public class AntimonyBuilder
     private static final String REACTIONS_FILE = RESOURCES_DIR + "reactions.csv";
     private static final String SPECIES_FILE = RESOURCES_DIR + "species.csv";
 
+    private static String filePath = "ProteinTranslocation.txt";
+    private static String modelName = "ProteinTranslocation";
+
     public static void main(String[] args)
     {
-        String filePath = "../ProteinTranslocation.txt";
-        String modelName = "ProteinTranslocation";
         int l = args.length;
-        if( l >= 2 )
-        {
-            filePath = args[0];
-            modelName = args[1];
-        }
-        else if( l == 1)
-        {
-            filePath = args[0];
-        }
         try
         {
-            build( filePath, modelName );
+            build( l >= 1 ? args[0] : filePath, l >= 2 ? args[1] : modelName, l == 3 ? args[2] : "" );
         }
         catch( Throwable t )
         {
@@ -44,12 +37,14 @@ public class AntimonyBuilder
      * method to create antimony file
      * @throws IOException
      */
-    public static void build(String filePath, String modelName) throws IOException
+    public static void build(String filePath, String modelName, String namesFilePath) throws IOException
     {
         File file = new File( filePath.substring( 0, filePath.lastIndexOf( '/' ) ) );
         file.mkdirs();
 
         System.out.println( "Antimony building starts" );
+
+        readNames( namesFilePath );
         List<Species> speciesList = readSpecies();
         List<Reaction> reactionList = readReactions();
 
@@ -158,6 +153,9 @@ public class AntimonyBuilder
         {
             System.out.println( "Writing to the file: '" + filePath + "'." );
             System.out.println( "Antimony model name: '" + modelName + "'." );
+            if( !namesFilePath.isEmpty() )
+                System.out.println( "Allowed species names were taken from '" + namesFilePath + "'." );
+
             pw.println( "function TranslocationRate(k_cat, en1, en2, monomer, atp, Km1, Km2)" );
             pw.println( "    k_cat*en1*en2*monomer*atp/( (1+monomer/Km1)*(1+atp/Km2) );" );
             pw.println( "end" );
@@ -180,6 +178,38 @@ public class AntimonyBuilder
             pw.println( "end" );
         }
         System.out.println( "Done" );
+    }
+
+    private static final Set<String> names = new HashSet<>();
+    private static void readNames(String namesFilePath) throws IOException
+    {
+        if( namesFilePath.isEmpty() )
+            return;
+        try (BufferedReader br = new BufferedReader( new FileReader( namesFilePath ) ))
+        {
+            String line;
+            while( ( line = br.readLine() ) != null )
+            {
+                String[] speciesNames = line.split( "[,]" );
+                for( String species : speciesNames )
+                {
+                    int i = species.lastIndexOf( "__" );
+                    names.add( i == -1 ? species.trim() : species.substring( 0, i ).trim() );
+                }
+            }
+
+            names.add( "ATP" );
+            names.add( "ADP" );
+            names.add( "MG_055_170_277_464_476_20MER" );
+            names.add( "MG_072_DIMER" );
+            names.add( "H2O" );
+            names.add( "PI" );
+            names.add( "H" );
+        }
+        catch( FileNotFoundException e )
+        {
+            System.out.println( "ERROR: could not find file with allowable species names '" + namesFilePath + "'." );
+        }
     }
 
     private static List<Species> readSpecies() throws IOException
@@ -233,7 +263,10 @@ public class AntimonyBuilder
             while( ( line = br.readLine() ) != null )
             {
                 parts = line.split( ";" );
-                result.add( new Species( parts[idIndex], parts[nameIndex], parts[compIndex], parts[copyNumIndex], parts[typeIndex] ) );
+                String id = parts[idIndex];
+                if( !names.isEmpty() && !names.contains( id ) )
+                    continue;
+                result.add( new Species( id, parts[nameIndex], parts[compIndex], parts[copyNumIndex], parts[typeIndex] ) );
             }
         }
         return result;
@@ -293,7 +326,10 @@ public class AntimonyBuilder
             while( ( line = br.readLine() ) != null )
             {
                 parts = line.split( ";" );
-                result.add( new Reaction( parts[idIndex], parts[nameIndex], parts[stoichIndex], parts[enzymesIndex], parts[paramIndex] ) );
+                Reaction reaction = new Reaction( parts[idIndex], parts[nameIndex], parts[stoichIndex], parts[enzymesIndex],
+                        parts[paramIndex] );
+                if( reaction.areReactantsAllowable( names ) )
+                    result.add( reaction );
             }
         }
         return result;
