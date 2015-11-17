@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph compartmentOrder="-20.0" id="glyph1" class="compartment">
+            <label text="Cytosol">
+                <bbox y="58.0" x="377.0" h="18.0" w="56.0"/>
+            </label>
+            <bbox y="50.0" x="50.0" h="1220.0" w="710.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph1" id="glyph5" class="macromolecule multimer">
+            <label text="k-meri"/>
+            <bbox y="130.0" x="561.0" h="60.0" w="108.0"/>
+            <glyph id="glyph5a" class="unit of information">
+                <label text="N:k"/>
+                <bbox y="122.0" x="573.5" h="16.0" w="29.0"/>
+            </glyph>
+        </glyph>
+        <glyph compartmentRef="glyph1" id="glyph7" class="macromolecule">
+            <label text="monomeri"/>
+            <clone/>
+            <bbox y="130.0" x="281.0" h="60.0" w="108.0"/>
+        </glyph>
+        <glyph id="glyph14" class="association">
+            <bbox y="148.0" x="453.0" h="24.0" w="24.0"/>
+            <port y="160.0" x="489.0" id="glyph14.2"/>
+            <port y="160.0" x="441.0" id="glyph14.1"/>
+        </glyph>
+        <glyph compartmentRef="glyph1" id="glyph2" class="complex">
+            <label text="complexk">
+                <bbox y="628.0" x="582.0" h="24.0" w="66.0"/>
+            </label>
+            <bbox y="590.0" x="540.0" h="100.0" w="150.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph1" id="glyph8" class="macromolecule">
+            <label text="monomeri"/>
+            <clone/>
+            <bbox y="540.0" x="281.0" h="60.0" w="108.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph1" id="glyph11" class="nucleic acid feature">
+            <label text="RNAj"/>
+            <bbox y="680.0" x="281.0" h="60.0" w="108.0"/>
+        </glyph>
+        <glyph id="glyph15" class="association">
+            <bbox y="628.0" x="453.0" h="24.0" w="24.0"/>
+            <port y="640.0" x="489.0" id="glyph15.2"/>
+            <port y="640.0" x="441.0" id="glyph15.1"/>
+        </glyph>
+        <glyph compartmentRef="glyph1" id="glyph3" class="complex">
+            <label text="complexm">
+                <bbox y="1048.0" x="589.5" h="24.0" w="71.0"/>
+            </label>
+            <bbox y="1010.0" x="550.0" h="100.0" w="150.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph1" id="glyph9" class="macromolecule">
+            <label text="monomeri"/>
+            <clone/>
+            <bbox y="960.0" x="281.0" h="60.0" w="108.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph1" id="glyph6" class="macromolecule multimer">
+            <label text="k-merj"/>
+            <bbox y="1100.0" x="281.0" h="60.0" w="108.0"/>
+            <glyph id="glyph6a" class="unit of information">
+                <label text="N:l"/>
+                <bbox y="1092.0" x="294.0" h="16.0" w="28.0"/>
+            </glyph>
+        </glyph>
+        <glyph id="glyph12" class="association">
+            <bbox y="1048.0" x="453.0" h="24.0" w="24.0"/>
+            <port y="1060.0" x="489.0" id="glyph12.2"/>
+            <port y="1060.0" x="441.0" id="glyph12.1"/>
+        </glyph>
+        <glyph compartmentRef="glyph1" id="glyph4" class="complex">
+            <label text="complexj">
+                <bbox y="348.0" x="583.5" h="24.0" w="63.0"/>
+            </label>
+            <bbox y="310.0" x="540.0" h="100.0" w="150.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph1" id="glyph10" class="macromolecule">
+            <label text="monomeri"/>
+            <clone/>
+            <bbox y="330.0" x="281.0" h="60.0" w="108.0"/>
+        </glyph>
+        <glyph id="glyph13" class="association">
+            <bbox y="348.0" x="453.0" h="24.0" w="24.0"/>
+            <port y="360.0" x="489.0" id="glyph13.2"/>
+            <port y="360.0" x="441.0" id="glyph13.1"/>
+        </glyph>
+        <arc target="glyph5" source="glyph14.2" id="arc1" class="production">
+            <start y="160.0" x="489.0"/>
+            <end y="160.0" x="561.0"/>
+        </arc>
+        <arc target="glyph14.1" source="glyph7" id="arc2" class="consumption">
+            <glyph id="glyph17" class="cardinality">
+                <label text="k"/>
+                <bbox y="141.0" x="398.0" h="18.5" w="21.5"/>
+            </glyph>
+            <start y="160.0" x="389.0"/>
+            <end y="160.0" x="441.0"/>
+        </arc>
+        <arc target="glyph2" source="glyph15.2" id="arc3" class="production">
+            <start y="640.0" x="489.0"/>
+            <end y="640.0" x="540.0"/>
+        </arc>
+        <arc target="glyph15.1" source="glyph8" id="arc4" class="consumption">
+            <start y="600.0" x="380.42856"/>
+            <end y="640.0" x="441.0"/>
+        </arc>
+        <arc target="glyph15.1" source="glyph11" id="arc5" class="consumption">
+            <start y="680.0" x="380.42856"/>
+            <end y="640.0" x="441.0"/>
+        </arc>
+        <arc target="glyph3" source="glyph12.2" id="arc6" class="production">
+            <start y="1060.0" x="489.0"/>
+            <end y="1060.0" x="550.0"/>
+        </arc>
+        <arc target="glyph12.1" source="glyph9" id="arc7" class="consumption">
+            <glyph id="glyph22" class="cardinality">
+                <label text="k"/>
+                <bbox y="1016.0" x="392.0" h="18.5" w="21.5"/>
+            </glyph>
+            <start y="1020.0" x="380.42856"/>
+            <end y="1060.0" x="441.0"/>
+        </arc>
+        <arc target="glyph12.1" source="glyph6" id="arc8" class="consumption">
+            <start y="1100.0" x="380.42856"/>
+            <end y="1060.0" x="441.0"/>
+        </arc>
+        <arc target="glyph4" source="glyph13.2" id="arc9" class="production">
+            <start y="360.0" x="489.0"/>
+            <end y="360.0" x="540.0"/>
+        </arc>
+        <arc target="glyph13.1" source="glyph10" id="arc10" class="consumption">
+            <glyph id="glyph25" class="cardinality">
+                <label text="k"/>
+                <bbox y="341.0" x="398.0" h="18.5" w="21.5"/>
+            </glyph>
+            <start y="360.0" x="389.0"/>
+            <end y="360.0" x="441.0"/>
+        </arc>
+    </map>
+</sbgn>

@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph compartmentOrder="-25.0" id="glyph25" class="compartment">
+            <label text="Cytosol">
+                <bbox y="58.0" x="527.0" h="18.0" w="56.0"/>
+            </label>
+            <bbox y="50.0" x="50.0" h="620.0" w="1010.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph25" id="glyph1" class="macromolecule">
+            <label text="monomeri"/>
+            <bbox y="360.0" x="71.0" h="60.0" w="108.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph25" id="glyph7" class="simple chemical">
+            <label text="Gly"/>
+            <bbox y="60.0" x="455.0" h="60.0" w="60.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph25" id="glyph17" class="simple chemical">
+            <label text="Ala"/>
+            <bbox y="80.0" x="515.0" h="60.0" w="60.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph25" id="glyph5" class="simple chemical">
+            <label text="Val"/>
+            <bbox y="100.0" x="575.0" h="60.0" w="60.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph25" id="glyph10" class="simple chemical">
+            <label text="Leu"/>
+            <bbox y="120.0" x="635.0" h="60.0" w="60.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph25" id="glyph2" class="simple chemical">
+            <label text="Ile"/>
+            <bbox y="140.0" x="695.0" h="60.0" w="60.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph25" id="glyph3" class="simple chemical">
+            <label text="Pro"/>
+            <bbox y="160.0" x="755.0" h="60.0" w="60.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph25" id="glyph21" class="simple chemical">
+            <label text="Phe"/>
+            <bbox y="190.0" x="815.0" h="60.0" w="60.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph25" id="glyph4" class="simple chemical">
+            <label text="Tyr"/>
+            <bbox y="220.0" x="875.0" h="60.0" w="60.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph25" id="glyph22" class="simple chemical">
+            <label text="His"/>
+            <bbox y="260.0" x="925.0" h="60.0" w="60.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph25" id="glyph8" class="simple chemical">
+            <label text="Glu"/>
+            <bbox y="300.0" x="975.0" h="60.0" w="60.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph25" id="glyph18" class="simple chemical">
+            <label text="Asp"/>
+            <bbox y="360.0" x="985.0" h="60.0" w="60.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph25" id="glyph20" class="simple chemical">
+            <label text="Arg"/>
+            <bbox y="410.0" x="935.0" h="60.0" w="60.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph25" id="glyph15" class="simple chemical">
+            <label text="Trp"/>
+            <bbox y="450.0" x="875.0" h="60.0" w="60.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph25" id="glyph14" class="simple chemical">
+            <label text="Ser"/>
+            <bbox y="470.0" x="805.0" h="60.0" w="60.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph25" id="glyph6" class="simple chemical">
+            <label text="Thr"/>
+            <bbox y="500.0" x="745.0" h="60.0" w="60.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph25" id="glyph19" class="simple chemical">
+            <label text="Cys"/>
+            <bbox y="530.0" x="685.0" h="60.0" w="60.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph25" id="glyph16" class="simple chemical">
+            <label text="Met"/>
+            <bbox y="550.0" x="625.0" h="60.0" w="60.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph25" id="glyph11" class="simple chemical">
+            <label text="Asn"/>
+            <bbox y="570.0" x="565.0" h="60.0" w="60.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph25" id="glyph9" class="simple chemical">
+            <label text="Gln"/>
+            <bbox y="590.0" x="495.0" h="60.0" w="60.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph25" id="glyph12" class="simple chemical">
+            <label text="Lys"/>
+            <bbox y="600.0" x="425.0" h="60.0" w="60.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph25" id="glyph13" class="simple chemical">
+            <label text="H2O"/>
+            <bbox y="490.0" x="155.0" h="60.0" w="60.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph25" id="glyph24" class="macromolecule">
+            <label text="Peptidases"/>
+            <bbox y="120.0" x="281.0" h="60.0" w="108.0"/>
+        </glyph>
+        <glyph id="glyph23" class="process">
+            <bbox y="378.0" x="323.0" h="24.0" w="24.0"/>
+            <port y="390.0" x="311.0" id="glyph23.1"/>
+            <port y="390.0" x="359.0" id="glyph23.2"/>
+        </glyph>
+        <arc target="glyph23.1" source="glyph1" id="arc1" class="consumption">
+            <start y="390.0" x="179.0"/>
+            <end y="390.0" x="311.0"/>
+        </arc>
+        <arc target="glyph7" source="glyph23.2" id="arc3" class="production">
+            <glyph id="glyph27" class="cardinality">
+                <label text="&lt;html&gt;a&lt;sub&gt;Gly&lt;/sub&gt;"/>
+                <bbox y="201.0" x="408.0" h="22.5" w="38.5"/>
+            </glyph>
+            <start y="390.0" x="359.0"/>
+            <end y="116.83282" x="471.5836"/>
+        </arc>
+        <arc target="glyph17" source="glyph23.2" id="arc4" class="production">
+            <glyph id="glyph28" class="cardinality">
+                <label text="&lt;html&gt;a&lt;sub&gt;Ala&lt;/sub&gt;"/>
+                <bbox y="211.0" x="442.0" h="22.5" w="38.5"/>
+            </glyph>
+            <start y="390.0" x="359.0"/>
+            <end y="134.0" x="527.0"/>
+        </arc>
+        <arc target="glyph5" source="glyph23.2" id="arc5" class="production">
+            <glyph id="glyph29" class="cardinality">
+                <label text="&lt;html&gt;a&lt;sub&gt;Val&lt;/sub&gt;"/>
+                <bbox y="221.0" x="477.0" h="22.5" w="38.5"/>
+            </glyph>
+            <start y="390.0" x="359.0"/>
+            <end y="150.80925" x="583.3904"/>
+        </arc>
+        <arc target="glyph10" source="glyph23.2" id="arc6" class="production">
+            <glyph id="glyph30" class="cardinality">
+                <label text="&lt;html&gt;a&lt;sub&gt;Leu&lt;/sub&gt;"/>
+                <bbox y="230.0" x="513.0" h="22.5" w="40.5"/>
+            </glyph>
+            <start y="390.0" x="359.0"/>
+            <end y="167.64516" x="640.7379"/>
+        </arc>
+        <arc target="glyph2" source="glyph23.2" id="arc7" class="production">
+            <glyph id="glyph31" class="cardinality">
+                <label text="&lt;html&gt;a&lt;sub&gt;Ile&lt;/sub&gt;"/>
+                <bbox y="240.0" x="553.0" h="22.5" w="34.5"/>
+            </glyph>
+            <start y="390.0" x="359.0"/>
+            <end y="184.73964" x="698.87067"/>
+        </arc>
+        <arc target="glyph3" source="glyph23.2" id="arc8" class="production">
+            <glyph id="glyph32" class="cardinality">
+                <label text="&lt;html&gt;a&lt;sub&gt;Pro&lt;/sub&gt;"/>
+                <bbox y="250.0" x="590.0" h="22.5" w="38.5"/>
+            </glyph>
+            <start y="390.0" x="359.0"/>
+            <end y="202.18416" x="757.58563"/>
+        </arc>
+        <arc target="glyph21" source="glyph23.2" id="arc9" class="production">
+            <glyph id="glyph33" class="cardinality">
+                <label text="&lt;html&gt;a&lt;sub&gt;Phe&lt;/sub&gt;"/>
+                <bbox y="267.0" x="627.0" h="22.5" w="41.5"/>
+            </glyph>
+            <start y="390.0" x="359.0"/>
+            <end y="229.48683" x="816.5395"/>
+        </arc>
+        <arc target="glyph4" source="glyph23.2" id="arc10" class="production">
+            <glyph id="glyph34" class="cardinality">
+                <label text="&lt;html&gt;a&lt;sub&gt;Tyr&lt;/sub&gt;"/>
+                <bbox y="284.0" x="668.0" h="22.5" w="37.5"/>
+            </glyph>
+            <start y="390.0" x="359.0"/>
+            <end y="257.15573" x="875.8659"/>
+        </arc>
+        <arc target="glyph22" source="glyph23.2" id="arc11" class="production">
+            <glyph id="glyph35" class="cardinality">
+                <label text="&lt;html&gt;a&lt;sub&gt;His&lt;/sub&gt;"/>
+                <bbox y="308.0" x="701.0" h="22.5" w="36.5"/>
+            </glyph>
+            <start y="390.0" x="359.0"/>
+            <end y="294.77698" x="925.38275"/>
+        </arc>
+        <arc target="glyph8" source="glyph23.2" id="arc12" class="production">
+            <glyph id="glyph36" class="cardinality">
+                <label text="&lt;html&gt;a&lt;sub&gt;Glu&lt;/sub&gt;"/>
+                <bbox y="332.0" x="733.0" h="22.5" w="39.5"/>
+            </glyph>
+            <start y="390.0" x="359.0"/>
+            <end y="332.67587" x="975.11957"/>
+        </arc>
+        <arc target="glyph18" source="glyph23.2" id="arc13" class="production">
+            <glyph id="glyph37" class="cardinality">
+                <label text="&lt;html&gt;a&lt;sub&gt;Asp&lt;/sub&gt;"/>
+                <bbox y="368.0" x="739.0" h="22.5" w="39.5"/>
+            </glyph>
+            <start y="390.0" x="359.0"/>
+            <end y="390.0" x="985.0"/>
+        </arc>
+        <arc target="glyph20" source="glyph23.2" id="arc14" class="production">
+            <glyph id="glyph38" class="cardinality">
+                <label text="&lt;html&gt;a&lt;sub&gt;Arg&lt;/sub&gt;"/>
+                <bbox y="399.0" x="706.0" h="22.5" w="38.5"/>
+            </glyph>
+            <start y="390.0" x="359.0"/>
+            <end y="437.62653" x="935.09406"/>
+        </arc>
+        <arc target="glyph15" source="glyph23.2" id="arc15" class="production">
+            <glyph id="glyph39" class="cardinality">
+                <label text="&lt;html&gt;a&lt;sub&gt;Trp&lt;/sub&gt;"/>
+                <bbox y="423.0" x="667.0" h="22.5" w="38.5"/>
+            </glyph>
+            <start y="390.0" x="359.0"/>
+            <end y="475.32114" x="875.3671"/>
+        </arc>
+        <arc target="glyph14" source="glyph23.2" id="arc16" class="production">
+            <glyph id="glyph40" class="cardinality">
+                <label text="&lt;html&gt;a&lt;sub&gt;Ser&lt;/sub&gt;"/>
+                <bbox y="434.0" x="621.0" h="22.5" w="38.5"/>
+            </glyph>
+            <start y="390.0" x="359.0"/>
+            <end y="493.55414" x="805.7007"/>
+        </arc>
+        <arc target="glyph6" source="glyph23.2" id="arc17" class="production">
+            <glyph id="glyph41" class="cardinality">
+                <label text="&lt;html&gt;a&lt;sub&gt;Thr&lt;/sub&gt;"/>
+                <bbox y="451.0" x="582.0" h="22.5" w="38.5"/>
+            </glyph>
+            <start y="390.0" x="359.0"/>
+            <end y="520.9039" x="746.41223"/>
+        </arc>
+        <arc target="glyph19" source="glyph23.2" id="arc18" class="production">
+            <glyph id="glyph42" class="cardinality">
+                <label text="&lt;html&gt;a&lt;sub&gt;Cys&lt;/sub&gt;"/>
+                <bbox y="467.0" x="543.0" h="22.5" w="38.5"/>
+            </glyph>
+            <start y="390.0" x="359.0"/>
+            <end y="547.749" x="687.6155"/>
+        </arc>
+        <arc target="glyph16" source="glyph23.2" id="arc19" class="production">
+            <glyph id="glyph43" class="cardinality">
+                <label text="&lt;html&gt;a&lt;sub&gt;Met&lt;/sub&gt;"/>
+                <bbox y="477.0" x="504.0" h="22.5" w="40.5"/>
+            </glyph>
+            <start y="390.0" x="359.0"/>
+            <end y="564.68384" x="629.20435"/>
+        </arc>
+        <arc target="glyph11" source="glyph23.2" id="arc20" class="production">
+            <glyph id="glyph44" class="cardinality">
+                <label text="&lt;html&gt;a&lt;sub&gt;Asn&lt;/sub&gt;"/>
+                <bbox y="486.0" x="468.0" h="22.5" w="39.5"/>
+            </glyph>
+            <start y="390.0" x="359.0"/>
+            <end y="581.1499" x="571.66174"/>
+        </arc>
+        <arc target="glyph9" source="glyph23.2" id="arc2" class="production">
+            <glyph id="glyph45" class="cardinality">
+                <label text="&lt;html&gt;a&lt;sub&gt;Gln&lt;/sub&gt;"/>
+                <bbox y="494.0" x="427.0" h="22.5" w="39.5"/>
+            </glyph>
+            <start y="390.0" x="359.0"/>
+            <end y="596.87115" x="505.89355"/>
+        </arc>
+        <arc target="glyph12" source="glyph23.2" id="arc21" class="production">
+            <glyph id="glyph46" class="cardinality">
+                <label text="&lt;html&gt;a&lt;sub&gt;Lys&lt;/sub&gt;"/>
+                <bbox y="497.0" x="389.0" h="22.5" w="37.5"/>
+            </glyph>
+            <start y="390.0" x="359.0"/>
+            <end y="603.1672" x="441.5836"/>
+        </arc>
+        <arc target="glyph23.1" source="glyph13" id="arc22" class="consumption">
+            <glyph id="glyph47" class="cardinality">
+                <label text="&lt;html&gt;l&lt;sub&gt;i&lt;/sub&gt;-1"/>
+                <bbox y="438.0" x="226.0" h="22.5" w="32.5"/>
+            </glyph>
+            <start y="498.45798" x="205.8792"/>
+            <end y="390.0" x="311.0"/>
+        </arc>
+        <arc target="glyph23" source="glyph24" id="arc23" class="catalysis">
+            <start y="180.0" x="335.0"/>
+            <end y="378.0" x="335.0"/>
+        </arc>
+    </map>
+</sbgn>

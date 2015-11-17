@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph compartmentOrder="-11.0" id="glyph11" class="compartment">
+            <label text="Cytosol">
+                <bbox y="58.0" x="357.0" h="18.0" w="56.0"/>
+            </label>
+            <bbox y="50.0" x="50.0" h="420.0" w="670.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph11" id="glyph5" class="nucleic acid feature">
+            <label text="tRNAi"/>
+            <bbox y="170.0" x="71.0" h="60.0" w="108.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph11" id="glyph4" class="simple chemical">
+            <label text="AAi"/>
+            <bbox y="70.0" x="95.0" h="60.0" w="60.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph11" id="glyph6" class="simple chemical">
+            <label text="ATP"/>
+            <bbox y="270.0" x="95.0" h="60.0" w="60.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph11" id="glyph1" class="macromolecule">
+            <label text="tRNAAAii"/>
+            <bbox y="80.0" x="585.0" h="60.0" w="120.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph11" id="glyph8" class="simple chemical">
+            <label text="AMP"/>
+            <bbox y="170.0" x="615.0" h="60.0" w="60.0"/>
+        </glyph>
+        <glyph id="glyph10" class="process">
+            <bbox y="188.0" x="353.0" h="24.0" w="24.0"/>
+            <port y="200.0" x="341.0" id="glyph10.1"/>
+            <port y="200.0" x="389.0" id="glyph10.2"/>
+        </glyph>
+        <glyph compartmentRef="glyph11" id="glyph7" class="simple chemical">
+            <label text="PI"/>
+            <bbox y="250.0" x="615.0" h="60.0" w="60.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph11" id="glyph3" class="macromolecule">
+            <label text="Synthetasei"/>
+            <bbox y="390.0" x="251.0" h="60.0" w="108.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph11" id="glyph2" class="macromolecule">
+            <label text="Transferasei"/>
+            <bbox y="390.0" x="381.0" h="60.0" w="108.0"/>
+        </glyph>
+        <glyph id="glyph9" orientation="vertical" class="or">
+            <bbox y="269.0" x="344.0" h="42.0" w="42.0"/>
+            <port y="248.0" x="365.0" id="glyph9.1"/>
+            <port y="332.0" x="365.0" id="glyph9.2"/>
+        </glyph>
+        <arc target="glyph10.1" source="glyph5" id="arc3" class="consumption">
+            <start y="200.0" x="179.0"/>
+            <end y="200.0" x="341.0"/>
+        </arc>
+        <arc target="glyph10.1" source="glyph4" id="arc4" class="consumption">
+            <start y="112.60371" x="152.22401"/>
+            <end y="200.0" x="341.0"/>
+        </arc>
+        <arc target="glyph10.1" source="glyph6" id="arc5" class="consumption">
+            <start y="287.3963" x="152.22401"/>
+            <end y="200.0" x="341.0"/>
+        </arc>
+        <arc target="glyph10" source="glyph9.1" id="arc6" class="catalysis">
+            <start y="248.0" x="365.0"/>
+            <end y="212.0" x="365.0"/>
+        </arc>
+        <arc target="glyph1" source="glyph10.2" id="arc7" class="production">
+            <start y="200.0" x="389.0"/>
+            <end y="129.28572" x="585.0"/>
+        </arc>
+        <arc target="glyph8" source="glyph10.2" id="arc8" class="production">
+            <start y="200.0" x="389.0"/>
+            <end y="200.0" x="615.0"/>
+        </arc>
+        <arc target="glyph7" source="glyph10.2" id="arc9" class="production">
+            <start y="200.0" x="389.0"/>
+            <end y="271.75836" x="616.1543"/>
+        </arc>
+        <arc target="glyph9.2" source="glyph3" id="arc1" class="logic arc">
+            <start y="390.0" x="325.45456"/>
+            <end y="332.0" x="365.0"/>
+        </arc>
+        <arc target="glyph9.2" source="glyph2" id="arc2" class="logic arc">
+            <start y="390.0" x="411.13635"/>
+            <end y="332.0" x="365.0"/>
+        </arc>
+    </map>
+</sbgn>

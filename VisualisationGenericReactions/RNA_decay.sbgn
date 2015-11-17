@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph compartmentOrder="-17.0" id="glyph17" class="compartment">
+            <label text="Cytosol">
+                <bbox y="58.0" x="407.0" h="18.0" w="56.0"/>
+            </label>
+            <bbox y="50.0" x="50.0" h="800.0" w="770.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph17" id="glyph5" class="nucleic acid feature">
+            <label text="RNAi"/>
+            <clone/>
+            <bbox y="170.0" x="111.0" h="60.0" w="108.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph17" id="glyph2" class="macromolecule">
+            <label text="Ribonuclease R"/>
+            <bbox y="100.0" x="325.0" h="60.0" w="160.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph17" id="glyph12" class="simple chemical">
+            <label text="AMP"/>
+            <bbox y="110.0" x="685.0" h="60.0" w="60.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph17" id="glyph11" class="simple chemical">
+            <label text="CMP"/>
+            <bbox y="180.0" x="685.0" h="60.0" w="60.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph17" id="glyph14" class="simple chemical">
+            <label text="GMP"/>
+            <bbox y="250.0" x="685.0" h="60.0" w="60.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph17" id="glyph6" class="simple chemical">
+            <label text="UMP"/>
+            <bbox y="320.0" x="685.0" h="60.0" w="60.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph17" id="glyph7" class="simple chemical">
+            <label text="H+"/>
+            <clone/>
+            <bbox y="390.0" x="685.0" h="60.0" w="60.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph17" id="glyph8" class="simple chemical">
+            <label text="H2O"/>
+            <clone/>
+            <bbox y="300.0" x="135.0" h="60.0" w="60.0"/>
+        </glyph>
+        <glyph id="glyph15" class="process">
+            <bbox y="268.0" x="393.0" h="24.0" w="24.0"/>
+            <port y="280.0" x="381.0" id="glyph15.1"/>
+            <port y="280.0" x="429.0" id="glyph15.2"/>
+        </glyph>
+        <glyph compartmentRef="glyph17" id="glyph13" class="simple chemical">
+            <label text="H2O"/>
+            <clone/>
+            <bbox y="750.0" x="115.0" h="60.0" w="60.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph17" id="glyph3" class="macromolecule">
+            <label text="RNAAAii"/>
+            <bbox y="610.0" x="95.0" h="60.0" w="120.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph17" id="glyph4" class="nucleic acid feature">
+            <label text="RNAi"/>
+            <clone/>
+            <bbox y="600.0" x="631.0" h="60.0" w="108.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph17" id="glyph10" class="simple chemical">
+            <label text="AAi"/>
+            <bbox y="680.0" x="645.0" h="80.0" w="80.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph17" id="glyph9" class="simple chemical">
+            <label text="H+"/>
+            <clone/>
+            <bbox y="780.0" x="655.0" h="60.0" w="60.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph17" id="glyph1" class="macromolecule">
+            <label text="Peptidyl-tRNA hydrolase"/>
+            <bbox y="500.0" x="285.0" h="80.0" w="220.0"/>
+        </glyph>
+        <glyph id="glyph16" class="process">
+            <bbox y="708.0" x="383.0" h="24.0" w="24.0"/>
+            <port y="720.0" x="371.0" id="glyph16.1"/>
+            <port y="720.0" x="419.0" id="glyph16.2"/>
+        </glyph>
+        <arc target="glyph15.1" source="glyph5" id="arc1" class="consumption">
+            <start y="220.0" x="219.0"/>
+            <end y="280.0" x="381.0"/>
+        </arc>
+        <arc target="glyph15" source="glyph2" id="arc2" class="catalysis">
+            <start y="160.0" x="405.0"/>
+            <end y="268.0" x="405.0"/>
+        </arc>
+        <arc target="glyph12" source="glyph15.2" id="arc3" class="production">
+            <glyph id="glyph20" class="cardinality">
+                <label text="&lt;html&gt;a&lt;sub&gt;i&lt;/sub&gt;"/>
+                <bbox y="180.0" x="573.0" h="22.5" w="25.5"/>
+            </glyph>
+            <start y="280.0" x="429.0"/>
+            <end y="152.3476" x="687.6589"/>
+        </arc>
+        <arc target="glyph11" source="glyph15.2" id="arc4" class="production">
+            <glyph id="glyph21" class="cardinality">
+                <label text="&lt;html&gt;c&lt;sub&gt;i&lt;/sub&gt;"/>
+                <bbox y="221.0" x="571.0" h="22.5" w="24.5"/>
+            </glyph>
+            <start y="280.0" x="429.0"/>
+            <end y="216.60782" x="685.73676"/>
+        </arc>
+        <arc target="glyph14" source="glyph15.2" id="arc5" class="production">
+            <glyph id="glyph22" class="cardinality">
+                <label text="&lt;html&gt;g&lt;sub&gt;i&lt;/sub&gt;"/>
+                <bbox y="258.0" x="570.0" h="22.5" w="25.5"/>
+            </glyph>
+            <start y="280.0" x="429.0"/>
+            <end y="280.0" x="685.0"/>
+        </arc>
+        <arc target="glyph6" source="glyph15.2" id="arc6" class="production">
+            <glyph id="glyph23" class="cardinality">
+                <label text="&lt;html&gt;u&lt;sub&gt;i&lt;/sub&gt;"/>
+                <bbox y="297.0" x="571.0" h="22.5" w="25.5"/>
+            </glyph>
+            <start y="280.0" x="429.0"/>
+            <end y="343.39218" x="685.73676"/>
+        </arc>
+        <arc target="glyph7" source="glyph15.2" id="arc7" class="production">
+            <glyph id="glyph24" class="cardinality">
+                <label text="&lt;html&gt;l&lt;sub&gt;i&lt;/sub&gt;-1"/>
+                <bbox y="337.0" x="570.0" h="22.5" w="32.5"/>
+            </glyph>
+            <start y="280.0" x="429.0"/>
+            <end y="407.6524" x="687.6589"/>
+        </arc>
+        <arc target="glyph15.1" source="glyph8" id="arc8" class="consumption">
+            <glyph id="glyph25" class="cardinality">
+                <label text="&lt;html&gt;l&lt;sub&gt;i&lt;/sub&gt;-1"/>
+                <bbox y="287.0" x="242.0" h="22.5" w="32.5"/>
+            </glyph>
+            <start y="323.23447" x="194.22717"/>
+            <end y="280.0" x="381.0"/>
+        </arc>
+        <arc target="glyph16.1" source="glyph13" id="arc9" class="consumption">
+            <start y="772.30206" x="173.99554"/>
+            <end y="720.0" x="371.0"/>
+        </arc>
+        <arc target="glyph16.1" source="glyph3" id="arc10" class="consumption">
+            <start y="662.2222" x="215.0"/>
+            <end y="720.0" x="371.0"/>
+        </arc>
+        <arc target="glyph4" source="glyph16.2" id="arc11" class="production">
+            <start y="720.0" x="419.0"/>
+            <end y="646.7586" x="631.0"/>
+        </arc>
+        <arc target="glyph10" source="glyph16.2" id="arc12" class="production">
+            <start y="720.0" x="419.0"/>
+            <end y="720.0" x="645.0"/>
+        </arc>
+        <arc target="glyph9" source="glyph16.2" id="arc13" class="production">
+            <start y="720.0" x="419.0"/>
+            <end y="801.10803" x="656.3481"/>
+        </arc>
+        <arc target="glyph16" source="glyph1" id="arc14" class="catalysis">
+            <start y="580.0" x="395.0"/>
+            <end y="708.0" x="395.0"/>
+        </arc>
+    </map>
+</sbgn>
