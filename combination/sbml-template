@@ -1,22 +1,22 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
-	<model id="tRNAAminoacylation" name="tRNAAminoacylation module">
-		<listOfFunctionDefinitions>
+    <model id="CombinedModel" name="CombinedModel">
+        <listOfFunctionDefinitions>
             FUNCTIONDEF
-		</listOfFunctionDefinitions>
-		<listOfCompartments>
-			<compartment id="c" size="1"/>
+        </listOfFunctionDefinitions>
+        <listOfCompartments>
+            <compartment id="c" size="1"/>
 <compartment id="m" size="1"/>
 <compartment id="e" size="1"/>
-		</listOfCompartments>
-		<listOfSpecies>
-			SPECIES
-		</listOfSpecies>
-		<listOfParameters>
-			PARAMETERS
-		</listOfParameters>
-		<listOfReactions>
-			REACTIONS
-		</listOfReactions>
-	</model>
+        </listOfCompartments>
+        <listOfSpecies>
+            SPECIES
+        </listOfSpecies>
+        <listOfParameters>
+            PARAMETERS
+        </listOfParameters>
+        <listOfReactions>
+            REACTIONS
+        </listOfReactions>
+    </model>
 </sbml>
