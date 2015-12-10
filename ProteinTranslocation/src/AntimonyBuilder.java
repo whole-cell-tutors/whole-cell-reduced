@@ -25,7 +25,7 @@ public class AntimonyBuilder
         try
         {
             String modelName = "";
-            String resultPath = "ProteinTranslocation.txt";
+            String resultPath = "../ProteinTranslocation.txt";
             String pathToSubset = "";
             if( args.length == 0 )
                 printHelpMessage();
