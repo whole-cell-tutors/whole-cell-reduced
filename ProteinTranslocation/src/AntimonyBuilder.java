@@ -16,15 +16,47 @@ public class AntimonyBuilder
     private static final String REACTIONS_FILE = RESOURCES_DIR + "reactions.csv";
     private static final String SPECIES_FILE = RESOURCES_DIR + "species.csv";
 
-    private static String filePath = "ProteinTranslocation.txt";
-    private static String modelName = "ProteinTranslocation";
+    private static final String FILE_PATH_ARG = "--filePath=";
+    private static final String MODEL_NAME_ARG = "--modelName=";
+    private static final String SUBSET_PATH_ARG = "--subset=";
 
     public static void main(String[] args)
     {
-        int l = args.length;
         try
         {
-            build( l >= 1 ? args[0] : filePath, l >= 2 ? args[1] : modelName, l == 3 ? args[2] : "" );
+            String modelName = "";
+            String resultPath = "ProteinTranslocation.txt";
+            String pathToSubset = "";
+            if( args.length == 0 )
+                printHelpMessage();
+            for( String arg : args )
+            {
+                if( arg.startsWith( FILE_PATH_ARG ) )
+                    resultPath = arg.substring( FILE_PATH_ARG.length() );
+                else if( arg.startsWith( MODEL_NAME_ARG ) )
+                    modelName = arg.substring( MODEL_NAME_ARG.length() );
+                else if( arg.startsWith( SUBSET_PATH_ARG ) )
+                    pathToSubset = arg.substring( SUBSET_PATH_ARG.length() );
+                else if( arg.startsWith( "--" ) && arg.contains( "=" ) )
+                {
+                    System.out.println( "WARNING: '" + arg.substring( 2, arg.indexOf( '=' ) ) + "' is invalid command." );
+                    printHelpMessage();
+                }
+                else
+                    System.out.println( "WARNING: unknown argument '" + arg + "' will be ignored." );
+            }
+
+            File file = new File( resultPath );
+            if( file.getParentFile() != null )
+                file.getParentFile().mkdirs();
+            if( modelName.isEmpty() )
+            {
+                modelName = "ProteinTranslocation";
+                if( !pathToSubset.isEmpty() )
+                    modelName += "_subset";
+            }
+
+            build( file, modelName, pathToSubset );
         }
         catch( Throwable t )
         {
@@ -33,15 +65,23 @@ public class AntimonyBuilder
         }
     }
 
+    private static void printHelpMessage()
+    {
+        System.out.println();
+        System.out.println( "Usage:" );
+        System.out.println( "\t" + FILE_PATH_ARG + "<pathToResultFile>     Defines path to the output antimony file with results." );
+        System.out.println( "\t" + MODEL_NAME_ARG + "<modelName>           Defines antimony model name." );
+        System.out.println( "\t" + SUBSET_PATH_ARG
+                + "<pathToFileWithSubset>   Defines path to the with subset of species (if you want to generate only part of the model)." );
+        System.out.println();
+    }
+
     /**
      * method to create antimony file
      * @throws IOException
      */
-    public static void build(String filePath, String modelName, String namesFilePath) throws IOException
+    public static void build(File file, String modelName, String namesFilePath) throws IOException
     {
-        File file = new File( filePath.substring( 0, filePath.lastIndexOf( '/' ) ) );
-        file.mkdirs();
-
         System.out.println( "Antimony building starts" );
 
         readNames( namesFilePath );
@@ -149,9 +189,9 @@ public class AntimonyBuilder
 
         length = constSB.length();
         constSB.replace( length - 2, length, ";" );
-        try (PrintWriter pw = new PrintWriter( filePath ))
+        try (PrintWriter pw = new PrintWriter( file ))
         {
-            System.out.println( "Writing to the file: '" + filePath + "'." );
+            System.out.println( "Writing to the file: '" + file.getPath() + "'." );
             System.out.println( "Antimony model name: '" + modelName + "'." );
             if( !namesFilePath.isEmpty() )
                 System.out.println( "Allowed species names were taken from '" + namesFilePath + "'." );
