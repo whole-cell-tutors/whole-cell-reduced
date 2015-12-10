@@ -72,7 +72,7 @@ public class AntimonyBuilder
         System.out.println( "\t" + FILE_PATH_ARG + "<pathToResultFile>     Defines path to the output antimony file with results." );
         System.out.println( "\t" + MODEL_NAME_ARG + "<modelName>           Defines antimony model name." );
         System.out.println( "\t" + SUBSET_PATH_ARG
-                + "<pathToFileWithSubset>   Defines path to the with subset of species (if you want to generate only part of the model)." );
+                        + "<pathToFileWithSubset>   Defines path to the file with subset of species (if you want to generate only part of the model)." );
         System.out.println();
     }
 
