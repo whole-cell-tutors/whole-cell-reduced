@@ -2,7 +2,6 @@
 ## test
 ##########
 
-
 import sys
 from libsbml import *
 import re
@@ -39,7 +38,7 @@ try:
 #   id2 = myargs['-id2']
 except:
     print('Exaple usage is: ', \
-    'python translationSubset.py -species ProteinIDsubsetExample.txt')     
+    'python proteindecaySubset.py -species ProteinIDsubsetExample.txt')     
     sys.exit()
 
 
@@ -50,7 +49,6 @@ Decay_Species_List_Subset=Decay_Species_List_Subset[0]
 FileWIthSubset.close()
 
 Decay_Species_List_Subset=[x.strip() for x in Decay_Species_List_Subset]
-###
 Decay_Reactions_List=map(lambda x: "Protein_decay_"+x[:-3]+x[-2:],Decay_Species_List_Subset)
     
 print(Decay_Species_List_Subset)
@@ -458,7 +456,7 @@ def create_model(ProteinDecay_Species_List,ProteinDecay_ReactionID_List):
 
         
 
-    return writeSBMLToFile(document,'Decay_lvl3_v1.xml')
+ ##   return writeSBMLToFile(document,'Decay_lvl3_v1.xml')
 
 ## # write the model
 ## if __name__ == '__main__':
