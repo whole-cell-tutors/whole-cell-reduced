@@ -163,6 +163,10 @@ Translation_Reactions_List = Get_List(Translation_Reactions_Dict)
 All_reactants_list=Get_Field(Translation_Reactions_Dict, speciesIDFortRNAlist, 'reactants')
 All_tRNAs_list=All_reactants_list[:-2]
 
+#print(All_tRNAs_list)
+#print(All_reactants_list)
+
+
 def generateMinLaw (listofStuff):
 	i = 1
 	Law_string=listofStuff[0]
@@ -197,23 +201,24 @@ def generateMinLaw (listofStuff):
 	return Law_string
 
 #Proper kinetic_law_string_Translation
-# Works only if min function in SBML is available
-# uncomment to use (recheck identation)
-def Make_kinetic_law_string_Translation(speciesID,All_tRNAs_list=All_tRNAs_list,m=m,k_1=k_1,k_2=k_2):
-		## speciesID -- Translation_reaction_ID
-		current_enzymes = Get_Field(Translation_Reactions_Dict, speciesID, 'enzymes')
-		current_rate_parameter_value = Get_Field(Translation_Reactions_Dict, speciesID, 'rate_parameter_value')
-		kcat=str(current_rate_parameter_value)
-		k_1=str(k_1)
-		k_2=str(k_2)
-		m=str(m)
-		minis=[]
-		for mini in All_tRNAs_list:
-			minis.append (mini[1])
-		Law_string_enz=generateMinLaw(current_enzymes)
-		Law_string_trna=generateMinLaw(minis)
-		Law_string="(kcat*("+Law_string_enz+"*"+Law_string_trna+")*GTP__c^m)/((1+"+Law_string_trna+"/k_1)*(1+GTP__c^m/k_2))"
-		return Law_string
+def Make_kinetic_law_string_Translation(speciesID,m=m,k_1=k_1,k_2=k_2):
+    ## speciesID -- Translation_reaction_ID
+    current_enzymes = Get_Field(Translation_Reactions_Dict, speciesID, 'enzymes')
+    current_rate_parameter_value = Get_Field(Translation_Reactions_Dict, speciesID, 'rate_parameter_value')
+    kcat=str(current_rate_parameter_value)
+    k_1=str(k_1)
+    k_2=str(k_2)
+    m=str(m)
+    minis=[]
+    All_reactants_list_tmp=Get_Field(Translation_Reactions_Dict, speciesID, 'reactants')
+    ## assume that latter 2 reactants are GTP and H20 in every reaction
+    All_tRNAs_list_tmp=All_reactants_list_tmp[:-2]
+    for mini in All_tRNAs_list_tmp:
+        minis.append (mini[1])
+    Law_string_enz=generateMinLaw(current_enzymes)
+    Law_string_trna=generateMinLaw(minis)
+    Law_string="(kcat*("+Law_string_enz+"*"+Law_string_trna+")*GTP__c^m)/((1+"+Law_string_trna+"/k_1)*(1+GTP__c^m/k_2))"
+    return Law_string
     
         
 def create_species(model, var_id, var_name, initialAmount=0):
