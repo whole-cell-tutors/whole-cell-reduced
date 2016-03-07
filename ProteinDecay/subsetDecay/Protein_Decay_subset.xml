@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" level="3" version="1">
+  <model substanceUnits="item" timeUnits="second" extentUnits="item">
+    <listOfCompartments>
+      <compartment id="c" spatialDimensions="3" size="1" units="litre" constant="true"/>
+      <compartment id="m" spatialDimensions="3" size="1" units="litre" constant="true"/>
+      <compartment id="e" spatialDimensions="3" size="1" units="litre" constant="true"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="ASP__c" name="L-Aspartate" compartment="c" initialAmount="9407" substanceUnits="item" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="GLY__c" name="glycine" compartment="c" initialAmount="7679" substanceUnits="item" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="ALA__c" name="L-alanine" compartment="c" initialAmount="8303" substanceUnits="item" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="TYR__c" name="L-tyrosine" compartment="c" initialAmount="5375" substanceUnits="item" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="CYS__c" name="L-Cysteine" compartment="c" initialAmount="2181" substanceUnits="item" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="HIS__c" name="L-Histidine" compartment="c" initialAmount="2933" substanceUnits="item" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="H2O__c" name="water" compartment="c" initialAmount="309737899" substanceUnits="item" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="MG_453_MONOMER__c" name="UTP-glucose-1-phosphate uridylyltransferase" compartment="c" initialAmount="1" substanceUnits="item" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="LEU__c" name="L-Leucine" compartment="c" initialAmount="17971" substanceUnits="item" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="FMET__c" name="N-Formyl-L-methionine" compartment="c" initialAmount="0" substanceUnits="item" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="PHE__c" name="L-phenylalanine" compartment="c" initialAmount="7681" substanceUnits="item" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="TRP__c" name="L-tryptophan" compartment="c" initialAmount="1084" substanceUnits="item" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="MG_391_HEXAMER__c" name="cytosol aminopeptidase" compartment="c" initialAmount="35" substanceUnits="item" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="ARG__c" name="L-Arginine" compartment="c" initialAmount="5991" substanceUnits="item" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="VAL__c" name="L-Valine" compartment="c" initialAmount="9500" substanceUnits="item" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="SER__c" name="L-Serine" compartment="c" initialAmount="8749" substanceUnits="item" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="MG_061_MONOMER__c" name="Mycoplasma MFS transporter" compartment="c" initialAmount="22" substanceUnits="item" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="MG_041_MONOMER__c" name="PTS system, HPr" compartment="c" initialAmount="51" substanceUnits="item" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="MG_053_MONOMER__c" name="phosphoglucomutase/phosphomannomutase, putative" compartment="c" initialAmount="0" substanceUnits="item" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="MG_324_MONOMER__c" name="aminopeptidase" compartment="c" initialAmount="208" substanceUnits="item" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="GLU__c" name="L-Glutamate" compartment="c" initialAmount="9518" substanceUnits="item" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="MG_111_MONOMER__c" name="glucose-6-phosphate isomerase" compartment="c" initialAmount="0" substanceUnits="item" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="ILE__c" name="L-Isoleucine" compartment="c" initialAmount="14247" substanceUnits="item" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="THR__c" name="L-Threonine" compartment="c" initialAmount="4460" substanceUnits="item" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="GLN__c" name="L-glutamine" compartment="c" initialAmount="7920" substanceUnits="item" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="MET__c" name="L-Methionine" compartment="c" initialAmount="2792" substanceUnits="item" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="MG_069_MONOMER__c" name="PTS system, glucose-specific IIABC component" compartment="c" initialAmount="31" substanceUnits="item" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="MG_183_MONOMER__c" name="oligoendopeptidase F" compartment="c" initialAmount="58" substanceUnits="item" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="MG_429_MONOMER__c" name="PTS system, E1" compartment="c" initialAmount="0" substanceUnits="item" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="ASN__c" name="L-Asparagine" compartment="c" initialAmount="11161" substanceUnits="item" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="LYS__c" name="L-Lysine" compartment="c" initialAmount="15094" substanceUnits="item" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="MG_020_MONOMER__c" name="proline iminopeptidase" compartment="c" initialAmount="34" substanceUnits="item" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="PRO__c" name="L-Proline" compartment="c" initialAmount="4140" substanceUnits="item" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+    </listOfSpecies>
+    <listOfReactions>
+      <reaction id="Protein_decay_MG_453_MONOMER_c" name="Protein decay (UTP-glucose-1-phosphate uridylyltransferase, cytosol)" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="MG_453_MONOMER__c" stoichiometry="1" constant="false"/>
+          <speciesReference species="H2O__c" stoichiometry="291" constant="false"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ALA__c" stoichiometry="23" constant="false"/>
+          <speciesReference species="ARG__c" stoichiometry="7" constant="false"/>
+          <speciesReference species="ASN__c" stoichiometry="16" constant="false"/>
+          <speciesReference species="ASP__c" stoichiometry="17" constant="false"/>
+          <speciesReference species="CYS__c" stoichiometry="4" constant="false"/>
+          <speciesReference species="GLN__c" stoichiometry="10" constant="false"/>
+          <speciesReference species="GLU__c" stoichiometry="20" constant="false"/>
+          <speciesReference species="GLY__c" stoichiometry="18" constant="false"/>
+          <speciesReference species="HIS__c" stoichiometry="4" constant="false"/>
+          <speciesReference species="ILE__c" stoichiometry="23" constant="false"/>
+          <speciesReference species="LEU__c" stoichiometry="34" constant="false"/>
+          <speciesReference species="LYS__c" stoichiometry="33" constant="false"/>
+          <speciesReference species="MET__c" stoichiometry="2" constant="false"/>
+          <speciesReference species="PHE__c" stoichiometry="14" constant="false"/>
+          <speciesReference species="PRO__c" stoichiometry="12" constant="false"/>
+          <speciesReference species="SER__c" stoichiometry="10" constant="false"/>
+          <speciesReference species="THR__c" stoichiometry="13" constant="false"/>
+          <speciesReference species="TYR__c" stoichiometry="9" constant="false"/>
+          <speciesReference species="VAL__c" stoichiometry="22" constant="false"/>
+          <speciesReference species="FMET__c" stoichiometry="1" constant="false"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="MG_183_MONOMER__c"/>
+          <modifierSpeciesReference species="MG_324_MONOMER__c"/>
+          <modifierSpeciesReference species="MG_391_HEXAMER__c"/>
+          <modifierSpeciesReference species="MG_020_MONOMER__c"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> kcat </ci>
+                <ci> MG_183_MONOMER__c </ci>
+                <ci> MG_324_MONOMER__c </ci>
+                <ci> MG_391_HEXAMER__c </ci>
+                <ci> MG_020_MONOMER__c </ci>
+                <ci> MG_453_MONOMER__c </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <cn type="integer"> 1 </cn>
+                <apply>
+                  <divide/>
+                  <ci> MG_453_MONOMER__c </ci>
+                  <ci> k_1 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="kcat" value="1"/>
+            <localParameter id="k_1" value="1"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="Protein_decay_MG_111_MONOMER_c" name="Protein decay (glucose-6-phosphate isomerase, cytosol)" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="MG_111_MONOMER__c" stoichiometry="1" constant="false"/>
+          <speciesReference species="H2O__c" stoichiometry="432" constant="false"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ALA__c" stoichiometry="20" constant="false"/>
+          <speciesReference species="ARG__c" stoichiometry="10" constant="false"/>
+          <speciesReference species="ASN__c" stoichiometry="20" constant="false"/>
+          <speciesReference species="ASP__c" stoichiometry="27" constant="false"/>
+          <speciesReference species="CYS__c" stoichiometry="1" constant="false"/>
+          <speciesReference species="GLN__c" stoichiometry="20" constant="false"/>
+          <speciesReference species="GLU__c" stoichiometry="17" constant="false"/>
+          <speciesReference species="GLY__c" stoichiometry="26" constant="false"/>
+          <speciesReference species="HIS__c" stoichiometry="16" constant="false"/>
+          <speciesReference species="ILE__c" stoichiometry="28" constant="false"/>
+          <speciesReference species="LEU__c" stoichiometry="52" constant="false"/>
+          <speciesReference species="LYS__c" stoichiometry="45" constant="false"/>
+          <speciesReference species="MET__c" stoichiometry="7" constant="false"/>
+          <speciesReference species="PHE__c" stoichiometry="29" constant="false"/>
+          <speciesReference species="PRO__c" stoichiometry="11" constant="false"/>
+          <speciesReference species="SER__c" stoichiometry="30" constant="false"/>
+          <speciesReference species="THR__c" stoichiometry="23" constant="false"/>
+          <speciesReference species="TRP__c" stoichiometry="4" constant="false"/>
+          <speciesReference species="TYR__c" stoichiometry="18" constant="false"/>
+          <speciesReference species="VAL__c" stoichiometry="28" constant="false"/>
+          <speciesReference species="FMET__c" stoichiometry="1" constant="false"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="MG_183_MONOMER__c"/>
+          <modifierSpeciesReference species="MG_324_MONOMER__c"/>
+          <modifierSpeciesReference species="MG_391_HEXAMER__c"/>
+          <modifierSpeciesReference species="MG_020_MONOMER__c"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> kcat </ci>
+                <ci> MG_183_MONOMER__c </ci>
+                <ci> MG_324_MONOMER__c </ci>
+                <ci> MG_391_HEXAMER__c </ci>
+                <ci> MG_020_MONOMER__c </ci>
+                <ci> MG_111_MONOMER__c </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <cn type="integer"> 1 </cn>
+                <apply>
+                  <divide/>
+                  <ci> MG_111_MONOMER__c </ci>
+                  <ci> k_1 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="kcat" value="1"/>
+            <localParameter id="k_1" value="1"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="Protein_decay_MG_041_MONOMER_c" name="Protein decay (PTS system, HPr, cytosol)" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="MG_041_MONOMER__c" stoichiometry="1" constant="false"/>
+          <speciesReference species="H2O__c" stoichiometry="87" constant="false"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ALA__c" stoichiometry="12" constant="false"/>
+          <speciesReference species="ARG__c" stoichiometry="2" constant="false"/>
+          <speciesReference species="ASN__c" stoichiometry="5" constant="false"/>
+          <speciesReference species="ASP__c" stoichiometry="4" constant="false"/>
+          <speciesReference species="CYS__c" stoichiometry="1" constant="false"/>
+          <speciesReference species="GLN__c" stoichiometry="1" constant="false"/>
+          <speciesReference species="GLU__c" stoichiometry="7" constant="false"/>
+          <speciesReference species="GLY__c" stoichiometry="5" constant="false"/>
+          <speciesReference species="HIS__c" stoichiometry="2" constant="false"/>
+          <speciesReference species="ILE__c" stoichiometry="11" constant="false"/>
+          <speciesReference species="LEU__c" stoichiometry="7" constant="false"/>
+          <speciesReference species="LYS__c" stoichiometry="11" constant="false"/>
+          <speciesReference species="MET__c" stoichiometry="1" constant="false"/>
+          <speciesReference species="PHE__c" stoichiometry="2" constant="false"/>
+          <speciesReference species="PRO__c" stoichiometry="3" constant="false"/>
+          <speciesReference species="SER__c" stoichiometry="7" constant="false"/>
+          <speciesReference species="THR__c" stoichiometry="1" constant="false"/>
+          <speciesReference species="VAL__c" stoichiometry="5" constant="false"/>
+          <speciesReference species="FMET__c" stoichiometry="1" constant="false"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="MG_183_MONOMER__c"/>
+          <modifierSpeciesReference species="MG_324_MONOMER__c"/>
+          <modifierSpeciesReference species="MG_391_HEXAMER__c"/>
+          <modifierSpeciesReference species="MG_020_MONOMER__c"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> kcat </ci>
+                <ci> MG_183_MONOMER__c </ci>
+                <ci> MG_324_MONOMER__c </ci>
+                <ci> MG_391_HEXAMER__c </ci>
+                <ci> MG_020_MONOMER__c </ci>
+                <ci> MG_041_MONOMER__c </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <cn type="integer"> 1 </cn>
+                <apply>
+                  <divide/>
+                  <ci> MG_041_MONOMER__c </ci>
+                  <ci> k_1 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="kcat" value="1"/>
+            <localParameter id="k_1" value="1"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="Protein_decay_MG_069_MONOMER_c" name="Protein decay (PTS system, glucose-specific IIABC component, cytosol)" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="MG_069_MONOMER__c" stoichiometry="1" constant="false"/>
+          <speciesReference species="H2O__c" stoichiometry="907" constant="false"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ALA__c" stoichiometry="78" constant="false"/>
+          <speciesReference species="ARG__c" stoichiometry="24" constant="false"/>
+          <speciesReference species="ASN__c" stoichiometry="45" constant="false"/>
+          <speciesReference species="ASP__c" stoichiometry="34" constant="false"/>
+          <speciesReference species="CYS__c" stoichiometry="2" constant="false"/>
+          <speciesReference species="GLN__c" stoichiometry="29" constant="false"/>
+          <speciesReference species="GLU__c" stoichiometry="28" constant="false"/>
+          <speciesReference species="GLY__c" stoichiometry="88" constant="false"/>
+          <speciesReference species="HIS__c" stoichiometry="8" constant="false"/>
+          <speciesReference species="ILE__c" stoichiometry="76" constant="false"/>
+          <speciesReference species="LEU__c" stoichiometry="89" constant="false"/>
+          <speciesReference species="LYS__c" stoichiometry="60" constant="false"/>
+          <speciesReference species="MET__c" stoichiometry="16" constant="false"/>
+          <speciesReference species="PHE__c" stoichiometry="59" constant="false"/>
+          <speciesReference species="PRO__c" stoichiometry="44" constant="false"/>
+          <speciesReference species="SER__c" stoichiometry="58" constant="false"/>
+          <speciesReference species="THR__c" stoichiometry="64" constant="false"/>
+          <speciesReference species="TRP__c" stoichiometry="15" constant="false"/>
+          <speciesReference species="TYR__c" stoichiometry="25" constant="false"/>
+          <speciesReference species="VAL__c" stoichiometry="65" constant="false"/>
+          <speciesReference species="FMET__c" stoichiometry="1" constant="false"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="MG_183_MONOMER__c"/>
+          <modifierSpeciesReference species="MG_324_MONOMER__c"/>
+          <modifierSpeciesReference species="MG_391_HEXAMER__c"/>
+          <modifierSpeciesReference species="MG_020_MONOMER__c"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> kcat </ci>
+                <ci> MG_183_MONOMER__c </ci>
+                <ci> MG_324_MONOMER__c </ci>
+                <ci> MG_391_HEXAMER__c </ci>
+                <ci> MG_020_MONOMER__c </ci>
+                <ci> MG_069_MONOMER__c </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <cn type="integer"> 1 </cn>
+                <apply>
+                  <divide/>
+                  <ci> MG_069_MONOMER__c </ci>
+                  <ci> k_1 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="kcat" value="1"/>
+            <localParameter id="k_1" value="1"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="Protein_decay_MG_429_MONOMER_c" name="Protein decay (PTS system, E1, cytosol)" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="MG_429_MONOMER__c" stoichiometry="1" constant="false"/>
+          <speciesReference species="H2O__c" stoichiometry="571" constant="false"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ALA__c" stoichiometry="40" constant="false"/>
+          <speciesReference species="ARG__c" stoichiometry="15" constant="false"/>
+          <speciesReference species="ASN__c" stoichiometry="33" constant="false"/>
+          <speciesReference species="ASP__c" stoichiometry="34" constant="false"/>
+          <speciesReference species="CYS__c" stoichiometry="3" constant="false"/>
+          <speciesReference species="GLN__c" stoichiometry="30" constant="false"/>
+          <speciesReference species="GLU__c" stoichiometry="30" constant="false"/>
+          <speciesReference species="GLY__c" stoichiometry="32" constant="false"/>
+          <speciesReference species="HIS__c" stoichiometry="6" constant="false"/>
+          <speciesReference species="ILE__c" stoichiometry="47" constant="false"/>
+          <speciesReference species="LEU__c" stoichiometry="61" constant="false"/>
+          <speciesReference species="LYS__c" stoichiometry="58" constant="false"/>
+          <speciesReference species="MET__c" stoichiometry="17" constant="false"/>
+          <speciesReference species="PHE__c" stoichiometry="28" constant="false"/>
+          <speciesReference species="PRO__c" stoichiometry="14" constant="false"/>
+          <speciesReference species="SER__c" stoichiometry="33" constant="false"/>
+          <speciesReference species="THR__c" stoichiometry="33" constant="false"/>
+          <speciesReference species="TRP__c" stoichiometry="3" constant="false"/>
+          <speciesReference species="TYR__c" stoichiometry="16" constant="false"/>
+          <speciesReference species="VAL__c" stoichiometry="38" constant="false"/>
+          <speciesReference species="FMET__c" stoichiometry="1" constant="false"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="MG_183_MONOMER__c"/>
+          <modifierSpeciesReference species="MG_324_MONOMER__c"/>
+          <modifierSpeciesReference species="MG_391_HEXAMER__c"/>
+          <modifierSpeciesReference species="MG_020_MONOMER__c"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> kcat </ci>
+                <ci> MG_183_MONOMER__c </ci>
+                <ci> MG_324_MONOMER__c </ci>
+                <ci> MG_391_HEXAMER__c </ci>
+                <ci> MG_020_MONOMER__c </ci>
+                <ci> MG_429_MONOMER__c </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <cn type="integer"> 1 </cn>
+                <apply>
+                  <divide/>
+                  <ci> MG_429_MONOMER__c </ci>
+                  <ci> k_1 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="kcat" value="1"/>
+            <localParameter id="k_1" value="1"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="Protein_decay_MG_053_MONOMER_c" name="Protein decay (phosphoglucomutase/phosphomannomutase, putative, cytosol)" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="MG_053_MONOMER__c" stoichiometry="1" constant="false"/>
+          <speciesReference species="H2O__c" stoichiometry="549" constant="false"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ALA__c" stoichiometry="34" constant="false"/>
+          <speciesReference species="ARG__c" stoichiometry="17" constant="false"/>
+          <speciesReference species="ASN__c" stoichiometry="49" constant="false"/>
+          <speciesReference species="ASP__c" stoichiometry="24" constant="false"/>
+          <speciesReference species="CYS__c" stoichiometry="4" constant="false"/>
+          <speciesReference species="GLN__c" stoichiometry="21" constant="false"/>
+          <speciesReference species="GLU__c" stoichiometry="38" constant="false"/>
+          <speciesReference species="GLY__c" stoichiometry="29" constant="false"/>
+          <speciesReference species="HIS__c" stoichiometry="13" constant="false"/>
+          <speciesReference species="ILE__c" stoichiometry="31" constant="false"/>
+          <speciesReference species="LEU__c" stoichiometry="58" constant="false"/>
+          <speciesReference species="LYS__c" stoichiometry="49" constant="false"/>
+          <speciesReference species="MET__c" stoichiometry="6" constant="false"/>
+          <speciesReference species="PHE__c" stoichiometry="37" constant="false"/>
+          <speciesReference species="PRO__c" stoichiometry="16" constant="false"/>
+          <speciesReference species="SER__c" stoichiometry="24" constant="false"/>
+          <speciesReference species="THR__c" stoichiometry="30" constant="false"/>
+          <speciesReference species="TRP__c" stoichiometry="7" constant="false"/>
+          <speciesReference species="TYR__c" stoichiometry="26" constant="false"/>
+          <speciesReference species="VAL__c" stoichiometry="36" constant="false"/>
+          <speciesReference species="FMET__c" stoichiometry="1" constant="false"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="MG_183_MONOMER__c"/>
+          <modifierSpeciesReference species="MG_324_MONOMER__c"/>
+          <modifierSpeciesReference species="MG_391_HEXAMER__c"/>
+          <modifierSpeciesReference species="MG_020_MONOMER__c"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> kcat </ci>
+                <ci> MG_183_MONOMER__c </ci>
+                <ci> MG_324_MONOMER__c </ci>
+                <ci> MG_391_HEXAMER__c </ci>
+                <ci> MG_020_MONOMER__c </ci>
+                <ci> MG_053_MONOMER__c </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <cn type="integer"> 1 </cn>
+                <apply>
+                  <divide/>
+                  <ci> MG_053_MONOMER__c </ci>
+                  <ci> k_1 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="kcat" value="1"/>
+            <localParameter id="k_1" value="1"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="Protein_decay_MG_061_MONOMER_c" name="Protein decay (Mycoplasma MFS transporter, cytosol)" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="MG_061_MONOMER__c" stoichiometry="1" constant="false"/>
+          <speciesReference species="H2O__c" stoichiometry="566" constant="false"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ALA__c" stoichiometry="33" constant="false"/>
+          <speciesReference species="ARG__c" stoichiometry="9" constant="false"/>
+          <speciesReference species="ASN__c" stoichiometry="26" constant="false"/>
+          <speciesReference species="ASP__c" stoichiometry="13" constant="false"/>
+          <speciesReference species="CYS__c" stoichiometry="6" constant="false"/>
+          <speciesReference species="GLN__c" stoichiometry="24" constant="false"/>
+          <speciesReference species="GLU__c" stoichiometry="12" constant="false"/>
+          <speciesReference species="GLY__c" stoichiometry="44" constant="false"/>
+          <speciesReference species="HIS__c" stoichiometry="3" constant="false"/>
+          <speciesReference species="ILE__c" stoichiometry="61" constant="false"/>
+          <speciesReference species="LEU__c" stoichiometry="71" constant="false"/>
+          <speciesReference species="LYS__c" stoichiometry="32" constant="false"/>
+          <speciesReference species="MET__c" stoichiometry="11" constant="false"/>
+          <speciesReference species="PHE__c" stoichiometry="40" constant="false"/>
+          <speciesReference species="PRO__c" stoichiometry="19" constant="false"/>
+          <speciesReference species="SER__c" stoichiometry="45" constant="false"/>
+          <speciesReference species="THR__c" stoichiometry="41" constant="false"/>
+          <speciesReference species="TRP__c" stoichiometry="16" constant="false"/>
+          <speciesReference species="TYR__c" stoichiometry="17" constant="false"/>
+          <speciesReference species="VAL__c" stoichiometry="43" constant="false"/>
+          <speciesReference species="FMET__c" stoichiometry="1" constant="false"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="MG_183_MONOMER__c"/>
+          <modifierSpeciesReference species="MG_324_MONOMER__c"/>
+          <modifierSpeciesReference species="MG_391_HEXAMER__c"/>
+          <modifierSpeciesReference species="MG_020_MONOMER__c"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> kcat </ci>
+                <ci> MG_183_MONOMER__c </ci>
+                <ci> MG_324_MONOMER__c </ci>
+                <ci> MG_391_HEXAMER__c </ci>
+                <ci> MG_020_MONOMER__c </ci>
+                <ci> MG_061_MONOMER__c </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <cn type="integer"> 1 </cn>
+                <apply>
+                  <divide/>
+                  <ci> MG_061_MONOMER__c </ci>
+                  <ci> k_1 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="kcat" value="1"/>
+            <localParameter id="k_1" value="1"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>

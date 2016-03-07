@@ -49,10 +49,10 @@ Decay_Species_List_Subset=Decay_Species_List_Subset[0]
 FileWIthSubset.close()
 
 Decay_Species_List_Subset=[x.strip() for x in Decay_Species_List_Subset]
-Decay_Reactions_List=map(lambda x: "Protein_decay_"+x[:-3]+x[-2:],Decay_Species_List_Subset)
+Decay_Reactions_List_Subset=map(lambda x: "Protein_decay_"+x[:-3]+x[-2:],Decay_Species_List_Subset)
     
 print(Decay_Species_List_Subset)
-print(Decay_Reactions_List)
+print(Decay_Reactions_List_Subset)
 
 
 ###################################################
@@ -178,6 +178,7 @@ def Extract_ProteinDecay_Excel_File():
 
     # instantiate variables
     proteins = {}
+    # Note: 'proteins' means reactions here
 
     # cycle through rows of sheet
     for rindex in range(1, nrows):
@@ -228,18 +229,6 @@ def Get_Field(dictionary, ID, field):
     # given an ID and a field (both strings), return value from dictionary
     return dictionary[ID][field]
 
-
-
-
-##############################################
-# global dictionaries and lists
-# for reactions and for species
-[ProteinDecay_Species_Dict, ProteinDecay_Reactions_Dict] = Extract_ProteinDecay_Excel_File()
-
-
-ProteinDecay_Reactions_List = Get_List(ProteinDecay_Reactions_Dict)
-###############################################
-
 def Relabel_Compartments(species):
     # change label from compartment.Species to Species_compartment (e.g., c.GTP --> GTP__c)
     
@@ -256,10 +245,49 @@ def Relabel_Compartments(species):
 
 
 
+##############################################
+# global dictionaries and lists
+# for reactions and for species
+[ProteinDecay_Species_Dict, ProteinDecay_Reactions_Dict] = Extract_ProteinDecay_Excel_File()
+
+## choose subset
+ProteinDecay_Reactions_Dict_tmp={k:ProteinDecay_Reactions_Dict[k] for k in Decay_Reactions_List_Subset}
+
+ProteinDecay_Reactions_Dict = ProteinDecay_Reactions_Dict_tmp
+
+#print(ProteinDecay_Reactions_Dict)
+
+ProteinDecay_Reactions_List=Decay_Reactions_List_Subset
+
+Redundant_Species_list=[]
+for Reaction_name in ProteinDecay_Reactions_List:
+    list_tmp2=ProteinDecay_Reactions_Dict[Reaction_name]['products']
+    list_tmp=[x[1] for x in list_tmp2]
+    Redundant_Species_list=Redundant_Species_list+list_tmp
+    list_tmp2=ProteinDecay_Reactions_Dict[Reaction_name]['reactants']
+    list_tmp=[x[1] for x in list_tmp2]
+    Redundant_Species_list=Redundant_Species_list+list_tmp
+    list_tmp=ProteinDecay_Reactions_Dict[Reaction_name]['enzymes']
+    Redundant_Species_list=Redundant_Species_list+list_tmp
+
+#print(Redundant_Species_list)
+
+    
+## select unique species only
+ProteinDecay_Species_set = set(Redundant_Species_list)
+ProteinDecay_Species_List=list(ProteinDecay_Species_set)  
+
+#print(ProteinDecay_Species_List)
+###############################################
 
 
 
-# dummy kinetic_law_string_Translation
+
+
+
+
+
+
 def Make_kinetic_law_string_ProteinDecay(speciesID,k_1=k_1):
     ## speciesID -- ProteinDecay_reaction_ID
     current_rate_parameter_value = Get_Field(ProteinDecay_Reactions_Dict, speciesID, 'rate_parameter_value')
@@ -271,7 +299,7 @@ def Make_kinetic_law_string_ProteinDecay(speciesID,k_1=k_1):
     Law_string="(kcat*"+enzymes_string+"*"+species+")/(1+"+species+"/k_1)"
 #        Law_string="("+kcat+"*"+enzymes_string+"*"+species+")/(1+"+species+"/"+k_1+")"
     return Law_string
-##TODO
+
 
     
         
@@ -442,24 +470,24 @@ def create_model(ProteinDecay_Species_List,ProteinDecay_ReactionID_List):
     ## debugging (from @Frank)
 
     ## show more errors
-    ## numErrors = document.checkConsistency()
+    #numErrors = document.checkConsistency()
     ## if numErrors > 0:
     ##     document.printErrors()
 
     ## show less errors 
-    ##  document.setConsistencyChecks(LIBSBML_CAT_UNITS_CONSISTENCY, False)
-    ## document.setConsistencyChecks(LIBSBML_CAT)MODELING_PRACTICE, False)
-     ## numErrors = document.checkConsistency()
-     ## if numErrors > 0:
-     ##     document.printErrors()
+    document.setConsistencyChecks(LIBSBML_CAT_UNITS_CONSISTENCY, False)
+    document.setConsistencyChecks(LIBSBML_CAT_MODELING_PRACTICE, False)
+    numErrors = document.checkConsistency()
+    if numErrors > 0:
+        document.printErrors()
 
 
         
 
- ##   return writeSBMLToFile(document,'Decay_lvl3_v1.xml')
+    return writeSBMLToFile(document,'Protein_Decay_subset.xml')
 
 ## # write the model
-## if __name__ == '__main__':
-##     print(create_model(ProteinDecay_Species_List,ProteinDecay_Reactions_List))
+if __name__ == '__main__':
+    print(create_model(ProteinDecay_Species_List,ProteinDecay_Reactions_List))
 ## ###
 
