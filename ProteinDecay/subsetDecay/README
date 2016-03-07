@@ -1,5 +1,5 @@
 
-   proteindecaySubset.py creates xml file Protein_Decay_subset.xml (SBML level 3 version 1) using list od species in txt file.
+   proteindecaySubset.py creates xml file Protein_Decay_subset.xml (SBML level 3 version 1) using list od species in txt file (and ProteinDecay.xls)
    Example of input txt file is ProteinIDsubsetExample.txt
 
 Usage of proteindecaySubset.py:
