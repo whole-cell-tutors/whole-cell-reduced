@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
+  <model id="ProteinTranslocation_subset" name="ProteinTranslocation_subset">
+    <listOfFunctionDefinitions>
+      <functionDefinition id="TranslocationRate">
+        <annotation>
+          <distribution xmlns="http://sbml.org/annotations/distribution" defnition=""/>
+        </annotation>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <lambda>
+            <bvar>
+              <ci>k_cat</ci>
+            </bvar>
+            <bvar>
+              <ci>en1</ci>
+            </bvar>
+            <bvar>
+              <ci>en2</ci>
+            </bvar>
+            <bvar>
+              <ci>monomer</ci>
+            </bvar>
+            <bvar>
+              <ci>atp</ci>
+            </bvar>
+            <bvar>
+              <ci>Km1</ci>
+            </bvar>
+            <bvar>
+              <ci>Km2</ci>
+            </bvar>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <times/>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <times/>
+                      <ci>k_cat</ci>
+                      <ci>en1</ci>
+                    </apply>
+                    <ci>en2</ci>
+                  </apply>
+                  <ci>monomer</ci>
+                </apply>
+                <ci>atp</ci>
+              </apply>
+              <apply>
+                <times/>
+                <apply>
+                  <plus/>
+                  <cn>1.0</cn>
+                  <apply>
+                    <divide/>
+                    <ci>monomer</ci>
+                    <ci>Km1</ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <plus/>
+                  <cn>1.0</cn>
+                  <apply>
+                    <divide/>
+                    <ci>atp</ci>
+                    <ci>Km2</ci>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+          </lambda>
+        </math>
+      </functionDefinition>
+    </listOfFunctionDefinitions>
+    <listOfCompartments>
+      <compartment id="c" name="c" size="1.0" spatialDimensions="3"/>
+      <compartment id="e" name="e" size="1.0" spatialDimensions="3"/>
+      <compartment id="m" name="m" size="1.0" spatialDimensions="3"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species compartment="c" hasOnlySubstanceUnits="false" id="ADP__c" initialAmount="3623.0" name="ADP"/>
+      <species compartment="c" hasOnlySubstanceUnits="false" id="ATP__c" initialAmount="36234.0" name="ATP"/>
+      <species compartment="c" hasOnlySubstanceUnits="false" id="H2O__c" initialAmount="3.09737899E8" name="water"/>
+      <species compartment="c" hasOnlySubstanceUnits="false" id="H__c" initialAmount="13042.0" name="hydrogen ion"/>
+      <species compartment="c" hasOnlySubstanceUnits="false" id="MG_061_MONOMER__c" initialAmount="0.0" name="Mycoplasma MFS transporter"/>
+      <species compartment="c" hasOnlySubstanceUnits="false" id="MG_062_MONOMER__c" initialAmount="0.0" name="PTS system, fructose-specific IIABC component"/>
+      <species compartment="c" hasOnlySubstanceUnits="false" id="MG_069_MONOMER__c" initialAmount="0.0" name="PTS system, glucose-specific IIABC component"/>
+      <species compartment="c" hasOnlySubstanceUnits="false" id="MG_072_DIMER__c" initialAmount="13.0" name="preprotein translocase, SecA subunit"/>
+      <species compartment="c" hasOnlySubstanceUnits="false" id="MG_411_MONOMER__c" initialAmount="0.0" name="phosphate ABC transporter, permease protein PstA"/>
+      <species compartment="c" hasOnlySubstanceUnits="false" id="MG_412_MONOMER__c" initialAmount="0.0" name="phosphate ABC transporter, substrate-binding protein"/>
+      <species compartment="c" hasOnlySubstanceUnits="false" id="MG_429_MONOMER__c" initialAmount="0.0" name="PTS system, E1"/>
+      <species compartment="c" hasOnlySubstanceUnits="false" id="MG_431_MONOMER__c" initialAmount="1.0" name="triosephosphate isomerase"/>
+      <species compartment="c" hasOnlySubstanceUnits="false" id="PI__c" initialAmount="7246.0" name="phosphate"/>
+      <species compartment="e" hasOnlySubstanceUnits="false" id="MG_412_MONOMER__e" initialAmount="28.0" name="phosphate ABC transporter, substrate-binding protein"/>
+      <species compartment="m" hasOnlySubstanceUnits="false" id="MG_055_170_277_464_476_20MER__m" initialAmount="13.0" name="preprotein translocase"/>
+      <species compartment="m" hasOnlySubstanceUnits="false" id="MG_061_MONOMER__m" initialAmount="22.0" name="Mycoplasma MFS transporter"/>
+      <species compartment="m" hasOnlySubstanceUnits="false" id="MG_062_MONOMER__m" initialAmount="34.0" name="PTS system, fructose-specific IIABC component"/>
+      <species compartment="m" hasOnlySubstanceUnits="false" id="MG_069_MONOMER__m" initialAmount="31.0" name="PTS system, glucose-specific IIABC component"/>
+      <species compartment="m" hasOnlySubstanceUnits="false" id="MG_411_MONOMER__m" initialAmount="15.0" name="phosphate ABC transporter, permease protein PstA"/>
+    </listOfSpecies>
+    <listOfParameters>
+      <parameter constant="true" id="Km1_MG_061_MONOMER" value="1.0"/>
+      <parameter constant="true" id="Km1_MG_062_MONOMER" value="1.0"/>
+      <parameter constant="true" id="Km1_MG_069_MONOMER" value="1.0"/>
+      <parameter constant="true" id="Km1_MG_411_MONOMER" value="1.0"/>
+      <parameter constant="true" id="Km1_MG_412_MONOMER" value="1.0"/>
+      <parameter constant="true" id="Km2_ATP" value="1.0"/>
+      <parameter constant="true" id="k_trans_MG_061_MONOMER" value="6.525041088436412E12"/>
+      <parameter constant="true" id="k_trans_MG_062_MONOMER" value="5.440732789916832E12"/>
+      <parameter constant="true" id="k_trans_MG_069_MONOMER" value="4.0745575959729575E12"/>
+      <parameter constant="true" id="k_trans_MG_411_MONOMER" value="5.657031035387532E12"/>
+      <parameter constant="true" id="k_trans_MG_412_MONOMER" value="9.813523334598E12"/>
+    </listOfParameters>
+    <listOfReactions>
+      <reaction id="Translocation_MG_061_MONOMER" name="Translocation (Mycoplasma MFS transporter)" reversible="false">
+        <listOfReactants>
+          <speciesReference species="ATP__c" stoichiometry="16"/>
+          <speciesReference species="H2O__c" stoichiometry="16"/>
+          <speciesReference species="MG_061_MONOMER__c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ADP__c" stoichiometry="16"/>
+          <speciesReference species="H__c" stoichiometry="16"/>
+          <speciesReference species="MG_061_MONOMER__m" stoichiometry="1"/>
+          <speciesReference species="PI__c" stoichiometry="16"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="MG_055_170_277_464_476_20MER__m"/>
+          <modifierSpeciesReference species="MG_072_DIMER__c"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <ci>TranslocationRate</ci>
+              <ci>k_trans_MG_061_MONOMER</ci>
+              <ci>MG_055_170_277_464_476_20MER__m</ci>
+              <ci>MG_072_DIMER__c</ci>
+              <ci>MG_061_MONOMER__c</ci>
+              <ci>ATP__c</ci>
+              <ci>Km1_MG_061_MONOMER</ci>
+              <ci>Km2_ATP</ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="Translocation_MG_062_MONOMER" name="Translocation (PTS system, fructose-specific IIABC component)" reversible="false">
+        <listOfReactants>
+          <speciesReference species="ATP__c" stoichiometry="19"/>
+          <speciesReference species="H2O__c" stoichiometry="19"/>
+          <speciesReference species="MG_062_MONOMER__c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ADP__c" stoichiometry="19"/>
+          <speciesReference species="H__c" stoichiometry="19"/>
+          <speciesReference species="MG_062_MONOMER__m" stoichiometry="1"/>
+          <speciesReference species="PI__c" stoichiometry="19"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="MG_055_170_277_464_476_20MER__m"/>
+          <modifierSpeciesReference species="MG_072_DIMER__c"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <ci>TranslocationRate</ci>
+              <ci>k_trans_MG_062_MONOMER</ci>
+              <ci>MG_055_170_277_464_476_20MER__m</ci>
+              <ci>MG_072_DIMER__c</ci>
+              <ci>MG_062_MONOMER__c</ci>
+              <ci>ATP__c</ci>
+              <ci>Km1_MG_062_MONOMER</ci>
+              <ci>Km2_ATP</ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="Translocation_MG_069_MONOMER" name="Translocation (PTS system, glucose-specific IIABC component)" reversible="false">
+        <listOfReactants>
+          <speciesReference species="ATP__c" stoichiometry="26"/>
+          <speciesReference species="H2O__c" stoichiometry="26"/>
+          <speciesReference species="MG_069_MONOMER__c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ADP__c" stoichiometry="26"/>
+          <speciesReference species="H__c" stoichiometry="26"/>
+          <speciesReference species="MG_069_MONOMER__m" stoichiometry="1"/>
+          <speciesReference species="PI__c" stoichiometry="26"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="MG_055_170_277_464_476_20MER__m"/>
+          <modifierSpeciesReference species="MG_072_DIMER__c"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <ci>TranslocationRate</ci>
+              <ci>k_trans_MG_069_MONOMER</ci>
+              <ci>MG_055_170_277_464_476_20MER__m</ci>
+              <ci>MG_072_DIMER__c</ci>
+              <ci>MG_069_MONOMER__c</ci>
+              <ci>ATP__c</ci>
+              <ci>Km1_MG_069_MONOMER</ci>
+              <ci>Km2_ATP</ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="Translocation_MG_411_MONOMER" name="Translocation (phosphate ABC transporter, permease protein PstA)" reversible="false">
+        <listOfReactants>
+          <speciesReference species="ATP__c" stoichiometry="19"/>
+          <speciesReference species="H2O__c" stoichiometry="19"/>
+          <speciesReference species="MG_411_MONOMER__c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ADP__c" stoichiometry="19"/>
+          <speciesReference species="H__c" stoichiometry="19"/>
+          <speciesReference species="MG_411_MONOMER__m" stoichiometry="1"/>
+          <speciesReference species="PI__c" stoichiometry="19"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="MG_055_170_277_464_476_20MER__m"/>
+          <modifierSpeciesReference species="MG_072_DIMER__c"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <ci>TranslocationRate</ci>
+              <ci>k_trans_MG_411_MONOMER</ci>
+              <ci>MG_055_170_277_464_476_20MER__m</ci>
+              <ci>MG_072_DIMER__c</ci>
+              <ci>MG_411_MONOMER__c</ci>
+              <ci>ATP__c</ci>
+              <ci>Km1_MG_411_MONOMER</ci>
+              <ci>Km2_ATP</ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="Translocation_MG_412_MONOMER" name="Translocation (phosphate ABC transporter, substrate-binding protein)" reversible="false">
+        <listOfReactants>
+          <speciesReference species="ATP__c" stoichiometry="11"/>
+          <speciesReference species="H2O__c" stoichiometry="11"/>
+          <speciesReference species="MG_412_MONOMER__c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ADP__c" stoichiometry="11"/>
+          <speciesReference species="H__c" stoichiometry="11"/>
+          <speciesReference species="MG_412_MONOMER__e" stoichiometry="1"/>
+          <speciesReference species="PI__c" stoichiometry="11"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="MG_055_170_277_464_476_20MER__m"/>
+          <modifierSpeciesReference species="MG_072_DIMER__c"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <ci>TranslocationRate</ci>
+              <ci>k_trans_MG_412_MONOMER</ci>
+              <ci>MG_055_170_277_464_476_20MER__m</ci>
+              <ci>MG_072_DIMER__c</ci>
+              <ci>MG_412_MONOMER__c</ci>
+              <ci>ATP__c</ci>
+              <ci>Km1_MG_412_MONOMER</ci>
+              <ci>Km2_ATP</ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>

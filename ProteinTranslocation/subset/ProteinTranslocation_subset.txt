@@ -1,0 +1,82 @@
+function TranslocationRate(k_cat, en1, en2, monomer, atp, Km1, Km2)
+    k_cat*en1*en2*monomer*atp/( (1+monomer/Km1)*(1+atp/Km2) );
+end
+
+model ProteinTranslocation_subset()
+compartment c, e, m;
+species ATP__c in c, ADP__c in c, H2O__c in c, PI__c in c, H__c in c, MG_061_MONOMER__c in c, MG_061_MONOMER__m in m, MG_062_MONOMER__c in c, MG_062_MONOMER__m in m, MG_069_MONOMER__c in c, MG_069_MONOMER__m in m, MG_411_MONOMER__c in c, MG_411_MONOMER__m in m, MG_412_MONOMER__c in c, MG_412_MONOMER__e in e, MG_072_DIMER__c in c, MG_055_170_277_464_476_20MER__m in m, MG_429_MONOMER__c in c, MG_431_MONOMER__c in c;
+
+const c, e, m, k_trans_MG_061_MONOMER, k_trans_MG_062_MONOMER, k_trans_MG_069_MONOMER, k_trans_MG_411_MONOMER, k_trans_MG_412_MONOMER, Km1_MG_062_MONOMER, Km1_MG_061_MONOMER, Km1_MG_412_MONOMER, Km1_MG_069_MONOMER, Km1_MG_411_MONOMER, Km2_ATP;
+
+Translocation_MG_061_MONOMER: MG_061_MONOMER__c + 16ATP__c + 16H2O__c => MG_061_MONOMER__m + 16ADP__c + 16PI__c + 16H__c ; TranslocationRate(k_trans_MG_061_MONOMER, MG_055_170_277_464_476_20MER__m, MG_072_DIMER__c, MG_061_MONOMER__c, ATP__c, Km1_MG_061_MONOMER, Km2_ATP);
+MG_055_170_277_464_476_20MER__m -( Translocation_MG_061_MONOMER;
+MG_072_DIMER__c -( Translocation_MG_061_MONOMER;
+Translocation_MG_062_MONOMER: MG_062_MONOMER__c + 19ATP__c + 19H2O__c => MG_062_MONOMER__m + 19ADP__c + 19PI__c + 19H__c ; TranslocationRate(k_trans_MG_062_MONOMER, MG_055_170_277_464_476_20MER__m, MG_072_DIMER__c, MG_062_MONOMER__c, ATP__c, Km1_MG_062_MONOMER, Km2_ATP);
+MG_055_170_277_464_476_20MER__m -( Translocation_MG_062_MONOMER;
+MG_072_DIMER__c -( Translocation_MG_062_MONOMER;
+Translocation_MG_069_MONOMER: MG_069_MONOMER__c + 26ATP__c + 26H2O__c => MG_069_MONOMER__m + 26ADP__c + 26PI__c + 26H__c ; TranslocationRate(k_trans_MG_069_MONOMER, MG_055_170_277_464_476_20MER__m, MG_072_DIMER__c, MG_069_MONOMER__c, ATP__c, Km1_MG_069_MONOMER, Km2_ATP);
+MG_055_170_277_464_476_20MER__m -( Translocation_MG_069_MONOMER;
+MG_072_DIMER__c -( Translocation_MG_069_MONOMER;
+Translocation_MG_411_MONOMER: MG_411_MONOMER__c + 19ATP__c + 19H2O__c => MG_411_MONOMER__m + 19ADP__c + 19PI__c + 19H__c ; TranslocationRate(k_trans_MG_411_MONOMER, MG_055_170_277_464_476_20MER__m, MG_072_DIMER__c, MG_411_MONOMER__c, ATP__c, Km1_MG_411_MONOMER, Km2_ATP);
+MG_055_170_277_464_476_20MER__m -( Translocation_MG_411_MONOMER;
+MG_072_DIMER__c -( Translocation_MG_411_MONOMER;
+Translocation_MG_412_MONOMER: MG_412_MONOMER__c + 11ATP__c + 11H2O__c => MG_412_MONOMER__e + 11ADP__c + 11PI__c + 11H__c ; TranslocationRate(k_trans_MG_412_MONOMER, MG_055_170_277_464_476_20MER__m, MG_072_DIMER__c, MG_412_MONOMER__c, ATP__c, Km1_MG_412_MONOMER, Km2_ATP);
+MG_055_170_277_464_476_20MER__m -( Translocation_MG_412_MONOMER;
+MG_072_DIMER__c -( Translocation_MG_412_MONOMER;
+
+
+ATP__c = 36234.0;
+ADP__c = 3623.0;
+H2O__c = 3.09737899E8;
+PI__c = 7246.0;
+H__c = 13042.0;
+MG_061_MONOMER__m = 22.0;
+MG_062_MONOMER__m = 34.0;
+MG_069_MONOMER__m = 31.0;
+MG_411_MONOMER__m = 15.0;
+MG_412_MONOMER__e = 28.0;
+MG_072_DIMER__c = 13.0;
+MG_055_170_277_464_476_20MER__m = 13.0;
+MG_431_MONOMER__c = 1.0;
+c = 1;
+e = 1;
+m = 1;
+k_trans_MG_061_MONOMER = 6.525041088436412E12;
+k_trans_MG_062_MONOMER = 5.440732789916832E12;
+k_trans_MG_069_MONOMER = 4.0745575959729575E12;
+k_trans_MG_411_MONOMER = 5.657031035387532E12;
+k_trans_MG_412_MONOMER = 9.813523334598E12;
+Km1_MG_062_MONOMER = 1;
+Km1_MG_061_MONOMER = 1;
+Km1_MG_412_MONOMER = 1;
+Km1_MG_069_MONOMER = 1;
+Km1_MG_411_MONOMER = 1;
+Km2_ATP = 1;
+
+
+ATP__c is "ATP";
+ADP__c is "ADP";
+H2O__c is "water";
+PI__c is "phosphate";
+H__c is "hydrogen ion";
+MG_061_MONOMER__c is "Mycoplasma MFS transporter";
+MG_061_MONOMER__m is "Mycoplasma MFS transporter";
+MG_062_MONOMER__c is "PTS system, fructose-specific IIABC component";
+MG_062_MONOMER__m is "PTS system, fructose-specific IIABC component";
+MG_069_MONOMER__c is "PTS system, glucose-specific IIABC component";
+MG_069_MONOMER__m is "PTS system, glucose-specific IIABC component";
+MG_411_MONOMER__c is "phosphate ABC transporter, permease protein PstA";
+MG_411_MONOMER__m is "phosphate ABC transporter, permease protein PstA";
+MG_412_MONOMER__c is "phosphate ABC transporter, substrate-binding protein";
+MG_412_MONOMER__e is "phosphate ABC transporter, substrate-binding protein";
+MG_072_DIMER__c is "preprotein translocase, SecA subunit";
+MG_055_170_277_464_476_20MER__m is "preprotein translocase";
+MG_429_MONOMER__c is "PTS system, E1";
+MG_431_MONOMER__c is "triosephosphate isomerase";
+Translocation_MG_061_MONOMER is "Translocation (Mycoplasma MFS transporter)";
+Translocation_MG_062_MONOMER is "Translocation (PTS system, fructose-specific IIABC component)";
+Translocation_MG_069_MONOMER is "Translocation (PTS system, glucose-specific IIABC component)";
+Translocation_MG_411_MONOMER is "Translocation (phosphate ABC transporter, permease protein PstA)";
+Translocation_MG_412_MONOMER is "Translocation (phosphate ABC transporter, substrate-binding protein)";
+
+end
