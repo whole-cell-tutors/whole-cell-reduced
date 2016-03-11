@@ -6,5 +6,6 @@
   2. run `java -cp . AntimonyBuilder` and it will recreate antimony file in `src/..`
 
 [ProteinTranslocation.xml](https://github.com/whole-cell-tutors/whole-cell-reduced/blob/master/ProteinTranslocation/ProteinTranslocation.xml) is the most recent version of the model.
+[ProteinTranslocation_withSBO.xml](https://github.com/whole-cell-tutors/whole-cell-reduced/blob/master/ProteinTranslocation/ProteinTranslocation_withSBO.xml) is the most recent annotated version of the model.
 
 For more information see [wiki page](https://github.com/whole-cell-tutors/whole-cell-reduced/wiki/Protein-Translocation).
