@@ -5,7 +5,7 @@
 ## Input: txt file with protein monomers ID
 ## Example: MG_453_MONOMER__c, MG_111_MONOMER__c ...
 ## Output: TranslationSubset.xml (SBML level 3 ver 1)
-## Usage: python translationSubset.py -subset ProteinIDsubsetExample.txt'
+## Usage: python translationSubset.py -species ProteinIDsubsetExample.txt'
 ################
 
 import sys
@@ -48,7 +48,7 @@ try:
 #   id2 = myargs['-id2']
 except:
     print('Exaple usage is: ', \
-    'python translationSubset.py -subset ProteinIDsubsetExample.txt')     
+    'python translationSubset.py -species ProteinIDsubsetExample.txt')     
     sys.exit()
 
 
@@ -226,6 +226,8 @@ Translation_Reactions_Dict=Translation_Reactions_Dict_tmp
 Translation_Species_List = Get_List(Translation_Species_Dict)
 Translation_Reactions_List = Get_List(Translation_Reactions_Dict)
 
+
+
 ###############################################
 
 
@@ -264,10 +266,8 @@ def generateMinLaw (listofStuff):
 	return Law_string
 
 #Proper kinetic_law_string_Translation
-# Works only if min function in SBML is available
-# uncomment to use (recheck identation)
-def Make_kinetic_law_string_Translation(speciesID,All_tRNAs_list=All_tRNAs_list,m=m,k_1=k_1,k_2=k_2):
-		## speciesID -- Translation_reaction_ID
+def Make_kinetic_law_string_Translation(speciesID,m=m,k_1=k_1,k_2=k_2):
+    ## speciesID -- Translation_reaction_ID
     current_enzymes = Get_Field(Translation_Reactions_Dict, speciesID, 'enzymes')
     current_rate_parameter_value = Get_Field(Translation_Reactions_Dict, speciesID, 'rate_parameter_value')
     kcat=str(current_rate_parameter_value)
@@ -275,14 +275,19 @@ def Make_kinetic_law_string_Translation(speciesID,All_tRNAs_list=All_tRNAs_list,
     k_2=str(k_2)
     m=str(m)
     minis=[]
-    for mini in All_tRNAs_list:
+    All_reactants_list_tmp=Get_Field(Translation_Reactions_Dict, speciesID, 'reactants')
+    ## assume that latter 2 reactants are GTP and H20 in every reaction
+    All_tRNAs_list_tmp=All_reactants_list_tmp[:-2]
+    for mini in All_tRNAs_list_tmp:
         minis.append (mini[1])
     Law_string_enz=generateMinLaw(current_enzymes)
     Law_string_trna=generateMinLaw(minis)
     Law_string="(kcat*("+Law_string_enz+"*"+Law_string_trna+")*GTP__c^m)/((1+"+Law_string_trna+"/k_1)*(1+GTP__c^m/k_2))"
-    #Law_string= "(kcat*m*k_1*k_2)" 
     return Law_string
-    
+
+
+
+
         
 def create_species(model, var_id, var_name, initialAmount=0):
     s1 = model.createSpecies()
@@ -343,6 +348,9 @@ def Translation_Reaction(model, reaction_id, Reaction_name, reactants_list, prod
 
     ### kinetic law part
     math_ast = parseL3Formula(kinetic_law_string)
+    ## TODO comment:
+    ##print(kinetic_law_string)
+    ##print(" ")
     if math_ast == None:
 			print kinetic_law_string
     check(math_ast,                           'create AST for rate expression')
@@ -455,6 +463,7 @@ def create_model(Translation_Species_List,Translation_ReactionID_List):
         species_name=Get_Field (Translation_Species_Dict, One_Species_ID, "name")
         create_species(model,One_Species_ID,species_name,initialAmount)
 
+    
     for reactionID in Translation_Reactions_List:
         current_reactants = Get_Field(Translation_Reactions_Dict, reactionID, 'reactants')
         current_products = Get_Field(Translation_Reactions_Dict, reactionID, 'products')
