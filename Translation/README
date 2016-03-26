@@ -3,6 +3,6 @@ translation.py generates SBML Translation module
 translation.py input: Translation.xls
 translation.py output: Translation_lvl3_v1.xml , SBML level 3 version 1
 
-TranslaTranslation_lvl3_v1.xml is the most recent version generated SBML translation model
+Please refer to pdf file in ./Description folder
 
 subset folder refers to Submodel creation for set of protein identifiers #17
