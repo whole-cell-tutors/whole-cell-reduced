@@ -1,0 +1,231 @@
+\documentclass[10pt]{article}
+\usepackage{amsmath}
+\usepackage[letterpaper, margin=0.5in]{geometry}
+\usepackage{hyperref}
+\usepackage[super, compress, numbers]{natbib}
+\bibliographystyle{naturemag}
+\setlength{\bibsep}{0pt}
+\usepackage{graphicx}
+
+\usepackage[labelfont=bf, font=footnotesize, singlelinecheck=false, skip=4pt, tableposition=top, figureposition=bottom]{caption}
+\captionsetup[figure]{labelsep=period}
+\captionsetup[table]{labelsep=period}
+
+
+
+
+
+\usepackage{mathabx}
+\usepackage[T1]{fontenc}
+
+\renewcommand{\labelitemi}{$\bullet$}
+\renewcommand{\labelitemii}{$\sqbullet$}
+\renewcommand{\labelitemiii}{$\circ$}
+
+\makeatletter
+\def\@biblabel#1{\@ifnotempty{#1}{#1.}}
+\makeatother
+
+\setlength{\parskip}{6pt}
+\setlength{\parindent}{0pt}
+\usepackage{paralist}
+\usepackage{tabularx}
+
+\usepackage{authblk}%authors
+
+\title{Translation and protein decay modules of a benchmark whole-cell model. }
+\date{April, 2016}
+
+\author[1]{Jonathan~R.~Karr\footnote{Contact: \href{mailto:karr@mssm.edu}{karr@mssm.edu}}} 
+\affil[1]{Department of Genetics \& Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York NY 10029, USA}
+\author[2]{Pedro~Mendes}
+\affil[2]{Manchester Centre for Integrative Systems Biology, University of Manchester, Manchester M1 7DN, U.K}
+\author[3]{Denis~Kazakiewicz}
+\affil[3]{Center for Statistics, Universteit Hasselt, Hasselt BE3500, Belgium}
+\author[4]{James Yurkovich}
+\affil[4]{Department of Bioengineering , University of California, San Diego, La Jolla, CA 92093, USA }
+\begin{document}
+
+\maketitle
+
+\section{Modules description}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Protein decay
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Protein decay}
+Models decay of each protein species (monomers and complexes) as a single reaction with kinetic rate that is linear in the protein copy number. The degradation of cytosolic-localized proteins is catalyzed by peptidases PepA, PepF, PepX, and Pip. The degradation of membrane-localized proteins is also catalyzed of the GTP-protease FtsH.
+
+\subsubsection{Species}
+\begin{compactitem}
+\item Small molecules
+    \begin{compactitem}
+    \item Amino acids: Produced by each protein degradation reaction
+    \item H$_\text{2}$O: Required for hydrolysis of each peptide bond and each GTP
+    \item GTP: Required to FtsH-catalyzed membrane protein degradation
+    \item GDP: Produced by hydrolysis of each GTP 
+    \item PI: Produced by hydrolysis of each GTP
+    \item H$^\text{+}$: Produced by hydrolysis of each GTP
+    \end{compactitem}
+\item Proteins
+    \begin{compactitem}
+    \item Protein monomers: includes both cytosolic and localized species
+    \item Protein complexes: includes only localized species because protein complexes are assembled in place
+    \end{compactitem}
+\item RNA: Degradation of ribonucleoprotein complexes releases rRNA and sRNA subunits
+    \begin{compactitem}
+    \item rRNA
+    \item sRNA: scRNA (MG\_0001), RNase P (MG\_0003)
+    \end{compactitem}
+\item Enzymes
+    \begin{compactitem}
+    \item Peptidases PepA (MG\_391\_HEXAMER), PepF (MG\_183\_MONOMER), PepX (MG\_324\_MONOMER), Pip (MG\_020\_MONOMER): Catalyze the hydrolysis of each peptide bond. Their individual functions are not known.
+    \item Protease FtsH: Required, in addition to the proteases, to degrade membrane proteins
+    \end{compactitem}
+\end{compactitem}
+
+\subsubsection{Reactions}
+\begin{compactitem}
+\item Protein monomer degradation
+    \begin{compactitem}
+    \item Hydrolyzes peptide bonds, producing individual amino acids from proteins
+    \item Stoichiometry:
+        \begin{equation*}
+        \text{monomer}_i + (l_i - 1)~\text{H$_\text{2}$O} \xrightarrow{\text{Peptidases}} \sum_j a_{ij}~\text{AA}_i,
+        \end{equation*}    
+        where $a_{ij}$ is the composition of amino acid $j$ in protein monomer $i$ and $l_i = \sum_j a_{ij}$ is the length of protein monomer $i$.
+    \item Catalysis: Peptidases PepA (MG\_391\_HEXAMER), PepF (MG\_183\_MONOMER), PepX (MG\_324\_MONOMER), Pip (MG\_020\_MONOMER); their individual functions are not known.
+    %\item Kinetics: First order in the protein concentration, $v = k_i \text{[monomer]}_i$ where $k_i = \ln{2} / \tau_i$ and $\tau_i$ is the half-life of protein monomer $i$
+     \item Rate law:
+\[
+r_{\mathrm{decay,protein}} = \frac{k_{\mathrm{cat}} \cdot [\mathrm{PROTEASE}]_1 \cdot ... \cdot \mathrm{[PROTEASE]}_n \cdot \mathrm{[PROTEIN]}_i}{1 + \frac{[\mathrm{PROTEIN}]_i}{k_{m}}}
+\]
+ 
+\item Note: different proteases cut at specific cleavage points. %Furthermore, miscleaveges are also possible. 
+ Keeping monomer degradation reaction lumped allows to avoid tracking for all possible combinations.  
+
+    \end{compactitem}
+\item Protein complex degradation
+    \begin{compactitem}
+    \item Hydrolyzes all peptide bonds, producing individual amino acids from proteins subunits and releases RNA subunits
+    \item Stoichiometry: 
+        \begin{align*}
+        \text{complex}_i + (l_i - n_i + g_i)~\text{H$_\text{2}$O} + g_i~\text{GTP} & \xrightarrow{Protease, peptidases} \sum_j a_{ij}~\text{AA}_i + \sum_j r_{ij} \text{RNA}_i + g_i~\text{GDP} + g_i~\text{PI} + g_i~\text{H$^\text{+}$}\\
+        g_i & = \begin{cases}
+                l_i / \lambda & \text{membrane proteins}\\
+                0 & \text{otherwise}
+                \end{cases},
+        \end{align*}    
+        where $a_{ij}$ is the composition of amino acid $j$ in protein complex $i$, $l_i = \sum_j a_{ij}$ is the total number of amino acids in protein complex $i$, $n_i$ is the number of protein monomer subunits in protein complex $i$, $r_{ij}$ is the composition of RNA $j$ in protein complex $i$, $\lambda=1.8$ is average number of amino acids cleaved by FtsH per GTP, and $g_i$ is the GTP cost of degrading protein complex $i$.
+    \item Catalysis: Peptidases PepA (MG\_391\_HEXAMER), PepF (MG\_183\_MONOMER), PepX (MG\_324\_MONOMER), Pip (MG\_020\_MONOMER); their individual functions are not known. Membrane proteins are also degraded by protease FtsH  (MG\_457\_HEXAMER).
+    \item Kinetics:  First order in the protein concentration, $v = k_i \text{[complex]}_i$ where $k_i = \ln{2} / \tau_i$ and $\tau_i$ is the half-life of protein complex $i$
+
+    \end{compactitem}
+
+\end{compactitem}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Translation
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Translation}
+Represents the translation of each protein monomer species as single reaction. Note: mRNA species represent transcription units (i.e. one or more protein-coding genes).
+
+\subsubsection{Species}
+\begin{compactitem}
+\item Small molecules
+    \begin{compactitem}
+    \item H$_\text{2}$O
+    \item H$^\text{+}$
+    \item GTP: 1 GTP hydrolyzed per translation initiation, 2 GTP hydrolyzed per elongation reaction, 2 GTP hydrolyzed per translation termination
+    \item GDP
+    \item PI    
+    \end{compactitem}
+\item tRNA$^\text{AA}$
+\item Protein monomers
+\item mRNA: Note, mRNA species represent transcription units (i.e. transcription units can include one or more ORFs)
+\item Enzymes
+    \begin{compactitem}
+    \item 70S ribosome (RIBOSOME\_70S)
+    \item Translation initiation factor IF-1 (MG\_173\_MONOMER)
+    \item Translation initiation factor IF-2 (MG\_142\_MONOMER)
+    \item Translation initiation factor IF-3 (MG\_196\_MONOMER)
+    \item Translation elongation factor G (MG\_089\_DIMER)
+    \item Translation elongation factor P (MG\_026\_MONOMER)
+    \item Translation elongation factor Tu (MG\_451\_DIMER)
+    \item Translation elongation factor Ts (MG\_433\_DIMER)
+    \item Peptide chain release factor (MG\_258\_MONOMER)
+    \item Ribosome recycling factor (MG\_435\_MONOMER)
+    \end{compactitem}
+\end{compactitem}
+
+\subsubsection{Reactions}
+\begin{compactitem}
+\item Single lumped reaction for each the translation of each protein monomer $i$ that is an ORF on mRNA $k$
+\item Stoichiometry:
+%    \begin{equation*}
+\begin{multline*}
+    \sum_j t_{ij}~\text{tRNA}^{\text{AA}}_j ~+ ~
+(2 l_i + 3)~\text{GTP}~ + ~(2 l_i + 2)~\text{H}_2\text{O} 
+    \xrightarrow{Ribosome, factors, mRNA_k} \\
+    \text{monomer}_i + \sum_j t_{ij}~\text{tRNA}_j + (2 l_i + 3)~\text{GDP} + (2 l_i + 3)~\text{PI} + (l_i + 3)~\text{H}^+
+\end{multline*}
+%   \end{equation*}
+
+    where $t_{ij}$ is the tRNA composition of protein-coding gene $i$ and $l_i = \sum_j t_{ij}$ is the length of protein monomer $i$
+\item Catalysis: 70S ribosome and initiation, elongation, and termination factors
+\item Kinetics: %Zeroth order in the protein monomer concentrations, $v = k^\text{trl}_i$ where $k^\text{trl}_i = log(2)/\tau + k^\text{dcy}_i$ and $\tau$ is the cell cycle length and $k^\text{dcy}_i$ is the turnover rate of protein monomer $i$
+There are many entities contributing to the rate of translation reaction.
+ Instead of listing all of them simplified rate law was used.   
+It is  based on the assumption that the rate is limited by a contributor which is present in the lowest amount (in comparison to other contributors) 
+So the  minimum function was used.
+\[
+r_{\mathrm{translation}} = \frac{k_{\mathrm{cat}} \cdot \min(\mathrm{RNA,RIBOSOME,FACTORS}) \cdot \min(\mathrm{tRNA}^{\text{AA}}_1 , \dots , \mathrm{tRNA}^{\text{AA}}_j) \cdot \mathrm{[GTP]}^n}{(1 + \frac{\min(\mathrm{tRNA}^{\text{AA}}_1 , \dots , \mathrm{tRNA}^{\text{AA}}_j)}{k_{m,i}}) \cdot (1 + \frac{\mathrm{[GTP]}^n}{k_{m,\mathrm{GTP}}})}
+\]
+\item Note: Previous attempt to construct Translation reactions describing the per-amino acid elongation resulted in very large SBML model (more than 1 Gb) which was impossible to simulate because of it's size. 
+ More information on that attempt can be found in \url{https://github.com/dagwa/wholecell-translation/blob/master/README_Joe.txt}
+\end{compactitem}
+% \textbf{TODO} ? $(1 + \frac{\mathrm{[tRNA]}}{k_{m,i}}) $\\
+% Options:\\
+% a)\\
+%$(1 + \frac{\mathrm{[tRNA^{\text{AA}}_1]}}{k_{m,1}})\dots (1 + \frac{\mathrm{[tRNA^{\text{AA}}]}_i}{k_{m,i}})$\\~\\
+% b)\\
+% $(1 + \frac{\mathrm{[tRNA^{\text{AA}}]_1}\dots \mathrm{[tRNA^{\text{AA}}]_i}}{k_{m,i}})$
+
+
+
+
+
+\section{Implementation}
+ Python scripts were used to generate  SBML xml file (level 3 version 1) by parsing  the data from Excel files (generated in Matlab). 
+ProteinDecay.xls file is the input for protein-decay.py. As an output, protein-decay.py generates Decay\_lvl3\_v1.xml. Similarly, protein-decay.py generates Decay\_lvl3\_v1.xml (and takes Translation.xls).
+Python scripts are of the same basic structure. xlrd library is used to parse data from the excel tables, libSBML library is used to generate SBML models. 
+SBO terms were then added to the SBML models by java script (Vasundra Toure) (Table \ref{SBOterms}).
+
+The main hurdle in the programming translation module was the absence of the min() function in SBML.  
+The workaround was constructed by Martin Scharm. It was based on the following min() function definition $min(a,b)=\frac{a+b-|a-b|}{2}$. 
+
+
+\begin{table}[tb]
+\centering
+\footnotesize
+\caption{\label{SBOterms} SBO terms used in the Translation and in the Protein Decay modules}
+\begin{tabular}{llr}\hline			
+Type in WholeCell 	& complex (macromolecule)	& Type in SBGN PD	\\
+\hline
+metabolite 	& SBO:0000247 	& simple chemical	\\
+rna 	& SBO:0000354 	& nucleic acid feature (=n.a.f)	\\
+rna-aa 	& SBO:0000253 	& complex (simple chemical + n.a.f)	\\
+protein-complex 	& SBO:0000253 	& complex (macromolecule)	\\
+protein-monomer 	& SBO:0000245 	& macromolecule	\\
+\hline
+\end{tabular}
+\end{table}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%% bibliography
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\bibliography{Summary}
+
+\end{document}
