@@ -166,24 +166,23 @@ All_tRNAs_list=All_reactants_list[:-2]
 #print(All_tRNAs_list)
 #print(All_reactants_list)
 
-
 def generateMinLaw (listofStuff):
 	i = 1
 	Law_string=listofStuff[0]
 	while i < len(listofStuff):
 		if i + 16 < len(listofStuff):
 			Law_string="min16("+Law_string+",";
-			for j in range (16):
+			for j in range (15):
 				Law_string=Law_string+listofStuff[i]
-				if j != 15:
+				if j != 14:
 					Law_string=Law_string+","
 				i=i+1;
 			Law_string=Law_string+")"
 		elif i + 8 < len(listofStuff):
 			Law_string="min8("+Law_string+",";
-			for j in range (8):
+			for j in range (7):
 				Law_string=Law_string+listofStuff[i]
-				if j != 7:
+				if j != 6:
 					Law_string=Law_string+","
 				i=i+1;
 			Law_string=Law_string+")"
@@ -198,7 +197,9 @@ def generateMinLaw (listofStuff):
 		else:
 			Law_string="min2("+Law_string+","+listofStuff[i]+")"
 			i+=1
+        # print Law_string
 	return Law_string
+
 
 #Proper kinetic_law_string_Translation
 def Make_kinetic_law_string_Translation(speciesID,m=m,k_1=k_1,k_2=k_2):

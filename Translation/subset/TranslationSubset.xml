@@ -405,15 +405,18 @@
                     <apply>
                       <ci> min2 </ci>
                       <apply>
-                        <ci> min8 </ci>
-                        <ci> TU_322__c </ci>
-                        <ci> MG_173_MONOMER__c </ci>
-                        <ci> MG_142_MONOMER__c </ci>
-                        <ci> MG_196_MONOMER__c </ci>
-                        <ci> MG_089_DIMER__c </ci>
-                        <ci> MG_026_MONOMER__c </ci>
-                        <ci> MG_451_DIMER__c </ci>
-                        <ci> MG_433_DIMER__c </ci>
+                        <ci> min2 </ci>
+                        <apply>
+                          <ci> min8 </ci>
+                          <ci> TU_322__c </ci>
+                          <ci> MG_173_MONOMER__c </ci>
+                          <ci> MG_142_MONOMER__c </ci>
+                          <ci> MG_196_MONOMER__c </ci>
+                          <ci> MG_089_DIMER__c </ci>
+                          <ci> MG_026_MONOMER__c </ci>
+                          <ci> MG_451_DIMER__c </ci>
+                          <ci> MG_433_DIMER__c </ci>
+                        </apply>
                         <ci> MG_258_MONOMER__c </ci>
                       </apply>
                       <ci> MG_435_MONOMER__c </ci>
@@ -425,7 +428,7 @@
                     <apply>
                       <ci> min2 </ci>
                       <apply>
-                        <ci> min2 </ci>
+                        <ci> min4 </ci>
                         <apply>
                           <ci> min4 </ci>
                           <apply>
@@ -448,21 +451,21 @@
                               <ci> MG495_aa__c </ci>
                               <ci> MG497_aa__c </ci>
                               <ci> MG499_aa__c </ci>
-                              <ci> MG500_aa__c </ci>
                             </apply>
+                            <ci> MG500_aa__c </ci>
                             <ci> MG501_aa__c </ci>
                             <ci> MG502_aa__c </ci>
                             <ci> MG503_aa__c </ci>
                             <ci> MG506_aa__c </ci>
                             <ci> MG508_aa__c </ci>
                             <ci> MG509_aa__c </ci>
-                            <ci> MG510_aa__c </ci>
-                            <ci> MG511_aa__c </ci>
                           </apply>
+                          <ci> MG510_aa__c </ci>
+                          <ci> MG511_aa__c </ci>
                           <ci> MG513_aa__c </ci>
-                          <ci> MG514_aa__c </ci>
-                          <ci> MG518_aa__c </ci>
                         </apply>
+                        <ci> MG514_aa__c </ci>
+                        <ci> MG518_aa__c </ci>
                         <ci> MG519_aa__c </ci>
                       </apply>
                       <ci> MG520_aa__c </ci>
@@ -488,7 +491,7 @@
                       <apply>
                         <ci> min2 </ci>
                         <apply>
-                          <ci> min2 </ci>
+                          <ci> min4 </ci>
                           <apply>
                             <ci> min4 </ci>
                             <apply>
@@ -511,21 +514,21 @@
                                 <ci> MG495_aa__c </ci>
                                 <ci> MG497_aa__c </ci>
                                 <ci> MG499_aa__c </ci>
-                                <ci> MG500_aa__c </ci>
                               </apply>
+                              <ci> MG500_aa__c </ci>
                               <ci> MG501_aa__c </ci>
                               <ci> MG502_aa__c </ci>
                               <ci> MG503_aa__c </ci>
                               <ci> MG506_aa__c </ci>
                               <ci> MG508_aa__c </ci>
                               <ci> MG509_aa__c </ci>
-                              <ci> MG510_aa__c </ci>
-                              <ci> MG511_aa__c </ci>
                             </apply>
+                            <ci> MG510_aa__c </ci>
+                            <ci> MG511_aa__c </ci>
                             <ci> MG513_aa__c </ci>
-                            <ci> MG514_aa__c </ci>
-                            <ci> MG518_aa__c </ci>
                           </apply>
+                          <ci> MG514_aa__c </ci>
+                          <ci> MG518_aa__c </ci>
                           <ci> MG519_aa__c </ci>
                         </apply>
                         <ci> MG520_aa__c </ci>
@@ -552,7 +555,7 @@
             </apply>
           </math>
           <listOfLocalParameters>
-            <localParameter id="kcat" value="3.1e-05"/>
+            <localParameter id="kcat" value="3.1e-005"/>
             <localParameter id="m" value="1"/>
             <localParameter id="k_1" value="1"/>
             <localParameter id="k_2" value="1"/>
@@ -667,15 +670,18 @@
                     <apply>
                       <ci> min2 </ci>
                       <apply>
-                        <ci> min8 </ci>
-                        <ci> TU_043__c </ci>
-                        <ci> MG_173_MONOMER__c </ci>
-                        <ci> MG_142_MONOMER__c </ci>
-                        <ci> MG_196_MONOMER__c </ci>
-                        <ci> MG_089_DIMER__c </ci>
-                        <ci> MG_026_MONOMER__c </ci>
-                        <ci> MG_451_DIMER__c </ci>
-                        <ci> MG_433_DIMER__c </ci>
+                        <ci> min2 </ci>
+                        <apply>
+                          <ci> min8 </ci>
+                          <ci> TU_043__c </ci>
+                          <ci> MG_173_MONOMER__c </ci>
+                          <ci> MG_142_MONOMER__c </ci>
+                          <ci> MG_196_MONOMER__c </ci>
+                          <ci> MG_089_DIMER__c </ci>
+                          <ci> MG_026_MONOMER__c </ci>
+                          <ci> MG_451_DIMER__c </ci>
+                          <ci> MG_433_DIMER__c </ci>
+                        </apply>
                         <ci> MG_258_MONOMER__c </ci>
                       </apply>
                       <ci> MG_435_MONOMER__c </ci>
@@ -687,42 +693,48 @@
                     <apply>
                       <ci> min2 </ci>
                       <apply>
-                        <ci> min16 </ci>
+                        <ci> min2 </ci>
                         <apply>
-                          <ci> min16 </ci>
-                          <ci> MG471_aa__c </ci>
-                          <ci> MG472_aa__c </ci>
-                          <ci> MG475_aa__c </ci>
-                          <ci> MG479_aa__c </ci>
-                          <ci> MG483_aa__c </ci>
-                          <ci> MG484_aa__c </ci>
-                          <ci> MG485_aa__c </ci>
-                          <ci> MG486_aa__c </ci>
-                          <ci> MG487_aa__c </ci>
-                          <ci> MG488_aa__c </ci>
-                          <ci> MG489_aa__c </ci>
-                          <ci> MG490_aa__c </ci>
-                          <ci> MG492_aa__c </ci>
-                          <ci> MG493_aa__c </ci>
-                          <ci> MG495_aa__c </ci>
-                          <ci> MG496_aa__c </ci>
-                          <ci> MG497_aa__c </ci>
+                          <ci> min2 </ci>
+                          <apply>
+                            <ci> min16 </ci>
+                            <apply>
+                              <ci> min16 </ci>
+                              <ci> MG471_aa__c </ci>
+                              <ci> MG472_aa__c </ci>
+                              <ci> MG475_aa__c </ci>
+                              <ci> MG479_aa__c </ci>
+                              <ci> MG483_aa__c </ci>
+                              <ci> MG484_aa__c </ci>
+                              <ci> MG485_aa__c </ci>
+                              <ci> MG486_aa__c </ci>
+                              <ci> MG487_aa__c </ci>
+                              <ci> MG488_aa__c </ci>
+                              <ci> MG489_aa__c </ci>
+                              <ci> MG490_aa__c </ci>
+                              <ci> MG492_aa__c </ci>
+                              <ci> MG493_aa__c </ci>
+                              <ci> MG495_aa__c </ci>
+                              <ci> MG496_aa__c </ci>
+                            </apply>
+                            <ci> MG497_aa__c </ci>
+                            <ci> MG499_aa__c </ci>
+                            <ci> MG500_aa__c </ci>
+                            <ci> MG501_aa__c </ci>
+                            <ci> MG502_aa__c </ci>
+                            <ci> MG503_aa__c </ci>
+                            <ci> MG504_aa__c </ci>
+                            <ci> MG506_aa__c </ci>
+                            <ci> MG508_aa__c </ci>
+                            <ci> MG509_aa__c </ci>
+                            <ci> MG510_aa__c </ci>
+                            <ci> MG511_aa__c </ci>
+                            <ci> MG512_aa__c </ci>
+                            <ci> MG513_aa__c </ci>
+                            <ci> MG514_aa__c </ci>
+                          </apply>
+                          <ci> MG518_aa__c </ci>
                         </apply>
-                        <ci> MG499_aa__c </ci>
-                        <ci> MG500_aa__c </ci>
-                        <ci> MG501_aa__c </ci>
-                        <ci> MG502_aa__c </ci>
-                        <ci> MG503_aa__c </ci>
-                        <ci> MG504_aa__c </ci>
-                        <ci> MG506_aa__c </ci>
-                        <ci> MG508_aa__c </ci>
-                        <ci> MG509_aa__c </ci>
-                        <ci> MG510_aa__c </ci>
-                        <ci> MG511_aa__c </ci>
-                        <ci> MG512_aa__c </ci>
-                        <ci> MG513_aa__c </ci>
-                        <ci> MG514_aa__c </ci>
-                        <ci> MG518_aa__c </ci>
                         <ci> MG519_aa__c </ci>
                       </apply>
                       <ci> MG520_aa__c </ci>
@@ -748,42 +760,48 @@
                       <apply>
                         <ci> min2 </ci>
                         <apply>
-                          <ci> min16 </ci>
+                          <ci> min2 </ci>
                           <apply>
-                            <ci> min16 </ci>
-                            <ci> MG471_aa__c </ci>
-                            <ci> MG472_aa__c </ci>
-                            <ci> MG475_aa__c </ci>
-                            <ci> MG479_aa__c </ci>
-                            <ci> MG483_aa__c </ci>
-                            <ci> MG484_aa__c </ci>
-                            <ci> MG485_aa__c </ci>
-                            <ci> MG486_aa__c </ci>
-                            <ci> MG487_aa__c </ci>
-                            <ci> MG488_aa__c </ci>
-                            <ci> MG489_aa__c </ci>
-                            <ci> MG490_aa__c </ci>
-                            <ci> MG492_aa__c </ci>
-                            <ci> MG493_aa__c </ci>
-                            <ci> MG495_aa__c </ci>
-                            <ci> MG496_aa__c </ci>
-                            <ci> MG497_aa__c </ci>
+                            <ci> min2 </ci>
+                            <apply>
+                              <ci> min16 </ci>
+                              <apply>
+                                <ci> min16 </ci>
+                                <ci> MG471_aa__c </ci>
+                                <ci> MG472_aa__c </ci>
+                                <ci> MG475_aa__c </ci>
+                                <ci> MG479_aa__c </ci>
+                                <ci> MG483_aa__c </ci>
+                                <ci> MG484_aa__c </ci>
+                                <ci> MG485_aa__c </ci>
+                                <ci> MG486_aa__c </ci>
+                                <ci> MG487_aa__c </ci>
+                                <ci> MG488_aa__c </ci>
+                                <ci> MG489_aa__c </ci>
+                                <ci> MG490_aa__c </ci>
+                                <ci> MG492_aa__c </ci>
+                                <ci> MG493_aa__c </ci>
+                                <ci> MG495_aa__c </ci>
+                                <ci> MG496_aa__c </ci>
+                              </apply>
+                              <ci> MG497_aa__c </ci>
+                              <ci> MG499_aa__c </ci>
+                              <ci> MG500_aa__c </ci>
+                              <ci> MG501_aa__c </ci>
+                              <ci> MG502_aa__c </ci>
+                              <ci> MG503_aa__c </ci>
+                              <ci> MG504_aa__c </ci>
+                              <ci> MG506_aa__c </ci>
+                              <ci> MG508_aa__c </ci>
+                              <ci> MG509_aa__c </ci>
+                              <ci> MG510_aa__c </ci>
+                              <ci> MG511_aa__c </ci>
+                              <ci> MG512_aa__c </ci>
+                              <ci> MG513_aa__c </ci>
+                              <ci> MG514_aa__c </ci>
+                            </apply>
+                            <ci> MG518_aa__c </ci>
                           </apply>
-                          <ci> MG499_aa__c </ci>
-                          <ci> MG500_aa__c </ci>
-                          <ci> MG501_aa__c </ci>
-                          <ci> MG502_aa__c </ci>
-                          <ci> MG503_aa__c </ci>
-                          <ci> MG504_aa__c </ci>
-                          <ci> MG506_aa__c </ci>
-                          <ci> MG508_aa__c </ci>
-                          <ci> MG509_aa__c </ci>
-                          <ci> MG510_aa__c </ci>
-                          <ci> MG511_aa__c </ci>
-                          <ci> MG512_aa__c </ci>
-                          <ci> MG513_aa__c </ci>
-                          <ci> MG514_aa__c </ci>
-                          <ci> MG518_aa__c </ci>
                           <ci> MG519_aa__c </ci>
                         </apply>
                         <ci> MG520_aa__c </ci>
@@ -810,7 +828,7 @@
             </apply>
           </math>
           <listOfLocalParameters>
-            <localParameter id="kcat" value="2.1e-05"/>
+            <localParameter id="kcat" value="2.1e-005"/>
             <localParameter id="m" value="1"/>
             <localParameter id="k_1" value="1"/>
             <localParameter id="k_2" value="1"/>
@@ -921,15 +939,18 @@
                     <apply>
                       <ci> min2 </ci>
                       <apply>
-                        <ci> min8 </ci>
-                        <ci> TU_069__c </ci>
-                        <ci> MG_173_MONOMER__c </ci>
-                        <ci> MG_142_MONOMER__c </ci>
-                        <ci> MG_196_MONOMER__c </ci>
-                        <ci> MG_089_DIMER__c </ci>
-                        <ci> MG_026_MONOMER__c </ci>
-                        <ci> MG_451_DIMER__c </ci>
-                        <ci> MG_433_DIMER__c </ci>
+                        <ci> min2 </ci>
+                        <apply>
+                          <ci> min8 </ci>
+                          <ci> TU_069__c </ci>
+                          <ci> MG_173_MONOMER__c </ci>
+                          <ci> MG_142_MONOMER__c </ci>
+                          <ci> MG_196_MONOMER__c </ci>
+                          <ci> MG_089_DIMER__c </ci>
+                          <ci> MG_026_MONOMER__c </ci>
+                          <ci> MG_451_DIMER__c </ci>
+                          <ci> MG_433_DIMER__c </ci>
+                        </apply>
                         <ci> MG_258_MONOMER__c </ci>
                       </apply>
                       <ci> MG_435_MONOMER__c </ci>
@@ -941,44 +962,38 @@
                     <apply>
                       <ci> min2 </ci>
                       <apply>
-                        <ci> min4 </ci>
+                        <ci> min16 </ci>
                         <apply>
-                          <ci> min4 </ci>
-                          <apply>
-                            <ci> min8 </ci>
-                            <apply>
-                              <ci> min16 </ci>
-                              <ci> MG471_aa__c </ci>
-                              <ci> MG472_aa__c </ci>
-                              <ci> MG475_aa__c </ci>
-                              <ci> MG479_aa__c </ci>
-                              <ci> MG483_aa__c </ci>
-                              <ci> MG484_aa__c </ci>
-                              <ci> MG485_aa__c </ci>
-                              <ci> MG487_aa__c </ci>
-                              <ci> MG488_aa__c </ci>
-                              <ci> MG489_aa__c </ci>
-                              <ci> MG490_aa__c </ci>
-                              <ci> MG492_aa__c </ci>
-                              <ci> MG493_aa__c </ci>
-                              <ci> MG496_aa__c </ci>
-                              <ci> MG497_aa__c </ci>
-                              <ci> MG499_aa__c </ci>
-                              <ci> MG500_aa__c </ci>
-                            </apply>
-                            <ci> MG501_aa__c </ci>
-                            <ci> MG502_aa__c </ci>
-                            <ci> MG503_aa__c </ci>
-                            <ci> MG504_aa__c </ci>
-                            <ci> MG506_aa__c </ci>
-                            <ci> MG507_aa__c </ci>
-                            <ci> MG508_aa__c </ci>
-                            <ci> MG509_aa__c </ci>
-                          </apply>
-                          <ci> MG510_aa__c </ci>
-                          <ci> MG511_aa__c </ci>
-                          <ci> MG513_aa__c </ci>
+                          <ci> min16 </ci>
+                          <ci> MG471_aa__c </ci>
+                          <ci> MG472_aa__c </ci>
+                          <ci> MG475_aa__c </ci>
+                          <ci> MG479_aa__c </ci>
+                          <ci> MG483_aa__c </ci>
+                          <ci> MG484_aa__c </ci>
+                          <ci> MG485_aa__c </ci>
+                          <ci> MG487_aa__c </ci>
+                          <ci> MG488_aa__c </ci>
+                          <ci> MG489_aa__c </ci>
+                          <ci> MG490_aa__c </ci>
+                          <ci> MG492_aa__c </ci>
+                          <ci> MG493_aa__c </ci>
+                          <ci> MG496_aa__c </ci>
+                          <ci> MG497_aa__c </ci>
+                          <ci> MG499_aa__c </ci>
                         </apply>
+                        <ci> MG500_aa__c </ci>
+                        <ci> MG501_aa__c </ci>
+                        <ci> MG502_aa__c </ci>
+                        <ci> MG503_aa__c </ci>
+                        <ci> MG504_aa__c </ci>
+                        <ci> MG506_aa__c </ci>
+                        <ci> MG507_aa__c </ci>
+                        <ci> MG508_aa__c </ci>
+                        <ci> MG509_aa__c </ci>
+                        <ci> MG510_aa__c </ci>
+                        <ci> MG511_aa__c </ci>
+                        <ci> MG513_aa__c </ci>
                         <ci> MG514_aa__c </ci>
                         <ci> MG518_aa__c </ci>
                         <ci> MG519_aa__c </ci>
@@ -1006,44 +1021,38 @@
                       <apply>
                         <ci> min2 </ci>
                         <apply>
-                          <ci> min4 </ci>
+                          <ci> min16 </ci>
                           <apply>
-                            <ci> min4 </ci>
-                            <apply>
-                              <ci> min8 </ci>
-                              <apply>
-                                <ci> min16 </ci>
-                                <ci> MG471_aa__c </ci>
-                                <ci> MG472_aa__c </ci>
-                                <ci> MG475_aa__c </ci>
-                                <ci> MG479_aa__c </ci>
-                                <ci> MG483_aa__c </ci>
-                                <ci> MG484_aa__c </ci>
-                                <ci> MG485_aa__c </ci>
-                                <ci> MG487_aa__c </ci>
-                                <ci> MG488_aa__c </ci>
-                                <ci> MG489_aa__c </ci>
-                                <ci> MG490_aa__c </ci>
-                                <ci> MG492_aa__c </ci>
-                                <ci> MG493_aa__c </ci>
-                                <ci> MG496_aa__c </ci>
-                                <ci> MG497_aa__c </ci>
-                                <ci> MG499_aa__c </ci>
-                                <ci> MG500_aa__c </ci>
-                              </apply>
-                              <ci> MG501_aa__c </ci>
-                              <ci> MG502_aa__c </ci>
-                              <ci> MG503_aa__c </ci>
-                              <ci> MG504_aa__c </ci>
-                              <ci> MG506_aa__c </ci>
-                              <ci> MG507_aa__c </ci>
-                              <ci> MG508_aa__c </ci>
-                              <ci> MG509_aa__c </ci>
-                            </apply>
-                            <ci> MG510_aa__c </ci>
-                            <ci> MG511_aa__c </ci>
-                            <ci> MG513_aa__c </ci>
+                            <ci> min16 </ci>
+                            <ci> MG471_aa__c </ci>
+                            <ci> MG472_aa__c </ci>
+                            <ci> MG475_aa__c </ci>
+                            <ci> MG479_aa__c </ci>
+                            <ci> MG483_aa__c </ci>
+                            <ci> MG484_aa__c </ci>
+                            <ci> MG485_aa__c </ci>
+                            <ci> MG487_aa__c </ci>
+                            <ci> MG488_aa__c </ci>
+                            <ci> MG489_aa__c </ci>
+                            <ci> MG490_aa__c </ci>
+                            <ci> MG492_aa__c </ci>
+                            <ci> MG493_aa__c </ci>
+                            <ci> MG496_aa__c </ci>
+                            <ci> MG497_aa__c </ci>
+                            <ci> MG499_aa__c </ci>
                           </apply>
+                          <ci> MG500_aa__c </ci>
+                          <ci> MG501_aa__c </ci>
+                          <ci> MG502_aa__c </ci>
+                          <ci> MG503_aa__c </ci>
+                          <ci> MG504_aa__c </ci>
+                          <ci> MG506_aa__c </ci>
+                          <ci> MG507_aa__c </ci>
+                          <ci> MG508_aa__c </ci>
+                          <ci> MG509_aa__c </ci>
+                          <ci> MG510_aa__c </ci>
+                          <ci> MG511_aa__c </ci>
+                          <ci> MG513_aa__c </ci>
                           <ci> MG514_aa__c </ci>
                           <ci> MG518_aa__c </ci>
                           <ci> MG519_aa__c </ci>
@@ -1072,7 +1081,7 @@
             </apply>
           </math>
           <listOfLocalParameters>
-            <localParameter id="kcat" value="3.1e-05"/>
+            <localParameter id="kcat" value="3.1e-005"/>
             <localParameter id="m" value="1"/>
             <localParameter id="k_1" value="1"/>
             <localParameter id="k_2" value="1"/>
@@ -1187,15 +1196,18 @@
                     <apply>
                       <ci> min2 </ci>
                       <apply>
-                        <ci> min8 </ci>
-                        <ci> TU_036__c </ci>
-                        <ci> MG_173_MONOMER__c </ci>
-                        <ci> MG_142_MONOMER__c </ci>
-                        <ci> MG_196_MONOMER__c </ci>
-                        <ci> MG_089_DIMER__c </ci>
-                        <ci> MG_026_MONOMER__c </ci>
-                        <ci> MG_451_DIMER__c </ci>
-                        <ci> MG_433_DIMER__c </ci>
+                        <ci> min2 </ci>
+                        <apply>
+                          <ci> min8 </ci>
+                          <ci> TU_036__c </ci>
+                          <ci> MG_173_MONOMER__c </ci>
+                          <ci> MG_142_MONOMER__c </ci>
+                          <ci> MG_196_MONOMER__c </ci>
+                          <ci> MG_089_DIMER__c </ci>
+                          <ci> MG_026_MONOMER__c </ci>
+                          <ci> MG_451_DIMER__c </ci>
+                          <ci> MG_433_DIMER__c </ci>
+                        </apply>
                         <ci> MG_258_MONOMER__c </ci>
                       </apply>
                       <ci> MG_435_MONOMER__c </ci>
@@ -1207,42 +1219,48 @@
                     <apply>
                       <ci> min2 </ci>
                       <apply>
-                        <ci> min16 </ci>
+                        <ci> min2 </ci>
                         <apply>
-                          <ci> min16 </ci>
-                          <ci> MG471_aa__c </ci>
-                          <ci> MG472_aa__c </ci>
-                          <ci> MG475_aa__c </ci>
-                          <ci> MG479_aa__c </ci>
-                          <ci> MG483_aa__c </ci>
-                          <ci> MG484_aa__c </ci>
-                          <ci> MG485_aa__c </ci>
-                          <ci> MG486_aa__c </ci>
-                          <ci> MG487_aa__c </ci>
-                          <ci> MG488_aa__c </ci>
-                          <ci> MG489_aa__c </ci>
-                          <ci> MG490_aa__c </ci>
-                          <ci> MG492_aa__c </ci>
-                          <ci> MG493_aa__c </ci>
-                          <ci> MG495_aa__c </ci>
-                          <ci> MG496_aa__c </ci>
-                          <ci> MG497_aa__c </ci>
+                          <ci> min2 </ci>
+                          <apply>
+                            <ci> min16 </ci>
+                            <apply>
+                              <ci> min16 </ci>
+                              <ci> MG471_aa__c </ci>
+                              <ci> MG472_aa__c </ci>
+                              <ci> MG475_aa__c </ci>
+                              <ci> MG479_aa__c </ci>
+                              <ci> MG483_aa__c </ci>
+                              <ci> MG484_aa__c </ci>
+                              <ci> MG485_aa__c </ci>
+                              <ci> MG486_aa__c </ci>
+                              <ci> MG487_aa__c </ci>
+                              <ci> MG488_aa__c </ci>
+                              <ci> MG489_aa__c </ci>
+                              <ci> MG490_aa__c </ci>
+                              <ci> MG492_aa__c </ci>
+                              <ci> MG493_aa__c </ci>
+                              <ci> MG495_aa__c </ci>
+                              <ci> MG496_aa__c </ci>
+                            </apply>
+                            <ci> MG497_aa__c </ci>
+                            <ci> MG499_aa__c </ci>
+                            <ci> MG500_aa__c </ci>
+                            <ci> MG501_aa__c </ci>
+                            <ci> MG502_aa__c </ci>
+                            <ci> MG503_aa__c </ci>
+                            <ci> MG504_aa__c </ci>
+                            <ci> MG506_aa__c </ci>
+                            <ci> MG508_aa__c </ci>
+                            <ci> MG509_aa__c </ci>
+                            <ci> MG510_aa__c </ci>
+                            <ci> MG511_aa__c </ci>
+                            <ci> MG512_aa__c </ci>
+                            <ci> MG513_aa__c </ci>
+                            <ci> MG514_aa__c </ci>
+                          </apply>
+                          <ci> MG518_aa__c </ci>
                         </apply>
-                        <ci> MG499_aa__c </ci>
-                        <ci> MG500_aa__c </ci>
-                        <ci> MG501_aa__c </ci>
-                        <ci> MG502_aa__c </ci>
-                        <ci> MG503_aa__c </ci>
-                        <ci> MG504_aa__c </ci>
-                        <ci> MG506_aa__c </ci>
-                        <ci> MG508_aa__c </ci>
-                        <ci> MG509_aa__c </ci>
-                        <ci> MG510_aa__c </ci>
-                        <ci> MG511_aa__c </ci>
-                        <ci> MG512_aa__c </ci>
-                        <ci> MG513_aa__c </ci>
-                        <ci> MG514_aa__c </ci>
-                        <ci> MG518_aa__c </ci>
                         <ci> MG519_aa__c </ci>
                       </apply>
                       <ci> MG520_aa__c </ci>
@@ -1268,42 +1286,48 @@
                       <apply>
                         <ci> min2 </ci>
                         <apply>
-                          <ci> min16 </ci>
+                          <ci> min2 </ci>
                           <apply>
-                            <ci> min16 </ci>
-                            <ci> MG471_aa__c </ci>
-                            <ci> MG472_aa__c </ci>
-                            <ci> MG475_aa__c </ci>
-                            <ci> MG479_aa__c </ci>
-                            <ci> MG483_aa__c </ci>
-                            <ci> MG484_aa__c </ci>
-                            <ci> MG485_aa__c </ci>
-                            <ci> MG486_aa__c </ci>
-                            <ci> MG487_aa__c </ci>
-                            <ci> MG488_aa__c </ci>
-                            <ci> MG489_aa__c </ci>
-                            <ci> MG490_aa__c </ci>
-                            <ci> MG492_aa__c </ci>
-                            <ci> MG493_aa__c </ci>
-                            <ci> MG495_aa__c </ci>
-                            <ci> MG496_aa__c </ci>
-                            <ci> MG497_aa__c </ci>
+                            <ci> min2 </ci>
+                            <apply>
+                              <ci> min16 </ci>
+                              <apply>
+                                <ci> min16 </ci>
+                                <ci> MG471_aa__c </ci>
+                                <ci> MG472_aa__c </ci>
+                                <ci> MG475_aa__c </ci>
+                                <ci> MG479_aa__c </ci>
+                                <ci> MG483_aa__c </ci>
+                                <ci> MG484_aa__c </ci>
+                                <ci> MG485_aa__c </ci>
+                                <ci> MG486_aa__c </ci>
+                                <ci> MG487_aa__c </ci>
+                                <ci> MG488_aa__c </ci>
+                                <ci> MG489_aa__c </ci>
+                                <ci> MG490_aa__c </ci>
+                                <ci> MG492_aa__c </ci>
+                                <ci> MG493_aa__c </ci>
+                                <ci> MG495_aa__c </ci>
+                                <ci> MG496_aa__c </ci>
+                              </apply>
+                              <ci> MG497_aa__c </ci>
+                              <ci> MG499_aa__c </ci>
+                              <ci> MG500_aa__c </ci>
+                              <ci> MG501_aa__c </ci>
+                              <ci> MG502_aa__c </ci>
+                              <ci> MG503_aa__c </ci>
+                              <ci> MG504_aa__c </ci>
+                              <ci> MG506_aa__c </ci>
+                              <ci> MG508_aa__c </ci>
+                              <ci> MG509_aa__c </ci>
+                              <ci> MG510_aa__c </ci>
+                              <ci> MG511_aa__c </ci>
+                              <ci> MG512_aa__c </ci>
+                              <ci> MG513_aa__c </ci>
+                              <ci> MG514_aa__c </ci>
+                            </apply>
+                            <ci> MG518_aa__c </ci>
                           </apply>
-                          <ci> MG499_aa__c </ci>
-                          <ci> MG500_aa__c </ci>
-                          <ci> MG501_aa__c </ci>
-                          <ci> MG502_aa__c </ci>
-                          <ci> MG503_aa__c </ci>
-                          <ci> MG504_aa__c </ci>
-                          <ci> MG506_aa__c </ci>
-                          <ci> MG508_aa__c </ci>
-                          <ci> MG509_aa__c </ci>
-                          <ci> MG510_aa__c </ci>
-                          <ci> MG511_aa__c </ci>
-                          <ci> MG512_aa__c </ci>
-                          <ci> MG513_aa__c </ci>
-                          <ci> MG514_aa__c </ci>
-                          <ci> MG518_aa__c </ci>
                           <ci> MG519_aa__c </ci>
                         </apply>
                         <ci> MG520_aa__c </ci>
@@ -1330,7 +1354,7 @@
             </apply>
           </math>
           <listOfLocalParameters>
-            <localParameter id="kcat" value="2.1e-05"/>
+            <localParameter id="kcat" value="2.1e-005"/>
             <localParameter id="m" value="1"/>
             <localParameter id="k_1" value="1"/>
             <localParameter id="k_2" value="1"/>
@@ -1427,15 +1451,18 @@
                     <apply>
                       <ci> min2 </ci>
                       <apply>
-                        <ci> min8 </ci>
-                        <ci> TU_024__c </ci>
-                        <ci> MG_173_MONOMER__c </ci>
-                        <ci> MG_142_MONOMER__c </ci>
-                        <ci> MG_196_MONOMER__c </ci>
-                        <ci> MG_089_DIMER__c </ci>
-                        <ci> MG_026_MONOMER__c </ci>
-                        <ci> MG_451_DIMER__c </ci>
-                        <ci> MG_433_DIMER__c </ci>
+                        <ci> min2 </ci>
+                        <apply>
+                          <ci> min8 </ci>
+                          <ci> TU_024__c </ci>
+                          <ci> MG_173_MONOMER__c </ci>
+                          <ci> MG_142_MONOMER__c </ci>
+                          <ci> MG_196_MONOMER__c </ci>
+                          <ci> MG_089_DIMER__c </ci>
+                          <ci> MG_026_MONOMER__c </ci>
+                          <ci> MG_451_DIMER__c </ci>
+                          <ci> MG_433_DIMER__c </ci>
+                        </apply>
                         <ci> MG_258_MONOMER__c </ci>
                       </apply>
                       <ci> MG_435_MONOMER__c </ci>
@@ -1445,34 +1472,40 @@
                   <apply>
                     <ci> min2 </ci>
                     <apply>
-                      <ci> min8 </ci>
+                      <ci> min2 </ci>
                       <apply>
-                        <ci> min16 </ci>
-                        <ci> MG471_aa__c </ci>
-                        <ci> MG472_aa__c </ci>
-                        <ci> MG475_aa__c </ci>
-                        <ci> MG479_aa__c </ci>
-                        <ci> MG483_aa__c </ci>
-                        <ci> MG484_aa__c </ci>
-                        <ci> MG485_aa__c </ci>
-                        <ci> MG487_aa__c </ci>
-                        <ci> MG488_aa__c </ci>
-                        <ci> MG489_aa__c </ci>
-                        <ci> MG490_aa__c </ci>
-                        <ci> MG492_aa__c </ci>
-                        <ci> MG493_aa__c </ci>
-                        <ci> MG499_aa__c </ci>
-                        <ci> MG500_aa__c </ci>
-                        <ci> MG501_aa__c </ci>
-                        <ci> MG502_aa__c </ci>
+                        <ci> min2 </ci>
+                        <apply>
+                          <ci> min8 </ci>
+                          <apply>
+                            <ci> min16 </ci>
+                            <ci> MG471_aa__c </ci>
+                            <ci> MG472_aa__c </ci>
+                            <ci> MG475_aa__c </ci>
+                            <ci> MG479_aa__c </ci>
+                            <ci> MG483_aa__c </ci>
+                            <ci> MG484_aa__c </ci>
+                            <ci> MG485_aa__c </ci>
+                            <ci> MG487_aa__c </ci>
+                            <ci> MG488_aa__c </ci>
+                            <ci> MG489_aa__c </ci>
+                            <ci> MG490_aa__c </ci>
+                            <ci> MG492_aa__c </ci>
+                            <ci> MG493_aa__c </ci>
+                            <ci> MG499_aa__c </ci>
+                            <ci> MG500_aa__c </ci>
+                            <ci> MG501_aa__c </ci>
+                          </apply>
+                          <ci> MG502_aa__c </ci>
+                          <ci> MG506_aa__c </ci>
+                          <ci> MG508_aa__c </ci>
+                          <ci> MG509_aa__c </ci>
+                          <ci> MG511_aa__c </ci>
+                          <ci> MG513_aa__c </ci>
+                          <ci> MG514_aa__c </ci>
+                        </apply>
+                        <ci> MG518_aa__c </ci>
                       </apply>
-                      <ci> MG506_aa__c </ci>
-                      <ci> MG508_aa__c </ci>
-                      <ci> MG509_aa__c </ci>
-                      <ci> MG511_aa__c </ci>
-                      <ci> MG513_aa__c </ci>
-                      <ci> MG514_aa__c </ci>
-                      <ci> MG518_aa__c </ci>
                       <ci> MG519_aa__c </ci>
                     </apply>
                     <ci> MG523_aa__c </ci>
@@ -1494,34 +1527,40 @@
                     <apply>
                       <ci> min2 </ci>
                       <apply>
-                        <ci> min8 </ci>
+                        <ci> min2 </ci>
                         <apply>
-                          <ci> min16 </ci>
-                          <ci> MG471_aa__c </ci>
-                          <ci> MG472_aa__c </ci>
-                          <ci> MG475_aa__c </ci>
-                          <ci> MG479_aa__c </ci>
-                          <ci> MG483_aa__c </ci>
-                          <ci> MG484_aa__c </ci>
-                          <ci> MG485_aa__c </ci>
-                          <ci> MG487_aa__c </ci>
-                          <ci> MG488_aa__c </ci>
-                          <ci> MG489_aa__c </ci>
-                          <ci> MG490_aa__c </ci>
-                          <ci> MG492_aa__c </ci>
-                          <ci> MG493_aa__c </ci>
-                          <ci> MG499_aa__c </ci>
-                          <ci> MG500_aa__c </ci>
-                          <ci> MG501_aa__c </ci>
-                          <ci> MG502_aa__c </ci>
+                          <ci> min2 </ci>
+                          <apply>
+                            <ci> min8 </ci>
+                            <apply>
+                              <ci> min16 </ci>
+                              <ci> MG471_aa__c </ci>
+                              <ci> MG472_aa__c </ci>
+                              <ci> MG475_aa__c </ci>
+                              <ci> MG479_aa__c </ci>
+                              <ci> MG483_aa__c </ci>
+                              <ci> MG484_aa__c </ci>
+                              <ci> MG485_aa__c </ci>
+                              <ci> MG487_aa__c </ci>
+                              <ci> MG488_aa__c </ci>
+                              <ci> MG489_aa__c </ci>
+                              <ci> MG490_aa__c </ci>
+                              <ci> MG492_aa__c </ci>
+                              <ci> MG493_aa__c </ci>
+                              <ci> MG499_aa__c </ci>
+                              <ci> MG500_aa__c </ci>
+                              <ci> MG501_aa__c </ci>
+                            </apply>
+                            <ci> MG502_aa__c </ci>
+                            <ci> MG506_aa__c </ci>
+                            <ci> MG508_aa__c </ci>
+                            <ci> MG509_aa__c </ci>
+                            <ci> MG511_aa__c </ci>
+                            <ci> MG513_aa__c </ci>
+                            <ci> MG514_aa__c </ci>
+                          </apply>
+                          <ci> MG518_aa__c </ci>
                         </apply>
-                        <ci> MG506_aa__c </ci>
-                        <ci> MG508_aa__c </ci>
-                        <ci> MG509_aa__c </ci>
-                        <ci> MG511_aa__c </ci>
-                        <ci> MG513_aa__c </ci>
-                        <ci> MG514_aa__c </ci>
-                        <ci> MG518_aa__c </ci>
                         <ci> MG519_aa__c </ci>
                       </apply>
                       <ci> MG523_aa__c </ci>
@@ -1546,7 +1585,7 @@
             </apply>
           </math>
           <listOfLocalParameters>
-            <localParameter id="kcat" value="3.1e-05"/>
+            <localParameter id="kcat" value="3.1e-005"/>
             <localParameter id="m" value="1"/>
             <localParameter id="k_1" value="1"/>
             <localParameter id="k_2" value="1"/>
@@ -1659,15 +1698,18 @@
                     <apply>
                       <ci> min2 </ci>
                       <apply>
-                        <ci> min8 </ci>
-                        <ci> TU_030__c </ci>
-                        <ci> MG_173_MONOMER__c </ci>
-                        <ci> MG_142_MONOMER__c </ci>
-                        <ci> MG_196_MONOMER__c </ci>
-                        <ci> MG_089_DIMER__c </ci>
-                        <ci> MG_026_MONOMER__c </ci>
-                        <ci> MG_451_DIMER__c </ci>
-                        <ci> MG_433_DIMER__c </ci>
+                        <ci> min2 </ci>
+                        <apply>
+                          <ci> min8 </ci>
+                          <ci> TU_030__c </ci>
+                          <ci> MG_173_MONOMER__c </ci>
+                          <ci> MG_142_MONOMER__c </ci>
+                          <ci> MG_196_MONOMER__c </ci>
+                          <ci> MG_089_DIMER__c </ci>
+                          <ci> MG_026_MONOMER__c </ci>
+                          <ci> MG_451_DIMER__c </ci>
+                          <ci> MG_433_DIMER__c </ci>
+                        </apply>
                         <ci> MG_258_MONOMER__c </ci>
                       </apply>
                       <ci> MG_435_MONOMER__c </ci>
@@ -1677,42 +1719,48 @@
                   <apply>
                     <ci> min2 </ci>
                     <apply>
-                      <ci> min16 </ci>
+                      <ci> min2 </ci>
                       <apply>
-                        <ci> min16 </ci>
-                        <ci> MG471_aa__c </ci>
-                        <ci> MG472_aa__c </ci>
-                        <ci> MG475_aa__c </ci>
-                        <ci> MG479_aa__c </ci>
-                        <ci> MG483_aa__c </ci>
-                        <ci> MG484_aa__c </ci>
-                        <ci> MG485_aa__c </ci>
-                        <ci> MG486_aa__c </ci>
-                        <ci> MG487_aa__c </ci>
-                        <ci> MG488_aa__c </ci>
-                        <ci> MG489_aa__c </ci>
-                        <ci> MG490_aa__c </ci>
-                        <ci> MG492_aa__c </ci>
-                        <ci> MG493_aa__c </ci>
-                        <ci> MG496_aa__c </ci>
-                        <ci> MG497_aa__c </ci>
-                        <ci> MG499_aa__c </ci>
+                        <ci> min2 </ci>
+                        <apply>
+                          <ci> min16 </ci>
+                          <apply>
+                            <ci> min16 </ci>
+                            <ci> MG471_aa__c </ci>
+                            <ci> MG472_aa__c </ci>
+                            <ci> MG475_aa__c </ci>
+                            <ci> MG479_aa__c </ci>
+                            <ci> MG483_aa__c </ci>
+                            <ci> MG484_aa__c </ci>
+                            <ci> MG485_aa__c </ci>
+                            <ci> MG486_aa__c </ci>
+                            <ci> MG487_aa__c </ci>
+                            <ci> MG488_aa__c </ci>
+                            <ci> MG489_aa__c </ci>
+                            <ci> MG490_aa__c </ci>
+                            <ci> MG492_aa__c </ci>
+                            <ci> MG493_aa__c </ci>
+                            <ci> MG496_aa__c </ci>
+                            <ci> MG497_aa__c </ci>
+                          </apply>
+                          <ci> MG499_aa__c </ci>
+                          <ci> MG500_aa__c </ci>
+                          <ci> MG501_aa__c </ci>
+                          <ci> MG502_aa__c </ci>
+                          <ci> MG503_aa__c </ci>
+                          <ci> MG504_aa__c </ci>
+                          <ci> MG506_aa__c </ci>
+                          <ci> MG508_aa__c </ci>
+                          <ci> MG509_aa__c </ci>
+                          <ci> MG510_aa__c </ci>
+                          <ci> MG511_aa__c </ci>
+                          <ci> MG512_aa__c </ci>
+                          <ci> MG513_aa__c </ci>
+                          <ci> MG514_aa__c </ci>
+                          <ci> MG518_aa__c </ci>
+                        </apply>
+                        <ci> MG519_aa__c </ci>
                       </apply>
-                      <ci> MG500_aa__c </ci>
-                      <ci> MG501_aa__c </ci>
-                      <ci> MG502_aa__c </ci>
-                      <ci> MG503_aa__c </ci>
-                      <ci> MG504_aa__c </ci>
-                      <ci> MG506_aa__c </ci>
-                      <ci> MG508_aa__c </ci>
-                      <ci> MG509_aa__c </ci>
-                      <ci> MG510_aa__c </ci>
-                      <ci> MG511_aa__c </ci>
-                      <ci> MG512_aa__c </ci>
-                      <ci> MG513_aa__c </ci>
-                      <ci> MG514_aa__c </ci>
-                      <ci> MG518_aa__c </ci>
-                      <ci> MG519_aa__c </ci>
                       <ci> MG520_aa__c </ci>
                     </apply>
                     <ci> MG523_aa__c </ci>
@@ -1734,42 +1782,48 @@
                     <apply>
                       <ci> min2 </ci>
                       <apply>
-                        <ci> min16 </ci>
+                        <ci> min2 </ci>
                         <apply>
-                          <ci> min16 </ci>
-                          <ci> MG471_aa__c </ci>
-                          <ci> MG472_aa__c </ci>
-                          <ci> MG475_aa__c </ci>
-                          <ci> MG479_aa__c </ci>
-                          <ci> MG483_aa__c </ci>
-                          <ci> MG484_aa__c </ci>
-                          <ci> MG485_aa__c </ci>
-                          <ci> MG486_aa__c </ci>
-                          <ci> MG487_aa__c </ci>
-                          <ci> MG488_aa__c </ci>
-                          <ci> MG489_aa__c </ci>
-                          <ci> MG490_aa__c </ci>
-                          <ci> MG492_aa__c </ci>
-                          <ci> MG493_aa__c </ci>
-                          <ci> MG496_aa__c </ci>
-                          <ci> MG497_aa__c </ci>
-                          <ci> MG499_aa__c </ci>
+                          <ci> min2 </ci>
+                          <apply>
+                            <ci> min16 </ci>
+                            <apply>
+                              <ci> min16 </ci>
+                              <ci> MG471_aa__c </ci>
+                              <ci> MG472_aa__c </ci>
+                              <ci> MG475_aa__c </ci>
+                              <ci> MG479_aa__c </ci>
+                              <ci> MG483_aa__c </ci>
+                              <ci> MG484_aa__c </ci>
+                              <ci> MG485_aa__c </ci>
+                              <ci> MG486_aa__c </ci>
+                              <ci> MG487_aa__c </ci>
+                              <ci> MG488_aa__c </ci>
+                              <ci> MG489_aa__c </ci>
+                              <ci> MG490_aa__c </ci>
+                              <ci> MG492_aa__c </ci>
+                              <ci> MG493_aa__c </ci>
+                              <ci> MG496_aa__c </ci>
+                              <ci> MG497_aa__c </ci>
+                            </apply>
+                            <ci> MG499_aa__c </ci>
+                            <ci> MG500_aa__c </ci>
+                            <ci> MG501_aa__c </ci>
+                            <ci> MG502_aa__c </ci>
+                            <ci> MG503_aa__c </ci>
+                            <ci> MG504_aa__c </ci>
+                            <ci> MG506_aa__c </ci>
+                            <ci> MG508_aa__c </ci>
+                            <ci> MG509_aa__c </ci>
+                            <ci> MG510_aa__c </ci>
+                            <ci> MG511_aa__c </ci>
+                            <ci> MG512_aa__c </ci>
+                            <ci> MG513_aa__c </ci>
+                            <ci> MG514_aa__c </ci>
+                            <ci> MG518_aa__c </ci>
+                          </apply>
+                          <ci> MG519_aa__c </ci>
                         </apply>
-                        <ci> MG500_aa__c </ci>
-                        <ci> MG501_aa__c </ci>
-                        <ci> MG502_aa__c </ci>
-                        <ci> MG503_aa__c </ci>
-                        <ci> MG504_aa__c </ci>
-                        <ci> MG506_aa__c </ci>
-                        <ci> MG508_aa__c </ci>
-                        <ci> MG509_aa__c </ci>
-                        <ci> MG510_aa__c </ci>
-                        <ci> MG511_aa__c </ci>
-                        <ci> MG512_aa__c </ci>
-                        <ci> MG513_aa__c </ci>
-                        <ci> MG514_aa__c </ci>
-                        <ci> MG518_aa__c </ci>
-                        <ci> MG519_aa__c </ci>
                         <ci> MG520_aa__c </ci>
                       </apply>
                       <ci> MG523_aa__c </ci>
@@ -1794,7 +1848,7 @@
             </apply>
           </math>
           <listOfLocalParameters>
-            <localParameter id="kcat" value="3.1e-05"/>
+            <localParameter id="kcat" value="3.1e-005"/>
             <localParameter id="m" value="1"/>
             <localParameter id="k_1" value="1"/>
             <localParameter id="k_2" value="1"/>
@@ -1905,15 +1959,18 @@
                     <apply>
                       <ci> min2 </ci>
                       <apply>
-                        <ci> min8 </ci>
-                        <ci> TU_307__c </ci>
-                        <ci> MG_173_MONOMER__c </ci>
-                        <ci> MG_142_MONOMER__c </ci>
-                        <ci> MG_196_MONOMER__c </ci>
-                        <ci> MG_089_DIMER__c </ci>
-                        <ci> MG_026_MONOMER__c </ci>
-                        <ci> MG_451_DIMER__c </ci>
-                        <ci> MG_433_DIMER__c </ci>
+                        <ci> min2 </ci>
+                        <apply>
+                          <ci> min8 </ci>
+                          <ci> TU_307__c </ci>
+                          <ci> MG_173_MONOMER__c </ci>
+                          <ci> MG_142_MONOMER__c </ci>
+                          <ci> MG_196_MONOMER__c </ci>
+                          <ci> MG_089_DIMER__c </ci>
+                          <ci> MG_026_MONOMER__c </ci>
+                          <ci> MG_451_DIMER__c </ci>
+                          <ci> MG_433_DIMER__c </ci>
+                        </apply>
                         <ci> MG_258_MONOMER__c </ci>
                       </apply>
                       <ci> MG_435_MONOMER__c </ci>
@@ -1925,44 +1982,38 @@
                     <apply>
                       <ci> min2 </ci>
                       <apply>
-                        <ci> min4 </ci>
+                        <ci> min16 </ci>
                         <apply>
-                          <ci> min4 </ci>
-                          <apply>
-                            <ci> min8 </ci>
-                            <apply>
-                              <ci> min16 </ci>
-                              <ci> MG471_aa__c </ci>
-                              <ci> MG472_aa__c </ci>
-                              <ci> MG475_aa__c </ci>
-                              <ci> MG479_aa__c </ci>
-                              <ci> MG483_aa__c </ci>
-                              <ci> MG484_aa__c </ci>
-                              <ci> MG485_aa__c </ci>
-                              <ci> MG486_aa__c </ci>
-                              <ci> MG487_aa__c </ci>
-                              <ci> MG488_aa__c </ci>
-                              <ci> MG489_aa__c </ci>
-                              <ci> MG490_aa__c </ci>
-                              <ci> MG492_aa__c </ci>
-                              <ci> MG493_aa__c </ci>
-                              <ci> MG495_aa__c </ci>
-                              <ci> MG499_aa__c </ci>
-                              <ci> MG500_aa__c </ci>
-                            </apply>
-                            <ci> MG501_aa__c </ci>
-                            <ci> MG502_aa__c </ci>
-                            <ci> MG503_aa__c </ci>
-                            <ci> MG504_aa__c </ci>
-                            <ci> MG506_aa__c </ci>
-                            <ci> MG508_aa__c </ci>
-                            <ci> MG509_aa__c </ci>
-                            <ci> MG510_aa__c </ci>
-                          </apply>
-                          <ci> MG511_aa__c </ci>
-                          <ci> MG512_aa__c </ci>
-                          <ci> MG513_aa__c </ci>
+                          <ci> min16 </ci>
+                          <ci> MG471_aa__c </ci>
+                          <ci> MG472_aa__c </ci>
+                          <ci> MG475_aa__c </ci>
+                          <ci> MG479_aa__c </ci>
+                          <ci> MG483_aa__c </ci>
+                          <ci> MG484_aa__c </ci>
+                          <ci> MG485_aa__c </ci>
+                          <ci> MG486_aa__c </ci>
+                          <ci> MG487_aa__c </ci>
+                          <ci> MG488_aa__c </ci>
+                          <ci> MG489_aa__c </ci>
+                          <ci> MG490_aa__c </ci>
+                          <ci> MG492_aa__c </ci>
+                          <ci> MG493_aa__c </ci>
+                          <ci> MG495_aa__c </ci>
+                          <ci> MG499_aa__c </ci>
                         </apply>
+                        <ci> MG500_aa__c </ci>
+                        <ci> MG501_aa__c </ci>
+                        <ci> MG502_aa__c </ci>
+                        <ci> MG503_aa__c </ci>
+                        <ci> MG504_aa__c </ci>
+                        <ci> MG506_aa__c </ci>
+                        <ci> MG508_aa__c </ci>
+                        <ci> MG509_aa__c </ci>
+                        <ci> MG510_aa__c </ci>
+                        <ci> MG511_aa__c </ci>
+                        <ci> MG512_aa__c </ci>
+                        <ci> MG513_aa__c </ci>
                         <ci> MG514_aa__c </ci>
                         <ci> MG518_aa__c </ci>
                         <ci> MG519_aa__c </ci>
@@ -1990,44 +2041,38 @@
                       <apply>
                         <ci> min2 </ci>
                         <apply>
-                          <ci> min4 </ci>
+                          <ci> min16 </ci>
                           <apply>
-                            <ci> min4 </ci>
-                            <apply>
-                              <ci> min8 </ci>
-                              <apply>
-                                <ci> min16 </ci>
-                                <ci> MG471_aa__c </ci>
-                                <ci> MG472_aa__c </ci>
-                                <ci> MG475_aa__c </ci>
-                                <ci> MG479_aa__c </ci>
-                                <ci> MG483_aa__c </ci>
-                                <ci> MG484_aa__c </ci>
-                                <ci> MG485_aa__c </ci>
-                                <ci> MG486_aa__c </ci>
-                                <ci> MG487_aa__c </ci>
-                                <ci> MG488_aa__c </ci>
-                                <ci> MG489_aa__c </ci>
-                                <ci> MG490_aa__c </ci>
-                                <ci> MG492_aa__c </ci>
-                                <ci> MG493_aa__c </ci>
-                                <ci> MG495_aa__c </ci>
-                                <ci> MG499_aa__c </ci>
-                                <ci> MG500_aa__c </ci>
-                              </apply>
-                              <ci> MG501_aa__c </ci>
-                              <ci> MG502_aa__c </ci>
-                              <ci> MG503_aa__c </ci>
-                              <ci> MG504_aa__c </ci>
-                              <ci> MG506_aa__c </ci>
-                              <ci> MG508_aa__c </ci>
-                              <ci> MG509_aa__c </ci>
-                              <ci> MG510_aa__c </ci>
-                            </apply>
-                            <ci> MG511_aa__c </ci>
-                            <ci> MG512_aa__c </ci>
-                            <ci> MG513_aa__c </ci>
+                            <ci> min16 </ci>
+                            <ci> MG471_aa__c </ci>
+                            <ci> MG472_aa__c </ci>
+                            <ci> MG475_aa__c </ci>
+                            <ci> MG479_aa__c </ci>
+                            <ci> MG483_aa__c </ci>
+                            <ci> MG484_aa__c </ci>
+                            <ci> MG485_aa__c </ci>
+                            <ci> MG486_aa__c </ci>
+                            <ci> MG487_aa__c </ci>
+                            <ci> MG488_aa__c </ci>
+                            <ci> MG489_aa__c </ci>
+                            <ci> MG490_aa__c </ci>
+                            <ci> MG492_aa__c </ci>
+                            <ci> MG493_aa__c </ci>
+                            <ci> MG495_aa__c </ci>
+                            <ci> MG499_aa__c </ci>
                           </apply>
+                          <ci> MG500_aa__c </ci>
+                          <ci> MG501_aa__c </ci>
+                          <ci> MG502_aa__c </ci>
+                          <ci> MG503_aa__c </ci>
+                          <ci> MG504_aa__c </ci>
+                          <ci> MG506_aa__c </ci>
+                          <ci> MG508_aa__c </ci>
+                          <ci> MG509_aa__c </ci>
+                          <ci> MG510_aa__c </ci>
+                          <ci> MG511_aa__c </ci>
+                          <ci> MG512_aa__c </ci>
+                          <ci> MG513_aa__c </ci>
                           <ci> MG514_aa__c </ci>
                           <ci> MG518_aa__c </ci>
                           <ci> MG519_aa__c </ci>
@@ -2056,7 +2101,7 @@
             </apply>
           </math>
           <listOfLocalParameters>
-            <localParameter id="kcat" value="3.1e-05"/>
+            <localParameter id="kcat" value="3.1e-005"/>
             <localParameter id="m" value="1"/>
             <localParameter id="k_1" value="1"/>
             <localParameter id="k_2" value="1"/>
