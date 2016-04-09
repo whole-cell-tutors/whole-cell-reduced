@@ -4,7 +4,7 @@
 
 
 import sys
-sys.path.append('/opt/libsbml/lib/python2.7/site-packages/libsbml/')
+#sys.path.append('/opt/libsbml/lib/python2.7/site-packages/libsbml/')
 
 import libsbml
 from libsbml import *
